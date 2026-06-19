@@ -1,0 +1,22 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+    method: GET
+    uri: https://hn.algolia.com/api/v1/search?query=AI&tags=story&numericFilters=points%3E50&hitsPerPage=50
+  response:
+    body:
+      string: '{"hits":[{"objectID":"40000001","title":"AI agent builds its own tools","url":"https://example.com/ai","points":320,"num_comments":45,"created_at":"2026-05-13T08:00:00.000Z"}],"nbHits":1}'
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+    status:
+      code: 200
+      message: OK
+version: 1

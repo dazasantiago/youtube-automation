@@ -1,0 +1,66 @@
+{
+  "topic": "MCP Servers",
+  "generated_at": "2026-06-18T12:00:00Z",
+  "signals": [
+    {
+      "source": "hn",
+      "source_id": "hn-42000001",
+      "title": "Model Context Protocol: A new standard for AI tool integration",
+      "url": "https://example.com/mcp-article",
+      "description": "Discussion about MCP servers and AI agents",
+      "posted_at": "2026-06-17T10:00:00Z",
+      "language": "en",
+      "metrics": { "points": 320, "num_comments": 87 },
+      "signal_type": "signal",
+      "roles": ["signal"]
+    },
+    {
+      "source": "reddit",
+      "source_id": "reddit-abc123",
+      "title": "MCP is transforming how I build agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/abc123/mcp_is_transforming_how_i_build_agents/",
+      "description": null,
+      "posted_at": "2026-06-16T08:00:00Z",
+      "language": "en",
+      "metrics": {},
+      "signal_type": "signal",
+      "roles": ["signal", "validator"]
+    },
+    {
+      "source": "youtube",
+      "source_id": "dQw4w9WgXcQ",
+      "title": "MCP Servers Explained - Full Tutorial",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "description": "Complete tutorial on setting up MCP servers",
+      "posted_at": "2026-06-15T14:00:00Z",
+      "language": "en",
+      "metrics": { "views": 45000, "outlier_ratio": 3.8 },
+      "signal_type": "yt_video",
+      "roles": ["signal"]
+    },
+    {
+      "source": "rss",
+      "source_id": "rss-anthropic-001",
+      "title": "Anthropic releases MCP specification",
+      "url": "https://example.com/anthropic-mcp",
+      "description": "Official MCP spec from Anthropic",
+      "posted_at": "2026-06-14T09:00:00Z",
+      "language": "en",
+      "metrics": {},
+      "signal_type": "signal",
+      "roles": ["validator"]
+    },
+    {
+      "source": "github_trending",
+      "source_id": "github-modelcontextprotocol-servers",
+      "title": "modelcontextprotocol/servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "description": "Reference MCP server implementations",
+      "posted_at": "2026-06-18T00:00:00Z",
+      "language": "en",
+      "metrics": { "stars_today": 450, "stars_total": 12300 },
+      "signal_type": "signal",
+      "roles": ["saturator"]
+    }
+  ]
+}

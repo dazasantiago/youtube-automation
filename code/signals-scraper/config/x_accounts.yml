@@ -1,0 +1,3 @@
+# X (Twitter) accounts to monitor via Apify.
+# Format: list of handles (without @). Owner populates this list.
+accounts: []

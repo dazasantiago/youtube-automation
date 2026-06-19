@@ -1,0 +1,12 @@
+# RSS feeds to monitor. One URL per line.
+feeds:
+  - https://www.anthropic.com/news/rss.xml
+  - https://openai.com/blog/rss.xml
+  - https://blog.google/technology/ai/rss/
+  - https://ai.meta.com/blog/rss/
+  - https://mistral.ai/news/feed.xml
+  - https://huggingface.co/blog/feed.xml
+  # Tech-news narrative layer — covers AI events beyond lab announcements (Apple, policy, products)
+  - https://techcrunch.com/category/artificial-intelligence/feed/
+  - https://www.theverge.com/ai-artificial-intelligence/rss/index.xml
+  - https://venturebeat.com/category/ai/feed/

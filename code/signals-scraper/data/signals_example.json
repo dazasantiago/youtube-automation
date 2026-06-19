@@ -1,0 +1,251 @@
+{
+  "generated_at": "2026-06-18T12:05:00+00:00",
+  "window_days": 3,
+  "total_signals": 47,
+  "signals_by_source": {
+    "hn": [
+      {
+        "id": "40312891",
+        "title": "Claude can now use computers",
+        "url": "https://www.anthropic.com/news/computer-use",
+        "description": "Anthropic introduces computer use capability in Claude — the model can now browse the web, write and execute code, and interact with any software a human can use.",
+        "posted_at": "2026-06-17T14:22:00+00:00",
+        "language": null,
+        "metrics": { "score": 892, "comments": 341 }
+      },
+      {
+        "id": "40309123",
+        "title": "Show HN: I built an agent that reviews PRs better than my senior engineer",
+        "url": "https://github.com/user/pr-agent",
+        "description": "After 6 months of iteration, my AI PR reviewer catches real bugs and enforces our style guide. Open-sourcing today.",
+        "posted_at": "2026-06-16T09:45:00+00:00",
+        "language": null,
+        "metrics": { "score": 534, "comments": 178 }
+      },
+      {
+        "id": "40301455",
+        "title": "The end of the junior developer",
+        "url": "https://blog.example.com/end-of-junior-dev",
+        "description": "A critical look at what coding agents actually mean for entry-level software jobs — and why the answer is more nuanced than Twitter debates suggest.",
+        "posted_at": "2026-06-15T18:30:00+00:00",
+        "language": null,
+        "metrics": { "score": 421, "comments": 289 }
+      }
+    ],
+    "reddit": [
+      {
+        "id": "r_AItools_1a2b3c",
+        "title": "GPT-5 vs Claude Opus 4 — real benchmark comparison on coding tasks",
+        "url": "https://reddit.com/r/AItools/comments/1a2b3c",
+        "description": "I ran both models on 200 real-world coding tasks from my job. Results breakdown inside. TL;DR: Claude wins on reasoning, GPT-5 wins on speed.",
+        "posted_at": "2026-06-17T11:10:00+00:00",
+        "language": "en",
+        "metrics": { "score": 2341, "comments": 412, "subreddit": "AItools" }
+      },
+      {
+        "id": "r_LocalLLaMA_4d5e6f",
+        "title": "Llama 4 running locally on a single 4090 — full setup guide",
+        "url": "https://reddit.com/r/LocalLLaMA/comments/4d5e6f",
+        "description": "Step-by-step guide to run Llama 4 Scout locally. Includes quantization settings, memory optimizations, and a comparison vs cloud API costs.",
+        "posted_at": "2026-06-16T20:05:00+00:00",
+        "language": "en",
+        "metrics": { "score": 1892, "comments": 234, "subreddit": "LocalLLaMA" }
+      }
+    ],
+    "rss": [
+      {
+        "id": "anthropic_blog_20260617",
+        "title": "Introducing Claude 4 Opus: our most capable model yet",
+        "url": "https://anthropic.com/blog/claude-4-opus",
+        "description": "Claude 4 Opus sets new benchmarks on reasoning, coding, and long-context tasks. Available today via API and Claude.ai.",
+        "posted_at": "2026-06-17T16:00:00+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "openai_blog_20260616",
+        "title": "GPT-5 System Card",
+        "url": "https://openai.com/research/gpt-5-system-card",
+        "description": "Full safety evaluation and capability disclosure for GPT-5, including red-teaming results and deployment decisions.",
+        "posted_at": "2026-06-16T14:00:00+00:00",
+        "language": "en",
+        "metrics": {}
+      }
+    ],
+    "x_apify": [
+      {
+        "id": "x_1802345678901234567",
+        "title": "Greg Isenberg (@gregisenberg): The AI wrapper era is over. The AI infrastructure era has begun. Thread on what this means for founders 🧵",
+        "url": "https://x.com/gregisenberg/status/1802345678901234567",
+        "description": "1/ For 2 years, the winning move was wrapping GPT. Now that's commoditized. The new game is owning distribution + proprietary data + fine-tuned models. Here's what I'm seeing...",
+        "posted_at": "2026-06-17T13:20:00+00:00",
+        "language": "en",
+        "metrics": { "likes": 4821, "retweets": 892, "replies": 203 }
+      }
+    ],
+    "product_hunt": [
+      {
+        "id": "ph_cursor-agent-mode",
+        "title": "Cursor Agent Mode",
+        "url": "https://producthunt.com/posts/cursor-agent-mode",
+        "description": "Cursor now runs multi-file autonomous coding sessions. Describe what you want built, walk away, come back to a working feature.",
+        "posted_at": "2026-06-17T07:01:00+00:00",
+        "language": "en",
+        "metrics": { "votes": 1243, "comments": 87 }
+      },
+      {
+        "id": "ph_notion-ai-v3",
+        "title": "Notion AI 3.0",
+        "url": "https://producthunt.com/posts/notion-ai-3",
+        "description": "Notion AI now acts as a full workspace agent — it can create pages, fill databases, and run automations based on natural language instructions.",
+        "posted_at": "2026-06-16T07:01:00+00:00",
+        "language": "en",
+        "metrics": { "votes": 934, "comments": 61 }
+      }
+    ],
+    "github_trending": [
+      {
+        "id": "gh_microsoft_autogen",
+        "title": "microsoft/autogen",
+        "url": "https://github.com/microsoft/autogen",
+        "description": "A framework for building multi-agent AI systems. Enables groups of AI agents to collaborate, debate, and solve complex tasks together.",
+        "posted_at": "2026-06-17T00:00:00+00:00",
+        "language": "en",
+        "metrics": { "stars": 38420, "stars_today": 891, "language": "Python" }
+      },
+      {
+        "id": "gh_openinterpreter_openinterpreter",
+        "title": "openinterpreter/open-interpreter",
+        "url": "https://github.com/openinterpreter/open-interpreter",
+        "description": "A natural language interface for computers. Run code locally, browse the web, and manage files through conversation.",
+        "posted_at": "2026-06-16T00:00:00+00:00",
+        "language": "en",
+        "metrics": { "stars": 52100, "stars_today": 634, "language": "Python" }
+      }
+    ],
+    "gtrends": [
+      {
+        "id": "gtrends_claude_computer_use",
+        "title": "claude computer use",
+        "url": null,
+        "description": "Rising query in Google Trends — AI & Machine Learning category",
+        "posted_at": "2026-06-17T00:00:00+00:00",
+        "language": null,
+        "metrics": { "rising_value": 5000, "geo": "US" }
+      },
+      {
+        "id": "gtrends_vibe_coding",
+        "title": "vibe coding tutorial",
+        "url": null,
+        "description": "Rising query in Google Trends — Programming category",
+        "posted_at": "2026-06-16T00:00:00+00:00",
+        "language": null,
+        "metrics": { "rising_value": 2800, "geo": "US" }
+      }
+    ],
+    "hf": [
+      {
+        "id": "hf_model_meta-llama_Llama-4-Scout",
+        "title": "meta-llama/Llama-4-Scout",
+        "url": "https://huggingface.co/meta-llama/Llama-4-Scout",
+        "description": "Llama 4 Scout — 17B active parameters, 16 experts MoE architecture. Designed for local deployment with strong reasoning capabilities.",
+        "posted_at": "2026-06-15T10:00:00+00:00",
+        "language": null,
+        "metrics": { "downloads_30d": 284000, "likes": 3421, "type": "model" }
+      },
+      {
+        "id": "hf_space_gradio_chatui",
+        "title": "gradio/ChatUI",
+        "url": "https://huggingface.co/spaces/gradio/ChatUI",
+        "description": "Universal chat interface for any HuggingFace model. Trending after Llama 4 release.",
+        "posted_at": "2026-06-16T08:30:00+00:00",
+        "language": null,
+        "metrics": { "likes": 892, "type": "space" }
+      }
+    ]
+  },
+  "yt_competitor_videos": [
+    {
+      "video_id": "dQw4w9WgXcQ",
+      "title": "Claude 4 Opus DESTROYS GPT-5 on every benchmark — full breakdown",
+      "url": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+      "published_at": "2026-06-15T18:00:00+00:00",
+      "views": 284000,
+      "outlier_ratio": 7.1,
+      "language": "en",
+      "channel": "Matt Wolfe"
+    },
+    {
+      "video_id": "aB1cD2eF3gH",
+      "title": "I gave Claude a computer and left it alone for 8 hours",
+      "url": "https://youtube.com/watch?v=aB1cD2eF3gH",
+      "published_at": "2026-06-16T14:30:00+00:00",
+      "views": 198000,
+      "outlier_ratio": 4.9,
+      "language": "en",
+      "channel": "Fireship"
+    },
+    {
+      "video_id": "xY9zW8vU7tS",
+      "title": "The REAL reason every developer needs to learn AI agents NOW",
+      "url": "https://youtube.com/watch?v=xY9zW8vU7tS",
+      "published_at": "2026-06-14T10:00:00+00:00",
+      "views": 87000,
+      "outlier_ratio": 3.2,
+      "language": "en",
+      "channel": "Theo - t3.gg"
+    },
+    {
+      "video_id": "mN5oP6qR7sT",
+      "title": "Cursor Agent Mode probado al límite — esto ya no es un IDE",
+      "url": "https://youtube.com/watch?v=mN5oP6qR7sT",
+      "published_at": "2026-06-13T16:00:00+00:00",
+      "views": 52000,
+      "outlier_ratio": 2.4,
+      "language": "es",
+      "channel": "Dot CSV"
+    }
+  ],
+  "yt_underperformer_videos": [
+    {
+      "video_id": "kL3mN4oP5qR",
+      "title": "Why prompt engineering is a waste of your time",
+      "url": "https://youtube.com/watch?v=kL3mN4oP5qR",
+      "published_at": "2026-06-05T12:00:00+00:00",
+      "views": 3200,
+      "outlier_ratio": 0.08,
+      "language": "en",
+      "channel": "Matthew Berman"
+    },
+    {
+      "video_id": "sT6uV7wX8yZ",
+      "title": "My complete workflow with Notion AI — 2026 edition",
+      "url": "https://youtube.com/watch?v=sT6uV7wX8yZ",
+      "published_at": "2026-06-04T09:00:00+00:00",
+      "views": 4100,
+      "outlier_ratio": 0.18,
+      "language": "en",
+      "channel": "Liam Ottley"
+    },
+    {
+      "video_id": "aA1bB2cC3dD",
+      "title": "Is AutoGPT still relevant in 2026?",
+      "url": "https://youtube.com/watch?v=aA1bB2cC3dD",
+      "published_at": "2026-06-06T15:00:00+00:00",
+      "views": 6800,
+      "outlier_ratio": 0.31,
+      "language": "en",
+      "channel": "AI Explained"
+    },
+    {
+      "video_id": "eE4fF5gG6hH",
+      "title": "Tutorial completo de LangChain para principiantes",
+      "url": "https://youtube.com/watch?v=eE4fF5gG6hH",
+      "published_at": "2026-06-03T11:00:00+00:00",
+      "views": 2900,
+      "outlier_ratio": 0.41,
+      "language": "es",
+      "channel": "Dot CSV"
+    }
+  ]
+}

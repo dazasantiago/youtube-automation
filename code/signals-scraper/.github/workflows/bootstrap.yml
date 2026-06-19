@@ -1,0 +1,29 @@
+name: Bootstrap YouTube channels (run once)
+on:
+  workflow_dispatch:
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v3
+      - run: uv sync --frozen
+      - name: Run bootstrap
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: uv run python scripts/bootstrap_channels.py
+      - name: Commit channel registry
+        run: |
+          git config user.name "content-intel-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase --autostash
+          git add data/intel.db
+          git diff --cached --quiet || git commit -m "data: bootstrap yt_channels registry [skip ci]"
+          git push

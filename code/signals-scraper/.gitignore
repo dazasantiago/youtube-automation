@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+*.env
+
+# uv
+.python-version
+
+# DB journal (DB itself IS committed)
+data/intel.db-journal
+data/intel.db-shm
+data/intel.db-wal
+
+# Test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# VCR cassettes with secrets
+tests/cassettes/
+
+# OS
+.DS_Store
+Thumbs.db

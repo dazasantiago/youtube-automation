@@ -1,0 +1,9 @@
+.env
+results/
+data/*.json
+__pycache__/
+*.pyc
+.mypy_cache/
+.ruff_cache/
+.venv/
+dist/

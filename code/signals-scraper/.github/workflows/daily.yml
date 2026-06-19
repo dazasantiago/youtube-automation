@@ -1,0 +1,66 @@
+name: Daily signal scraper
+on:
+  schedule:
+    - cron: '0 11 * * *'   # discovery_morning
+    - cron: '0 12 * * *'   # youtube_scan
+    - cron: '0 21 * * *'   # discovery_afternoon
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: 'Pipeline stage to run'
+        required: true
+        type: choice
+        options:
+          - all
+          - discovery_morning
+          - youtube_scan
+          - discovery_afternoon
+        default: all
+
+concurrency:
+  group: pipeline-${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v3
+      - run: uv sync --frozen
+      - name: Determine stage
+        id: stage
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            HOUR=$(date -u +%H)
+            case $HOUR in
+              11) echo "value=discovery_morning" >> $GITHUB_OUTPUT ;;
+              12) echo "value=youtube_scan" >> $GITHUB_OUTPUT ;;
+              21) echo "value=discovery_afternoon" >> $GITHUB_OUTPUT ;;
+              *) echo "No stage mapped for hour ${HOUR} — Actions ran late, skipping." ; echo "value=skip" >> $GITHUB_OUTPUT ;;
+            esac
+          else
+            echo "value=${{ inputs.stage }}" >> $GITHUB_OUTPUT
+          fi
+      - name: Run pipeline stage
+        if: steps.stage.outputs.value != 'skip'
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          PRODUCT_HUNT_TOKEN: ${{ secrets.PRODUCT_HUNT_TOKEN }}
+        run: uv run python scripts/run_pipeline.py --stage ${{ steps.stage.outputs.value }}
+      - name: Commit results
+        if: success()
+        run: |
+          git config user.name "content-intel-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase --autostash
+          git add data/
+          git diff --cached --quiet || git commit -m "data: pipeline ${{ steps.stage.outputs.value }} [skip ci]"
+          git push

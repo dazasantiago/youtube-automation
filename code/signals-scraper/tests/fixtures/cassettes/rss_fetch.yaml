@@ -1,0 +1,26 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+    method: GET
+    uri: https://www.anthropic.com/news/rss.xml
+  response:
+    body:
+      string: '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Anthropic
+        News</title><link>https://www.anthropic.com/news</link><description>Latest
+        news from Anthropic</description><item><title>Claude 4 is here</title><link>https://www.anthropic.com/news/claude-4</link><guid>https://www.anthropic.com/news/claude-4</guid><pubDate>Thu,
+        19 Jun 2026 08:00:00 +0000</pubDate><description>&lt;p&gt;Anthropic releases
+        &lt;a href="https://anthropic.com"&gt;Claude 4&lt;/a&gt; with major improvements.&lt;/p&gt;</description></item></channel></rss>'
+    headers:
+      Content-Type:
+      - application/rss+xml; charset=UTF-8
+    status:
+      code: 200
+      message: OK
+version: 1

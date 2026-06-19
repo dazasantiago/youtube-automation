@@ -1,0 +1,133 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - Mozilla/5.0 (content-intel-bot/1.0)
+    method: GET
+    uri: https://github.com/trending?since=daily
+  response:
+    body:
+      string: "<!DOCTYPE html><html><body>\n<article class=\"Box-row\">\n  <h2>\n\
+        \    <a href=\"/anthropics/claude-agent-sdk\">\n      anthropics / claude-agent-sdk\n\
+        \    </a>\n  </h2>\n  <p>SDK for building Claude-powered AI agents</p>\n \
+        \ <a href=\"/anthropics/claude-agent-sdk/stargazers\">5,678</a>\n  <span class=\"\
+        d-inline-block float-sm-right\">1,234 stars today</span>\n</article>\n</body></html>\n"
+    headers:
+      Content-Type:
+      - text/html; charset=utf-8
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - Mozilla/5.0 (content-intel-bot/1.0)
+    method: GET
+    uri: https://github.com/trending?since=weekly
+  response:
+    body:
+      string: "<!DOCTYPE html><html><body>\n<article class=\"Box-row\">\n  <h2>\n\
+        \    <a href=\"/huggingface/transformers\">\n      huggingface / transformers\n\
+        \    </a>\n  </h2>\n  <p>Transformers: state-of-the-art ML for PyTorch and\
+        \ TensorFlow</p>\n  <a href=\"/huggingface/transformers/stargazers\">98,765</a>\n\
+        \  <span class=\"d-inline-block float-sm-right\">2,500 stars this week</span>\n\
+        </article>\n</body></html>\n"
+    headers:
+      Content-Type:
+      - text/html; charset=utf-8
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - Mozilla/5.0 (content-intel-bot/1.0)
+    method: GET
+    uri: https://github.com/trending/python?since=daily
+  response:
+    body:
+      string: "<!DOCTYPE html><html><body>\n<article class=\"Box-row\">\n  <h2>\n\
+        \    <a href=\"/openai/openai-python\">\n      openai / openai-python\n  \
+        \  </a>\n  </h2>\n  <p>The official Python library for the OpenAI API. Build\
+        \ LLM-powered apps with ease.</p>\n</article>\n<article class=\"Box-row\"\
+        >\n  <h2>\n    <a href=\"/langchain-ai/langchain\">\n      langchain-ai /\
+        \ langchain\n    </a>\n  </h2>\n  <p>Build context-aware reasoning AI agent\
+        \ applications</p>\n</article>\n</body></html>\n"
+    headers:
+      Content-Type:
+      - text/html; charset=utf-8
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - Mozilla/5.0 (content-intel-bot/1.0)
+    method: GET
+    uri: https://github.com/trending/python?since=weekly
+  response:
+    body:
+      string: "<!DOCTYPE html><html><body>\n<article class=\"Box-row\">\n  <h2>\n\
+        \    <a href=\"/microsoft/autogen\">\n      microsoft / autogen\n    </a>\n\
+        \  </h2>\n  <p>A framework for building multi-agent AI systems</p>\n</article>\n\
+        </body></html>\n"
+    headers:
+      Content-Type:
+      - text/html; charset=utf-8
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - Mozilla/5.0 (content-intel-bot/1.0)
+    method: GET
+    uri: https://github.com/trending/typescript?since=daily
+  response:
+    body:
+      string: "<!DOCTYPE html><html><body>\n<article class=\"Box-row\">\n  <h2>\n\
+        \    <a href=\"/vercel/ai\">\n      vercel / ai\n    </a>\n  </h2>\n  <p>Build\
+        \ AI-powered streaming text and chat UIs with LLM support</p>\n</article>\n\
+        </body></html>\n"
+    headers:
+      Content-Type:
+      - text/html; charset=utf-8
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,67 @@
+interactions:
+- request:
+    body: '{"query":"...","variables":{"topic":"artificial-intelligence","postedAfter":"2026-06-18T00:00:00Z"}}'
+    headers:
+      Accept:
+      - application/json
+      Authorization:
+      - Bearer fake_test_token
+      Content-Type:
+      - application/json
+    method: POST
+    uri: https://api.producthunt.com/v2/api/graphql
+  response:
+    body:
+      string: '{"data":{"posts":{"edges":[{"node":{"id":"ph_001","name":"AgentStack","tagline":"Build
+        AI agents in minutes","url":"https://www.producthunt.com/posts/agentstack","votesCount":512,"commentsCount":43,"createdAt":"2026-06-18T00:00:00Z"}},{"node":{"id":"ph_002","name":"RAG
+        Studio","tagline":"No-code RAG pipeline builder for LLMs","url":"https://www.producthunt.com/posts/rag-studio","votesCount":389,"commentsCount":28,"createdAt":"2026-06-18T00:00:00Z"}}]}}}'
+    headers:
+      Content-Type:
+      - application/json
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"query":"...","variables":{"topic":"developer-tools","postedAfter":"2026-06-18T00:00:00Z"}}'
+    headers:
+      Accept:
+      - application/json
+      Authorization:
+      - Bearer fake_test_token
+      Content-Type:
+      - application/json
+    method: POST
+    uri: https://api.producthunt.com/v2/api/graphql
+  response:
+    body:
+      string: '{"data":{"posts":{"edges":[{"node":{"id":"ph_003","name":"DevKit AI","tagline":"AI-powered
+        developer toolkit","url":"https://www.producthunt.com/posts/devkit-ai","votesCount":201,"commentsCount":15,"createdAt":"2026-06-18T00:00:00Z"}}]}}}'
+    headers:
+      Content-Type:
+      - application/json
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"query":"...","variables":{"topic":"open-source","postedAfter":"2026-06-18T00:00:00Z"}}'
+    headers:
+      Accept:
+      - application/json
+      Authorization:
+      - Bearer fake_test_token
+      Content-Type:
+      - application/json
+    method: POST
+    uri: https://api.producthunt.com/v2/api/graphql
+  response:
+    body:
+      string: '{"data":{"posts":{"edges":[{"node":{"id":"ph_001","name":"AgentStack","tagline":"Build
+        AI agents in minutes","url":"https://www.producthunt.com/posts/agentstack","votesCount":512,"commentsCount":43,"createdAt":"2026-06-18T00:00:00Z"}},{"node":{"id":"ph_004","name":"OpenModel","tagline":"Open
+        source model hub","url":"https://www.producthunt.com/posts/openmodel","votesCount":156,"commentsCount":9,"createdAt":"2026-06-18T00:00:00Z"}}]}}}'
+    headers:
+      Content-Type:
+      - application/json
+    status:
+      code: 200
+      message: OK
+version: 1

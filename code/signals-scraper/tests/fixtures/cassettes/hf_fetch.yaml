@@ -1,0 +1,42 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+    method: GET
+    uri: https://huggingface.co/api/models?sort=trendingScore&direction=-1&limit=30
+  response:
+    body:
+      string: '[{"modelId":"mistralai/Mistral-7B-Instruct-v0.3","pipeline_tag":"text-generation","library_name":"transformers","likes":1200,"downloads":500000},{"modelId":"google/gemma-2-9b-it","pipeline_tag":"text-generation","library_name":"transformers","likes":800,"downloads":300000}]'
+    headers:
+      Content-Type:
+      - application/json
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+    method: GET
+    uri: https://huggingface.co/api/spaces?sort=trendingScore&direction=-1&limit=20
+  response:
+    body:
+      string: '[{"id":"stabilityai/stable-diffusion-3-medium","likes":950},{"id":"black-forest-labs/FLUX.1-schnell","likes":700}]'
+    headers:
+      Content-Type:
+      - application/json
+    status:
+      code: 200
+      message: OK
+version: 1

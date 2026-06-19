@@ -1,0 +1,12 @@
+# Reddit subreddits to monitor. One per line.
+subreddits:
+  - LocalLLaMA
+  - singularity
+  - OpenAI
+  - ChatGPT
+  - MachineLearning
+  - automation
+  - n8n
+  - AI_Agents
+  - ArtificialIntelligence
+  - ClaudeAI
