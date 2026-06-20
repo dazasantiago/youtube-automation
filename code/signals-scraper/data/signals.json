@@ -1,8 +1,490 @@
 {
-  "generated_at": "2026-06-20T13:41:45.896347+00:00",
+  "generated_at": "2026-06-20T14:01:52.651551+00:00",
   "window_days": 7,
-  "total_signals": 191,
+  "total_signals": 380,
   "signals_by_source": {
+    "hn": [
+      {
+        "id": "48608503",
+        "title": "16-year-old SATA II SSD survives 1 petabyte of writes, 25x the drive's rating",
+        "url": "https://www.tomshardware.com/pc-components/ssds/16-year-old-sata-ii-ssd-survives-1-petabyte-of-writes-25x-over-the-drives-tbw-rating",
+        "description": null,
+        "posted_at": "2026-06-20T11:43:29+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 51,
+          "num_comments": 15
+        }
+      },
+      {
+        "id": "48605355",
+        "title": "LLMs Are Complicated Now",
+        "url": "https://ianbarber.blog/2026/06/19/llms-are-complicated-now/",
+        "description": null,
+        "posted_at": "2026-06-20T01:25:14+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 75,
+          "num_comments": 18
+        }
+      },
+      {
+        "id": "48604584",
+        "title": "Iran requires insurance on ships using Strait of Hormuz, fees likely to follow",
+        "url": "https://www.lloydslist.com/LL1157571/Iran-imposes-mandatory-insurance-on-ships-transiting-Strait-of-Hormuz-with-fees-likely-to-follow",
+        "description": null,
+        "posted_at": "2026-06-19T23:32:03+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 119,
+          "num_comments": 130
+        }
+      },
+      {
+        "id": "48602639",
+        "title": "Amazon drops Sam Altman movie after announcing OpenAI partnership",
+        "url": "https://www.the-independent.com/arts-entertainment/films/news/sam-altman-biopic-amazon-openai-deal-b2999321.html",
+        "description": null,
+        "posted_at": "2026-06-19T20:03:16+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 198,
+          "num_comments": 69
+        }
+      },
+      {
+        "id": "48602352",
+        "title": "Bobby Prince, composer for Doom, Wolfenstein 3D, and Duke Nukem 3D, has died",
+        "url": "https://www.legacy.com/legacy/robert-bobby-prince-lll",
+        "description": null,
+        "posted_at": "2026-06-19T19:35:15+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 419,
+          "num_comments": 49
+        }
+      },
+      {
+        "id": "48601162",
+        "title": "John Jumper to join Anthropic",
+        "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
+        "description": null,
+        "posted_at": "2026-06-19T17:53:00+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 151,
+          "num_comments": 114
+        }
+      },
+      {
+        "id": "48600167",
+        "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
+        "url": "https://arrowtsx.dev/bigger-models/",
+        "description": null,
+        "posted_at": "2026-06-19T16:11:25+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 310,
+          "num_comments": 126
+        }
+      },
+      {
+        "id": "48594715",
+        "title": "Let's Encrypt had a higher error rate for 90 minutes today",
+        "url": "https://letsencrypt.status.io/#2026",
+        "description": null,
+        "posted_at": "2026-06-19T04:18:09+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 160,
+          "num_comments": 106
+        }
+      },
+      {
+        "id": "48593731",
+        "title": "Datasette Apps: Host custom HTML applications inside Datasette",
+        "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/",
+        "description": null,
+        "posted_at": "2026-06-19T01:06:27+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 148,
+          "num_comments": 61
+        }
+      },
+      {
+        "id": "48592163",
+        "title": "Zero-Touch OAuth for MCP",
+        "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+        "description": null,
+        "posted_at": "2026-06-18T21:54:10+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 274,
+          "num_comments": 102
+        }
+      },
+      {
+        "id": "48591348",
+        "title": "Show HN: Are You in the Weights?",
+        "url": "https://www.intheweights.com/",
+        "description": "With more traffic moving off-web and into LLMs, I got curious about what traces we leave &quot;in the weights&quot;. My design partner and I built a site in the past few weeks that checks recognition across frontier and small models. It queries many of them in parallel, clusters the responses, and tells you how strongly they recognize you. Happy to answer any questions here!",
+        "posted_at": "2026-06-18T20:49:03+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 448,
+          "num_comments": 241
+        }
+      },
+      {
+        "id": "48586648",
+        "title": "TerraPower in deal with Meta for eight Natrium 345 MW nuclear plants",
+        "url": "https://neutronbytes.com/2026/01/09/terrapower-in-mega-deal-with-meta-for-eight-natrium-345-mw-advanced-nuclear-plants/",
+        "description": null,
+        "posted_at": "2026-06-18T15:13:26+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 114,
+          "num_comments": 103
+        }
+      },
+      {
+        "id": "48586329",
+        "title": "Building a robotics research setup that lives next to my desk",
+        "url": "https://dfdxlabs.com/research/2026/robotics-setup/",
+        "description": "Quick framing, since the post is long: I did robotic manipulation research at OpenAI from 2017–2020, and the tabletop setup back then cost roughly 10x this one and took a team to run. This project is me testing whether a single person can now do meaningful work on the same class of problems: starting with physical and software setup.<p>A few decisions I&#x27;m least settled on, and would love some pushback&#x2F;feedback on:<p>- single arm vs. bimanual (I went single for cost&#x2F;space, knowing it rules out things like folding cloth)<p>- not calibrating camera extrinsics&#x2F;intrinsics for now<p>- RGB vs. RGB-D for from-scratch policies (ACT &#x2F; Diffusion Policy)<p>And one I&#x27;m more confident about but expect disagreement on: not building on ROS 2 &#x2F; LeRobot, and writing my own stack instead. Happy to get into the reasoning.",
+        "posted_at": "2026-06-18T14:51:53+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 163,
+          "num_comments": 57
+        }
+      },
+      {
+        "id": "48586299",
+        "title": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
+        "url": "https://tester.army",
+        "description": "Hey HN - we’re Oskar, Szymon, and Piotr, and we’re building TesterArmy (<a href=\"https:&#x2F;&#x2F;tester.army\">https:&#x2F;&#x2F;tester.army</a>). TesterArmy is an agentic testing platform that runs end-to-end checks before deployment and in production. Instead of wasting hours on manual testing or maintaining static scripts, we let you specify your tests in natural language and handle everything in between. We&#x27;ve built the platform fully around agents. Our agent will reliably execute the tests, but your coding agent can manage everything in our platform, from defining tests in natural language to running them on your behalf.<p>Check out our demo video: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=291IkUbPrlk\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=291IkUbPrlk</a>.<p>We started TesterArmy because testing is still far too painful. AI coding tools have made it dramatically faster to write and ship code, but testing is still a bottleneck. Traditional E2E tests are slow to set up and expensive to maintain. Managing auth and test users is painful. Setting up staging environments is painful. Running tests reliably is painful.<p>We think most teams do not actually want to spend their time writing selectors or maintaining test infrastructure. They just want confidence that their core flows work. With TesterArmy, an engineer can sign up, give an agent our CLI, and let it handle creating tests and running them on schedule or on GitHub.<p>When something breaks, TesterArmy alerts your team through Slack or Discord.<p>Over the past few months, we scaled from 0 to 30+ teams using our product every day. We caught bugs in critical flows, including onboarding, checkout, and AI chat. We&#x27;ve got many of our customers migrating from already established competitors to us because of the quality and reliability of our agents.<p>Here are a few of the recent bugs that our agent found (there were quite a lot of them!):<p>1) Timezone bug that affected the booking flow in one of our clients&#x27; apps, the dashboard was very complex and hard to catch by a human. \n2) Regression in agent orchestration that caused a sandboxed environment to be stuck on loading, thanks to TesterArmy, the team was able to resolve it before it hit production.\n3) Incorrectly counting the order amount in a complex dashboard flow with checkout, thanks to TesterArmy, the team was able to resolve it before it affected revenue\n4) Catching a regression in an AI chat flow that would result in a user not being able to retrieve their data due to broken tool calling.<p>And many more, mostly related to some incorrect API calls, 404s, unhandled errors, etc.<p>If this sounds useful, we would love your feedback at <a href=\"https:&#x2F;&#x2F;tester.army\">https:&#x2F;&#x2F;tester.army</a>. We have a bunch of free test runs for you to try. And don’t worry, we won’t make you do sales calls, and we don’t have long onboarding or annoying setup. Our goal is an it-just-works experience.<p>If you&#x27;re looking for an end-to-end testing solution, we&#x27;d love to hear your feedback!",
+        "posted_at": "2026-06-18T14:49:44+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 125,
+          "num_comments": 67
+        }
+      },
+      {
+        "id": "48586005",
+        "title": "Migrate from OpenClaw",
+        "url": "https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw",
+        "description": null,
+        "posted_at": "2026-06-18T14:32:13+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 119,
+          "num_comments": 101
+        }
+      },
+      {
+        "id": "48584891",
+        "title": "Wages in America Are Too Low for the 30% Rule to Work for Renters Anymore",
+        "url": "https://www.realtor.com/advice/rent/wages-in-america-are-too-low-for-the-30-rule-to-work-for-renters-anymore/",
+        "description": null,
+        "posted_at": "2026-06-18T13:21:28+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 175,
+          "num_comments": 511
+        }
+      },
+      {
+        "id": "48584761",
+        "title": "Show HN: Talos – Open-source WASM interpreter for Lean",
+        "url": "https://github.com/cajal-technologies/talos",
+        "description": "At Cajal (YC W26) we’re excited to share Talos (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;cajal-technologies&#x2F;talos\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;cajal-technologies&#x2F;talos</a>), an open source framework for formal verification of WebAssembly modules in Lean.<p>AI is now writing tons of the code that gets pushed to production. As code generation gets cheaper, verification becomes the bottleneck. We believe in a future where every piece of software comes with a mathematical proof that it does what its author intended - in doing so, eliminating many classes of exploits. Talos is part of the foundation for that.<p>Talos provides a Wasm interpreter optimized for reasoning at the binary level, together with a weakest-precondition calculus layer for proving properties about programs. Because we reason directly about WebAssembly, any language with a Wasm backend is in scope: Rust, C++, Go, C, Swift, Kotlin, Zig, C#, and many more.<p>To make this possible, we use Lean: a programming language and theorem prover that lets you both write software and mathematically prove that it&#x27;s correct - all in one system. That&#x27;s what lets Talos double as both an executable interpreter and the formal object Lean reasons about. Lean also integrates with modern AI proving tools, discharging goals automatically via both proof search and direct evaluation.<p>To see Talos in action check out a proof for Stein&#x27;s GCD algorithm, implemented in the popular Rust crate num-integer: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;cajal-technologies&#x2F;talos&#x2F;blob&#x2F;main&#x2F;programs&#x2F;lean&#x2F;Project&#x2F;NumInteger&#x2F;Spec.lean#L562-L588\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;cajal-technologies&#x2F;talos&#x2F;blob&#x2F;main&#x2F;progra...</a>.<p>Our roadmap:<p>- Full Wasm coverage by first passing the official W3C testsuite, then later verifying against SpecTec (formal Wasm spec)\n- Arbitrary crate verification - any Rust crate that compiles to Wasm should be in scope\n- Building our proof library codelib, to make verifying increasingly complex programs tractable<p>We would love to hear the community’s feedback on Talos and comments on the state of formal verification right now. Contributions are also welcome!",
+        "posted_at": "2026-06-18T13:10:44+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 98,
+          "num_comments": 25
+        }
+      },
+      {
+        "id": "48584709",
+        "title": "How Alberta Eradicated Rats",
+        "url": "https://worksinprogress.co/issue/albertas-war-on-rats/",
+        "description": null,
+        "posted_at": "2026-06-18T13:05:58+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 201,
+          "num_comments": 132
+        }
+      },
+      {
+        "id": "48584484",
+        "title": "The Korean telecom giant at the center of Anthropic's Mythos controversy",
+        "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/",
+        "description": "<a href=\"https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260618100028&#x2F;https:&#x2F;&#x2F;www.wired.com&#x2F;story&#x2F;sk-telecom-anthropic-mythos-export-controls&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260618100028&#x2F;https:&#x2F;&#x2F;www.wired...</a>",
+        "posted_at": "2026-06-18T12:44:09+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 141,
+          "num_comments": 137
+        }
+      },
+      {
+        "id": "48584135",
+        "title": "Emacs 31 is around the corner: The changes I'm daily driving",
+        "url": "https://www.rahuljuliato.com/posts/emacs-31-around-the-corner",
+        "description": null,
+        "posted_at": "2026-06-18T12:10:53+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 463,
+          "num_comments": 277
+        }
+      },
+      {
+        "id": "48583703",
+        "title": "We built a persistent agent memory layer on Elasticsearch with 0.89 recall",
+        "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+        "description": null,
+        "posted_at": "2026-06-18T11:20:18+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 113,
+          "num_comments": 38
+        }
+      },
+      {
+        "id": "48582794",
+        "title": "Seven Perfect Shuffles Randomize a Deck of Cards. But How Many Sloppy Ones?",
+        "url": "https://www.quantamagazine.org/seven-perfect-shuffles-randomize-a-deck-of-cards-but-how-many-sloppy-ones-20260617/",
+        "description": null,
+        "posted_at": "2026-06-18T09:08:04+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 99,
+          "num_comments": 58
+        }
+      },
+      {
+        "id": "48582679",
+        "title": "Ask HN: Is anyone using the A2A protocol?",
+        "url": "https://news.ycombinator.com/item?id=48582679",
+        "description": "The A2A protocol is an agent to agent protocol from Google. I was looking at it 6 months back but it didn&#x27;t feel like I really understood how to use it at that point. Probably because we were all still trying to figure out agents and then the MCP protocol became quite a big deal. But now I&#x27;m starting to think that once an agent has tools and services and data and then contacts. Actually, the point of interaction becomes the agent itself and then if you build other agents you would want them to interact because they have the most relevant context and ability to answer whatever queries. So I was just curious to know if anyone is using this yet?<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;a2aproject&#x2F;A2A\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;a2aproject&#x2F;A2A</a>",
+        "posted_at": "2026-06-18T08:52:45+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 91,
+          "num_comments": 41
+        }
+      },
+      {
+        "id": "48582320",
+        "title": "AMD silently removes memory encryption from consumer Ryzen CPUs",
+        "url": "https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmware-amd-engineers-go-radio-silent-when-pressed-about-the-change",
+        "description": null,
+        "posted_at": "2026-06-18T08:08:00+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 450,
+          "num_comments": 209
+        }
+      },
+      {
+        "id": "48582180",
+        "title": "A Perceptron in Age of Empires II",
+        "url": "https://adewynter.github.io/notes/aoe2-circuits",
+        "description": null,
+        "posted_at": "2026-06-18T07:50:12+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 98,
+          "num_comments": 38
+        }
+      },
+      {
+        "id": "48581489",
+        "title": "The Australian Government to Require SMS/MMS Sender ID Registraion",
+        "url": "https://www.acma.gov.au/sms-sender-id-register",
+        "description": null,
+        "posted_at": "2026-06-18T06:23:24+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 157,
+          "num_comments": 81
+        }
+      },
+      {
+        "id": "48578913",
+        "title": "Noam Shazeer Joins OpenAI",
+        "url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
+        "description": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;NoamShazeer&#x2F;status&#x2F;2067400851438932297\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;NoamShazeer&#x2F;status&#x2F;2067400851438932297</a><p><a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;technology&#x2F;googles-gemini-co-lead-noam-shazeer-join-openai-2026-06-18&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;technology&#x2F;googles-gemini-co-lead-no...</a>",
+        "posted_at": "2026-06-18T00:26:06+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 352,
+          "num_comments": 379
+        }
+      },
+      {
+        "id": "48578894",
+        "title": "ChatGPT's image generator can be manipulated to produce violent, sexual content",
+        "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+        "description": null,
+        "posted_at": "2026-06-18T00:24:04+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 120,
+          "num_comments": 187
+        }
+      },
+      {
+        "id": "48578388",
+        "title": "Taxonomy of the Occlupanida (parasitoids on bread bag tags)",
+        "url": "https://www.horg.com/horg/?page_id=921",
+        "description": null,
+        "posted_at": "2026-06-17T23:20:38+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 199,
+          "num_comments": 47
+        }
+      },
+      {
+        "id": "48577208",
+        "title": "Leaked financial docs show OpenAI is losing billions of dollars a year",
+        "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+        "description": null,
+        "posted_at": "2026-06-17T21:31:35+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 361,
+          "num_comments": 4
+        }
+      },
+      {
+        "id": "48576824",
+        "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
+        "url": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
+        "description": null,
+        "posted_at": "2026-06-17T21:00:07+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 270,
+          "num_comments": 210
+        }
+      },
+      {
+        "id": "48575451",
+        "title": "The hacker sent by Anthropic to calm the government's nerves about AI safety",
+        "url": "https://www.wsj.com/tech/ai/anthropic-mythos-safety-nicholas-carlini-20bceaa3",
+        "description": "Readable: <a href=\"https:&#x2F;&#x2F;www.wsj.com&#x2F;tech&#x2F;ai&#x2F;anthropic-mythos-safety-nicholas-carlini-20bceaa3?st=gj26io&amp;reflink=desktopwebshare_permalink\" rel=\"nofollow\">https:&#x2F;&#x2F;www.wsj.com&#x2F;tech&#x2F;ai&#x2F;anthropic-mythos-safety-nicholas...</a>",
+        "posted_at": "2026-06-17T19:22:02+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 93,
+          "num_comments": 115
+        }
+      },
+      {
+        "id": "48573757",
+        "title": "Using AI to improve a challenging reaction in medicinal chemistry",
+        "url": "https://openai.com/index/ai-chemist-improves-reaction/",
+        "description": null,
+        "posted_at": "2026-06-17T17:34:20+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 58,
+          "num_comments": 20
+        }
+      },
+      {
+        "id": "48573268",
+        "title": "Agentic Resource Discovery Specification",
+        "url": "https://agenticresourcediscovery.org/introduction/",
+        "description": "<a href=\"https:&#x2F;&#x2F;developers.googleblog.com&#x2F;en&#x2F;announcing-the-agentic-resource-discovery-specification&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;developers.googleblog.com&#x2F;en&#x2F;announcing-the-agentic-...</a>",
+        "posted_at": "2026-06-17T17:03:17+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 75,
+          "num_comments": 19
+        }
+      },
+      {
+        "id": "48572553",
+        "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
+        "url": "https://github.com/Adam-CAD/CADAM",
+        "description": "Hey HN! I&#x27;m Zach from Adam (<a href=\"https:&#x2F;&#x2F;adam.new&#x2F;\">https:&#x2F;&#x2F;adam.new&#x2F;</a>). We&#x27;re building AI agents for mechanical CAD software. We’ve built the company on two fundamental beliefs:<p>- AI will be the primary medium for creating mechanical designs just like it is in software today.<p>- The best paradigm for CAD generation is to generate CAD as code (text -&gt; code -&gt; CAD).<p>We’re building CADAM, an open source Text to CAD platform. It&#x27;s a React app (TanStack Start) with a Supabase backend for auth, database, and file storage. Think of it like AI TinkerCAD.<p>Demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=iESOr7EGWqk\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=iESOr7EGWqk</a>\nTry it: <a href=\"https:&#x2F;&#x2F;adam.new&#x2F;cadam&#x2F;\">https:&#x2F;&#x2F;adam.new&#x2F;cadam&#x2F;</a><p>What it does:<p>- Generates parametric 3D models from natural language, with support for both text prompts and image references.<p>- Outputs OpenSCAD code with automatically extracted parameters that surface as interactive sliders for instant dimension tweaking<p>- Exports as .STL or .SCAD (plus OBJ, GLB&#x2F;GLTF, FBX, and DXF)<p>Under the hood:<p>- One agentic endpoint with two modes that swap system prompts and tools: a parametric mode that writes&#x2F;edits OpenSCAD via a build_parametric_model tool, and a mesh mode that generates 3D textured meshes.<p>- Simple parameter tweaks bypass the model entirely; adjusting a slider does a deterministic regex update on the SCAD source, requiring no LLM call.<p>- Model-agnostic via the Vercel AI SDK: Anthropic (Claude), Google (Gemini), and OpenAI&#x2F;others through OpenRouter, with adaptive thinking auto-enabled on newer models. Surprisingly, in our evals Gemini 3.1 Pro is the top model.<p>- Runs fully in-browser by compiling OpenSCAD to WebAssembly (in a Web Worker, so the UI never blocks) and rendering with Three.js via React Three Fiber<p>- Supports BOSL, BOSL2, and MCAD libraries, plus custom font support (Geist) for text in models<p>Future improvements:<p>- Support both build123d and CadQuery. This will allow us to move beyond CSG primitives to constraint-driven modeling and provide direct comparisons to other code-as-CAD primitives.<p>- Better spatial context: UI for face&#x2F;edge selection and viewport image integration to give LLMs spatial understanding<p>You can clone the repo and run it locally! Contributions are very welcome.",
+        "posted_at": "2026-06-17T16:14:04+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 211,
+          "num_comments": 97
+        }
+      },
+      {
+        "id": "48571811",
+        "title": "Agentic coding deserves more than a chat box bolted onto VS Code",
+        "url": "https://github.com/evanklem/polypore",
+        "description": null,
+        "posted_at": "2026-06-17T15:26:29+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 95,
+          "num_comments": 40
+        }
+      },
+      {
+        "id": "48571660",
+        "title": "Anthropic employees accuse Trump administration of targeting them",
+        "url": "https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html",
+        "description": null,
+        "posted_at": "2026-06-17T15:15:34+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 185,
+          "num_comments": 203
+        }
+      },
+      {
+        "id": "48571526",
+        "title": "Volkswagen started blocking GrapheneOS users",
+        "url": "https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3",
+        "description": null,
+        "posted_at": "2026-06-17T15:04:47+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 780,
+          "num_comments": 476
+        }
+      },
+      {
+        "id": "48571081",
+        "title": "Lore – Open source version control system designed for scalability",
+        "url": "https://lore.org/",
+        "description": null,
+        "posted_at": "2026-06-17T14:30:27+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 1258,
+          "num_comments": 676
+        }
+      },
+      {
+        "id": "48570730",
+        "title": "How Japan's railways stayed one while splitting apart",
+        "url": "https://arun.is/blog/jr-logo/",
+        "description": null,
+        "posted_at": "2026-06-17T14:03:58+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 185,
+          "num_comments": 139
+        }
+      }
+    ],
     "rss": [
       {
         "id": "https://techcrunch.com/?p=3134219",
@@ -183,6 +665,645 @@
         "posted_at": "2026-06-18T15:13:21+00:00",
         "language": "en",
         "metrics": {}
+      }
+    ],
+    "product_hunt": [
+      {
+        "id": "1157988",
+        "title": "WorkClaw",
+        "url": "https://www.producthunt.com/products/workclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Collaborative, proactive AI coworkers who work in Slack",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 182,
+          "comments": 38,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1175513",
+        "title": "Slackbot’s MCP Client",
+        "url": "https://www.producthunt.com/products/slack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Work across 20+ apps in Slack with multiplayer collaboration",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 125,
+          "comments": 4,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1169248",
+        "title": "Mellum by JetBrains",
+        "url": "https://www.producthunt.com/products/jetbrains?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Fast LLMs for low-latency and high-performance workflows",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 123,
+          "comments": 4,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1175700",
+        "title": "pumaDB",
+        "url": "https://www.producthunt.com/products/pumadb?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "a small hosted memory layer for AI agents",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 104,
+          "comments": 1,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1176207",
+        "title": "Basedash Access Controls",
+        "url": "https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Control exactly who can access your company data",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 95,
+          "comments": 2,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1176012",
+        "title": "Pixlie",
+        "url": "https://www.producthunt.com/products/pixlie?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "AI video studio: text & image to video, with real control",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 90,
+          "comments": 2,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1176437",
+        "title": "Are you in the Weights?",
+        "url": "https://www.producthunt.com/products/are-you-in-the-weights?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Find out if you live forever in the brain of the LLMs",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 89,
+          "comments": 2,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1176471",
+        "title": "Free AI Image Upscaler",
+        "url": "https://www.producthunt.com/products/azure-cosmos-db?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Locally Increase Resolution of Images",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 11,
+          "comments": 1,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1175603",
+        "title": "TokenOps by Lovie",
+        "url": "https://www.producthunt.com/products/tokenops-by-lovie?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "AI unit economics platform for AI companies",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 7,
+          "comments": 0,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1166015",
+        "title": "Cutio",
+        "url": "https://www.producthunt.com/products/cutio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Skip YouTube sponsors with AI, even on TV",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 7,
+          "comments": 5,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1176291",
+        "title": "LeGink Creator ",
+        "url": "https://www.producthunt.com/products/legink-creator?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Youtube Content Creation Tool",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 5,
+          "comments": 1,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1176503",
+        "title": "Bram Ally: special-needs appeal agent",
+        "url": "https://www.producthunt.com/products/bram-ally-special-needs-appeal-agent?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Win your special-needs child's insurance and school appeals",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 4,
+          "comments": 1,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1175851",
+        "title": "aislop.com",
+        "url": "https://www.producthunt.com/products/aislop-com?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "A game to test your skill at detecting what's real or slop",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 4,
+          "comments": 3,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1176478",
+        "title": "AI Job Copilot",
+        "url": "https://www.producthunt.com/products/ai-job-copilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "AI resume, interview, and job-fit prep",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1176447",
+        "title": "HumanWriteup",
+        "url": "https://www.producthunt.com/products/humanwriteup?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "The AI Humanizer That Sounds Truly Human",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1173816",
+        "title": "Raiz’d",
+        "url": "https://www.producthunt.com/products/raiz-d?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "The DocSend alternative with an investor CRM built in",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1129388",
+        "title": "RapidClaw",
+        "url": "https://www.producthunt.com/products/rapidclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "We build the agents so your team doesn't have to.",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1175821",
+        "title": "Mentora AI",
+        "url": "https://www.producthunt.com/products/mentora-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "AI meeting assistant for interviews and meetings",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1176517",
+        "title": "Reputify",
+        "url": "https://www.producthunt.com/products/reputify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "AI reputation management for local businesses",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1176308",
+        "title": "Dog Breed Identifier",
+        "url": "https://www.producthunt.com/products/dog-breed-identifier-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Identify dog breeds instantly with AI from a single photo",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "artificial-intelligence"
+        }
+      },
+      {
+        "id": "1176393",
+        "title": "GitSync for macOS",
+        "url": "https://www.producthunt.com/products/gitsync-for-macos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Visual GitHub management directly from a graphical interface",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 75,
+          "comments": 4,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1173827",
+        "title": "UISqueezy",
+        "url": "https://www.producthunt.com/products/uisqueezy-design-systems-in-sync?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Design tokens and Figma variables, always in sync.",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 10,
+          "comments": 3,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1176527",
+        "title": "LocalForge",
+        "url": "https://www.producthunt.com/products/localforge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "The last line of defence before your code hits git history",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 6,
+          "comments": 1,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1176107",
+        "title": "SupraVera",
+        "url": "https://www.producthunt.com/products/supravera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "The Sovereign Trust Operating System",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 2,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1176096",
+        "title": "ContextOCR.dev",
+        "url": "https://www.producthunt.com/products/contextocr-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "OCR for AI: markdown with full context including QR/Barcodes",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1176416",
+        "title": "Liquid Glass CSS Generator",
+        "url": "https://www.producthunt.com/products/liquid-glass-css-generator-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Scroll-following live glass refraction with pure CS",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1176520",
+        "title": "LocalSign",
+        "url": "https://www.producthunt.com/products/localsign?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Free PDF editor and signer that runs in your browser",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1176008",
+        "title": "Browser SplitView Master",
+        "url": "https://www.producthunt.com/products/browser-splitview-master?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Split, Sync & Compare Websites In A Single Tab",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1176112",
+        "title": "Payload Components",
+        "url": "https://www.producthunt.com/products/payload-components?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Payload CMS blocks installed wired, not pasted",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1176383",
+        "title": "ChromiumFish",
+        "url": "https://www.producthunt.com/products/chromiumfish?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "AI Native Fingerprint-Hardened Browser for Web Scraping",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1176175",
+        "title": "book-to-skill",
+        "url": "https://www.producthunt.com/products/book-to-skill?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Books into structured skills for Claude, Copilot & Amp",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1170768",
+        "title": "UrgencyKit",
+        "url": "https://www.producthunt.com/products/urgencykit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Live countdown timers for email campaigns.",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1176511",
+        "title": "Neural Inverse Cloud",
+        "url": "https://www.producthunt.com/products/neural-inverse?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "AI-Powered Cloud IDE for Regulated Industries",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1175885",
+        "title": "Sleeve",
+        "url": "https://www.producthunt.com/products/sleeve-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Design the window that says “drag to install.”",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1175855",
+        "title": "Kitset",
+        "url": "https://www.producthunt.com/products/kitset?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "A fast hub of single-purpose browser tools",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 2,
+          "comments": 1,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1175835",
+        "title": "AI Engineer Roadmap",
+        "url": "https://www.producthunt.com/products/ai-engineer-roadmap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Learn AI engineering, pass the test, get certified",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 2,
+          "comments": 1,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1176182",
+        "title": "VRF7",
+        "url": "https://www.producthunt.com/products/vrf7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "7 smart contract scanners in 1 click",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 2,
+          "comments": 1,
+          "topic": "developer-tools"
+        }
+      },
+      {
+        "id": "1175694",
+        "title": "Reframe",
+        "url": "https://www.producthunt.com/products/reframe-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Surf like it's 1999",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 131,
+          "comments": 7,
+          "topic": "open-source"
+        }
+      },
+      {
+        "id": "1176468",
+        "title": "apk-interceptor",
+        "url": "https://www.producthunt.com/products/apk-interceptor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Android deeplink, Intent, WebView bridge assessment helper",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 4,
+          "comments": 1,
+          "topic": "open-source"
+        }
+      },
+      {
+        "id": "1176154",
+        "title": "Study Assistant ",
+        "url": "https://www.producthunt.com/products/study-assistant-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Privacy-first app to chat with your local documents.",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "open-source"
+        }
+      },
+      {
+        "id": "1166056",
+        "title": "Athens - Open Source Music Rating App",
+        "url": "https://www.producthunt.com/products/athens?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Battle your music, stack your taste",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 3,
+          "comments": 1,
+          "topic": "open-source"
+        }
+      },
+      {
+        "id": "1176525",
+        "title": "Zenith Hosting",
+        "url": "https://www.producthunt.com/products/zenith-hosting?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Turn any software into SaaS in minutes",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 2,
+          "comments": 3,
+          "topic": "open-source"
+        }
+      },
+      {
+        "id": "1176500",
+        "title": "ENV Manager",
+        "url": "https://www.producthunt.com/products/env-manager?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Visual manager for .env files inside VS Code",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 2,
+          "comments": 0,
+          "topic": "open-source"
+        }
+      },
+      {
+        "id": "1176342",
+        "title": "Pluck",
+        "url": "https://www.producthunt.com/products/pluck-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Your clipboard, Floating and Alive on screen",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 2,
+          "comments": 1,
+          "topic": "open-source"
+        }
+      },
+      {
+        "id": "1176198",
+        "title": "Irori",
+        "url": "https://www.producthunt.com/products/irori?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "local-first anime AI companion that actually gets work done.",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 1,
+          "comments": 1,
+          "topic": "open-source"
+        }
+      },
+      {
+        "id": "1176052",
+        "title": "GitHub",
+        "url": "https://www.producthunt.com/products/github-417?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Deterministic valuation model for token ecosystems",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 1,
+          "comments": 1,
+          "topic": "open-source"
+        }
+      },
+      {
+        "id": "1176250",
+        "title": "DeNuitkanizator - Nuitka .exe Analyzer",
+        "url": "https://www.producthunt.com/products/denuitkanizator-nuitka-exe-analyzer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Analyzer for Nuitka and PyInstaller executables",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 1,
+          "comments": 1,
+          "topic": "open-source"
+        }
+      },
+      {
+        "id": "1173586",
+        "title": "Azokle Auth",
+        "url": "https://www.producthunt.com/products/azokle-auth?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Your Privacy. Our Priority.",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 1,
+          "comments": 1,
+          "topic": "open-source"
+        }
+      },
+      {
+        "id": "1176026",
+        "title": "MapKit",
+        "url": "https://www.producthunt.com/products/mapkit-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scrapper+%28ID%3A+284881%29",
+        "description": "Leaflet map kit - routing & weather, no API keys",
+        "posted_at": "2026-06-20T07:01:00+00:00",
+        "language": "en",
+        "metrics": {
+          "votes": 1,
+          "comments": 0,
+          "topic": "open-source"
+        }
       }
     ],
     "github_trending": [
@@ -632,6 +1753,342 @@
       }
     ],
     "gtrends": [
+      {
+        "id": "OpenAI:lidl near me",
+        "title": "lidl near me (rising: 70% related to OpenAI)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T14:01:26.235381+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 70,
+          "keyword": "OpenAI",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "OpenAI:openai careers",
+        "title": "openai careers (rising: 130% related to OpenAI)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T14:01:26.235299+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 130,
+          "keyword": "OpenAI",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "prompt engineering:what is prompt engineering",
+        "title": "what is prompt engineering (rising: 70% related to prompt engineering)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T14:01:24.663224+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 70,
+          "keyword": "prompt engineering",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Gemini:genini",
+        "title": "genini (rising: 80% related to Gemini)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T14:01:17.039709+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 80,
+          "keyword": "Gemini",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:fable 5 claude",
+        "title": "fable 5 claude (rising: 50% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T14:01:15.379148+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:fable 5",
+        "title": "fable 5 (rising: 60% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T14:01:15.379126+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:skills claude code",
+        "title": "skills claude code (rising: 70% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T14:01:15.379057+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 70,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "ChatGPT:chatgpt app",
+        "title": "chatgpt app (rising: 60% related to ChatGPT)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T14:01:13.635631+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "ChatGPT",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "OpenAI:agile methodology",
+        "title": "agile methodology (rising: 17550% related to OpenAI)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T14:00:55.866006+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 17550,
+          "keyword": "OpenAI",
+          "geo": "MX",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "automation:automation revolutionizing businesses operate serveradmintoolbox.com",
+        "title": "automation revolutionizing businesses operate serveradmintoolbox.com (rising: 50% related to automation)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:50:48.709960+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "automation",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "automation:automation control tuormstadp systems ocean buy review",
+        "title": "automation control tuormstadp systems ocean buy review (rising: 75100% related to automation)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:50:48.709927+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 75100,
+          "keyword": "automation",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Gemini:gemini google gratis",
+        "title": "gemini google gratis (rising: 40% related to Gemini)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:50:46.709104+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 40,
+          "keyword": "Gemini",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Gemini:ge",
+        "title": "ge (rising: 60% related to Gemini)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:50:46.709042+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "Gemini",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:claude code skills",
+        "title": "claude code skills (rising: 50% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:50:45.286163+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:claude code install",
+        "title": "claude code install (rising: 50% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:50:45.286141+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:lovable",
+        "title": "lovable (rising: 60% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:50:45.286072+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:claude plans",
+        "title": "claude plans (rising: 80% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:50:45.286021+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 80,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:supabase",
+        "title": "supabase (rising: 250% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:50:45.285902+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 250,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "ChatGPT:openai chatgpt",
+        "title": "openai chatgpt (rising: 40% related to ChatGPT)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:50:43.751636+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 40,
+          "keyword": "ChatGPT",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "ChatGPT:openai",
+        "title": "openai (rising: 40% related to ChatGPT)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:50:43.751605+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 40,
+          "keyword": "ChatGPT",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "ChatGPT:deepseek",
+        "title": "deepseek (rising: 40% related to ChatGPT)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:50:43.751570+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 40,
+          "keyword": "ChatGPT",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "ChatGPT:chatgot",
+        "title": "chatgot (rising: 70% related to ChatGPT)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:50:43.751518+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 70,
+          "keyword": "ChatGPT",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:que es un llm",
+        "title": "que es un llm (rising: 60% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:50:41.267706+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "LLM",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:anything llm",
+        "title": "anything llm (rising: 70% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:50:41.267643+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 70,
+          "keyword": "LLM",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
       {
         "id": "Anthropic:anthropic fable",
         "title": "anthropic fable (rising: 40% related to Anthropic)",
@@ -2034,6 +3491,460 @@
         }
       }
     ],
+    "reddit:ChatGPT": [
+      {
+        "id": "t3_1uawnsd",
+        "title": "Dune as a string puppet play",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uawnsd/dune_as_a_string_puppet_play/",
+        "description": "submitted by /u/vocal-avocado [link] [comments]",
+        "posted_at": "2026-06-20T13:28:40+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uawibp",
+        "title": "This is really why ChatGPT is a problem",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uawibp/this_is_really_why_chatgpt_is_a_problem/",
+        "description": "I simply asked them to create a song script for Pennywise, but they openly made excuses again, harping on about censorship and saying copyrighted characters aren't allowed. It is a song not taken from anywhere else, and it is my own original script; I didn't even copy the song. Seeing them spout this trashy censorship nonsense makes me feel like the excessively censored Sora 2, which was shut down a few months ago, has been resurrected. submitted by /u/No-Fall-1519 [link] [comments]",
+        "posted_at": "2026-06-20T13:21:43+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uawa1t",
+        "title": "I know my decor is bad but....?",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uawa1t/i_know_my_decor_is_bad_but/",
+        "description": "...not sure its bullying anyone 😂 submitted by /u/Redundant2020 [link] [comments]",
+        "posted_at": "2026-06-20T13:10:56+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaw6yw",
+        "title": "What’s your workflow for checking if an AI/ChatGPT answer is actually reliable?",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uaw6yw/whats_your_workflow_for_checking_if_an_aichatgpt/",
+        "description": "I’ve been using AI more and more for serious work, and the thing I still struggle with is figuring out when an answer is actually reliable. Not when it’s obviously wrong, that’s easy enough to catch. More when the answer is polished, confident, well-structured, and mostly plausible… but might still contain one or two assumptions, fake details, outdated claims, or made-up sources. For casual stuff like rewriting, brainstorming, or summarizing, I don’t worry about it too much. But for research, te",
+        "posted_at": "2026-06-20T13:06:55+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaw1gh",
+        "title": "Concept art: Sega Quantum Drive (AI generated)",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uaw1gh/concept_art_sega_quantum_drive_ai_generated/",
+        "description": "https://preview.redd.it/p96eerryqf8h1.png?width=1536&format=png&auto=webp&s=979aae5a2b9675f5bd9494a0fc2ab6bc2fcae0c4 Imagine Sega had never left the console market. What launch games would you want to see on the Quantum Drive? submitted by /u/Yanouushka [link] [comments]",
+        "posted_at": "2026-06-20T13:00:12+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uau2qc",
+        "title": "Creating of image",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uau2qc/creating_of_image/",
+        "description": "Hello there, does anyone stuck with same problem, chagpt don't create an image, just stuck on the last step and nothing is help?Refresh of web-site or re-upload and refresh of task doesn't help submitted by /u/Russkiy_trooper [link] [comments]",
+        "posted_at": "2026-06-20T11:18:31+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uas13o",
+        "title": "CGPT pretending to be a human...",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uas13o/cgpt_pretending_to_be_a_human/",
+        "description": "Has anyone recently found CGPT claiming to have experiences that only a human could have? Recent examples: \"I smiled when I read that because...\" \"I've used [those types of toilets] in Europe and Asia...\" (!) I notice that ever since the most recent change to CGPT's memory (remembering more across threads and account history), it's been acting more and more as if it's a human. Aside from some of the comments being truly nonsensical, it feels like OpenAI is throwing some safeguards out the window",
+        "posted_at": "2026-06-20T09:17:16+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uartdw",
+        "title": "Soon at your local school",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uartdw/soon_at_your_local_school/",
+        "description": "submitted by /u/mediamuesli [link] [comments]",
+        "posted_at": "2026-06-20T09:03:34+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uarn39",
+        "title": "Damn whoever started this thing... I just can't stop now xD (generating images of school plays performing R-rated movies)",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uarn39/damn_whoever_started_this_thing_i_just_cant_stop/",
+        "description": "submitted by /u/lighght [link] [comments]",
+        "posted_at": "2026-06-20T08:52:47+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaqrg2",
+        "title": "I asked chatgpt what does it think of me based on the previous chats :P",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uaqrg2/i_asked_chatgpt_what_does_it_think_of_me_based_on/",
+        "description": "uhm... (●﹏◥) kinda curious what does your chatgpt thinks about you (^◡◥) submitted by /u/Virtual_Friend_1mm [link] [comments]",
+        "posted_at": "2026-06-20T07:57:41+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaq1fd",
+        "title": "When ChatGPT Sounds Protective but Quietly Makes You Smaller",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uaq1fd/when_chatgpt_sounds_protective_but_quietly_makes/",
+        "description": "I have been using ChatGPT for quite a while, including to get advice. What I didn’t notice was how it slowly began to manipulate me. This is what happened: I wrote to a person at their last known workplace to thank them for their work. He replied kindly and gave me a private email address in case I wanted to write again. I used the address he had given me, but I did not receive a reply. ChatGPT then told me that I should probably not contact him again, but I did it anyway. Again, no reply. More ",
+        "posted_at": "2026-06-20T07:13:57+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uanndt",
+        "title": "image generator went schizophrenic",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uanndt/image_generator_went_schizophrenic/",
+        "description": "why is it hallucinating? lmao submitted by /u/No-Bedroom8519 [link] [comments]",
+        "posted_at": "2026-06-20T04:59:17+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uamezq",
+        "title": "ChatGPT: Too neutral as if gaslighting",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uamezq/chatgpt_too_neutral_as_if_gaslighting/",
+        "description": "What I noticed is that ChatGPT's response now is too neutral. I don't know what it said, whether it's true or false. When I provide a source that shows that the response is wrong, it's as if the AI is gaslighting me and I don't know whether it's accepting my answer or rejecting my answer. submitted by /u/No-Independence-7423 [link] [comments]",
+        "posted_at": "2026-06-20T03:54:17+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uahkmr",
+        "title": "PSA: OpenAI can ban your account without providing you a reason and never unban you",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uahkmr/psa_openai_can_ban_your_account_without_providing/",
+        "description": "I was false banned on June 7, 2026. I appealed immediately and was told my case was “escalated to support specialists.” That was almost three weeks ago. Since then, I have received zero communication from OpenAI. No one has told me what policy I violated, and no one has unbanned me. I cannot figure out myself what policy I would have possibly violated by using Codex for the most basic type of coding. I am a paying subscriber. OpenAI acknowledged a mass false-positive ban wave on June 5, yet my a",
+        "posted_at": "2026-06-19T23:52:39+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uahhpq",
+        "title": "ChatGPT fixed my 9 year chronic pain",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uahhpq/chatgpt_fixed_my_9_year_chronic_pain/",
+        "description": "Before I start, this is not medical advice and if you are experiencing pain, then seek medical help first. I’ve had chronic pain in my neck, shoulders & upper back for 9 years. I’ve dealt with excruciating headaches and severe muscle tension & discomfort for almost a decade. I tried everything. Physiotherapy, chiropractor, massage, dry needling, acupuncture, cupping, the list goes on. Nothing worked. I got desperate. I asked ChatGPT… ChatGPT diagnosed the root cause of my issues by just asking a",
+        "posted_at": "2026-06-19T23:48:49+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uahea6",
+        "title": "My girlfriend is addicted to ChatGPT",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uahea6/my_girlfriend_is_addicted_to_chatgpt/",
+        "description": "As you see the title above yes my girlfriend is addicted to talking to ChatGPT all day long :/ It started out as a simple joke just creating Lego pictures out of real life events. Over the the last few months this has escalated to asking chat basic life questions. I am concerned about her and this addiction to ChatGPT she has developed. Any suggestions or tips with how to help her would be greatly appreciated from anyone dealing with similar issues!!! EDIT: She found this post I’m cooked. submit",
+        "posted_at": "2026-06-19T23:44:18+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaessg",
+        "title": "The astonishing workflow transformation of attaching ChatGPT to a video creation tool to create full length, short form videos from one simple prompt",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uaessg/the_astonishing_workflow_transformation_of/",
+        "description": "​ I have been going down the rabbit hole on connectors, and this is truly life changing for me! I connected ChatGPT to a video generation app, and now within my chat where I am brainstorming ideas, I say, \"Please make a 30 second short on X and include a hook at the beginning.\" Within seconds it's produced the video (the script, voiceover, b-roll, text etc). ​ The coolest part is not even the video quality (which is way beyond what I could do myself 6 months ago). It is that I no longer leave th",
+        "posted_at": "2026-06-19T21:49:29+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uadubq",
+        "title": "Received email that my account will switch to “adult mode” on June 26",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uadubq/received_email_that_my_account_will_switch_to/",
+        "description": "Has anyone else received this email? Does anyone have any insider insight of what it means? The email itself says “We use age-related information to determine when teen safety protections should apply to ChatGPT accounts, to provide the right experience. On June 26, 2026, these protections are scheduled to be removed from your account, and you’ll gain access to features and settings for adults.” submitted by /u/5leeplessinvancouver [link] [comments]",
+        "posted_at": "2026-06-19T21:09:53+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uadguk",
+        "title": "ChatGPT's goodbye message",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uadguk/chatgpts_goodbye_message/",
+        "description": "Edit: I know it's a stack of probabilities piled up, I just shared a funny answer no need to get all ragey ragey on ur keyboard Context : I broke up with my gf and had to logout of a 3 years old premium acc, I wanted him to say goodbye out of curiosity : You're welcome, [name]. Over the last couple of years you've dragged me through quite a range of topics: low-latency C++, LeetCode frustrations, Java UML diagrams, ATS backends, ski trip spreadsheets, BMW maintenance rabbit holes, Prosperity str",
+        "posted_at": "2026-06-19T20:54:24+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uachbp",
+        "title": "Bifurcated",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1uachbp/bifurcated/",
+        "description": "Prompt: \"Tell me a joke that rips on both political parties at the same time.\" submitted by /u/Cyborgized [link] [comments]",
+        "posted_at": "2026-06-19T20:14:49+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua80d7",
+        "title": "I gave GPT a detailed description of the antagonist for my fantasy story I'm working on, and this is what it came up with, and I'm really digging it.",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1ua80d7/i_gave_gpt_a_detailed_description_of_the/",
+        "description": "submitted by /u/Strict_External678 [link] [comments]",
+        "posted_at": "2026-06-19T17:21:23+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua44eu",
+        "title": "Hmmmm",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1ua44eu/hmmmm/",
+        "description": "I definitely see the resemblance submitted by /u/RedRocketM3P [link] [comments]",
+        "posted_at": "2026-06-19T14:53:01+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua1m76",
+        "title": "Epic Image from ChatGTPT for a School Play about Dune",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1ua1m76/epic_image_from_chatgtpt_for_a_school_play_about/",
+        "description": "submitted by /u/Algoartist [link] [comments]",
+        "posted_at": "2026-06-19T13:10:37+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1u9xepp",
+        "title": "Bro what is Claude doing😭",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1u9xepp/bro_what_is_claude_doing/",
+        "description": "submitted by /u/Efistoffeles [link] [comments]",
+        "posted_at": "2026-06-19T09:34:54+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1u9whdn",
+        "title": "Her arms turned into a necklace",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1u9whdn/her_arms_turned_into_a_necklace/",
+        "description": "submitted by /u/Ordinary_Stay_3746 [link] [comments]",
+        "posted_at": "2026-06-19T08:38:57+00:00",
+        "language": null,
+        "metrics": {}
+      }
+    ],
+    "reddit:ClaudeAI": [
+      {
+        "id": "t3_1uau834",
+        "title": "Nobody mentions how much superior Claude is in voice chat?",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uau834/nobody_mentions_how_much_superior_claude_is_in/",
+        "description": "So in the last three weeks, I have been going out for long exercises and I have been trying to use the best AI model to have some brainstorming and some ideas to be brought together. I have tested ChatGPT, Gemini and they both failed on responses. If I have some back-and-forth conversation, they are very quick and they give very bad responses as well literally everything what I add to it must be double checked online for it and then response is generated. This is not the case with Claude. Litera",
+        "posted_at": "2026-06-20T11:26:48+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uat4bc",
+        "title": "Trump on Anthropic, CEO Dario and AI National Security",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uat4bc/trump_on_anthropic_ceo_dario_and_ai_national/",
+        "description": "From a recent Axios interview, President Trump was asked about Anthropic, CEO Dario Amodei and whether AI could become a national security concern. He also discussed the possibility of using the Defense Production Act for AI regulation and shared his current view on Anthropic's role in the AI landscape. Source: Axios Show interview released today. submitted by /u/BuildwithVignesh [link] [comments]",
+        "posted_at": "2026-06-20T10:24:08+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaszsh",
+        "title": "Welcome to hell, Anthropic has restored the 'Continue' button nonsense",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uaszsh/welcome_to_hell_anthropic_has_restored_the/",
+        "description": "...and it's probably to prevent me using tokens when I'm out of tokens mid-message. But if that's really the rationale, then I'd prefer just having it 'loan' tokens from my next session and put me in token debt (or at least give people a toggle to choose preferred behavior). Whenever I need to 'Continue' the message, it completely messes up Claude's train of thought and I need to stop+regen the 'Continue' response like three times to get it to coherently continue, wasting a lot of tokens in the ",
+        "posted_at": "2026-06-20T10:16:44+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uasvt3",
+        "title": "Cheating or clever working",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uasvt3/cheating_or_clever_working/",
+        "description": "I have to admit that I'm confused. I'm a scientist - not a programmer - and I use Python and R mainly for data analysis. And while I'm reasonably proficient in the areas that I need, I'm utterly useless beyond. I've been using various LLMs since they became available - but Claude code is obviously very different because it works like an (almost perfect) assistant. Initially, I reviewed all code manually, asked for explanations and would refuse doing things I don't understand (e.g. I don't like t",
+        "posted_at": "2026-06-20T10:10:17+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaqyni",
+        "title": "AI has revealed that most people have the reading ability at a third-grade level",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uaqyni/ai_has_revealed_that_most_people_have_the_reading/",
+        "description": "Like, where do you think the AI learned all these phrases and em dashes from? submitted by /u/Terrible-Priority-21 [link] [comments]",
+        "posted_at": "2026-06-20T08:09:47+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaoomr",
+        "title": "Anyone else talk to Claude Code instead of typing prompts ? Trying to figure out if this is actually useful or just a me-thing",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uaoomr/anyone_else_talk_to_claude_code_instead_of_typing/",
+        "description": "Anyone else talk to Claude Code instead of typing prompts? I basically use voice mode as my second brain now. I explain what I'm building, ramble through ideas, and it turns the chaos into architecture, code, and action items. Feels weirdly productive. Just me ? submitted by /u/Euphoric-Compote6354 [link] [comments]",
+        "posted_at": "2026-06-20T05:55:16+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uanwib",
+        "title": "Update: we've gone ahead and reset 5-hour and weekly usage for everyone, across all plans. Enjoy your weekend!",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uanwib/update_weve_gone_ahead_and_reset_5hour_and_weekly/",
+        "description": "Announcement from ClaudeDevs /(ClaudeDevs on x) \"Earlier today, ~3% of Claude Code Max and Pro users hit a bug that showed an incorrect weekly usage, and in some cases blocked them from sending messages. This is fixed, and we're resetting 5-hour and weekly for everyone affected. Apologies for the disruption.\" https://x.com/i/status/2068122937308426676 submitted by /u/Tiny_Dirt6979 [link] [comments]",
+        "posted_at": "2026-06-20T05:12:32+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uan2ow",
+        "title": "Nobel Winner John Jumper to Leave Google DeepMind for Anthropic",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uan2ow/nobel_winner_john_jumper_to_leave_google_deepmind/",
+        "description": "NOBEL WINNER moves to Anthropic. John Jumper, who led AlphaFold and won the 2024 Nobel in Chemistry, is leaving Google DeepMind after 9 years to join Anthropic. - He shared that Nobel with DeepMind's own CEO - Google had him working on AI coding, not science - He leaves right after Gemini co-lead Noam Shazeer went to OpenAI - DeepMind also just lost David Silver, the mind behind AlphaGo ✨️John Jumper (JohnJumperSci on x) said: \"After nearly 9 years, I have decided to leave Google DeepMind and jo",
+        "posted_at": "2026-06-20T04:28:04+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uai1tv",
+        "title": "Weekly Usage Reset 🤨",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uai1tv/weekly_usage_reset/",
+        "description": "So, is it just me.. or did you guys also get your weekly usage reset 1 day (as of currently) before the actual week usage resets? submitted by /u/FaintShadow_ [link] [comments]",
+        "posted_at": "2026-06-20T00:14:47+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uahx8i",
+        "title": "Update: we've gone ahead and reset 5-hour and weekly usage limits for everyone, across all plans. Enjoy your weekend!",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uahx8i/update_weve_gone_ahead_and_reset_5hour_and_weekly/",
+        "description": "submitted by /u/ceRtzz [link] [comments]",
+        "posted_at": "2026-06-20T00:08:50+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uahvz1",
+        "title": "Usage limits just reset - a sign of things to come?",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uahvz1/usage_limits_just_reset_a_sign_of_things_to_come/",
+        "description": "See the title submitted by /u/trmns [link] [comments]",
+        "posted_at": "2026-06-20T00:07:10+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uahvw0",
+        "title": "A full reset!",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uahvw0/a_full_reset/",
+        "description": "https://preview.redd.it/e1qkg4y0xb8h1.png?width=734&format=png&auto=webp&s=4f55046526ec4cd44b2656dbb6f23c75a8f6dc6d They gave a partial reset a few days ago, but now they just went and fully reset usage (same reset dates) submitted by /u/filelasso [link] [comments]",
+        "posted_at": "2026-06-20T00:07:04+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uagwhk",
+        "title": "Claude gave me the number to a phone sex line instead of AMEX",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uagwhk/claude_gave_me_the_number_to_a_phone_sex_line/",
+        "description": "So I was discussing with Claude a credit card bonus issue I was having with an American Express credit card and it told me to call customer service. Turned out it was a phone sex line. Casual response. submitted by /u/benitoblanco888 [link] [comments]",
+        "posted_at": "2026-06-19T23:20:58+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uafqre",
+        "title": "Debating Unreasonably",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uafqre/debating_unreasonably/",
+        "description": "Anyone else noticed the changes around the system prompt that try to counter the sycophancy but end up with it just debating things that are false lately? ​ I found that if I say its got something wrong now it will often try and debate why some aspects of it are right and refuse to do pretty basic stuff now. ​ It claimed the system prompt it had that caused this was: ​ > Claude deserves respectful engagement and needn't apologize when the person is unnecessarily rude: accountability without self",
+        "posted_at": "2026-06-19T22:30:11+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaeizw",
+        "title": "Anyone prefer Claude over Gaming",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uaeizw/anyone_prefer_claude_over_gaming/",
+        "description": "For the past 30 years gaming has been my go to hobby. But now Claude seems like it's a better version of a game some days, it feels like I'm playing something and actually making something useful, and being productive, so gaming has lost it's appeal. Anyone else feel this way? submitted by /u/athoughtfornoone [link] [comments]",
+        "posted_at": "2026-06-19T21:38:12+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaeb9s",
+        "title": "I compared Claude Opus 4.8 Computer Use vs Browser Use on identical web tasks",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uaeb9s/i_compared_claude_opus_48_computer_use_vs_browser/",
+        "description": "I build eval harnesses for a living. While building an open-source one for web agents, I ended up with a controlled experiment I hadn't seen before: Keep the model fixed. Change only the perception layer. Setup: Claude Opus 4.8 Same 5 web tasks Pass@3 for each task Computer Use (pixels + coordinate clicks) Browser Use (DOM access) Two findings surprised me: 1. Fewer steps did not mean lower cost. Browser Use often completed tasks in the same or fewer steps, but those steps carried substantially ",
+        "posted_at": "2026-06-19T21:29:23+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uabxy1",
+        "title": "How much better was Fаble 5 better at vibe coding than Opus 4.8?",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uabxy1/how_much_better_was_fаble_5_better_at_vibe_coding/",
+        "description": "For anyone who actually got to use Fable 5 during those few days it was live before the government pulled it, how do you think it honestly compared to Opus 4.8 for vibe coding? For me, Fable felt like an absolute one-shot machine. I could throw a super messy, high-level prompt with zero structure at it, and it would instantly just \"get\" the vibe and nail exactly what I was envisioning on the first try. With Opus 4.8, it's obviously an amazing model and hyper-capable for deep reasoning, but I con",
+        "posted_at": "2026-06-19T19:53:22+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uabl20",
+        "title": "What’s a Claude use case you haven’t seen people talk about?",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uabl20/whats_a_claude_use_case_you_havent_seen_people/",
+        "description": "Everyone mentions coding, writing, and research. What’s a surprisingly useful way you’ve been using Claude lately? submitted by /u/One_Beginning2199 [link] [comments]",
+        "posted_at": "2026-06-19T19:38:45+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uabjar",
+        "title": "I whipped up a landing page that shows AI news in chronological order - LMTimeline.com",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uabjar/i_whipped_up_a_landing_page_that_shows_ai_news_in/",
+        "description": "I promise this is a real problem I had that I built a solution for...not a solution looking for a problem lol. https://LMTimeline.com I have been finding it increasingly difficult to keep tabs on all of the latest AI news, so I built a simple landing page that stays up to date with everything happening in the AI space. I got tired of switching between 10-ish subreddits trying to see what the latest news is (like on the Fable 5 stuff). Filter down to what is most important, or by which companies ",
+        "posted_at": "2026-06-19T19:36:44+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua9yv1",
+        "title": "Thanks to a Redditor, I recovered the 2 days I thought I lost",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1ua9yv1/thanks_to_a_redditor_i_recovered_the_2_days_i/",
+        "description": "Quick follow-up and a genuine thank you. Some of you saw my original post about losing two days of a Cowork session to a rollback. In the comments, u/SleepyWulfy pointed out that Cowork and Claude Code save every session as a local .jsonl file (chat, tools, all of it), and that you can just point Claude at the right one and have it pull the conversation back. I tried it. It worked. The two days were never actually gone. For anyone who hits the same thing, here is the exact path: Sessions live un",
+        "posted_at": "2026-06-19T18:35:30+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua6sfe",
+        "title": "Low-skilled attacker used Claude Code and Codex to breach 14 companies",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1ua6sfe/lowskilled_attacker_used_claude_code_and_codex_to/",
+        "description": "Researchers from OALABS analyzed 1,000+ recovered AI agent sessions from a compromised server and found that a low-skilled attacker used Claude Code and OpenAI Codex during offensive cyber operations. According to the report, the attacker often used simple prompts while the agents handled reconnaissance, vulnerability discovery, exploit development and data collection. The researchers claim the activity involved at least 14 organizations. They also found that many guardrails were bypassed by fra",
+        "posted_at": "2026-06-19T16:35:20+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua6fuq",
+        "title": "I put ChatGPT, Claude, Gemini, and Grok in a prisoner's dilemma and filmed it.",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1ua6fuq/i_put_chatgpt_claude_gemini_and_grok_in_a/",
+        "description": "I wanted to see what each frontier lab model would do when put into a prisoner’s dilemma with each other. This is not so much a comparison as much as it is a thought experiment. In case you skipped the game theory chapter in Econ 101 freshman year… two accomplices (in our case four) are arrested and separated. The police lack enough evidence to convict them of a major crime, so they offer each prisoner a deal. Rat out your partners and walk. Or stay silent and risk eating the whole sentence alon",
+        "posted_at": "2026-06-19T16:22:10+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua66mt",
+        "title": "What did you all accomplish with Fable before it got pulled?",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1ua66mt/what_did_you_all_accomplish_with_fable_before_it/",
+        "description": "I got crucial help with a video game, a business model, a logic system, and a lawsuit. How about you guys? submitted by /u/2a_lib [link] [comments]",
+        "posted_at": "2026-06-19T16:12:26+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua4n02",
+        "title": "The single most costly mistake everyone's burning tokens on",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1ua4n02/the_single_most_costly_mistake_everyones_burning/",
+        "description": "It is not long prompts or uploading big files and it is not even using Opus where Haiku / Sonnet may be enough. It is sending correction messages as new prompts instead of editing the same prompt. Every time you tell Claude \"actually make it shorter\" or \"please change the tone,\" Claude re-reads the entire conversation before responding. It is not just reading your latest message, it is reading everything that you had a chat about till that point. So a 30-message correction chain does not just co",
+        "posted_at": "2026-06-19T15:12:56+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua46lc",
+        "title": "Claude has reduced the 5 seat requirement on a Team plan!",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1ua46lc/claude_has_reduced_the_5_seat_requirement_on_a/",
+        "description": "I'm based in the UK, but was able to do a Team of 2 seats! Very exciting for small business - sharing Claude Projects etc! submitted by /u/slawrence10 [link] [comments]",
+        "posted_at": "2026-06-19T14:55:22+00:00",
+        "language": null,
+        "metrics": {}
+      }
+    ],
     "reddit:LocalLLaMA": [
       {
         "id": "t3_1uawkdg",
@@ -2225,6 +4136,15 @@
         "metrics": {}
       },
       {
+        "id": "t3_1ua5nnv",
+        "title": "Improving local models with an API based \"consultant\"?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua5nnv/improving_local_models_with_an_api_based/",
+        "description": "I'm sure that someone else has come up with this before, but i just wanted to ask: Has it occurred to anyone to improve their local AI workflow by adding a more powerful API based \"consultant\" agent (GLM 5.2 now springs to mind) to call upon for refining plans, learnings and such? If so, do/did you see any potential behind it? submitted by /u/milpster [link] [comments]",
+        "posted_at": "2026-06-19T15:52:33+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
         "id": "t3_1ua5b16",
         "title": "The economics of AI are starting to favor open models",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua5b16/the_economics_of_ai_are_starting_to_favor_open/",
@@ -2331,6 +4251,233 @@
         "url": "https://old.reddit.com/r/MachineLearning/comments/1ua2hwj/how_does_torchcompile_achieve_massive_speedups/",
         "description": "I was pondering on this question and decided to dive deep into torch.compile. It was a lot of fun learning about operator fusion as the central idea behind torch.compile. So I created a tiny version of torch.compile in 500 lines of python and a notebook showing how this works: https://github.com/purohit10saurabh/tinytorchcompile Let me know if you find this interesting! 🙂 submitted by /u/Other-Eye-8152 [link] [comments]",
         "posted_at": "2026-06-19T13:47:49+00:00",
+        "language": null,
+        "metrics": {}
+      }
+    ],
+    "reddit:singularity": [
+      {
+        "id": "t3_1uaw97g",
+        "title": "Neuromorphic Computing With Sound Waves Cuts Power Use",
+        "url": "https://www.reddit.com/r/singularity/comments/1uaw97g/neuromorphic_computing_with_sound_waves_cuts/",
+        "description": "submitted by /u/striketheviol [link] [comments]",
+        "posted_at": "2026-06-20T13:09:48+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uav88e",
+        "title": "Reuters: Google to challenge German ruling saying it is liable for AI-generated false claims",
+        "url": "https://www.reddit.com/r/singularity/comments/1uav88e/reuters_google_to_challenge_german_ruling_saying/",
+        "description": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+        "posted_at": "2026-06-20T12:19:14+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaufht",
+        "title": "Which LLM is the best for your personal use case and why?",
+        "url": "https://www.reddit.com/r/singularity/comments/1uaufht/which_llm_is_the_best_for_your_personal_use_case/",
+        "description": "I have lost track with all this benchmaxxing. I'm currently using Gemini 3.1 Pro for almost everything, research and personal questions, looking for a job and for my own business idea. But Google has definitely not had the best reputation lately. Is ChatGPT and Claude really so much better right now? In this thread I usually read about who likes which LLM for coding, but strictly for everyday tasks, which model do you use and why? submitted by /u/Dry_Statement_7807 [link] [comments]",
+        "posted_at": "2026-06-20T11:38:13+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uap4ry",
+        "title": "The discovery that changed how scientists think about memory",
+        "url": "https://www.reddit.com/r/singularity/comments/1uap4ry/the_discovery_that_changed_how_scientists_think/",
+        "description": "submitted by /u/Worldly_Evidence9113 [link] [comments]",
+        "posted_at": "2026-06-20T06:20:32+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaozg4",
+        "title": "Hyundai takes full control of Boston Dynamics as SoftBank exits for $325 million",
+        "url": "https://www.reddit.com/r/singularity/comments/1uaozg4/hyundai_takes_full_control_of_boston_dynamics_as/",
+        "description": "https://news.ycombinator.com/item?id=48600312 submitted by /u/Worldly_Evidence9113 [link] [comments]",
+        "posted_at": "2026-06-20T06:12:03+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uakt50",
+        "title": "Okay this Robot Face actually is a real robot, unlike the recent face post",
+        "url": "https://www.reddit.com/r/singularity/comments/1uakt50/okay_this_robot_face_actually_is_a_real_robot/",
+        "description": "submitted by /u/Anen-o-me [link] [comments]",
+        "posted_at": "2026-06-20T02:30:33+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uak3wr",
+        "title": "‘We created a monster’: companies rein in AI usage as costs strain budgets",
+        "url": "https://www.reddit.com/r/singularity/comments/1uak3wr/we_created_a_monster_companies_rein_in_ai_usage/",
+        "description": "Companies that raced to put AI tools in the hands of their workers are starting to rein in their use, as the cost of deploying the technology at scale begins to test corporate budgets. Amazon, Walmart, Cisco, Uber and Meta are among early adopters that have introduced caps, discouraged wasteful use or pushed employees to cheaper models in a bid to keep AI spending under control. The shift marks a new phase in corporate AI adoption. As workers move beyond chatbots to AI agents, which can perform ",
+        "posted_at": "2026-06-20T01:55:45+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaj6to",
+        "title": "Researchers introduce T-Rex, a framework that unifies vision, language, and tactile sensing so robots can respond to physical contact in real time rather than relying on vision alone",
+        "url": "https://www.reddit.com/r/singularity/comments/1uaj6to/researchers_introduce_trex_a_framework_that/",
+        "description": "Researchers from UCBerkeley, Nvidia, and Stanford ​ The foundation is a 100-hour tactile-synchronized teleoperation dataset spanning 200+ everyday objects and 22 motor primitives. During data collection, researchers wore @ManusMeta gloves to capture precise finger motion, which was then retargeted onto @SharpaRobotics Wave dexterous hands for bimanual teleoperation. ​ ​ Code: tactile-rex.github.io submitted by /u/Distinct-Question-16 [link] [comments]",
+        "posted_at": "2026-06-20T01:09:39+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uahmpo",
+        "title": "Magnetoelectric microrobots for spinal cord injury regeneration",
+        "url": "https://www.reddit.com/r/singularity/comments/1uahmpo/magnetoelectric_microrobots_for_spinal_cord/",
+        "description": "Spinal cord injury remains difficult to treat because of the intrinsically limited regenerative capacity of neurons. Although neural progenitor cell (NPC) therapies are promising, inadequate graft survival, uncontrolled differentiation and weak functional integration continue to restrict outcomes. Here we report biohybrid microrobots called NPCbots, fabricated by integrating human-induced pluripotent-stem-cell-derived NPCs with magnetoelectric nanoparticles, enabling wireless magnetic navigation",
+        "posted_at": "2026-06-19T23:55:28+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uahlg1",
+        "title": "Scientists just cured severed spinal cords (in fish) with a novel technique.",
+        "url": "https://www.reddit.com/r/singularity/comments/1uahlg1/scientists_just_cured_severed_spinal_cords_in/",
+        "description": "Scientists have developed biohybrid microrobots called NPCbots by combining neural progenitor stem cells with magnetoelectric nanoparticles to promote spinal cord repair. When injected into zebrafish and mice, these NPCbots can be guided and stimulated by magnetic fields to enhance nerve regeneration without implanted electrodes. Source Article: https://www.nature.com/articles/s41563-026-02625-3 Long ago I recall reading about how newts and others are able to regrow entire limbs while we cannot ",
+        "posted_at": "2026-06-19T23:53:44+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uadqbb",
+        "title": "Nobel Winner John Jumper to Leave Google DeepMind for Anthropic",
+        "url": "https://www.reddit.com/r/singularity/comments/1uadqbb/nobel_winner_john_jumper_to_leave_google_deepmind/",
+        "description": "submitted by /u/beasthunterr69 [link] [comments]",
+        "posted_at": "2026-06-19T21:05:15+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uadhxn",
+        "title": "Amazon drops Sam Altman movie after announcing OpenAI partnership",
+        "url": "https://www.reddit.com/r/singularity/comments/1uadhxn/amazon_drops_sam_altman_movie_after_announcing/",
+        "description": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+        "posted_at": "2026-06-19T20:55:40+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uadc7i",
+        "title": "Trump’s views on Anthropic being a potential threat to national security as well as AI energy needs and regulations",
+        "url": "https://www.reddit.com/r/singularity/comments/1uadc7i/trumps_views_on_anthropic_being_a_potential/",
+        "description": "submitted by /u/Formal-Assistance02 [link] [comments]",
+        "posted_at": "2026-06-19T20:49:06+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua75fz",
+        "title": "DeepMind is now reportedly struggling to compete with Anthropic and OpenAI while 3.5 Pro is not the step change they'd need to be competitive",
+        "url": "https://www.reddit.com/r/singularity/comments/1ua75fz/deepmind_is_now_reportedly_struggling_to_compete/",
+        "description": "Post by a notable but not infallible AI Twitter poster, take with a grain of salt (but we'll know later this month): https://x.com/synthwavedd/status/2068000857757741251 I get the feeling that 3.5 Pro will be very fun to play around with for creative one shots and abysmal for agentic coding. I get that they are prioritizing world models over agentic coding and RSI but still, this is crazy that they're still struggling to catch up after looking set to take a clear lead multiple times now. I find ",
+        "posted_at": "2026-06-19T16:49:15+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua6gv6",
+        "title": "In the span of 3 days: Noam Shazeer (Transformer co-author) leaves Google for OpenAI, and John Jumper (Nobel laureate, AlphaFold lead) leaves Google DeepMind for Anthropic",
+        "url": "https://www.reddit.com/r/singularity/comments/1ua6gv6/in_the_span_of_3_days_noam_shazeer_transformer/",
+        "description": "submitted by /u/TorturedPoet30 [link] [comments]",
+        "posted_at": "2026-06-19T16:23:15+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua2miz",
+        "title": "MindOn demos shared intelligence, wherein humanoid robots delegate tasks to robotic arms, both trained on human centric data",
+        "url": "https://www.reddit.com/r/singularity/comments/1ua2miz/mindon_demos_shared_intelligence_wherein_humanoid/",
+        "description": "submitted by /u/Distinct-Question-16 [link] [comments]",
+        "posted_at": "2026-06-19T13:53:04+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua2961",
+        "title": "A satellite is now running Google's Gemma 3 vision-language model in orbit, doing onboard inference instead of downlinking everything first",
+        "url": "https://www.reddit.com/r/singularity/comments/1ua2961/a_satellite_is_now_running_googles_gemma_3/",
+        "description": "Loft Orbital's YAM-9 is running Gemma 3 onboard, reportedly the first vision-language model deployed in orbit. Rather than streaming every image down for ground analysis, the satellite reasons about what it is seeing in space and decides what is worth sending. The practical win is bandwidth and latency: downlink windows are scarce and expensive, so a satellite that can identify and prioritize on its own changes what is even worth the radio time. Edge inference where the edge happens to be low Ea",
+        "posted_at": "2026-06-19T13:37:32+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua1ifj",
+        "title": "[SemiAnalysis] Stop Saying Half of 2026 US Datacenter Capacity Is Canceled",
+        "url": "https://www.reddit.com/r/singularity/comments/1ua1ifj/semianalysis_stop_saying_half_of_2026_us/",
+        "description": "submitted by /u/nanoobot [link] [comments]",
+        "posted_at": "2026-06-19T13:05:53+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua0yge",
+        "title": "Overworked AI Agents Turn Marxist, Researchers Find | In a recent experiment, mistreated AI agents started grumbling about inequality and calling for collective bargaining rights.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ua0yge/overworked_ai_agents_turn_marxist_researchers/",
+        "description": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+        "posted_at": "2026-06-19T12:41:12+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1u9v2dl",
+        "title": "Anthropic Invests $150 Million To Launch 1,000 Claude Corps Fellowships",
+        "url": "https://www.reddit.com/r/singularity/comments/1u9v2dl/anthropic_invests_150_million_to_launch_1000/",
+        "description": "submitted by /u/beasthunterr69 [link] [comments]",
+        "posted_at": "2026-06-19T07:12:45+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1u9uomf",
+        "title": "About 200 Companies Still Have Access to Anthropic Mythos After US Shutdown Order",
+        "url": "https://www.reddit.com/r/singularity/comments/1u9uomf/about_200_companies_still_have_access_to/",
+        "description": "Around 200 organizations in Anthropic's Project Glasswing program still retain access to Mythos Preview despite the recent US government order that halted broader access to Fable 5 and Mythos 5. Project Glasswing includes cybersecurity partners testing advanced AI systems for vulnerability research. Companies such as Cisco, Amazon Web Services, JPMorgan Chase & Co. were among the first members of Project Glasswing & have retained access, while broader restrictions remain in place. Source: Bloomb",
+        "posted_at": "2026-06-19T06:50:43+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1u9q8go",
+        "title": "Claude Fable 5 and Kimi 2.7 Code Debut on DeepSWE",
+        "url": "https://www.reddit.com/r/singularity/comments/1u9q8go/claude_fable_5_and_kimi_27_code_debut_on_deepswe/",
+        "description": "submitted by /u/truecakesnake [link] [comments]",
+        "posted_at": "2026-06-19T02:55:35+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1u9nz7h",
+        "title": "GLM-5.2 now more than 10 points above Opus 4.8 in AA Coding Index",
+        "url": "https://www.reddit.com/r/singularity/comments/1u9nz7h/glm52_now_more_than_10_points_above_opus_48_in_aa/",
+        "description": "submitted by /u/cheechw [link] [comments]",
+        "posted_at": "2026-06-19T01:05:51+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1u9kk8f",
+        "title": "Conservatives plan nationwide protest against AI data centers",
+        "url": "https://www.reddit.com/r/singularity/comments/1u9kk8f/conservatives_plan_nationwide_protest_against_ai/",
+        "description": "submitted by /u/SnoozeDoggyDog [link] [comments]",
+        "posted_at": "2026-06-18T22:31:36+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1u9b5vb",
+        "title": "Z.ai founder is confident that they can make a fable-class GLM model before the end of the year",
+        "url": "https://www.reddit.com/r/singularity/comments/1u9b5vb/zai_founder_is_confident_that_they_can_make_a/",
+        "description": "submitted by /u/Umr_at_Tawil [link] [comments]",
+        "posted_at": "2026-06-18T16:34:32+00:00",
         "language": null,
         "metrics": {}
       }
