@@ -117,6 +117,36 @@ def run_export(days: int = 7, out: str = "data/signals.json", db_path: Path = DB
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    # Minimal handoff file for topic classifier — id, title, url only
+    handoff_items: list[dict[str, str]] = []
+    for src, items in payload["signals_by_source"].items():
+        for item in items:
+            handoff_items.append({
+                "id": f"{src}:{item['id']}",
+                "title": str(item["title"]),
+                "url": str(item["url"] or ""),
+            })
+    for v in yt_videos:
+        handoff_items.append({
+            "id": f"yt:{v['video_id']}",
+            "title": str(v["title"]),
+            "url": str(v["url"]),
+        })
+    for v in yt_underperformers:
+        handoff_items.append({
+            "id": f"yt_under:{v['video_id']}",
+            "title": str(v["title"]),
+            "url": str(v["url"]),
+        })
+
+    handoff_path = out_path.parent / "handoff.json"
+    handoff_payload = {
+        "generated_at": payload["generated_at"],
+        "total": len(handoff_items),
+        "items": handoff_items,
+    }
+    handoff_path.write_text(json.dumps(handoff_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
     logger.info(
         "Exported %d signals + %d YT outliers + %d YT underperformers to %s",
         payload["total_signals"],
@@ -124,4 +154,6 @@ def run_export(days: int = 7, out: str = "data/signals.json", db_path: Path = DB
         len(yt_underperformers),
         out_path,
     )
+    logger.info("Wrote handoff.json with %d items to %s", len(handoff_items), handoff_path)
     print(f"Exported {payload['total_signals']} signals + {len(yt_videos)} outliers + {len(yt_underperformers)} underperformers → {out_path}")
+    print(f"Handoff: {len(handoff_items)} items → {handoff_path}")
