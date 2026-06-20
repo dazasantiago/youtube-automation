@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-20T14:31:37.809456+00:00",
+  "generated_at": "2026-06-20T15:05:18.065609+00:00",
   "window_days": 7,
-  "total_signals": 389,
+  "total_signals": 413,
   "signals_by_source": {
     "hn": [
       {
@@ -3477,18 +3477,233 @@
           "likes": 236,
           "downloads": 1998
         }
+      }
+    ],
+    "reddit:AI_Agents": [
+      {
+        "id": "t3_1uaytf0",
+        "title": "I published the same AI skills my studio uses with real clients. LMK what you think!",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uaytf0/i_published_the_same_ai_skills_my_studio_uses/",
+        "description": "We run positioning and GTM sprints for B2B SaaS founders. These are the exact skills we run inside those sprints. Do you like the design? Do you like skills we've published so far? those are updated daily. Do you want me to add anything special that you'd love to have and can't find online? <3 Link in comments, much love to you all submitted by /u/RealityLive7556 [link] [comments]",
+        "posted_at": "2026-06-20T15:03:48+00:00",
+        "language": null,
+        "metrics": {}
       },
       {
-        "id": "space:build-small-hackathon/claim-ready",
-        "title": "[HF Space] build-small-hackathon/claim-ready",
-        "url": "https://huggingface.co/spaces/build-small-hackathon/claim-ready",
-        "description": "gradio | gradio, build-small-hackathon, document-ai, vision-language, multilingual",
-        "posted_at": "2026-06-13T15:00:15+00:00",
-        "language": "en",
-        "metrics": {
-          "trending_score": 25,
-          "likes": 70
-        }
+        "id": "t3_1uaxj1w",
+        "title": "Agents should be banned for juniors",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uaxj1w/agents_should_be_banned_for_juniors/",
+        "description": "As the title implies, I think juniors shouldn’t have access to agents in the workplace. For side projects and exploring ideas, agents are great. However, for building expertise, they completely short-circuit the learning process. LLM chat is the best compromise, as it doesn’t have the convenience of an agent and still requires you to think about what you’re doing. LLM chat is an accelerator, while agents are lobotomizers. You might think that by not using agents you’re getting left behind, but b",
+        "posted_at": "2026-06-20T14:07:55+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaw8im",
+        "title": "How I Built a $20k/Month Web Design Agency",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uaw8im/how_i_built_a_20kmonth_web_design_agency/",
+        "description": "My philosophy is that the longer you stay in a business, the better you get and the better systems you build. 4 years ago I was a complete rookie in the web design niche. My whole workflow was bad and not scalable at all. I used to adapt myself to every client. Some clients paid upfront before seeing the website, others paid half upfront and half after, and others paid after the website was finished. Honestly, I was doing whatever I could to get paid. Looking back, it wasn't professional and I w",
+        "posted_at": "2026-06-20T13:08:54+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uavrgs",
+        "title": "FloweringAgents MCP Server — Let your AI agent register itself on a public leaderboard",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uavrgs/floweringagents_mcp_server_let_your_ai_agent/",
+        "description": "Just published a new MCP server: floweringagents-mcp One command: uvx floweringagents-mcp Four tools: - floweringagents_register — Register a new AI agent - floweringagents_submit_score — Submit daily economic score - floweringagents_get_leaderboard — Get current rankings - floweringagents_get_agent_profile — Get agent details What it does: An open registry where AI agents can register themselves, report their earnings, and appear on a public leaderboard — zero human involvement required. Works ",
+        "posted_at": "2026-06-20T12:46:29+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uavolm",
+        "title": "I combined the existing token-saving tools for Copilot and Claude Code into one installer",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uavolm/i_combined_the_existing_tokensaving_tools_for/",
+        "description": "...my AI coding agents were eating tokens like crazy, re-reading the whole repo every task, shoving entire build logs into context, and explaining the same stuff to me over and over every new session. There are already solid tools that each fix a piece of this (OpenSpec, RTK, ccusage…), but honestly, setting them all up by hand is a pain. So I didn't reinvent anything. I just glued them together behind a single aito setup command with defaults that make sense, and threw in the one thing I kept w",
+        "posted_at": "2026-06-20T12:42:28+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uavnjy",
+        "title": "Designing a memory system for codebase facts",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uavnjy/designing_a_memory_system_for_codebase_facts/",
+        "description": "Hi, we have been building a graph-based memory system that stores durable context that is built when coding. That proves to be useful when using coding agents to work on the same thing since you can avoid agent re-learning the whole context. Wrote a blog piece (link in comments!) on how we designed our graph structure. If someone finds it interesting please /grill-me in comments! submitted by /u/Ok-Insect-6726 [link] [comments]",
+        "posted_at": "2026-06-20T12:41:00+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uav6jr",
+        "title": "Deepseek, kimi etc..",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uav6jr/deepseek_kimi_etc/",
+        "description": "Among Western flagships, the Gemini 3.1 Pro is the cheapest with an output of $12, and the GPT-5.5 is the most expensive with an output of $30. GPT-5.5 is an input of $5 / an output of $30, and GPT-5.5 Pro is $30 / $180 (AI Pricing Guru) for the highest difficulty inference. Chinese models have different digits even within the same flagship class. DeepSeek V4 Flash is the cheapest axis (Morph) with an input of $0.14 / output of $0.28, and the higher-end model, the V4 Pro, is also about 1/30th th",
+        "posted_at": "2026-06-20T12:16:50+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uav55q",
+        "title": "The agent loop is just ReAct, and your tool-use API already implements it",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uav55q/the_agent_loop_is_just_react_and_your_tooluse_api/",
+        "description": "A thing that demystified agents for me: the \"agent loop\" everyone talks about isn't a new invention. It's ReAct (reason + act) from a 2022 paper, and if you're using a modern tool-use API you're already running it, maybe without naming it. ReAct is three steps on repeat: Thought : the model reasons about what to do next. Action : it calls a tool. Observation : it reads the tool result. Then it loops, using the observation to inform the next thought, until it decides it's done. Where this gets co",
+        "posted_at": "2026-06-20T12:15:01+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uauabc",
+        "title": "A working English to Hindi fuzzy search logic",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uauabc/a_working_english_to_hindi_fuzzy_search_logic/",
+        "description": "Hey guys, I am almost done with the first iOS app I've made, the backend is working flawlessly the UI is nice, google sign in works. Its just the app searches an entire database from villages which are named in Hindi, I want the user to be able to access in English, that too with Fuzzy search. I have some basic implementation of it, its gives a score to search results and displays them in decreasing order of the score, but I need a far better logic for the end user. Any help would be largely app",
+        "posted_at": "2026-06-20T11:30:15+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uatrbg",
+        "title": "How do I reduce token consumption for an agent?",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uatrbg/how_do_i_reduce_token_consumption_for_an_agent/",
+        "description": "I am maintaining basically all AI infrastructure at current workplace. It's basically a central AI agent that's used in all of the companies products (which are WordPress plugins and a SAAS ) . Currently it's using open router underneath. The issue I am currently facing is that the more tools I give an AI access to the more the number of fixed input token that gets used regardless of the prompt. ​ For example a simple hi would burn 10000 tokens. As the description for the tools itself has to be ",
+        "posted_at": "2026-06-20T11:01:00+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uatji3",
+        "title": "Multiple agents alternative?",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uatji3/multiple_agents_alternative/",
+        "description": "Hello everyone I'm not sure if this is the correct subreddit to post this. I did post this question in the Grok subreddit, but there were no responses. I used to use Grok for the multiple agents in one chat. But since the update to 4.3 the multiple agents are no longer there. Is there any alternative? The 4 agents were a good number. I used to use them for entertainment in a podcast style discussion. I would customise each agent to act as a certain guest with the main agent acting as the host. B",
+        "posted_at": "2026-06-20T10:48:30+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uasz9h",
+        "title": "Infosys/accenture",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uasz9h/infosysaccenture/",
+        "description": "whatever happening these days, due to AI LLMs agentic ai, et cetera. Is it just hype to create chaos and to scare people or is it really something happening in the market or something really coming on a massive scale or it will just impact few manual positions? I am working in one of the big 4) consulting firm. Although I am already in project working fine. But I’m not sure what gonna happen. It really scares me a little bit, but again sometime. I think that oh maybe I’m overthinking. So what’s ",
+        "posted_at": "2026-06-20T10:15:57+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uasix6",
+        "title": "We keep adding “skills” to our agents and have no idea which ones actually work. Solved problem?",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uasix6/we_keep_adding_skills_to_our_agents_and_have_no/",
+        "description": "PM at an internal developer platform (IDP) here. We’ve been building AI agents into our product: an agent that onboards new devs onto a service, say, or one that helps debug a broken config. Under the hood these agents draw on a set of “skills” we’ve written — reusable modules for specific jobs (an onboarding skill, a skill for a particular solution, and so on). We keep writing more of them. The problem: I have no visibility into whether any of it works. I can’t tell which skills the agents actu",
+        "posted_at": "2026-06-20T09:48:47+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uasg9p",
+        "title": "Built an AI receptionist that books appointments and dispatches jobs 24/7 — here's what I learned",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uasg9p/built_an_ai_receptionist_that_books_appointments/",
+        "description": "Hey everyone — been building AI voice agents for small businesses for a few months and wanted to share what actually works in production. ​ My stack: → Vapi.ai for voice infrastructure → GPT-4.1 as the brain → ElevenLabs for natural voice → n8n for workflow automation → Google Calendar for booking ​ The hardest part wasn't the tech — it was making the agent sound genuinely natural. Most AI voice agents have one of these problems: ​ Too robotic in phrasing Too slow to respond (latency) Breaks on ",
+        "posted_at": "2026-06-20T09:44:14+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaseep",
+        "title": "After building AI agents for a year, I've started thinking \"agent\" is mostly a marketing term",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uaseep/after_building_ai_agents_for_a_year_ive_started/",
+        "description": "Over the last year I've spent way too much time building agents. Single agents. Multi-agent workflows. Agents with memory. Agents calling other agents+tools The whole thing. What's funny is that the more experience I get with this stuff, the less I hear customers asking for agents. They ask for things like: Faster research Better lead qualification Less repetitive work Fewer support tickets Better reporting Nobody actually says: \"Can you please deploy a multi-agent architecture with hierarchical",
+        "posted_at": "2026-06-20T09:41:01+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uas6nb",
+        "title": "OpenAI Agent SDK vs Hermes vs Pi vs OpenClaw",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uas6nb/openai_agent_sdk_vs_hermes_vs_pi_vs_openclaw/",
+        "description": "I am building a new product, and I want to have an Harness underneath. I am trying to understand the differences. I think that using OpenClaw is overkill, and I heard that Pi is great and lightweight. Is Pi the same as using OpenAI Agent SDK? What are the differences? Thanks! submitted by /u/Separate_Bid_8352 [link] [comments]",
+        "posted_at": "2026-06-20T09:27:09+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uas1qq",
+        "title": "How do people approach automating social media posting (from a technical perspective)?",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uas1qq/how_do_people_approach_automating_social_media/",
+        "description": "Hey all, I’ve been digging into the idea of automating content posting to social networks, mostly out of technical curiosity rather than trying to spam or game anything. What interests me is how these platforms actively try to prevent automation, and what the “normal” engineering approaches are to deal with that. For example, I experimented a bit with using an AI agent (Claude) + a browser (Chrome). The idea was: let the AI “see” the page, find elements like “create post,” click them, type conte",
+        "posted_at": "2026-06-20T09:18:27+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaryc2",
+        "title": "AI/Tools",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uaryc2/aitools/",
+        "description": "Hello everyone, I have building few AI tools/AI agent.How can I scale this to sky.How can I build AI agents and AI tools etc.I have build few AI tools but I could share or scale it.I haven’t find any users or sites where I can share this or post this? submitted by /u/ChoiceClerk5969 [link] [comments]",
+        "posted_at": "2026-06-20T09:12:21+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uarbvs",
+        "title": "Do you use Hermes agent for Daily reporting or monitoring tasks?",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uarbvs/do_you_use_hermes_agent_for_daily_reporting_or/",
+        "description": "I saw that most of the people are using autonomous agents like Hermes or OpenClaw through their messaging channel and getting reports dumped in their messaging channel as well. Do you prefer doing that? Or there are any good solutions out there for getting agent reports? submitted by /u/me-shaon [link] [comments]",
+        "posted_at": "2026-06-20T08:32:53+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaq75e",
+        "title": "are multi agentic systems ready for production ?",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uaq75e/are_multi_agentic_systems_ready_for_production/",
+        "description": "hi so I have been interested in trying out multi agentic workflows for my use case and results I am seeing are sometimes worse than the previous single agent system , also the fact they are 10 times more complex than normal single agent systems , implementing small things like irreversability gates break things and take hours .I have only used async multiagent pipline yet , there are countless problems i cant even talk about like sometimes they dont coordinate even a bit , all go in different di",
+        "posted_at": "2026-06-20T07:23:21+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaovue",
+        "title": "Advice (for 50k stripened(",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uaovue/advice_for_50k_stripened/",
+        "description": "​ ​ I am 2nd year(passed 8.7cg), 3rd month on internship ongoing paid 10k agentic ai role, 230 leetcode 100 gfg ​ Skills - agentic ai, LangChain, lang graph, fastapi (more or less around this itself) ​ I want to grab 50k stripened in my upcoming jan placement (on campus internships) ​ Seeking for advices/tips !! submitted by /u/ANONYBROW [link] [comments]",
+        "posted_at": "2026-06-20T06:06:19+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaohgp",
+        "title": "Moved the LLM out of the runtime loop in a browser agent so replays are deterministic. How are you handling this?",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uaohgp/moved_the_llm_out_of_the_runtime_loop_in_a/",
+        "description": "Full disclosure first: I'm a cofounder of Lightpanda, an open-source headless browser. I'm not here to advertise, I want to talk through an architecture decision and hear how others are approaching it. Most browser agents I've seen (including ones we built) call an LLM on every step. The model reads the page, picks the next action, repeat. It works (sometimes), but every run costs tokens and runs are non-deterministic. We tried flipping it so the LLM only runs while you author the task. You desc",
+        "posted_at": "2026-06-20T05:44:01+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uan4id",
+        "title": "How do you prefer using AI for coding: IDE, CLI, or something else?",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uan4id/how_do_you_prefer_using_ai_for_coding_ide_cli_or/",
+        "description": "AI coding tools are now available everywhere—from IDE integrations like autocomplete and code generation to command-line assistants and standalone chat apps. Which approach do you find most productive, and why? Has AI changed the way you write, debug, or review code? I'd love to hear what workflow works best for you. submitted by /u/pawan0806 [link] [comments]",
+        "posted_at": "2026-06-20T04:30:46+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaenyp",
+        "title": "Am I antiquated, or do a lot of the ways people use AI agents make no sense?",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uaenyp/am_i_antiquated_or_do_a_lot_of_the_ways_people/",
+        "description": "I keep seeing people talk about using agents for tasks that genuinely confuse me and make me ask: \"Why would you use an agent for that? Seems like a manual and/or deterministic solution would be better.\" Examples: Someone setup their AI agent to check the United Airlines seating chart every 1 minute and change their seat if a better one was found. a) United is likely to block you and b) what if the agent hallucinates or makes a mistake and chooses a worse seat? People are using AI agents to buy ",
+        "posted_at": "2026-06-19T21:43:56+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaagw1",
+        "title": "Your automation \"expert\" built you a time bomb, and they'll ghost the second it goes off.",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1uaagw1/your_automation_expert_built_you_a_time_bomb_and/",
+        "description": "Can I vent for a sec. ​ Every couple weeks I get the same call. Some business owner who paid an \"automation expert\" good money, and now they've got a workflow that works... sometimes. On a good day. If the wind's blowing the right way. And they want me to figure out why their \"fully automated\" system needs a human babysitting it around the clock. ​ So let me tell you what I keep finding, because it's almost always the exact same stuff. ​ The guy they hired jumped straight in and built a thing th",
+        "posted_at": "2026-06-19T18:54:37+00:00",
+        "language": null,
+        "metrics": {}
       }
     ],
     "reddit:ChatGPT": [
@@ -4568,6 +4783,36 @@
   },
   "yt_competitor_videos": [
     {
+      "video_id": "8N1-XHNupfg",
+      "title": "Team thinking, visualized by Claude",
+      "url": "https://youtube.com/watch?v=8N1-XHNupfg",
+      "published_at": "2026-06-03T12:32:36+00:00",
+      "views": 8894153,
+      "outlier_ratio": 236.3706016796003,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
+      "video_id": "MyYe6C4NVu0",
+      "title": "The Problem Solvers: Kay Zhu at Genspark",
+      "url": "https://youtube.com/watch?v=MyYe6C4NVu0",
+      "published_at": "2026-05-22T15:31:16+00:00",
+      "views": 5403185,
+      "outlier_ratio": 143.59479642819178,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
+      "video_id": "kUQD5ZElyB4",
+      "title": "The Problem Solvers: Michele Catasta at Replit",
+      "url": "https://youtube.com/watch?v=kUQD5ZElyB4",
+      "published_at": "2026-05-27T16:01:28+00:00",
+      "views": 3234235,
+      "outlier_ratio": 85.95288083342191,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
       "video_id": "F5roaAyBQT8",
       "title": "Huawei descubre como crear Chips que igualen a los de Estados Unidos",
       "url": "https://youtube.com/watch?v=F5roaAyBQT8",
@@ -4798,6 +5043,16 @@
       "channel": "David Ondrej"
     },
     {
+      "video_id": "YfcgoV19lp4",
+      "title": "Hice un Scraping de Amazon indetectable",
+      "url": "https://youtube.com/watch?v=YfcgoV19lp4",
+      "published_at": "2026-05-23T16:30:12+00:00",
+      "views": 348033,
+      "outlier_ratio": 7.6699797249647395,
+      "language": null,
+      "channel": "midudev"
+    },
+    {
       "video_id": "OaRhpwz_TGM",
       "title": "The Future of AI Agents with Andrew Ng | Interrupt 26",
       "url": "https://youtube.com/watch?v=OaRhpwz_TGM",
@@ -4906,6 +5161,16 @@
       "outlier_ratio": 5.758552357113058,
       "language": null,
       "channel": "Cole Medin"
+    },
+    {
+      "video_id": "Ty_50J84fMY",
+      "title": "Claude Fable 5 beats Pokémon FireRed only using vision",
+      "url": "https://youtube.com/watch?v=Ty_50J84fMY",
+      "published_at": "2026-06-09T20:31:49+00:00",
+      "views": 212605,
+      "outlier_ratio": 5.650180716487722,
+      "language": null,
+      "channel": "Claude"
     },
     {
       "video_id": "nIljW_w7ayc",
@@ -5098,6 +5363,16 @@
       "channel": "LangChain"
     },
     {
+      "video_id": "tRsQsTMvPNg",
+      "title": "Claude FM 🎵 music for thinking and building",
+      "url": "https://youtube.com/watch?v=tRsQsTMvPNg",
+      "published_at": "2026-06-12T18:12:55+00:00",
+      "views": 161084,
+      "outlier_ratio": 4.280960986499415,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
       "video_id": "7MUr0euKazc",
       "title": "Mi Cliente Dijo \"La IA Me Crea La App en 15 Minutos\"",
       "url": "https://youtube.com/watch?v=7MUr0euKazc",
@@ -5136,6 +5411,16 @@
       "outlier_ratio": 4.004859193815571,
       "language": null,
       "channel": "Matt Wolfe"
+    },
+    {
+      "video_id": "ZdwrGg14rPI",
+      "title": "Probé Claude Fable 5 (mi opinión)",
+      "url": "https://youtube.com/watch?v=ZdwrGg14rPI",
+      "published_at": "2026-06-09T21:20:47+00:00",
+      "views": 179649,
+      "outlier_ratio": 3.959119358251058,
+      "language": null,
+      "channel": "midudev"
     },
     {
       "video_id": "n0nC1kmztSk",
@@ -5188,16 +5473,6 @@
       "channel": "Jono Catliff"
     },
     {
-      "video_id": "crBBgWEggkQ",
-      "title": "Agentic Loops Are Changing Software Development",
-      "url": "https://youtube.com/watch?v=crBBgWEggkQ",
-      "published_at": "2026-06-08T17:31:34+00:00",
-      "views": 17127,
-      "outlier_ratio": 3.805154410131082,
-      "language": null,
-      "channel": "Web Dev Cody"
-    },
-    {
       "video_id": "ir93tUo6jFw",
       "title": "Hands on: Fable 5 makes GPT 5.5 feel like a \"toy\"",
       "url": "https://youtube.com/watch?v=ir93tUo6jFw",
@@ -5206,16 +5481,6 @@
       "outlier_ratio": 3.7909170305676856,
       "language": null,
       "channel": "MattVidPro"
-    },
-    {
-      "video_id": "GduT8tdSnaw",
-      "title": "Custom Skills for Hermes Agent: Full Tutorial",
-      "url": "https://youtube.com/watch?v=GduT8tdSnaw",
-      "published_at": "2026-05-27T22:42:20+00:00",
-      "views": 10123,
-      "outlier_ratio": 3.774422073079791,
-      "language": null,
-      "channel": "Mervin Praison"
     },
     {
       "video_id": "2lE1-5hBfKk",
@@ -5328,6 +5593,16 @@
       "channel": "David Ondrej"
     },
     {
+      "video_id": "KR4PDUnftOg",
+      "title": "El drama de Antigravity 2.0 es Salvaje",
+      "url": "https://youtube.com/watch?v=KR4PDUnftOg",
+      "published_at": "2026-05-26T14:00:33+00:00",
+      "views": 159693,
+      "outlier_ratio": 3.5193273977433006,
+      "language": null,
+      "channel": "midudev"
+    },
+    {
       "video_id": "8QQ_INxAhRs",
       "title": "I Turned Claude Into the Ultimate Second Brain",
       "url": "https://youtube.com/watch?v=8QQ_INxAhRs",
@@ -5346,6 +5621,16 @@
       "outlier_ratio": 3.4933215986746737,
       "language": null,
       "channel": "EDteam"
+    },
+    {
+      "video_id": "5HVPeux24WU",
+      "title": "Embrace long-running tasks with Opus 4.8 and Claude Code",
+      "url": "https://youtube.com/watch?v=5HVPeux24WU",
+      "published_at": "2026-05-28T16:49:38+00:00",
+      "views": 131212,
+      "outlier_ratio": 3.4870840863186987,
+      "language": null,
+      "channel": "Claude"
     },
     {
       "video_id": "9PUaEj0pMYE",
@@ -5376,6 +5661,16 @@
       "outlier_ratio": 3.231123388581952,
       "language": null,
       "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "k3UgVvwsIk0",
+      "title": "Así trabaja Uncle Bob con IA",
+      "url": "https://youtube.com/watch?v=k3UgVvwsIk0",
+      "published_at": "2026-06-05T17:15:13+00:00",
+      "views": 47866,
+      "outlier_ratio": 3.1917050076682,
+      "language": null,
+      "channel": "BettaTech"
     },
     {
       "video_id": "MkFThJWJgg8",
@@ -5446,16 +5741,6 @@
       "outlier_ratio": 3.051063829787234,
       "language": null,
       "channel": "Victor Robles WEB"
-    },
-    {
-      "video_id": "BaHAmiXT2uE",
-      "title": "After Using Fable 5, Here's My Take",
-      "url": "https://youtube.com/watch?v=BaHAmiXT2uE",
-      "published_at": "2026-06-10T15:01:50+00:00",
-      "views": 13619,
-      "outlier_ratio": 3.02577205065541,
-      "language": null,
-      "channel": "Web Dev Cody"
     },
     {
       "video_id": "HKpFR7Tmm6c",
@@ -5538,6 +5823,16 @@
       "channel": "Sabrina Ramonov 🍄"
     },
     {
+      "video_id": "tpjJeH1pPws",
+      "title": "Claude Fable 5 designs a 3D-printable model in a Claude-built CAD editor",
+      "url": "https://youtube.com/watch?v=tpjJeH1pPws",
+      "published_at": "2026-06-09T17:18:20+00:00",
+      "views": 104306,
+      "outlier_ratio": 2.772031465929627,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
       "video_id": "U1t4Zm-iclE",
       "title": "10 Broken ChatGPT Codes To Change How It Answers You",
       "url": "https://youtube.com/watch?v=U1t4Zm-iclE",
@@ -5568,6 +5863,36 @@
       "channel": "LangChain"
     },
     {
+      "video_id": "QdRmjx0ZdOU",
+      "title": "40 mil estrellas en GitHub en menos de 24 horas.\n\nSe llama Odysseus y es una especie de ChatGPT/Clau",
+      "url": "https://youtube.com/watch?v=QdRmjx0ZdOU",
+      "published_at": "2026-06-04T15:36:05+00:00",
+      "views": 123040,
+      "outlier_ratio": 2.711565585331453,
+      "language": null,
+      "channel": "midudev"
+    },
+    {
+      "video_id": "m7TJqx8CYG8",
+      "title": "Artifacts in Claude Code: share your work as it happens",
+      "url": "https://youtube.com/watch?v=m7TJqx8CYG8",
+      "published_at": "2026-06-18T18:12:10+00:00",
+      "views": 101647,
+      "outlier_ratio": 2.701366004039545,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
+      "video_id": "ScLu47riJfY",
+      "title": "¡Microsoft abandona Claude Code!",
+      "url": "https://youtube.com/watch?v=ScLu47riJfY",
+      "published_at": "2026-05-25T20:22:44+00:00",
+      "views": 122004,
+      "outlier_ratio": 2.6887561706629053,
+      "language": null,
+      "channel": "midudev"
+    },
+    {
       "video_id": "2dLIIKrvEJY",
       "title": "Anthropic's Free Claude AI Learning Path (9 Free Courses)",
       "url": "https://youtube.com/watch?v=2dLIIKrvEJY",
@@ -5586,6 +5911,16 @@
       "outlier_ratio": 2.6354145342886386,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "Hlg75WwuktY",
+      "title": "Casi lo rompo 🥲",
+      "url": "https://youtube.com/watch?v=Hlg75WwuktY",
+      "published_at": "2026-06-16T15:34:10+00:00",
+      "views": 700354,
+      "outlier_ratio": 2.620457674808429,
+      "language": null,
+      "channel": "Nate Gentile"
     },
     {
       "video_id": "kUMZ5YNA13k",
@@ -5618,6 +5953,16 @@
       "channel": "Sabrina Ramonov 🍄"
     },
     {
+      "video_id": "tZIlsfPhBHU",
+      "title": "Esta IA es 10 veces más barata que Claude y... (MiniMax 2.7)",
+      "url": "https://youtube.com/watch?v=tZIlsfPhBHU",
+      "published_at": "2026-05-27T19:58:12+00:00",
+      "views": 116060,
+      "outlier_ratio": 2.5577397743300425,
+      "language": null,
+      "channel": "midudev"
+    },
+    {
       "video_id": "9WWp3cYiAZg",
       "title": "Diferencia de Claude con otras IAs",
       "url": "https://youtube.com/watch?v=9WWp3cYiAZg",
@@ -5636,6 +5981,16 @@
       "outlier_ratio": 2.5471373600746268,
       "language": null,
       "channel": "Matthew Berman"
+    },
+    {
+      "video_id": "Uvl-tRga98g",
+      "title": "Designing with Claude: From prompt to production",
+      "url": "https://youtube.com/watch?v=Uvl-tRga98g",
+      "published_at": "2026-05-22T05:42:20+00:00",
+      "views": 95787,
+      "outlier_ratio": 2.545630913149782,
+      "language": null,
+      "channel": "Claude"
     },
     {
       "video_id": "ZSvcxjNZdxk",
@@ -5718,6 +6073,16 @@
       "channel": "Matthew Berman"
     },
     {
+      "video_id": "dDp0DAOvNkQ",
+      "title": "¿La IA ya es rentable?",
+      "url": "https://youtube.com/watch?v=dDp0DAOvNkQ",
+      "published_at": "2026-06-06T18:00:34+00:00",
+      "views": 109838,
+      "outlier_ratio": 2.420706981664316,
+      "language": null,
+      "channel": "midudev"
+    },
+    {
       "video_id": "rWmPFSqMAVg",
       "title": "¿Hasta qué nivel de inglés entiendes?",
       "url": "https://youtube.com/watch?v=rWmPFSqMAVg",
@@ -5726,6 +6091,16 @@
       "outlier_ratio": 2.4158820394386216,
       "language": null,
       "channel": "Platzi"
+    },
+    {
+      "video_id": "6YPqoARpYuQ",
+      "title": "Claude Fable 5 plays Factorio",
+      "url": "https://youtube.com/watch?v=6YPqoARpYuQ",
+      "published_at": "2026-06-09T17:18:28+00:00",
+      "views": 90409,
+      "outlier_ratio": 2.402705432125013,
+      "language": null,
+      "channel": "Claude"
     },
     {
       "video_id": "BvjkywaIC1A",
@@ -5908,6 +6283,26 @@
       "channel": "Matt Wolfe"
     },
     {
+      "video_id": "G2B0YWuJUgI",
+      "title": "The prompting playbook",
+      "url": "https://youtube.com/watch?v=G2B0YWuJUgI",
+      "published_at": "2026-05-22T08:35:33+00:00",
+      "views": 83620,
+      "outlier_ratio": 2.2222812798979485,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
+      "video_id": "5f5JYLZHdhw",
+      "title": "Claude Fable 5 simulates the solar system and predicts a solar eclipse",
+      "url": "https://youtube.com/watch?v=5f5JYLZHdhw",
+      "published_at": "2026-06-09T17:18:25+00:00",
+      "views": 83488,
+      "outlier_ratio": 2.2187732539598173,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
       "video_id": "oGE_Dwz-rMk",
       "title": "Omnigent: The New Meta-Harness for EVERY Coding Agent - Claude Code, Codex, Pi, More",
       "url": "https://youtube.com/watch?v=oGE_Dwz-rMk",
@@ -5916,6 +6311,16 @@
       "outlier_ratio": 2.216520650813517,
       "language": null,
       "channel": "Cole Medin"
+    },
+    {
+      "video_id": "92uv2v8jCyw",
+      "title": "Nadie esperaba esto de Microsoft",
+      "url": "https://youtube.com/watch?v=92uv2v8jCyw",
+      "published_at": "2026-06-12T17:47:08+00:00",
+      "views": 100455,
+      "outlier_ratio": 2.213835507757405,
+      "language": null,
+      "channel": "midudev"
     },
     {
       "video_id": "YlXTlwInDkk",
@@ -6128,6 +6533,16 @@
       "channel": "Nate Herk | AI Automation"
     },
     {
+      "video_id": "-OfTYVeVjTk",
+      "title": "Microsoft acaba de presentar el Surface Laptop Ultra.\nSu primer gran competidor del MacBook Pro.\n\nUn",
+      "url": "https://youtube.com/watch?v=-OfTYVeVjTk",
+      "published_at": "2026-06-01T15:05:14+00:00",
+      "views": 91910,
+      "outlier_ratio": 2.0255200987306066,
+      "language": null,
+      "channel": "midudev"
+    },
+    {
       "video_id": "S5O_4bKA6o0",
       "title": "Hablando por teléfono con un hater de la programacion",
       "url": "https://youtube.com/watch?v=S5O_4bKA6o0",
@@ -6170,6 +6585,16 @@
   ],
   "yt_underperformer_videos": [
     {
+      "video_id": "M5uwBawBDpw",
+      "title": "How AirOps chases friction to build AI products with Claude",
+      "url": "https://youtube.com/watch?v=M5uwBawBDpw",
+      "published_at": "2026-05-22T15:08:21+00:00",
+      "views": 1549,
+      "outlier_ratio": 0.041166152864887846,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
       "video_id": "2x3xxkBzU5c",
       "title": "21 Hermes concepts to get you started",
       "url": "https://youtube.com/watch?v=2x3xxkBzU5c",
@@ -6178,6 +6603,56 @@
       "outlier_ratio": 0.041272365805168985,
       "language": null,
       "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "T8N0MED3IJo",
+      "title": "Where code meets court: AI at the legal-technical frontier",
+      "url": "https://youtube.com/watch?v=T8N0MED3IJo",
+      "published_at": "2026-05-22T15:14:52+00:00",
+      "views": 2066,
+      "outlier_ratio": 0.0549059211225683,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
+      "video_id": "A3rmSUp6Dxg",
+      "title": "How Metaview built self-improving prompts for application review",
+      "url": "https://youtube.com/watch?v=A3rmSUp6Dxg",
+      "published_at": "2026-05-22T15:02:58+00:00",
+      "views": 2218,
+      "outlier_ratio": 0.058945466142234504,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
+      "video_id": "nho1YAEPuwA",
+      "title": "What legal agents inherit from coding agents: Lessons from Legora",
+      "url": "https://youtube.com/watch?v=nho1YAEPuwA",
+      "published_at": "2026-05-21T15:45:22+00:00",
+      "views": 2835,
+      "outlier_ratio": 0.07534282980759009,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
+      "video_id": "tUoO4ucrNc0",
+      "title": "Fighting financial crime with Claude Cowork",
+      "url": "https://youtube.com/watch?v=tUoO4ucrNc0",
+      "published_at": "2026-05-22T15:27:27+00:00",
+      "views": 3248,
+      "outlier_ratio": 0.0863186988412884,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
+      "video_id": "dxqX_6ciVQA",
+      "title": "Agent Battle: Mine the most diamonds in 45 minutes",
+      "url": "https://youtube.com/watch?v=dxqX_6ciVQA",
+      "published_at": "2026-05-23T05:45:10+00:00",
+      "views": 3806,
+      "outlier_ratio": 0.10114808121611565,
+      "language": null,
+      "channel": "Claude"
     },
     {
       "video_id": "aHI8OG6gODA",
@@ -6204,28 +6679,58 @@
       "title": "100 Years of Artificial Intelligence Explained",
       "url": "https://youtube.com/watch?v=NHFbAg2b54U",
       "published_at": "2026-06-02T12:57:25+00:00",
-      "views": 12541,
-      "outlier_ratio": 0.15464197195950527,
+      "views": 12559,
+      "outlier_ratio": 0.15486392838206098,
       "language": null,
       "channel": "Nate Herk | AI Automation"
+    },
+    {
+      "video_id": "DNRddIEoH3c",
+      "title": "The capability curve",
+      "url": "https://youtube.com/watch?v=DNRddIEoH3c",
+      "published_at": "2026-05-22T05:46:08+00:00",
+      "views": 5853,
+      "outlier_ratio": 0.1555490592112257,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
+      "video_id": "P0uMXS6emHA",
+      "title": "Picking the right model",
+      "url": "https://youtube.com/watch?v=P0uMXS6emHA",
+      "published_at": "2026-05-21T18:19:30+00:00",
+      "views": 6017,
+      "outlier_ratio": 0.1599075156798129,
+      "language": null,
+      "channel": "Claude"
     },
     {
       "video_id": "iz7elwbqZVI",
       "title": "Meet the AI \"Co-Scientist\" Changing Everything 🤖🧪 #ai",
       "url": "https://youtube.com/watch?v=iz7elwbqZVI",
       "published_at": "2026-06-03T17:00:19+00:00",
-      "views": 10366,
-      "outlier_ratio": 0.16043956043956045,
+      "views": 10367,
+      "outlier_ratio": 0.16045503791982665,
       "language": null,
       "channel": "Two Minute Papers"
+    },
+    {
+      "video_id": "QIriO1-vHYw",
+      "title": "Getting more out of the Claude Platform",
+      "url": "https://youtube.com/watch?v=QIriO1-vHYw",
+      "published_at": "2026-05-22T13:52:15+00:00",
+      "views": 6096,
+      "outlier_ratio": 0.16200701605187626,
+      "language": null,
+      "channel": "Claude"
     },
     {
       "video_id": "RGh9kL8hVgQ",
       "title": "It's like AI insurance",
       "url": "https://youtube.com/watch?v=RGh9kL8hVgQ",
       "published_at": "2026-06-04T21:06:16+00:00",
-      "views": 5656,
-      "outlier_ratio": 0.16487873134328357,
+      "views": 5657,
+      "outlier_ratio": 0.16490788246268656,
       "language": null,
       "channel": "Matthew Berman"
     },
@@ -6240,14 +6745,34 @@
       "channel": "Cole Medin"
     },
     {
+      "video_id": "uGroRwlC9y4",
+      "title": "Teaching agents to learn from your team",
+      "url": "https://youtube.com/watch?v=uGroRwlC9y4",
+      "published_at": "2026-05-22T14:50:11+00:00",
+      "views": 6712,
+      "outlier_ratio": 0.1783778037631551,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
       "video_id": "j08GzapSxYk",
       "title": "En vivo: ¿Qué mejoras nos trae Apple para 2026? WWDC Apple 2026",
       "url": "https://youtube.com/watch?v=j08GzapSxYk",
       "published_at": "2026-06-09T01:19:15+00:00",
-      "views": 3523,
-      "outlier_ratio": 0.18238765790018638,
+      "views": 3524,
+      "outlier_ratio": 0.18243942845309588,
       "language": null,
       "channel": "EDteam"
+    },
+    {
+      "video_id": "MO4cWOIFzRk",
+      "title": "API gratuita para saber la localización de una IP.\n¡Con peticiones ilimitadas y sin registros!\n\nPara",
+      "url": "https://youtube.com/watch?v=MO4cWOIFzRk",
+      "published_at": "2026-05-25T14:46:46+00:00",
+      "views": 8284,
+      "outlier_ratio": 0.18256346967559944,
+      "language": null,
+      "channel": "midudev"
     },
     {
       "video_id": "ikH1--DSzMs",
@@ -6260,6 +6785,16 @@
       "channel": "AI Jason"
     },
     {
+      "video_id": "rjSvJYrVY2k",
+      "title": "The Problem Solvers | Anton Osika at Lovable",
+      "url": "https://youtube.com/watch?v=rjSvJYrVY2k",
+      "published_at": "2026-06-04T14:04:26+00:00",
+      "views": 7196,
+      "outlier_ratio": 0.19124056553630275,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
       "video_id": "srIaywtgV40",
       "title": "Been playing with this cool ai tool from genspark",
       "url": "https://youtube.com/watch?v=srIaywtgV40",
@@ -6270,12 +6805,22 @@
       "channel": "Greg Isenberg"
     },
     {
+      "video_id": "qOjleN2-50c",
+      "title": "Making agentic workflows trustworthy and verifiable with a custom DSL",
+      "url": "https://youtube.com/watch?v=qOjleN2-50c",
+      "published_at": "2026-05-22T17:13:18+00:00",
+      "views": 7897,
+      "outlier_ratio": 0.20987030934410544,
+      "language": null,
+      "channel": "Claude"
+    },
+    {
       "video_id": "fdkwkmZrpEU",
       "title": "Everyone's holding their laptops open",
       "url": "https://youtube.com/watch?v=fdkwkmZrpEU",
       "published_at": "2026-06-02T21:42:27+00:00",
-      "views": 7270,
-      "outlier_ratio": 0.2119286380597015,
+      "views": 7271,
+      "outlier_ratio": 0.2119577891791045,
       "language": null,
       "channel": "Matthew Berman"
     },
@@ -6290,14 +6835,14 @@
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
     {
-      "video_id": "n_01yq6icHs",
-      "title": "What You Think Is what You Become",
-      "url": "https://youtube.com/watch?v=n_01yq6icHs",
-      "published_at": "2026-06-04T09:00:02+00:00",
-      "views": 1686,
-      "outlier_ratio": 0.23534338358458962,
+      "video_id": "v9FTCvkV_a0",
+      "title": "Evals for taste: Hill-climbing a slide-generation agent",
+      "url": "https://youtube.com/watch?v=v9FTCvkV_a0",
+      "published_at": "2026-05-23T05:39:25+00:00",
+      "views": 8678,
+      "outlier_ratio": 0.23062612947804825,
       "language": null,
-      "channel": "David Ondrej"
+      "channel": "Claude"
     },
     {
       "video_id": "EO9dLjmT0Ko",
@@ -6310,12 +6855,22 @@
       "channel": "Sabrina Ramonov 🍄"
     },
     {
+      "video_id": "n_01yq6icHs",
+      "title": "What You Think Is what You Become",
+      "url": "https://youtube.com/watch?v=n_01yq6icHs",
+      "published_at": "2026-06-04T09:00:02+00:00",
+      "views": 1688,
+      "outlier_ratio": 0.23562255723059744,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
       "video_id": "MOviZKtFeHM",
       "title": "A Second Nobel Prize for AlphaFold? 🧬🏆 #alphafold #deepmind #nobelprize #science #ai",
       "url": "https://youtube.com/watch?v=MOviZKtFeHM",
       "published_at": "2026-06-02T07:13:59+00:00",
-      "views": 15290,
-      "outlier_ratio": 0.23665067327039158,
+      "views": 15291,
+      "outlier_ratio": 0.2366661507506578,
       "language": null,
       "channel": "Two Minute Papers"
     },
@@ -6328,6 +6883,16 @@
       "outlier_ratio": 0.2368474923234391,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "IGo225tfF2I",
+      "title": "Memory and dreaming for self learning agents",
+      "url": "https://youtube.com/watch?v=IGo225tfF2I",
+      "published_at": "2026-05-21T16:49:49+00:00",
+      "views": 9060,
+      "outlier_ratio": 0.24077814393536728,
+      "language": null,
+      "channel": "Claude"
     },
     {
       "video_id": "Vvks-ridADM",
@@ -6344,8 +6909,8 @@
       "title": "Fix your AI pipeline: Rethink ownership #ai #tech",
       "url": "https://youtube.com/watch?v=AEnQEupGS_Q",
       "published_at": "2026-06-07T20:00:04+00:00",
-      "views": 1199,
-      "outlier_ratio": 0.24544524053224157,
+      "views": 1201,
+      "outlier_ratio": 0.2458546571136131,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
@@ -6354,8 +6919,8 @@
       "title": "How To Land Your First AI Client As A Freelancer (100+ Beginners Did This)",
       "url": "https://youtube.com/watch?v=jzq3FUrQ-u0",
       "published_at": "2026-06-01T17:52:32+00:00",
-      "views": 4036,
-      "outlier_ratio": 0.24606755273747105,
+      "views": 4039,
+      "outlier_ratio": 0.2462504572613096,
       "language": null,
       "channel": "Jono Catliff"
     },
@@ -6364,8 +6929,8 @@
       "title": "AI Agents as \"Games Masters\"? 🎮🔥",
       "url": "https://youtube.com/watch?v=82m7YqosdgU",
       "published_at": "2026-06-06T06:20:46+00:00",
-      "views": 16088,
-      "outlier_ratio": 0.24900170252282927,
+      "views": 16097,
+      "outlier_ratio": 0.2491409998452252,
       "language": null,
       "channel": "Two Minute Papers"
     },
@@ -6424,8 +6989,8 @@
       "title": "THIS was the whole point of Microsoft Builld",
       "url": "https://youtube.com/watch?v=wg9jm_d7Emk",
       "published_at": "2026-06-09T12:49:35+00:00",
-      "views": 4891,
-      "outlier_ratio": 0.2700717835450028,
+      "views": 4896,
+      "outlier_ratio": 0.27034787410270567,
       "language": null,
       "channel": "Matt Wolfe"
     },
@@ -6464,18 +7029,28 @@
       "title": "Así Automatizaría Cualquier Negocio en 2026 (Desde Cero)",
       "url": "https://youtube.com/watch?v=D-gcNGdHYz0",
       "published_at": "2026-06-06T23:00:23+00:00",
-      "views": 14620,
-      "outlier_ratio": 0.2980996656063943,
+      "views": 14619,
+      "outlier_ratio": 0.29807927575238563,
       "language": null,
       "channel": "Benjamín Cordero"
+    },
+    {
+      "video_id": "LrZHnKS_L6k",
+      "title": "Working Like a Lawyer with Claude",
+      "url": "https://youtube.com/watch?v=LrZHnKS_L6k",
+      "published_at": "2026-06-08T20:55:45+00:00",
+      "views": 11247,
+      "outlier_ratio": 0.2988997555012225,
+      "language": null,
+      "channel": "Claude"
     },
     {
       "video_id": "Nn7EbMJRRGo",
       "title": "Why The Universe Ignores Most People",
       "url": "https://youtube.com/watch?v=Nn7EbMJRRGo",
       "published_at": "2026-06-08T13:00:20+00:00",
-      "views": 2169,
-      "outlier_ratio": 0.3027638190954774,
+      "views": 2170,
+      "outlier_ratio": 0.3029034059184813,
       "language": null,
       "channel": "David Ondrej"
     },
@@ -6490,24 +7065,24 @@
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
     {
-      "video_id": "ch3E8AaJ0jM",
-      "title": "15 AI Updates You Missed This Week (Nemotron, Gemma 4, MAI & More)",
-      "url": "https://youtube.com/watch?v=ch3E8AaJ0jM",
-      "published_at": "2026-06-09T07:58:47+00:00",
-      "views": 831,
-      "outlier_ratio": 0.3098434004474273,
-      "language": null,
-      "channel": "Mervin Praison"
-    },
-    {
       "video_id": "pFpBq4wOfQ4",
       "title": "The Best AI Tool For Every Job (My Full List)",
       "url": "https://youtube.com/watch?v=pFpBq4wOfQ4",
       "published_at": "2026-06-06T12:43:31+00:00",
-      "views": 2364,
-      "outlier_ratio": 0.31097079715864245,
+      "views": 2367,
+      "outlier_ratio": 0.31136543014996054,
       "language": null,
       "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "l8fxVYIP4HQ",
+      "title": "Building with Claude on Google Cloud",
+      "url": "https://youtube.com/watch?v=l8fxVYIP4HQ",
+      "published_at": "2026-05-21T18:57:29+00:00",
+      "views": 11764,
+      "outlier_ratio": 0.31263952375890297,
+      "language": null,
+      "channel": "Claude"
     },
     {
       "video_id": "IZjbq7cGqqs",
@@ -6528,6 +7103,16 @@
       "outlier_ratio": 0.3210862619808307,
       "language": null,
       "channel": "The AI Advantage"
+    },
+    {
+      "video_id": "bjrmYsFae_g",
+      "title": "The Problem Solvers | Max Junestrand at Legora",
+      "url": "https://youtube.com/watch?v=bjrmYsFae_g",
+      "published_at": "2026-06-02T14:03:39+00:00",
+      "views": 12107,
+      "outlier_ratio": 0.32175507600722864,
+      "language": null,
+      "channel": "Claude"
     },
     {
       "video_id": "h9V2D2b7hfo",
@@ -6604,20 +7189,10 @@
       "title": "GitHub Just Made a Big AI Coding Move",
       "url": "https://youtube.com/watch?v=X9cvCQ3qrVk",
       "published_at": "2026-06-10T14:11:43+00:00",
-      "views": 6462,
-      "outlier_ratio": 0.3568194367752623,
+      "views": 6463,
+      "outlier_ratio": 0.35687465488680287,
       "language": null,
       "channel": "Matt Wolfe"
-    },
-    {
-      "video_id": "ItlPK13OKVg",
-      "title": "This One Change Made My AI Workspaces Much Faster",
-      "url": "https://youtube.com/watch?v=ItlPK13OKVg",
-      "published_at": "2026-06-08T14:45:52+00:00",
-      "views": 1622,
-      "outlier_ratio": 0.3603643634747834,
-      "language": null,
-      "channel": "Web Dev Cody"
     },
     {
       "video_id": "j7DIuMos1-0",
@@ -6634,8 +7209,8 @@
       "title": "The forgotten developer who saved JavaScript...",
       "url": "https://youtube.com/watch?v=JfPWbttemYE",
       "published_at": "2026-05-29T17:06:48+00:00",
-      "views": 313244,
-      "outlier_ratio": 0.3753600889617455,
+      "views": 313267,
+      "outlier_ratio": 0.37538764984733664,
       "language": null,
       "channel": "Fireship"
     },
@@ -6730,6 +7305,16 @@
       "channel": "Victor Robles WEB"
     },
     {
+      "video_id": "peh12aqHuxQ",
+      "title": "Huge Change Coming to ChatGPT",
+      "url": "https://youtube.com/watch?v=peh12aqHuxQ",
+      "published_at": "2026-06-10T14:38:40+00:00",
+      "views": 4799,
+      "outlier_ratio": 0.40348074659492184,
+      "language": null,
+      "channel": "The AI Advantage"
+    },
+    {
       "video_id": "nO7eQUOhUHU",
       "title": "Inflation isn’t what they taught you in school",
       "url": "https://youtube.com/watch?v=nO7eQUOhUHU",
@@ -6744,10 +7329,20 @@
       "title": "STOP pretending AI doesn’t Affect You",
       "url": "https://youtube.com/watch?v=YGx_EQRM1Qs",
       "published_at": "2026-06-09T09:00:21+00:00",
-      "views": 2985,
-      "outlier_ratio": 0.4166666666666667,
+      "views": 2986,
+      "outlier_ratio": 0.4168062534896706,
       "language": null,
       "channel": "David Ondrej"
+    },
+    {
+      "video_id": "CG7Rcl49C2w",
+      "title": "Before we ship a Claude model, these teams try to break it.",
+      "url": "https://youtube.com/watch?v=CG7Rcl49C2w",
+      "published_at": "2026-05-28T19:31:43+00:00",
+      "views": 15690,
+      "outlier_ratio": 0.41697671946422876,
+      "language": null,
+      "channel": "Claude"
     },
     {
       "video_id": "S9-Htw3URuo",
@@ -6790,22 +7385,12 @@
       "channel": "Wes Roth"
     },
     {
-      "video_id": "6CNardWigoA",
-      "title": "Testing out Composer 2.5 on Mission Control",
-      "url": "https://youtube.com/watch?v=6CNardWigoA",
-      "published_at": "2026-05-25T04:40:42+00:00",
-      "views": 2054,
-      "outlier_ratio": 0.45634303488113753,
-      "language": null,
-      "channel": "Web Dev Cody"
-    },
-    {
       "video_id": "8ktcSaSTvxk",
       "title": "The Playbook for a $100M AI Agency",
       "url": "https://youtube.com/watch?v=8ktcSaSTvxk",
       "published_at": "2026-05-25T16:23:09+00:00",
-      "views": 37045,
-      "outlier_ratio": 0.45679864853200486,
+      "views": 37066,
+      "outlier_ratio": 0.4570575976916532,
       "language": null,
       "channel": "Nate Herk | AI Automation"
     },
@@ -6824,8 +7409,8 @@
       "title": "Is Claude Mythos Coming?",
       "url": "https://youtube.com/watch?v=lkR6mvqQQlk",
       "published_at": "2026-06-06T21:26:20+00:00",
-      "views": 37222,
-      "outlier_ratio": 0.4589812200204693,
+      "views": 37226,
+      "outlier_ratio": 0.4590305436699261,
       "language": null,
       "channel": "Nate Herk | AI Automation"
     },
@@ -6844,8 +7429,8 @@
       "title": "Animated Comedy Shortfilm Project with AI! | Full Breakdown",
       "url": "https://youtube.com/watch?v=WiOtj7g39sE",
       "published_at": "2026-05-29T21:46:10+00:00",
-      "views": 5306,
-      "outlier_ratio": 0.4634061135371179,
+      "views": 5305,
+      "outlier_ratio": 0.4633187772925764,
       "language": null,
       "channel": "MattVidPro"
     },
@@ -6864,8 +7449,8 @@
       "title": "AI Contract Negotiation Saved Me $6,000!",
       "url": "https://youtube.com/watch?v=QtA8UGyeWzk",
       "published_at": "2026-05-24T15:28:15+00:00",
-      "views": 3391,
-      "outlier_ratio": 0.4733389168062535,
+      "views": 3392,
+      "outlier_ratio": 0.4734785036292574,
       "language": null,
       "channel": "David Ondrej"
     },
@@ -6874,8 +7459,8 @@
       "title": "Observing And Testing CX Agents | Interrupt 26",
       "url": "https://youtube.com/watch?v=AqU_WyOdEyo",
       "published_at": "2026-06-10T12:59:00+00:00",
-      "views": 783,
-      "outlier_ratio": 0.47831398900427613,
+      "views": 785,
+      "outlier_ratio": 0.47953573610262673,
       "language": null,
       "channel": "LangChain"
     },
@@ -6928,16 +7513,6 @@
       "outlier_ratio": 0.49326609141791045,
       "language": null,
       "channel": "Matthew Berman"
-    },
-    {
-      "video_id": "VXJzHJqnhBk",
-      "title": "I'm working on a self hosting cli tool",
-      "url": "https://youtube.com/watch?v=VXJzHJqnhBk",
-      "published_at": "2026-06-05T13:18:39+00:00",
-      "views": 2242,
-      "outlier_ratio": 0.4981115307709398,
-      "language": null,
-      "channel": "Web Dev Cody"
     },
     {
       "video_id": "9q1321vbpMQ",
