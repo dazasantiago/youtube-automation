@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 """Build per-topic input files for topic-deep-research.
 
-Reads topics.json (output of the topic-classifier Claude prompt), resolves each
-signal_id against intel.db, and writes one JSON file per topic to data/topic_inputs/.
+Reads a topics-YYYY-WNN.json file (output of the topic-classifier Claude prompt),
+resolves each signal_id against intel.db, and writes one JSON file per topic to
+data/topic_inputs/.
 
 The output folder is cleared before writing (weekly overwrite — previous week's
 files are always replaced).
 
 Usage:
-    python code/topic-classifier/build_topic_inputs.py
+    python code/topic-classifier/build_topic_inputs.py [path/to/topics-YYYY-WNN.json]
+
+If no argument is given, uses the most recent topics-*.json file in data/.
 """
 
 from __future__ import annotations
@@ -17,26 +20,45 @@ import json
 import re
 import shutil
 import sqlite3
+import sys
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
 HERE = Path(__file__).parent
-TOPICS_JSON = HERE / "data" / "topics.json"
 OUT_DIR = HERE / "data" / "topic_inputs"
 DB_PATH = HERE.parent / "signals-scraper" / "data" / "intel.db"
 
 
+def _resolve_topics_file() -> Path:
+    if len(sys.argv) > 1:
+        return Path(sys.argv[1])
+    data_dir = HERE / "data"
+    candidates = sorted(data_dir.glob("topics-*.json"))
+    if candidates:
+        return candidates[-1]
+    raise FileNotFoundError(
+        f"No topics-*.json found in {data_dir}. Run the topic-classifier prompt first."
+    )
+
+
 def main() -> None:
-    if not TOPICS_JSON.exists():
-        print(f"Error: {TOPICS_JSON} not found — run the topic-classifier prompt first.")
+    try:
+        topics_json = _resolve_topics_file()
+    except FileNotFoundError as e:
+        print(f"Error: {e}")
+        return
+
+    if not topics_json.exists():
+        print(f"Error: {topics_json} not found — run the topic-classifier prompt first.")
         return
 
     if not DB_PATH.exists():
         print(f"Error: {DB_PATH} not found — signals-scraper DB is missing.")
         return
 
-    topics_data: dict[str, Any] = json.loads(TOPICS_JSON.read_text(encoding="utf-8"))
+    print(f"Using: {topics_json}")
+    topics_data: dict[str, Any] = json.loads(topics_json.read_text(encoding="utf-8"))
     topics: list[dict[str, Any]] = topics_data.get("topics", [])
 
     if not topics:
@@ -90,7 +112,7 @@ def _resolve_signals(
             missing.append(sid)
             continue
         prefix, raw_id = parts
-        if prefix == "yt":
+        if prefix in ("yt", "yt_under"):
             row = _fetch_yt_video(raw_id, conn)
         else:
             row = _fetch_signal(prefix, raw_id, conn)

@@ -15,8 +15,8 @@ Python project. There is no runnable package here, only a prompt and a post-proc
 
 ```
 signals-scraper  →  topic-classifier  →  topic-deep-research
-   intel.db            topics.json          <slug>.json
-   signals.json        topic_inputs/
+   intel.db            topics-YYYY-WNN.json   <slug>.json
+   handoff.json        topic_inputs/
 ```
 
 ---
@@ -25,10 +25,11 @@ signals-scraper  →  topic-classifier  →  topic-deep-research
 
 ### Step 1 — Generate signals export
 
-The signals-scraper must have run recently. Its export is at:
-`code/signals-scraper/data/signals.json`
+The signals-scraper must have run recently. Its outputs are at:
+- `code/signals-scraper/data/handoff.json` — minimal flat list of `{id, title, url}` used as classifier input
+- `code/signals-scraper/data/intel.db` — SQLite DB used by `build_topic_inputs.py` to resolve signal IDs
 
-If it's stale, run the export manually from the signals-scraper project:
+If they are stale, run the export manually from the signals-scraper project:
 ```bash
 uv run --project code/signals-scraper content-intel export
 ```
@@ -36,14 +37,14 @@ uv run --project code/signals-scraper content-intel export
 ### Step 2 — Run the classifier (Claude prompt)
 
 Give Claude the contents of `prompt.md` as instructions. Claude will:
-1. Read `code/signals-scraper/data/signals.json`
+1. Read `code/signals-scraper/data/handoff.json`
 2. Group signals into topics following the rules in the prompt
-3. Write `code/topic-classifier/data/topics.json`
+3. Write `code/topic-classifier/data/topics-YYYY-WNN.json` (e.g. `topics-2026-W26.json`)
 
 ### Step 3 — Build per-topic input files
 
 ```bash
-python code/topic-classifier/build_topic_inputs.py
+python code/topic-classifier/build_topic_inputs.py code/topic-classifier/data/topics-YYYY-WNN.json
 ```
 
 This resolves signal IDs from `topics.json` against `intel.db` and writes one JSON per topic
@@ -65,7 +66,7 @@ uv run --project code/topic-deep-research deep-research \
 |---|---|
 | `prompt.md` | Instruction set for Claude — defines input, classification rules, output schema, and post-processing step |
 | `build_topic_inputs.py` | Stdlib Python script — resolves signal IDs against `intel.db` and writes `topic_inputs/` |
-| `data/topics.json` | Output of the Claude classifier — topics with `signal_ids`, `has_viral_yt`, etc. |
+| `data/topics-YYYY-WNN.json` | Weekly output of the Claude classifier — one file per run, never overwritten |
 | `data/topic_inputs/<slug>.json` | One file per topic in the format expected by `topic-deep-research` |
 
 `data/` is gitignored. Do not commit output files.
@@ -107,13 +108,14 @@ The classifier references signals as `source:id`:
 | `product_hunt` | `signals` | `product_hunt:some-tool` |
 | `gtrends` | `signals` | `gtrends:ai_coding_assistants` |
 | `yt` | `yt_videos` | `yt:RuhhLUfTXrY` |
+| `yt_under` | `yt_videos` | `yt_under:Nn7EbMJRRGo` |
 
 `build_topic_inputs.py` uses these prefixes to route queries between the `signals` and
 `yt_videos` tables in `intel.db`.
 
 ---
 
-## Output schema (`topics.json`)
+## Output schema (`topics-YYYY-WNN.json`)
 
 ```json
 {
@@ -140,7 +142,7 @@ Topics are sorted by `signal_count` descending.
 
 ## `build_topic_inputs.py` behavior
 
-- **Input**: `data/topics.json` + `../signals-scraper/data/intel.db`
+- **Input**: `data/topics-YYYY-WNN.json` (passed as arg, or auto-resolved to most recent) + `../signals-scraper/data/intel.db`
 - **Output**: `data/topic_inputs/<slug>.json` per topic
 - **Weekly overwrite**: deletes and recreates `data/topic_inputs/` on every run
 - **Missing signals**: IDs not found in DB are reported on stdout but don't abort the run

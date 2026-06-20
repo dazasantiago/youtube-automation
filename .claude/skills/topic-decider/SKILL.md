@@ -27,10 +27,10 @@ scripts Python / el CLI de deep-research) y sobre Notion vía el conector MCP.
 
 ```
 signals-scraper → topic-classifier → [TÚ: topic-decider] → topic-deep-research
-   intel.db          topics.json         decides + Notion       data/<slug>.json (1 por tema)
+   intel.db          topics-YYYY-WNN.json  decides + Notion    data/<slug>.json (1 por tema)
 ```
 
-Entrada principal: `code/topic-classifier/data/topics.json`
+Entrada principal: el archivo `topics-YYYY-WNN.json` más reciente en `code/topic-classifier/data/`
 Salida: Topic + 6 Pieces en Notion (por tema) + `code/topic-deep-research/data/<slug>.json` (por tema)
 
 ---
@@ -64,10 +64,10 @@ Dos bases vinculadas en la página **🎬 Content Hub**:
 
 ### Fase 0 — Precondiciones (hazlo siempre primero, sin preguntar)
 
-1. Lee `code/topic-classifier/data/topics.json`.
-   - Si **no existe** o el JSON trae `{"error": ...}` o `topics` vacío → **detente** y di:
+1. Encuentra el archivo `topics-YYYY-WNN.json` más reciente en `code/topic-classifier/data/` (orden lexicográfico, el último es el más nuevo). Léelo.
+   - Si **no existe ninguno** o el JSON trae `{"error": ...}` o `topics` vacío → **detente** y di:
      "No hay topics clasificados. Corre primero el clasificador (ver `code/topic-classifier/CLAUDE.md`):
-     genera `signals.json`, ejecuta el prompt del clasificador, y vuelve a llamarme."
+     genera `handoff.json`, ejecuta el prompt del clasificador, y vuelve a llamarme."
    - No inventes topics. Trabaja solo con lo que está en el archivo.
 2. Trae los temas ya existentes del Content Hub para cruzar duplicados:
    - `notion-search` con `data_source_url`/collection `206658fc-5314-417f-ad4b-f114d26deacd`, query
@@ -181,9 +181,9 @@ temas aprobar.
 
 #### (B) Generar el input de topic-deep-research (UN archivo por tema)
 
-1. Corre el script (regenera `topic_inputs/` desde `intel.db` para **todos** los topics):
+1. Corre el script (regenera `topic_inputs/` desde `intel.db` para **todos** los topics), pasando el archivo de la semana actual:
    ```bash
-   python code/topic-classifier/build_topic_inputs.py
+   python code/topic-classifier/build_topic_inputs.py code/topic-classifier/data/topics-YYYY-WNN.json
    ```
 2. Calcula el slug del tema con la **misma** regla que `_slugify` en ese script:
    `lower()` → reemplaza cada run de caracteres no `[a-z0-9]` por `-` → quita `-` de los extremos.
@@ -249,15 +249,14 @@ Si aprobó varios, lista un bloque por tema. Recuerda que cada archivo se corre 
 - Acciones de creación: **confirmar antes** de ejecutar; acciones de bajo riesgo (lectura/cruce): directo.
 - `notion-search` es semántico: si sospechas que un tema existe y no aparece, reintenta con queries
   alternativas antes de afirmar que no existe.
-- Nunca inventes topics ni señales fuera de `topics.json` / `intel.db`.
+- Nunca inventes topics ni señales fuera del `topics-YYYY-WNN.json` activo / `intel.db`.
 - El campo `Topic` de cada Piece es relación → string JSON de URLs, no ID directo.
 - Guarda la `url` del Topic en el mismo turno antes de crear las Pieces; si se pierde, recupérala con
   `notion-search`.
 
 ## Limitaciones conocidas
 
-- Si `topics.json` está viejo, los temas no reflejarán las señales de esta semana → sugiere recorrer
-  el clasificador.
+- Si el `topics-YYYY-WNN.json` más reciente es de una semana anterior, los temas no reflejarán las señales de esta semana → sugiere recorrer el clasificador.
 - `build_topic_inputs.py` **borra y recrea** `topic_inputs/` en cada corrida (overwrite semanal); por
   eso copiamos el `<slug>.json` aprobado a `topic-deep-research/data/`, que sí persiste entre corridas.
 - IDs de señales no encontrados en `intel.db` se reportan por stdout pero no abortan el script.
