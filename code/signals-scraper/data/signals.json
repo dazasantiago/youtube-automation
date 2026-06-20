@@ -1,0 +1,2341 @@
+{
+  "generated_at": "2026-06-20T13:41:45.896347+00:00",
+  "window_days": 7,
+  "total_signals": 191,
+  "signals_by_source": {
+    "rss": [
+      {
+        "id": "https://techcrunch.com/?p=3134219",
+        "title": "From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
+        "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+        "description": "For the last 30 years, stopping the flow of cybersecurity-related software has proven to be ineffective. It's unclear why it would work now with Anthropic’s cybersecurity model Mythos.",
+        "posted_at": "2026-06-19T22:40:14+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?post_type=tc_video&p=3134608",
+        "title": "Is the US government’s Anthropic ban accidentally helping the brand?",
+        "url": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
+        "description": "Just as last week&#160;was ending,&#160;the US government&#160;forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5&#8217;s guardrails.&#160; Cybersecurity researchers have&#160;since signed an open letter&#160;calling&#160;the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models.&#160;So&#160;is [&#8230;]",
+        "posted_at": "2026-06-19T16:08:17+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?post_type=tc_podcast&p=3134607",
+        "title": "The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care",
+        "url": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
+        "description": "Just as last week&#160;was ending,&#160;the US government&#160;forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5&#8217;s guardrails.&#160; Cybersecurity researchers have&#160;since signed an open letter&#160;calling&#160;the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models.&#160;So&#160;is [&#8230;]",
+        "posted_at": "2026-06-19T16:01:03+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3134600",
+        "title": "Billionaire Ambani wants AI in every call, app, and home",
+        "url": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
+        "description": "Reliance is weaving AI into telecom services used by more than 500 million people.",
+        "posted_at": "2026-06-19T15:23:28+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3134214",
+        "title": "The CEO of Allbirds’ new AI biz has a plan, but no team",
+        "url": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
+        "description": "Call it a startup with a sole founder and a very large seed round, but what's next is less clear.",
+        "posted_at": "2026-06-19T13:00:00+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3134577",
+        "title": "The US says ASML’s top chip tool may be in China, but how?",
+        "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/",
+        "description": "There's a commercial logic that cuts against the idea that ASML would risk its export license to arm a Chinese customer.",
+        "posted_at": "2026-06-19T07:59:12+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3134483",
+        "title": "Source: Elastic agrees to buy CRV-backed Deductive AI for up to $85M",
+        "url": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
+        "description": "Deductive AI, a startup that uses AI to catch and resolve bugs in software, was founded just three years ago.",
+        "posted_at": "2026-06-19T00:51:11+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3134299",
+        "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
+        "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+        "description": "Startup Baseten is reportedly close to finalizing a $1.5 billion round at a $13 billion as the “inference gold rush\" marches on.",
+        "posted_at": "2026-06-18T21:20:13+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3134342",
+        "title": "Snap spins off AI video team into new company, Dotmo, due to costs",
+        "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
+        "description": "The Snapchat maker is spinning off yet another internal unit. Dotmo will be composed of current Snap staff who are leaving the social media company to focus on AI video development.",
+        "posted_at": "2026-06-18T20:30:00+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3134350",
+        "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+        "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+        "description": "OpenAI is bulking up before its IPO, landing Transformer co-inventor Noam Shazeer from Google DeepMind and former Trump AI policy official Dean Ball in the same week.",
+        "posted_at": "2026-06-18T19:59:22+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3134243",
+        "title": "Almost half of US singles feel negatively about AI in dating, Match says",
+        "url": "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
+        "description": "About 47% of singles look negatively at the use of AI in dating -- but many dating app users are open to AI helping with profile punch-ups and conversation starters.",
+        "posted_at": "2026-06-18T18:51:46+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3134182",
+        "title": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
+        "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+        "description": "AWS is in talks to sell its chips to other data centers. CEO Andy Jassy has said this represents a $50 billion opportunity for the company.",
+        "posted_at": "2026-06-18T18:22:13+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+        "title": "MosaicLeaks: Can your research agent keep a secret?",
+        "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+        "description": null,
+        "posted_at": "2026-06-18T18:13:13+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3134218",
+        "title": "AI data centers just got a government-mandated fast lane to the grid",
+        "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/",
+        "description": "FERC told grid operators to give data centers a fast lane for interconnections, but it failed to address electricity supply shortages.",
+        "posted_at": "2026-06-18T17:49:23+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3133698",
+        "title": "The smartphone era created an attention crisis — slow tech is fixing it",
+        "url": "https://techcrunch.com/2026/06/18/the-smartphone-era-created-an-attention-crisis-slowtech-is-fixing-it/",
+        "description": "“People just really want to take back control of their time, their lives, their attention... They’re down for whatever helps them do that.”",
+        "posted_at": "2026-06-18T17:16:30+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+        "title": "New usage analytics and updated spend controls for enterprises",
+        "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+        "description": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+        "posted_at": "2026-06-18T17:00:00+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3134048",
+        "title": "How to turn off AI in your Google Docs",
+        "url": "https://techcrunch.com/2026/06/18/how-to-turn-off-ai-in-your-google-docs/",
+        "description": "Here's what you need to do to get those pesky \"write with Gemini\" pop-ups to go away.",
+        "posted_at": "2026-06-18T17:00:00+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3134184",
+        "title": "‘Queer Eye’ life coach Karamo Brown launches Kē, a wellness app featuring his AI digital clone",
+        "url": "https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone/",
+        "description": "After spending a year and a half focusing on his own journey — from fitness and nutrition to meditation, sobriety, relationships, and personal growth — Brown wants to help others do the same.",
+        "posted_at": "2026-06-18T16:55:04+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3134001",
+        "title": "General Intuition in talks to raise $300M at around $2B valuation",
+        "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+        "description": "The startup trains embodied AI and world models using Medal’s dataset of 2 billion videos per year from 10 million monthly active users.",
+        "posted_at": "2026-06-18T15:20:37+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3134145",
+        "title": "A tech worker-backed PAC is bringing a $5M knife to Big Tech’s $100M gunfight",
+        "url": "https://techcrunch.com/2026/06/18/a-tech-worker-backed-pac-is-bringing-a-5m-knife-to-big-techs-100m-gunfight/",
+        "description": "Guardrails positions itself as a populist political movement that runs on small donations from people in the trenches of the AI boom.",
+        "posted_at": "2026-06-18T15:13:21+00:00",
+        "language": "en",
+        "metrics": {}
+      }
+    ],
+    "github_trending": [
+      {
+        "id": "nashsu/llm_wiki",
+        "title": "nashsu/llm_wiki",
+        "url": "https://github.com/nashsu/llm_wiki",
+        "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+        "posted_at": "2026-06-20T13:40:03.787964+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 111,
+          "stars_total": 12189
+        }
+      },
+      {
+        "id": "bytedance/UI-TARS-desktop",
+        "title": "bytedance/UI-TARS-desktop",
+        "url": "https://github.com/bytedance/UI-TARS-desktop",
+        "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+        "posted_at": "2026-06-20T13:40:03.787816+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 113,
+          "stars_total": 36968
+        }
+      },
+      {
+        "id": "BuilderIO/agent-native",
+        "title": "BuilderIO/agent-native",
+        "url": "https://github.com/BuilderIO/agent-native",
+        "description": "A framework for building agent-native applications.",
+        "posted_at": "2026-06-20T13:40:03.787393+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 363,
+          "stars_total": 1190
+        }
+      },
+      {
+        "id": "n8n-io/n8n",
+        "title": "n8n-io/n8n",
+        "url": "https://github.com/n8n-io/n8n",
+        "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+        "posted_at": "2026-06-20T13:40:03.786946+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 135,
+          "stars_total": 193299
+        }
+      },
+      {
+        "id": "code-yeongyu/oh-my-openagent",
+        "title": "code-yeongyu/oh-my-openagent",
+        "url": "https://github.com/code-yeongyu/oh-my-openagent",
+        "description": "omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode",
+        "posted_at": "2026-06-20T13:40:03.786800+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 228,
+          "stars_total": 63012
+        }
+      },
+      {
+        "id": "koala73/worldmonitor",
+        "title": "koala73/worldmonitor",
+        "url": "https://github.com/koala73/worldmonitor",
+        "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+        "posted_at": "2026-06-20T13:40:03.786628+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 721,
+          "stars_total": 57592
+        }
+      },
+      {
+        "id": "ruvnet/ruflo",
+        "title": "ruvnet/ruflo",
+        "url": "https://github.com/ruvnet/ruflo",
+        "description": "🌊 The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+        "posted_at": "2026-06-20T13:40:03.786470+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 201,
+          "stars_total": 60463
+        }
+      },
+      {
+        "id": "microsoft/fara",
+        "title": "microsoft/fara",
+        "url": "https://github.com/microsoft/fara",
+        "description": "Fara-7B: An Efficient Agentic Model for Computer Use",
+        "posted_at": "2026-06-20T13:40:01.576237+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 57,
+          "stars_total": 5873
+        }
+      },
+      {
+        "id": "shuvonsec/claude-bug-bounty",
+        "title": "shuvonsec/claude-bug-bounty",
+        "url": "https://github.com/shuvonsec/claude-bug-bounty",
+        "description": "AI-powered bug bounty hunting from your terminal - recon, 20 vuln classes, autonomous hunting, and report generation. All inside Claude Code.",
+        "posted_at": "2026-06-20T13:40:01.576096+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 104,
+          "stars_total": 3441
+        }
+      },
+      {
+        "id": "VectifyAI/OpenKB",
+        "title": "VectifyAI/OpenKB",
+        "url": "https://github.com/VectifyAI/OpenKB",
+        "description": "OpenKB: Open LLM Knowledge Base",
+        "posted_at": "2026-06-20T13:40:01.575818+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 58,
+          "stars_total": 2464
+        }
+      },
+      {
+        "id": "andrewyng/aisuite",
+        "title": "andrewyng/aisuite",
+        "url": "https://github.com/andrewyng/aisuite",
+        "description": "Simple, unified interface to multiple Generative AI providers",
+        "posted_at": "2026-06-20T13:40:01.575651+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 117,
+          "stars_total": 14777
+        }
+      },
+      {
+        "id": "google/agents-cli",
+        "title": "google/agents-cli",
+        "url": "https://github.com/google/agents-cli",
+        "description": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
+        "posted_at": "2026-06-20T13:40:01.575377+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 28,
+          "stars_total": 3027
+        }
+      },
+      {
+        "id": "mvanhorn/last30days-skill",
+        "title": "mvanhorn/last30days-skill",
+        "url": "https://github.com/mvanhorn/last30days-skill",
+        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "posted_at": "2026-06-20T13:40:01.575129+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 652,
+          "stars_total": 44942
+        }
+      },
+      {
+        "id": "zubair-trabzada/geo-seo-claude",
+        "title": "zubair-trabzada/geo-seo-claude",
+        "url": "https://github.com/zubair-trabzada/geo-seo-claude",
+        "description": "GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports. If you want learn how to sell this to real businesses, check out the skool community",
+        "posted_at": "2026-06-20T13:39:59.522691+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 196,
+          "stars_total": 8423
+        }
+      },
+      {
+        "id": "Alishahryar1/free-claude-code",
+        "title": "Alishahryar1/free-claude-code",
+        "url": "https://github.com/Alishahryar1/free-claude-code",
+        "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
+        "posted_at": "2026-06-20T13:39:59.522551+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 241,
+          "stars_total": 35770
+        }
+      },
+      {
+        "id": "stanford-oval/storm",
+        "title": "stanford-oval/storm",
+        "url": "https://github.com/stanford-oval/storm",
+        "description": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
+        "posted_at": "2026-06-20T13:39:59.522409+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 196,
+          "stars_total": 28878
+        }
+      },
+      {
+        "id": "THUDM/slime",
+        "title": "THUDM/slime",
+        "url": "https://github.com/THUDM/slime",
+        "description": "slime is an LLM post-training framework for RL Scaling.",
+        "posted_at": "2026-06-20T13:39:59.522250+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 195,
+          "stars_total": 6497
+        }
+      },
+      {
+        "id": "mukul975/Anthropic-Cybersecurity-Skills",
+        "title": "mukul975/Anthropic-Cybersecurity-Skills",
+        "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+        "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+        "posted_at": "2026-06-20T13:39:59.522057+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 336,
+          "stars_total": 16914
+        }
+      },
+      {
+        "id": "unslothai/unsloth",
+        "title": "unslothai/unsloth",
+        "url": "https://github.com/unslothai/unsloth",
+        "description": "Unsloth Studio is a web UI for training and running open models like Gemma 4, Qwen3.6, DeepSeek, gpt-oss locally.",
+        "posted_at": "2026-06-20T13:39:59.521888+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 116,
+          "stars_total": 66947
+        }
+      },
+      {
+        "id": "onyx-dot-app/onyx",
+        "title": "onyx-dot-app/onyx",
+        "url": "https://github.com/onyx-dot-app/onyx",
+        "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+        "posted_at": "2026-06-20T13:39:59.521598+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 21,
+          "stars_total": 30445
+        }
+      },
+      {
+        "id": "LMCache/LMCache",
+        "title": "LMCache/LMCache",
+        "url": "https://github.com/LMCache/LMCache",
+        "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+        "posted_at": "2026-06-20T13:39:57.329419+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 125,
+          "stars_total": 9454
+        }
+      },
+      {
+        "id": "phuryn/pm-skills",
+        "title": "phuryn/pm-skills",
+        "url": "https://github.com/phuryn/pm-skills",
+        "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+        "posted_at": "2026-06-20T13:39:57.329159+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 432,
+          "stars_total": 19961
+        }
+      },
+      {
+        "id": "asgeirtj/system_prompts_leaks",
+        "title": "asgeirtj/system_prompts_leaks",
+        "url": "https://github.com/asgeirtj/system_prompts_leaks",
+        "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+        "posted_at": "2026-06-20T13:39:57.328977+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 240,
+          "stars_total": 43770
+        }
+      },
+      {
+        "id": "addyosmani/agent-skills",
+        "title": "addyosmani/agent-skills",
+        "url": "https://github.com/addyosmani/agent-skills",
+        "description": "Production-grade engineering skills for AI coding agents.",
+        "posted_at": "2026-06-20T13:39:57.328810+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 1024,
+          "stars_total": 63870
+        }
+      },
+      {
+        "id": "NVIDIA/SkillSpector",
+        "title": "NVIDIA/SkillSpector",
+        "url": "https://github.com/NVIDIA/SkillSpector",
+        "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+        "posted_at": "2026-06-20T13:39:57.328618+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 718,
+          "stars_total": 8516
+        }
+      },
+      {
+        "id": "Panniantong/Agent-Reach",
+        "title": "Panniantong/Agent-Reach",
+        "url": "https://github.com/Panniantong/Agent-Reach",
+        "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "posted_at": "2026-06-20T13:39:57.328404+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 1189,
+          "stars_total": 35491
+        }
+      },
+      {
+        "id": "1jehuang/jcode",
+        "title": "1jehuang/jcode",
+        "url": "https://github.com/1jehuang/jcode",
+        "description": "Coding Agent Harness",
+        "posted_at": "2026-06-20T13:39:55.059899+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 70,
+          "stars_total": 7299
+        }
+      },
+      {
+        "id": "owainlewis/awesome-artificial-intelligence",
+        "title": "owainlewis/awesome-artificial-intelligence",
+        "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+        "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+        "posted_at": "2026-06-20T13:39:55.059700+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 223,
+          "stars_total": 14651
+        }
+      },
+      {
+        "id": "withastro/flue",
+        "title": "withastro/flue",
+        "url": "https://github.com/withastro/flue",
+        "description": "The sandbox agent framework.",
+        "posted_at": "2026-06-20T13:39:55.059565+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 313,
+          "stars_total": 5976
+        }
+      },
+      {
+        "id": "mattpocock/skills",
+        "title": "mattpocock/skills",
+        "url": "https://github.com/mattpocock/skills",
+        "description": "Skills for Real Engineers. Straight from my .claude directory.",
+        "posted_at": "2026-06-20T13:39:55.059398+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 1520,
+          "stars_total": 137601
+        }
+      },
+      {
+        "id": "Kilo-Org/kilocode",
+        "title": "Kilo-Org/kilocode",
+        "url": "https://github.com/Kilo-Org/kilocode",
+        "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+        "posted_at": "2026-06-20T13:39:55.059219+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 1035,
+          "stars_total": 23126
+        }
+      },
+      {
+        "id": "jamiepine/voicebox",
+        "title": "jamiepine/voicebox",
+        "url": "https://github.com/jamiepine/voicebox",
+        "description": "The open-source AI voice studio. Clone, dictate, create.",
+        "posted_at": "2026-06-20T13:39:55.059075+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 140,
+          "stars_total": 30783
+        }
+      },
+      {
+        "id": "chopratejas/headroom",
+        "title": "chopratejas/headroom",
+        "url": "https://github.com/chopratejas/headroom",
+        "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+        "posted_at": "2026-06-20T13:39:55.058931+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 3786,
+          "stars_total": 40610
+        }
+      },
+      {
+        "id": "twentyhq/twenty",
+        "title": "twentyhq/twenty",
+        "url": "https://github.com/twentyhq/twenty",
+        "description": "The open alternative to Salesforce, designed for AI.",
+        "posted_at": "2026-06-20T13:39:55.058646+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 140,
+          "stars_total": 50698
+        }
+      },
+      {
+        "id": "DeusData/codebase-memory-mcp",
+        "title": "DeusData/codebase-memory-mcp",
+        "url": "https://github.com/DeusData/codebase-memory-mcp",
+        "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+        "posted_at": "2026-06-20T13:39:55.058444+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 1267,
+          "stars_total": 8877
+        }
+      },
+      {
+        "id": "calesthio/OpenMontage",
+        "title": "calesthio/OpenMontage",
+        "url": "https://github.com/calesthio/OpenMontage",
+        "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+        "posted_at": "2026-06-20T13:39:55.058217+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 677,
+          "stars_total": 6638
+        }
+      },
+      {
+        "id": "palmier-io/palmier-pro",
+        "title": "palmier-io/palmier-pro",
+        "url": "https://github.com/palmier-io/palmier-pro",
+        "description": "macOS video editor built for AI",
+        "posted_at": "2026-06-20T13:39:55.057997+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 904,
+          "stars_total": 2468
+        }
+      }
+    ],
+    "gtrends": [
+      {
+        "id": "Anthropic:anthropic fable",
+        "title": "anthropic fable (rising: 40% related to Anthropic)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:20.942742+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 40,
+          "keyword": "Anthropic",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Anthropic:mythos anthropic",
+        "title": "mythos anthropic (rising: 50% related to Anthropic)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:20.942699+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "Anthropic",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Anthropic:anthropic ipo",
+        "title": "anthropic ipo (rising: 80% related to Anthropic)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:20.942643+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 80,
+          "keyword": "Anthropic",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "OpenAI:openai codex",
+        "title": "openai codex (rising: 100% related to OpenAI)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:19.760013+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 100,
+          "keyword": "OpenAI",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "OpenAI:chatgpt openai login",
+        "title": "chatgpt openai login (rising: 160% related to OpenAI)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:19.759971+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 160,
+          "keyword": "OpenAI",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "OpenAI:openai academy",
+        "title": "openai academy (rising: 400% related to OpenAI)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:19.759916+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 400,
+          "keyword": "OpenAI",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "MCP:mcp servers",
+        "title": "mcp servers (rising: 90% related to MCP)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:15.437041+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 90,
+          "keyword": "MCP",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "automation:ownership jungle roatnpedalehm review home automation",
+        "title": "ownership jungle roatnpedalehm review home automation (rising: 271400% related to automation)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:14.315648+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 271400,
+          "keyword": "automation",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "n8n:make",
+        "title": "make (rising: 60% related to n8n)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:13.243383+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "n8n",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "n8n:n8n login",
+        "title": "n8n login (rising: 140% related to n8n)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:13.243304+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 140,
+          "keyword": "n8n",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Gemini:gemini live translate",
+        "title": "gemini live translate (rising: 50% related to Gemini)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:12.136469+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "Gemini",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Gemini:google ai studio",
+        "title": "google ai studio (rising: 60% related to Gemini)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:12.136429+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "Gemini",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Gemini:gemi",
+        "title": "gemi (rising: 60% related to Gemini)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:12.136343+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "Gemini",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Gemini:deepseek",
+        "title": "deepseek (rising: 60% related to Gemini)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:12.136287+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "Gemini",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:perplexity",
+        "title": "perplexity (rising: 50% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:10.552470+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:claude subscription",
+        "title": "claude subscription (rising: 50% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:10.552435+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:claude monet",
+        "title": "claude monet (rising: 60% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:10.552392+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:claude ai login",
+        "title": "claude ai login (rising: 70% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:10.552333+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 70,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:claud",
+        "title": "claud (rising: 70% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:10.552299+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 70,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:glm 5.2",
+        "title": "glm 5.2 (rising: 100% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:10.552265+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 100,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:perplexity ai",
+        "title": "perplexity ai (rising: 100% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:10.552229+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 100,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:deepseek",
+        "title": "deepseek (rising: 100% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:10.552194+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 100,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:antigravity",
+        "title": "antigravity (rising: 140% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:10.552158+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 140,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:google ai studio",
+        "title": "google ai studio (rising: 300% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:10.552084+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 300,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:claude guillemot ubisoft",
+        "title": "claude guillemot ubisoft (rising: 1700% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:10.552035+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 1700,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "ChatGPT:chatgpt openai",
+        "title": "chatgpt openai (rising: 40% related to ChatGPT)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:09.099036+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 40,
+          "keyword": "ChatGPT",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "OpenAI:openai chat gpt",
+        "title": "openai chat gpt (rising: 50% related to OpenAI)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:41:04.028982+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "OpenAI",
+          "geo": "CO",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "MCP:playwright mcp",
+        "title": "playwright mcp (rising: 40% related to MCP)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:59.594776+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 40,
+          "keyword": "MCP",
+          "geo": "CO",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "automation:robotic process automation",
+        "title": "robotic process automation (rising: 90% related to automation)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:58.454093+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 90,
+          "keyword": "automation",
+          "geo": "CO",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "automation:walmart near me",
+        "title": "walmart near me (rising: 90% related to automation)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:58.454037+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 90,
+          "keyword": "automation",
+          "geo": "CO",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:free claude code",
+        "title": "free claude code (rising: 60% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:54.557437+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "Claude",
+          "geo": "CO",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "ChatGPT:perplexity ai",
+        "title": "perplexity ai (rising: 70% related to ChatGPT)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:53.169681+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 70,
+          "keyword": "ChatGPT",
+          "geo": "CO",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "agents:agents of the four seasons",
+        "title": "agents of the four seasons (rising: 115800% related to agents)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:51.467255+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 115800,
+          "keyword": "agents",
+          "geo": "CO",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:llm stats",
+        "title": "llm stats (rising: 150% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:50.313568+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 150,
+          "keyword": "LLM",
+          "geo": "CO",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "OpenAI:robotics programming",
+        "title": "robotics programming (rising: 22550% related to OpenAI)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:47.910682+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 22550,
+          "keyword": "OpenAI",
+          "geo": "MX",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "automation:workflow automation",
+        "title": "workflow automation (rising: 50% related to automation)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:41.858520+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "automation",
+          "geo": "MX",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "n8n:n8n que es",
+        "title": "n8n que es (rising: 40% related to n8n)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:40.653568+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 40,
+          "keyword": "n8n",
+          "geo": "MX",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Gemini:gemini omni",
+        "title": "gemini omni (rising: 40% related to Gemini)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:39.547233+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 40,
+          "keyword": "Gemini",
+          "geo": "MX",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:claude vs chatgpt",
+        "title": "claude vs chatgpt (rising: 60% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:37.670008+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "Claude",
+          "geo": "MX",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:notion",
+        "title": "notion (rising: 100% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:37.669971+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 100,
+          "keyword": "Claude",
+          "geo": "MX",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:cl",
+        "title": "cl (rising: 120% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:37.669933+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 120,
+          "keyword": "Claude",
+          "geo": "MX",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:cla",
+        "title": "cla (rising: 200% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:37.669893+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 200,
+          "keyword": "Claude",
+          "geo": "MX",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:claude for chrome",
+        "title": "claude for chrome (rising: 450% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:37.669843+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 450,
+          "keyword": "Claude",
+          "geo": "MX",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "ChatGPT:how to use chatgpt effectively",
+        "title": "how to use chatgpt effectively (rising: 70% related to ChatGPT)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:36.222491+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 70,
+          "keyword": "ChatGPT",
+          "geo": "MX",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "agents:disney travel agents",
+        "title": "disney travel agents (rising: 60% related to agents)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:34.200407+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "agents",
+          "geo": "MX",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:llm studio",
+        "title": "llm studio (rising: 70% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:33.003850+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 70,
+          "keyword": "LLM",
+          "geo": "MX",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:walmart near me",
+        "title": "walmart near me (rising: 170% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:33.003795+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 170,
+          "keyword": "LLM",
+          "geo": "MX",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "OpenAI:database optimization",
+        "title": "database optimization (rising: 200% related to OpenAI)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:30.038057+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 200,
+          "keyword": "OpenAI",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "OpenAI:deep learning tutorials",
+        "title": "deep learning tutorials (rising: 200% related to OpenAI)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:30.038020+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 200,
+          "keyword": "OpenAI",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "OpenAI:javascript libraries",
+        "title": "javascript libraries (rising: 250% related to OpenAI)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:30.037977+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 250,
+          "keyword": "OpenAI",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "OpenAI:remove background from photo online",
+        "title": "remove background from photo online (rising: 450% related to OpenAI)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:30.037923+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 450,
+          "keyword": "OpenAI",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "prompt engineering:anthropic prompt engineering course",
+        "title": "anthropic prompt engineering course (rising: 50% related to prompt engineering)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:27.075051+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "prompt engineering",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "RAG:rag and bone jeans",
+        "title": "rag and bone jeans (rising: 50% related to RAG)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:24.739169+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "RAG",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "RAG:rag and bone sweatpant jeans",
+        "title": "rag and bone sweatpant jeans (rising: 60% related to RAG)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:24.739114+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "RAG",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "MCP:higgsfield mcp claude",
+        "title": "higgsfield mcp claude (rising: 60% related to MCP)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:23.191252+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "MCP",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "MCP:context7",
+        "title": "context7 (rising: 60% related to MCP)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:23.191215+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "MCP",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "MCP:openclaw",
+        "title": "openclaw (rising: 60% related to MCP)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:23.191177+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "MCP",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "MCP:context7 mcp",
+        "title": "context7 mcp (rising: 70% related to MCP)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:23.191134+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 70,
+          "keyword": "MCP",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "MCP:mobbin mcp",
+        "title": "mobbin mcp (rising: 80% related to MCP)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:23.191079+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 80,
+          "keyword": "MCP",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "automation:costco automation",
+        "title": "costco automation (rising: 50% related to automation)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:21.385135+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "automation",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "automation:bread",
+        "title": "bread (rising: 50% related to automation)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:21.385097+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "automation",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "automation:museums",
+        "title": "museums (rising: 80% related to automation)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:21.385058+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 80,
+          "keyword": "automation",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "automation:hiking",
+        "title": "hiking (rising: 80% related to automation)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:21.385016+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 80,
+          "keyword": "automation",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "automation:cloud computing services",
+        "title": "cloud computing services (rising: 130% related to automation)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:21.384972+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 130,
+          "keyword": "automation",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "automation:production line automation",
+        "title": "production line automation (rising: 160% related to automation)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:21.384912+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 160,
+          "keyword": "automation",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "n8n:n8n online",
+        "title": "n8n online (rising: 50% related to n8n)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:19.381934+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "n8n",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "n8n:n8n io",
+        "title": "n8n io (rising: 110% related to n8n)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:19.381895+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 110,
+          "keyword": "n8n",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "n8n:n8n doc",
+        "title": "n8n doc (rising: 32150% related to n8n)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:19.381851+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 32150,
+          "keyword": "n8n",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "n8n:n8n certification",
+        "title": "n8n certification (rising: 38650% related to n8n)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:19.381796+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 38650,
+          "keyword": "n8n",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Gemini:gemini season dates",
+        "title": "gemini season dates (rising: 70% related to Gemini)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:18.144388+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 70,
+          "keyword": "Gemini",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:jean claude van damme",
+        "title": "jean claude van damme (rising: 60% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:15.305523+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "Claude",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:arbor vs claude code",
+        "title": "arbor vs claude code (rising: 190% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:15.305478+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 190,
+          "keyword": "Claude",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:claude guillemot",
+        "title": "claude guillemot (rising: 11900% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:15.305418+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 11900,
+          "keyword": "Claude",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "agents:zzz agents",
+        "title": "zzz agents (rising: 40% related to agents)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:09.412618+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 40,
+          "keyword": "agents",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "agents:agents of shield cast",
+        "title": "agents of shield cast (rising: 50% related to agents)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:09.412583+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "agents",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "agents:realtor agents near me",
+        "title": "realtor agents near me (rising: 50% related to agents)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:09.412548+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "agents",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "agents:insurance agents",
+        "title": "insurance agents (rising: 60% related to agents)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:09.412511+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "agents",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "agents:what are sleeper agents",
+        "title": "what are sleeper agents (rising: 90% related to agents)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:09.412474+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 90,
+          "keyword": "agents",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "agents:real estate agents near me",
+        "title": "real estate agents near me (rising: 100% related to agents)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:09.412435+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 100,
+          "keyword": "agents",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "agents:premium real estate agents",
+        "title": "premium real estate agents (rising: 120% related to agents)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:09.412386+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 120,
+          "keyword": "agents",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "agents:car insurance agents",
+        "title": "car insurance agents (rising: 200% related to agents)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:09.412324+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 200,
+          "keyword": "agents",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "agents:how much do real estate agents make per sale",
+        "title": "how much do real estate agents make per sale (rising: 3350% related to agents)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:09.412284+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 3350,
+          "keyword": "agents",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "agents:how much do border patrol agents make",
+        "title": "how much do border patrol agents make (rising: 5400% related to agents)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:09.412241+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 5400,
+          "keyword": "agents",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "agents:google kaggle ai agents course",
+        "title": "google kaggle ai agents course (rising: 11900% related to agents)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:09.412184+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 11900,
+          "keyword": "agents",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:huggingface",
+        "title": "huggingface (rising: 60% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:07.156993+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "LLM",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:minimax m3",
+        "title": "minimax m3 (rising: 60% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:07.156952+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "LLM",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:qwen 3.6",
+        "title": "qwen 3.6 (rising: 60% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:07.156911+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "LLM",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:vllm",
+        "title": "vllm (rising: 70% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:07.156869+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 70,
+          "keyword": "LLM",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:andrej karpathy llm wiki",
+        "title": "andrej karpathy llm wiki (rising: 250% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:07.156819+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 250,
+          "keyword": "LLM",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:llm arena leaderboard",
+        "title": "llm arena leaderboard (rising: 350% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-20T13:40:07.156752+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 350,
+          "keyword": "LLM",
+          "geo": "US",
+          "is_breakout": false
+        }
+      }
+    ],
+    "hf": [
+      {
+        "id": "model:yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "title": "[HF Model] yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "description": "text-generation | gguf | gguf, gemma4, coding, agentic, terminal",
+        "posted_at": "2026-06-19T00:06:07+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 122,
+          "likes": 133,
+          "downloads": 6307
+        }
+      },
+      {
+        "id": "space:webml-community/gemma-4-webgpu-kernels",
+        "title": "[HF Space] webml-community/gemma-4-webgpu-kernels",
+        "url": "https://huggingface.co/spaces/webml-community/gemma-4-webgpu-kernels",
+        "description": "static | static, region:us",
+        "posted_at": "2026-06-17T05:21:48+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 83,
+          "likes": 85
+        }
+      },
+      {
+        "id": "model:unsloth/GLM-5.2-GGUF",
+        "title": "[HF Model] unsloth/GLM-5.2-GGUF",
+        "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF",
+        "description": "text-generation | gguf, glm_moe_dsa, unsloth, text-generation, en",
+        "posted_at": "2026-06-17T00:21:36+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 188,
+          "likes": 195,
+          "downloads": 22586
+        }
+      },
+      {
+        "id": "model:zai-org/GLM-5.2",
+        "title": "[HF Model] zai-org/GLM-5.2",
+        "url": "https://huggingface.co/zai-org/GLM-5.2",
+        "description": "text-generation | transformers | transformers, safetensors, glm_moe_dsa, text-generation, conversational",
+        "posted_at": "2026-06-16T07:39:20+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 1502,
+          "likes": 1604,
+          "downloads": 19683
+        }
+      },
+      {
+        "id": "model:zai-org/GLM-5.2-FP8",
+        "title": "[HF Model] zai-org/GLM-5.2-FP8",
+        "url": "https://huggingface.co/zai-org/GLM-5.2-FP8",
+        "description": "text-generation | transformers | transformers, safetensors, glm_moe_dsa, text-generation, conversational",
+        "posted_at": "2026-06-16T07:20:33+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 108,
+          "likes": 110,
+          "downloads": 138174
+        }
+      },
+      {
+        "id": "space:huuyfytryr/Jigarrzz",
+        "title": "[HF Space] huuyfytryr/Jigarrzz",
+        "url": "https://huggingface.co/spaces/huuyfytryr/Jigarrzz",
+        "description": "docker | docker, region:us",
+        "posted_at": "2026-06-15T15:46:23+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 26,
+          "likes": 122
+        }
+      },
+      {
+        "id": "model:Mia-AiLab/Qwable-3.6-27b",
+        "title": "[HF Model] Mia-AiLab/Qwable-3.6-27b",
+        "url": "https://huggingface.co/Mia-AiLab/Qwable-3.6-27b",
+        "description": "transformers | transformers, gguf, qwen, qwen3, qwen3.6",
+        "posted_at": "2026-06-15T14:32:38+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 105,
+          "likes": 109,
+          "downloads": 17311
+        }
+      },
+      {
+        "id": "space:build-small-hackathon/OpenMythos",
+        "title": "[HF Space] build-small-hackathon/OpenMythos",
+        "url": "https://huggingface.co/spaces/build-small-hackathon/OpenMythos",
+        "description": "gradio | gradio, build-small-hackathon, backyard-ai, track:backyard, sponsor:modal",
+        "posted_at": "2026-06-15T10:07:47+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 31,
+          "likes": 32
+        }
+      },
+      {
+        "id": "model:lordx64/Qwable-v1",
+        "title": "[HF Model] lordx64/Qwable-v1",
+        "url": "https://huggingface.co/lordx64/Qwable-v1",
+        "description": "text-generation | transformers | transformers, safetensors, qwen3_5_moe, image-text-to-text, qwen",
+        "posted_at": "2026-06-14T22:42:57+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 131,
+          "likes": 135,
+          "downloads": 2769
+        }
+      },
+      {
+        "id": "model:microsoft/FastContext-1.0-4B-SFT",
+        "title": "[HF Model] microsoft/FastContext-1.0-4B-SFT",
+        "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT",
+        "description": "text-generation | transformers | transformers, safetensors, qwen3, text-generation, Explorer SubAgent",
+        "posted_at": "2026-06-14T14:39:57+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 232,
+          "likes": 236,
+          "downloads": 1998
+        }
+      },
+      {
+        "id": "space:build-small-hackathon/claim-ready",
+        "title": "[HF Space] build-small-hackathon/claim-ready",
+        "url": "https://huggingface.co/spaces/build-small-hackathon/claim-ready",
+        "description": "gradio | gradio, build-small-hackathon, document-ai, vision-language, multilingual",
+        "posted_at": "2026-06-13T15:00:15+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 25,
+          "likes": 70
+        }
+      }
+    ],
+    "reddit:LocalLLaMA": [
+      {
+        "id": "t3_1uawkdg",
+        "title": "Research Project: Injecting Natural-Language Tactical Intent into Multi-Agent Football Policies",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uawkdg/research_project_injecting_naturallanguage/",
+        "description": "Human Intent as a Control Interface for Multi-Agent Systems I've been exploring a project called Football Tactical AI . The idea is simple: Instead of directly controlling players, a human acts as a coach and gives tactical instructions in natural language. For example: \"Press aggressively.\" \"Exploit the left side.\" \"Protect the lead.\" \"Attack the space behind their fullback.\" The AI players then adapt their behavior accordingly. The interesting challenge isn't language understanding itself. It'",
+        "posted_at": "2026-06-20T13:24:20+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uavhsb",
+        "title": "[GLM 5.2 UD IQ2_M] That's the best pelican svg image I have ever seen",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uavhsb/glm_52_ud_iq2_m_thats_the_best_pelican_svg_image/",
+        "description": "Computer Specs: rtx 5090 + rtx 3090 (x8 x8 bifurcated) Gigabyte AI TOP B850 Motherboard Ryzen 9950x3d 256gb DDR5 5600 (4x64gb) I didn't have high hopes because of the low quant but damn. This model is capable as hell just by looking at this image I can tell that. The tps is low on that system but I can imagine it doing way better on my upcoming 8(12)x3090 threadripper system. submitted by /u/BlackBeardAI [link] [comments]",
+        "posted_at": "2026-06-20T12:32:54+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uarvk4",
+        "title": "Best Settings for 48GB VRAM + Qwen 3.6 27B",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uarvk4/best_settings_for_48gb_vram_qwen_36_27b/",
+        "description": "Hey everyone, I've been running Qwen3.6 27B (Q8_0) across an RTX 4090 + RTX 3090 setup using llama.cpp with tensor split, and I wanted to share what's been working best for me so far. See if anyone has any better settings Hardware: RTX 4090 (24GB) + RTX 3090 (24GB), 48GB VRAM total OS Arch Linux (using igpu for display) Settings: Quant: Q8_0 Split mode: tensor Layers on GPU: -ngl 999 Context: 250k ( -c 250000 ) Speculative decoding: --spec-type draft-mtp --spec-draft-n-max 4 parallel requests: -",
+        "posted_at": "2026-06-20T09:07:22+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uar970",
+        "title": "Help with a Local Document RAG System (Storage + Ingestion + Query + Highlighting)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uar970/help_with_a_local_document_rag_system_storage/",
+        "description": "Hey folks, I’m working on designing a local, offline document retrieval + LLM pipeline and would love your input on the architecture. Here’s what I’m aiming for: Storage Upload PDF, DOCX, XLSX, CSV, tables All data stored locally (no cloud) Document Ingestion Watch folder (e.g., Watchdog) → auto‑ingest on file add/modify/delete Nested folder structure → auto‑tagging Supported formats: PDF, scanned PDF, DOCX, XLSX, CSV, JPG/PNG Version control on re‑upload Query & Retrieval Restrict queries to a ",
+        "posted_at": "2026-06-20T08:28:04+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uar6in",
+        "title": "7900XTX 24GB vram, can finally fit Q6K+MTP with Qwen 3.6 27B at 131k context",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uar6in/7900xtx_24gb_vram_can_finally_fit_q6kmtp_with/",
+        "description": "OS: CatchyOS Instructions: Connect monitor to iGPU directly so when you boot Linux your dGPU vram is 100% free since by default when you use your dGPU it consumes about 700mb~1.2gb of lost context space, yes you can still game normally using this approach. Setup kvcache at q5_0/q4_0 (make sure to compile with CUDA_ALL_QUANTS) Yes, Q5_0/Q4_0 is 1.6%~ less precise than Q8 by giving 12% less vram usage as proven here: (Qwen does an amazing job with kvcache). https://anbeeld.com/articles/kv-cache-qu",
+        "posted_at": "2026-06-20T08:23:22+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uar4e2",
+        "title": "GLM 5.2: 98% of max level intelligence with less than half of tokens usage",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uar4e2/glm_52_98_of_max_level_intelligence_with_less/",
+        "description": "According to this number of reasoning tokens from GLM 5.1 to GLM 5.2 more than doubled from 16.7k to 36.7k and for me as a local user with old junk Xeon setup this makes GLM 5.2 unusable to the extent where I had to shut down model after 12h of waiting it to respond to my math problem question. But then I saw this graph from z_ai technical report , which basically implies that you can use less than half of the tokens of max effort on high level and still get around 98% of max level intelligence ",
+        "posted_at": "2026-06-20T08:19:42+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uao1pk",
+        "title": "Some llama.cpp B70 SYCL benchmarks",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uao1pk/some_llamacpp_b70_sycl_benchmarks/",
+        "description": "build: dd4623a74 (9640) | model | size | params | backend | ngl | test | t/s | | ------------------------------ | ---------: | ---------: | ---------- | --: | --------------: | -------------------: | | gemma4 12B Q8_0 | 11.78 GiB | 11.91 B | SYCL | -1 | pp512 | 1578.19 ± 7.82 | | gemma4 12B Q8_0 | 11.78 GiB | 11.91 B | SYCL | -1 | tg128 | 32.43 ± 0.07 | | ------------------------------ | ---------: | ---------: | ---------- | --: | --------------: | -------------------: | | gemma4 26B.A4B Q8_0 |",
+        "posted_at": "2026-06-20T05:20:12+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uanol4",
+        "title": "AMD future GPU offerings. Some interesting offerings for a LLM build. What type of LLM rig would you build with these?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uanol4/amd_future_gpu_offerings_some_interesting/",
+        "description": "https://preview.redd.it/xrgj4u64dd8h1.png?width=1287&format=png&auto=webp&s=2a63e8ea1c6aadf7b61b5820a148a5413a2d7d74 From: https://www.youtube.com/watch?v=U8xBkDBVjPM&t=1459s submitted by /u/sooki10 [link] [comments]",
+        "posted_at": "2026-06-20T05:00:55+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uangma",
+        "title": "Local AI for local office files",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uangma/local_ai_for_local_office_files/",
+        "description": "Which AI agent do you think is the best for working with local files (Excel, PDF, Word, txt, json, etc.)? What have you used for this? What workflows have you implemented? submitted by /u/Holiday-Display509 [link] [comments]",
+        "posted_at": "2026-06-20T04:49:03+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uan0s7",
+        "title": "What is the best book for learning ML/Deep Learning maths?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uan0s7/what_is_the_best_book_for_learning_mldeep/",
+        "description": "I am 17 years old and have a particularly deep interest in ai architectures and llms. I regularly read new papers from arXiv and huggingface and tend to understand only half of it, mainly from intuition. However I understand its impossible to understand anything completely without knowing the maths behind it. I do follow channels like 3b1b, but are there any books that I should also read in order to actually understand (and possibly contribute) to the field upto my capability? submitted by /u/Ho",
+        "posted_at": "2026-06-20T04:25:16+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uam3iv",
+        "title": "Giving a local agent web access without paid search/scrape APIs: SearXNG + Scrapling",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uam3iv/giving_a_local_agent_web_access_without_paid/",
+        "description": "I wanted web access for a local-first agent without reaching for Tavily, Serper, Firecrawl, etc. For this agent path, I wanted no paid API keys, a search service I control, and page extraction I can run myself. What I ended up with is two tools: web_search and web_extract . Nothing fancy. Mostly just wiring together good open-source pieces. 1. Search -> SearXNG SearXNG is a self-hostable metasearch engine. I run it in Docker and point the agent at its JSON endpoint. The search call is roughly: t",
+        "posted_at": "2026-06-20T03:36:50+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ualh0e",
+        "title": "RTX 5090 MSI, only inference or training at 475-500W. Make sure to not bend you cable!",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ualh0e/rtx_5090_msi_only_inference_or_training_at/",
+        "description": "I run this MSI 5090 at 475-500W daily, for mostly diffusion training, or LLM inference. Just by chance I decided to check the cable today and found this. No issues, errors or anything, just all by chance. I never gamed on this card, got it entirely for AI and machine learning. Got some backups cables for things like these (not MSI yellow ones tho) and card keeps working fine, at least. Make sure the cable is not bent! submitted by /u/panchovix [link] [comments]",
+        "posted_at": "2026-06-20T03:03:58+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ualbn2",
+        "title": "[NEW MODEL] SupraLabs just released supra-title-FFT-preview, 115K samples, almost 10x our first chat title dataset",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ualbn2/new_model_supralabs_just_released/",
+        "description": "Hey r/LocalLLaMA ! Following up on Supra-Title-350M-exp (our first chat title generation model), we're releasing supra-title-FFT-preview , trained on a much larger and cleaner dataset. 🤗 supra-title-FFT-preview What changed Our first chat title model was trained on 12K samples ( chat-titles-12K ) and it showed: decent on common conversation patterns, weak on niche topics. This release is trained on 115K samples from a new filtered dataset, chat-titles-filtered-115K . Model Dataset size Supra-Tit",
+        "posted_at": "2026-06-20T02:56:51+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uairua",
+        "title": "I benchmarked Claude's \"Fast C++\". It wasn't faster",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uairua/i_benchmarked_claudes_fast_c_it_wasnt_faster/",
+        "description": "submitted by /u/User_Deprecated [link] [comments]",
+        "posted_at": "2026-06-20T00:49:14+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uah3oc",
+        "title": "$1800 (in GPU cost running with P2P running Qwen/Qwen3.6-27b-FP8 with 262K context and BF16 KV cache at 55 tok/s",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uah3oc/1800_in_gpu_cost_running_with_p2p_running/",
+        "description": "Hey peeps, wanted to share what is possible for folks with an inference only single user use case with 1700 in GPU cost. Setup: 4x 5060 ti (16GB) with P2P If you are in the US and you keep an eye on facebook marketplace and places like slickdeals you can find some 5060 ti 16 GB models for 425 to 475 used. A giant caveat is this type of configuration is only viable if your only interested in strictly inference. The VLLM Command Used: export VLLM_SLEEP_WHEN_IDLE=1 export VLLM_MEMORY_PROFILER_ESTIM",
+        "posted_at": "2026-06-19T23:30:10+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaebfe",
+        "title": "Best Local Agents - Jun 2026",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uaebfe/best_local_agents_jun_2026/",
+        "description": "A megathread that is overdue! Let's discuss and debate on what the best local agents available today are Prologue First a note on terminology: While most regular users are going to have a general sense of what these are, I think its worth a brief pause to preempt turbulence in the discussion. Agent : There is no standard/universally agreed upon term that I can find - and rightly so. Its hard to tell if this is a hypecycle buzzword or a new primitive. I think its important to first relate to stuf",
+        "posted_at": "2026-06-19T21:29:33+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uabrzn",
+        "title": "How do I set the right llama.cpp parameters?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uabrzn/how_do_i_set_the_right_llamacpp_parameters/",
+        "description": "--n-gpu-layers all --ctx-size 0 --reasoning-budget 0 --presence-penalty 1.1 --repeat-penalty 1.1 How do I figure out the optimal llama.cpp parameters for my setup? llama.cpp + Open WebUI in Docker with an AMD GPU (16GB VRAM) running gemma 4 12b and 26b models. Is it all about trial and error? Are there more materials I can study to learn beyond the llama.cpp docs ? Google provides recommended settings for temp (1.0), top-p (0.95), and top-k (64). Asking my LLM gives inconsistent results, so I'm ",
+        "posted_at": "2026-06-19T19:46:30+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua9qbw",
+        "title": "Maximizing performance of 2x3090 + NVLink",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua9qbw/maximizing_performance_of_2x3090_nvlink/",
+        "description": "Hey all, I have built myself a decent rig with the following specs: - Ubuntu 24.04 - 2x3090 founder’s with NVLink - Ryzen 7950x3d - 64GB DDR5 I am currently routing my display through an eGPU to maximize available VRAM. My current go-to is Qwen 3.6 27B Q8_0 with MTP and ik_llama’s graph split + ngl 99. It works very well with pi and I get very good output, but I can only manage to get ~60 Tok/s at the absolute maximum in very short bursts, and it lives around 40-45TPS on average. I imagine that ",
+        "posted_at": "2026-06-19T18:26:15+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua6xfw",
+        "title": "How do you guys setup search with your AI models?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua6xfw/how_do_you_guys_setup_search_with_your_ai_models/",
+        "description": "Been selfhosting my models for a while and I'd really like to integrate Gemma 4 12B as a simple voice assistant with search capabilities. I've tried using openwebui but the search is kind of broken with DDG and I really don't want to use API keys from Brave or Google etc. So what do you actually use? How do you set it up and wire it to your model? I'm currently using llamacpp container with docker compose on fedora Linux. submitted by /u/ego100trique [link] [comments]",
+        "posted_at": "2026-06-19T16:40:40+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua6euu",
+        "title": "GLM-5.2-REAP50-GGUF",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua6euu/glm52reap50gguf/",
+        "description": "Has anybody tried these? How do they compare to Qwen 3.6 27b? Model Size Link GLM-5.2-REAP50-Q3_K_M-GGUF 182 GB https://huggingface.co/pipenetwork/GLM-5.2-REAP50-Q3_K_M-GGUF GLM-5.2-REAP50-Q2_K-GGUF 139 GB https://huggingface.co/pipenetwork/GLM-5.2-REAP50-Q2_K-GGUF submitted by /u/whiteh4cker [link] [comments]",
+        "posted_at": "2026-06-19T16:21:08+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua5otx",
+        "title": "Commission selects EUROPA consortium as the winner of the Frontier AI Grande Challenge, a project to build European open-source frontier AI model in all 24 EU languages",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua5otx/commission_selects_europa_consortium_as_the/",
+        "description": "The European Commission has selected EUROPA, a European consortium led by the Italian company Domyn, as the winner of its Frontier AI Grand Challenge. Commission selects EUROPA consortium as the winner of the Frontier AI Grande Challenge, a project to build European open-source frontier AI model in all 24 EU languages The project will develop an open-source artificial intelligence (AI) model covering all 24 official EU languages. The Commission chose EUROPA to help strengthen Europe's capacity t",
+        "posted_at": "2026-06-19T15:53:48+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua5b16",
+        "title": "The economics of AI are starting to favor open models",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua5b16/the_economics_of_ai_are_starting_to_favor_open/",
+        "description": "For the last couple of years, the assumption was pretty simple: Want the smartest model? Pay for a closed API. Want something cheaper? Accept a capability hit. Looking at recent model releases, that tradeoff is starting to break down. The most interesting part of the chart isn't the models at the very top. It's the upper-left quadrant. High intelligence. Low cost. And it's increasingly dominated by open-weight models. DeepSeek. Qwen. GLM. Kimi. MiniMax. Most real-world workloads don't need the a",
+        "posted_at": "2026-06-19T15:38:43+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua53c5",
+        "title": "LQ50-24 English translate",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua53c5/lq5024_english_translate/",
+        "description": "here the full English using google translate for you guy submitted by /u/MundanePercentage674 [link] [comments]",
+        "posted_at": "2026-06-19T15:30:25+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua2w5t",
+        "title": "Best Harness for Web Searching",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua2w5t/best_harness_for_web_searching/",
+        "description": "Looking for opinions on the best software to do web searching resources. What I've tried: LM Studio + plugins Odysseus I think the problem they're both running into is the search engines they're using max out at like, 10 requests per day/hour or something without an api. I don't mind creating like, a duckduckgo account just to generate an api for better search access. But if the frontend doesn't even bother to provide a prompt asking for such, then it's a half-baked solution. Does Hermes or Pi (",
+        "posted_at": "2026-06-19T14:03:51+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua2oeb",
+        "title": "Benchmarking or benchmarketing?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua2oeb/benchmarking_or_benchmarketing/",
+        "description": "Maybe I’m getting cynical, but LLM benchmarking is starting to feel less like measurement and more like marketing and positioning. Every week there’s a new leaderboard score, new chart, new eval suite, or some claim that a model is suddenly the best. It feels like benchmarks have become part of the launch narrative and we've become hyper-tuned to them as framing not for “here’s how this model performs,” but “here’s the scoreboard that makes this release look inevitable.” I’m not saying benchmark",
+        "posted_at": "2026-06-19T13:55:15+00:00",
+        "language": null,
+        "metrics": {}
+      }
+    ],
+    "reddit:MachineLearning": [
+      {
+        "id": "t3_1uavduv",
+        "title": "An open handbook on LLM inference at scale (GPU internals, KV cache, batching, vLLM/SGLang/TensorRT-LLM) [P]",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1uavduv/an_open_handbook_on_llm_inference_at_scale_gpu/",
+        "description": "I've been working through the internals of LLM inference and writing up what I learn as an open, in-progress handbook. Just wrapped another chapter on GPU execution and memory internals: why a GPU sits mostly idle during inference, how the memory hierarchy gates throughput, and where the real bottlenecks live. Added mermaid diagrams for the architecture pieces so the flow is easier to follow than a wall of text. It's a personal learning project, still growing chapter by chapter. I'd value feedba",
+        "posted_at": "2026-06-20T12:27:22+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uatlzx",
+        "title": "DVD-JEPA: an open-source, fully-reproducible JEPA world model [P]",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1uatlzx/dvdjepa_an_opensource_fullyreproducible_jepa/",
+        "description": "A paper currently trending on paperswithcode.co in the \"Anomaly Detection\" category is DVD-JEPA . https://i.redd.it/r6fd8n3d4f8h1.gif Here is the short summary: Most attempts to learn a world model from video try to predict the next frame pixel-by-pixel, and drown in detail that is fundamentally unpredictable. JEPA (Joint-Embedding Predictive Architecture, LeCun 2022 ) makes a different bet: predict the representation of the future, not the pixels, and let the encoder discard whatever it cannot ",
+        "posted_at": "2026-06-20T10:52:35+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uark0u",
+        "title": "Time Series Modeling Needs a Dynamical Systems Perspective [R]",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1uark0u/time_series_modeling_needs_a_dynamical_systems/",
+        "description": "In our #ICML2026 position paper we argue a dynamical systems perspective is needed to drive time series (TS) modeling forward: https://arxiv.org/abs/2602.16864 Essentially all time series in nature and engineering come from some underlying dynamical system (DS), mostly chaotic for complex systems, and acknowledging this helps to address many open problems. Dynamical systems reconstruction (DSR) goes beyond mere forecasting and gives us an understanding of the dynamical rules that underlie observ",
+        "posted_at": "2026-06-20T08:47:24+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uar4vc",
+        "title": "Built a Global AQ (PM2.5) Forecaster ML Model [P]",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1uar4vc/built_a_global_aq_pm25_forecaster_ml_model_p/",
+        "description": "Hey everyone, I’ve been building an end-to-end Air Quality (PM2.5) forecasting pipeline for 4 countries (US, UK, India, Australia) using 1.6M+ rows of OpenAQ and NASA weather data. The problem i hit (the variance trap): My V7 model was a standard stateless Gradient Boosting Regressor. It worked great for low-variance regions (like the US), but in highly chaotic environments (like India and the UK), the model was mathematically failing. When I calculated the MASE (Mean Absolute Scaled Error), it ",
+        "posted_at": "2026-06-20T08:20:30+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaoomx",
+        "title": "how to access books3 dataset for research purposes? [R]",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1uaoomx/how_to_access_books3_dataset_for_research/",
+        "description": "as per the title, how to access books3 dataset for research purposes? submitted by /u/xolmnyc [link] [comments]",
+        "posted_at": "2026-06-20T05:55:16+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua5xfg",
+        "title": "Dealing with a messy prescriptive monolith. How do you survive this? [D]",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1ua5xfg/dealing_with_a_messy_prescriptive_monolith_how_do/",
+        "description": "Months ago, I got my first maintenance project. Before this, I had only built new solutions from scratch and maintained my own code. But maintaining someone else's system feels completely different. ​ ​It’s a prescriptive recommendation system that uses XGBoost models and Differential Evolution for optimization. The problem is that everything is in a single repository: raw data ingestion, transformations, model training, reporting, the optimization engine, post-processing, and MUCH more. The onl",
+        "posted_at": "2026-06-19T16:02:29+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua2o00",
+        "title": "Best library for releasing my research optimization algorithm? [D]",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1ua2o00/best_library_for_releasing_my_research/",
+        "description": "Hi All! I have developed a research optimizer (QQN Quadratic Quasi-Newton) and published a paper on it where I am able to, but I would really like to make the algorithm itself easily available to the community for evaluation. I have a Rust, Java, and Javascript implementations, but these are built with my own learning frameworks around them (or Tensorflow.js for the last), so I need to port it to something with wider usage. Tensorflow.js seems to lack a central place for optimization algorithms,",
+        "posted_at": "2026-06-19T13:54:48+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua2hwj",
+        "title": "How does torch.compile() achieve massive speedups despite highly optimized NumPy functions? [D]",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1ua2hwj/how_does_torchcompile_achieve_massive_speedups/",
+        "description": "I was pondering on this question and decided to dive deep into torch.compile. It was a lot of fun learning about operator fusion as the central idea behind torch.compile. So I created a tiny version of torch.compile in 500 lines of python and a notebook showing how this works: https://github.com/purohit10saurabh/tinytorchcompile Let me know if you find this interesting! 🙂 submitted by /u/Other-Eye-8152 [link] [comments]",
+        "posted_at": "2026-06-19T13:47:49+00:00",
+        "language": null,
+        "metrics": {}
+      }
+    ]
+  },
+  "yt_competitor_videos": [],
+  "yt_underperformer_videos": []
+}
