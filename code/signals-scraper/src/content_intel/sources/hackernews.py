@@ -15,7 +15,7 @@ from content_intel.sources.base import RawSignal, SourceAdapter
 
 logger = logging.getLogger(__name__)
 
-_ALGOLIA_URL = "https://hn.algolia.com/api/v1/search"
+_ALGOLIA_URL = "https://hn.algolia.com/api/v1/search_by_date"
 
 
 def _load_keywords() -> list[str]:
