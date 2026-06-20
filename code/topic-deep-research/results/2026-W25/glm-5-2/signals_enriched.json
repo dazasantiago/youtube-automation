@@ -1,0 +1,222 @@
+[
+  {
+    "original": {
+      "source": "hn",
+      "source_id": "48567759",
+      "title": "GLM-5.2 is the new leading open weights model on Artificial Analysis",
+      "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
+      "description": null,
+      "posted_at": "2026-06-17T09:12:00Z",
+      "language": null,
+      "metrics": {
+        "points": 883,
+        "num_comments": 438
+      },
+      "signal_type": "signal",
+      "roles": [
+        "signal"
+      ]
+    },
+    "full_text": "June 17, 2026\nGLM-5.2 is the new leading open weights model on the Artificial Analysis Intelligence Index\nZ ai’s GLM-5.2 is the new leading open weights model on the Artificial Analysis Intelligence Index scoring 51 and it sits on the Pareto frontier of Intelligence vs Cost per Task\nGLM-5.2 is the same size as GLM-5.1 (744B total / 40B active parameters) but scores 11 points higher on the Intelligence Index v4.1, placing ahead of MiniMax-M3 (44) and DeepSeek V4 Pro (max, 44). On the first-party API it is priced in line with GLM-5.1 at $1.4/$4.4/$0.26 per 1M input/output/cache hit tokens\nKey results:\n➤ GLM-5.2 is the leading open weights model on the Intelligence Index v4.1. At 51, it leads MiniMax-M3 (44), DeepSeek V4 Pro (max, 44) and Kimi K2.6 (43)\n➤ Improvements across most evaluations, particularly scientific reasoning: GLM-5.2 gains over GLM-5.1 on most evaluations, led by scientific reasoning on CritPt (+16 points to 21%) and HLE (+12 points to 40%), alongside AA-LCR (+9 points to 71%), tau3 banking (+15 points to 27%) and SciCode (+7 points to 50%). TerminalBench v2.1 also improves (+16 points to 78%) and GPQA Diamond gains 3 points to 89%\n➤ Leading open weights model on GDPval-AA v2 and competitive with proprietary models: GLM-5.2 scores 1524 on GDPval-AA v2, ahead of MiniMax-M3 (1418) and DeepSeek V4 Pro (max, 1328). This impressive result places GLM-5.2 in-line with proprietary models including GPT-5.5 (xhigh reasoning). GDPval-AA v2 builds on the original GDPval-AA by baselining Elo to human performance at 1000, introducing a rotating panel of frontier-model judges, and raising the turn limit from 100 to 250 for longer-horizon agent trajectories\n➤ GLM-5.2 uses more output tokens per task than other leading open weights models: the model uses 43k output tokens per Intelligence Index task, up from GLM-5.1 (26k) and above MiniMax-M3 (24k), Kimi K2.6 (35k) and DeepSeek V4 Pro (max, 37k)\n➤ On the Intelligence vs. Cost per Task Pareto Frontier: GLM-5.2 is on the Pareto frontier of the Intelligence vs Cost per Task chart, with the lowest cost per task among models at its intelligence level. GLM-5.2 costs ~$0.46 per task, compared to GLM-5.1 ($0.25), Kimi K2.6 ($0.31), MiniMax-M3 ($0.18) and DeepSeek V4 Pro (max, $0.05)\nAdditional Model Details:\n➤ License: MIT\n➤ Size: 744B total parameters, 40B active parameters, equivalent to GLM-5.1\n➤ Context window: 1M tokens, up from 200K on GLM-5.1\n➤ Pricing: $1.4/$0.26/$4.4 per 1M input/cache hit/output tokens\n➤ Availability: Alongside Z ai's first-party API, GLM-5.2 is available across third-party providers including DeepInfra, Novita, Nebius, Parasail, Siliconflow, GMI Cloud, Baseten, and Fireworks\nGLM-5.2 leads all open weights models on GDPval-AA v2, our primary metric for real-world agentic performance. At 1524 it places ahead of MiniMax-M3 (1418) and DeepSeek V4 Pro (max, 1328), and is effectively level with GPT-5.5 (xhigh, 1514). We visually inspected GLM-5.2's outputs across a range of GDPval-AA tasks. We have attached a selection below.\nGLM-5.2 scores 4 on the AA-Omniscience Index, up from GLM-5.1 (2). The gain comes from both higher accuracy (25.1% vs 24.2%) and a lower hallucination rate (28.1% vs 29.4%), with attempt rate flat at 47%.\nGLM-5.2 uses 43k output tokens per Intelligence Index task, of which 37k is reasoning. This is up from GLM-5.1 (26k) and higher than open weights peers MiniMax-M3 (24k) and Kimi K2.6 (35k), placing it among the less token-efficient open weights models at its intelligence level. GLM-5.2 sits off the most attractive quadrant on the Intelligence vs Output Tokens chart.\nBreakdown of the individual evaluations in the Artificial Analysis Intelligence Index v4.1.\nCompare GLM-5.2 with other leading models at: https://artificialanalysis.ai/models/glm-5-2\nRead the latest\nArtificial Analysis Intelligence Index v4.1: a shift toward agentic workloads\nAnnouncing Artificial Analysis Intelligence Index v4.1: a shift toward agentic workloads, featuring upgraded benchmarks and new per-task metrics\nJune 16, 2026\nClaude Fable 5 Launches at #1 on the Artificial Analysis Intelligence Index\nAnthropic is nearly 5 points ahead of any other lab’s best model\nJune 10, 2026\nClaude Fable 5: the first public Mythos-class model\nAnthropic has released Claude Fable 5, the first publicly available Mythos-class model that ranks #1 in our agentic real-world knowledge work benchmark GDPval-AA\nJune 9, 2026",
+    "metadata": {
+      "author": null,
+      "sitename": "Artificial Analysis",
+      "date": "2026-06-17"
+    },
+    "scraped_at": "2026-06-19T14:56:28.568315+00:00",
+    "fetch_status": "ok",
+    "fetch_error": null
+  },
+  {
+    "original": {
+      "source": "hn",
+      "source_id": "48518684",
+      "title": "GLM 5.2 Is Out",
+      "url": "https://twitter.com/jietang/status/2065784751345287314",
+      "description": null,
+      "posted_at": "2026-06-13T16:18:31Z",
+      "language": null,
+      "metrics": {
+        "points": 768,
+        "num_comments": 499
+      },
+      "signal_type": "signal",
+      "roles": [
+        "signal"
+      ]
+    },
+    "full_text": "GLM-5.2 is Fully Open, Frontier Intelligence Belongs to Everyone\nToday, the sudden restriction of certain frontier models is deeply regrettable. At a time when access to frontier models is abruptly cut off for non-technical reasons, we are even more convinced of one thing: science should be global.\nThe path to AGI (Artificial General Intelligence) must never be enclosed by high walls. We have always believed that AGI should be the cornerstone for all of humanity to collaboratively explore the boundaries of intelligence and solve complex challenges, rather than a privilege monopolized by a few rules and subject to revocation at any moment. In the face of external blockades and restrictions, our attitude is one of radical openness. Frontier intelligence must remain open-source, accessible, and buildable, serving every dedicated developer.\nGLM-5.2 is Zhipu's most capable open-source model to date. It not only supports a truly usable 1M context window but also maintains a continuous lead in the independent completion of long-horizon tasks, providing solid foundational support for building complex agent applications. It also continues to be our main engine for creating the strongest domestic coding model.\nTonight at 5:21—at this special moment—GLM-5.2 will officially be available to all GLM Coding Plan users (including Lite / Pro / Max). The API will also go live next week.\nA step closer to frontier intelligence for everyone.\nThe future of AI is open, and it is for the people.\nModelKey: GLM-5.2",
+    "metadata": {
+      "author": "Jietang",
+      "sitename": "X (formerly Twitter)",
+      "date": "2026-06-13"
+    },
+    "scraped_at": "2026-06-19T14:56:29.338620+00:00",
+    "fetch_status": "ok",
+    "fetch_error": null
+  },
+  {
+    "original": {
+      "source": "hn",
+      "source_id": "48567004",
+      "title": "GLM 5.2 Performance Benchmarks",
+      "url": "https://artificialanalysis.ai/models/glm-5-2",
+      "description": null,
+      "posted_at": "2026-06-17T07:30:51Z",
+      "language": null,
+      "metrics": {
+        "points": 157,
+        "num_comments": 48
+      },
+      "signal_type": "signal",
+      "roles": [
+        "signal"
+      ]
+    },
+    "full_text": null,
+    "metadata": {},
+    "scraped_at": "2026-06-19T14:56:31.117146+00:00",
+    "fetch_status": "skipped",
+    "fetch_error": "trafilatura fetch returned None"
+  },
+  {
+    "original": {
+      "source": "hn",
+      "source_id": "48594012",
+      "title": "GLM-5.2: The Most Powerful Open Model yet and the Brutal Reality of Running It",
+      "url": "https://vettedconsumer.com/glm-5-2-the-most-powerful-open-weight-model-yet-and-the-brutal-reality-of-running-it-locally/",
+      "description": null,
+      "posted_at": "2026-06-19T01:58:00Z",
+      "language": null,
+      "metrics": {
+        "points": 41,
+        "num_comments": 26
+      },
+      "signal_type": "signal",
+      "roles": [
+        "signal"
+      ]
+    },
+    "full_text": "Every few weeks the \"best open model\" crown changes hands. This week it's GLM-5.2, from the Chinese lab Z.ai, and unusually, the claim has teeth: it sits at #1 on the independent Artificial Analysis Intelligence Index. It's also MIT-licensed, has a million-token context, and ships with a genuinely clever architecture trick. So should you download it? That's where this gets interesting, because the full weights are 1.51 TB, and \"run it locally\" means something very specific here. We haven't run it ourselves; what follows synthesizes Z.ai's own docs, independent benchmarks, owner reports, and the hardware math.\nWhat it is, and what Z.ai claims\nGLM-5.2 is a Mixture-of-Experts model: 753 billion total parameters, ~40 billion active per token (only a fraction of the network fires for any given token, the reason a model this large can run at all; see our MoE explainer). Per Z.ai's release, it's text-only, carries a 1-million-token context window (up from GLM-5.1's 200K), and ships under a permissive MIT license with weights on Hugging Face at zai-org/GLM-5.2. The open weights went public on June 16, 2026, days after a coding-plan-only soft launch.\nThe headline number is real and independently sourced: as Simon Willison documented, GLM-5.2 tops the Artificial Analysis Intelligence Index v4.1 at 51, ahead of MiniMax-M3, DeepSeek V4 Pro (both 44) and Kimi K2.6 (43), making it the strongest open-weight model on that leaderboard. Z.ai pitches it at agentic coding; VentureBeat reported Z.ai's claim that it beats GPT-5.5 on several long-horizon coding benchmarks at a fraction of the cost. Treat that last one as a vendor claim, on the head-to-head Code Arena WebDev board it lands #2, behind Claude Fable 5. Strong, not untouchable.\nThe one genuinely new idea: IndexShare\nMost \"point releases\" are just more training. GLM-5.2's standout is architectural. Per Z.ai's technical blog (and summarized in latent.space's writeup), IndexShare reuses a single lightweight \"indexer\" across every four sparse-attention layers, the indexer runs once and its top-k token selections are reused for the next three layers. The payoff: a claimed 2.9× reduction in per-token compute (FLOPs) at the full 1M-token context, with the model trained this way from mid-training rather than bolted on after. A related tweak to the speculative-decoding (MTP) layer is claimed to raise acceptance length by up to 20%. In plain terms: this is co-design aimed squarely at making a million-token context affordable to serve, the kind of efficiency work that actually matters for long-horizon coding agents, not a benchmark-chasing gimmick.\nWhat owners and reviewers actually find\nThe independent reception is warm but not uncritical. Simon Willison's vibe-tests cut both ways: his \"pelican on a bicycle\" SVG was \"a very nice vector illustration… very impressive,\" while the same model's opossum was \"such a step down from GLM-5.1!\", a useful reminder that a #1 index score doesn't mean every output lands. On Hacker News, the dominant note was gratitude to Chinese labs \"for being open with their work,\" a recurring theme as proprietary releases tighten up.\nFor a hands-on read, AI-hardware reviewer Bijan Bowen put GLM-5.2 through a 33-minute coding session. His \"browser-OS\" and game builds were a highlight, a GTA-style \"Gangster City\" clone he called \"arguably one of the most properly city-scaled results I've seen,\" complete with working police-chase logic and a slick WebGL effect that lifts every window into a 3D starfield. The catch he kept hitting: it's token-hungry and slow to finish, one build ran ~15 minutes, and GLM-5.2 burns roughly 43k output tokens per task (vs GLM-5.1's 26k), which matters whether you're paying per-token or waiting on local hardware.\nOne more thing the community flagged: using Z.ai's hosted API raises data-residency questions for some users. That's actually an argument for the open weights, running them on your own hardware is the privacy-clean way to use this model. Which brings us to the only question that matters for a local-AI site.\nCan you actually run it? The honest hardware reality\nThis is where the romance meets the spec sheet. The full BF16 weights are 1.51 TB. Even heavily quantized, GLM-5.2 is not a \"download and go\" model for normal rigs:\nSo the practical local options are narrow, per Unsloth's GGUF notes:\n- If you want it local + private: a Mac Studio M3 Ultra with 256–512 GB of unified memory will hold the 2-bit dynamic quant and generate at roughly 3–9 tokens/sec, usable for async agent runs, painful for chat. It's the only single-box consumer machine that runs GLM-5.2 at all. Note even a 128GB Strix Halo box or a 24GB GPU is simply out, the weights don't fit at any usable quant.\n- For everyone else, renting is the honest answer. A model this size is the textbook case for cloud GPUs, rent the VRAM you need by the hour, or just hit the API. You give up the privacy edge, but you skip a five-figure machine to run a model you might only use occasionally.\nRun the cost math before you commit. GLM-5.2's appetite cuts both ways: at roughly $4.40 per million output tokens and ~43k tokens per coding task, a heavy agent session is real money on the API; a 256GB+ Mac Studio M3 Ultra is a ~$9,500 outlay up front (a lot of API calls); and cloud rental sits in between at a few dollars an hour. Our buy-vs-rent-vs-API cost calculator will tell you where the break-even lands for your actual usage.\nNot sure where your hardware lands? Run the numbers in our Can I run it? calculator, and use the quant picker to choose a GGUF that fits.\nThe bottom line\nGLM-5.2 is a landmark: the most capable open-weight model yet by at least one credible measure, MIT-licensed, with a real efficiency innovation behind its million-token context. But \"open\" isn't the same as \"runnable.\" Unless you own a 256GB+ Mac Studio, and can live with single-digit tokens per second at a 2-bit quant, this is a model you'll most sensibly rent or hit via API, not host at home. If you are shopping hardware to run frontier open models locally, the unified-memory Mac Studio is the realistic on-ramp, and it's the one machine here that clears the bar.\nWho it's actually for: GLM-5.2 is built for agentic coding and long-horizon, long-context work, multi-file refactors, big-document reasoning, 8-hour autonomous runs. If that's your wheelhouse and you value privacy or independence from a hosted API, it's a serious tool worth the trouble. If you mostly want a fast local chat or coding assistant, you'll be far happier with a 30B-class model on a 24 GB card, quicker, cheaper, and genuinely good enough. Picking the biggest model on the leaderboard is rarely the right call for local use; picking the biggest one you can actually run well almost always is.\nSources & how we researched this\nWe have not run GLM-5.2 first-hand. This synthesizes Z.ai's model card and technical blog (specs, license, IndexShare); Simon Willison's independent write-up and the Artificial Analysis ranking; VentureBeat's reporting on the coding claims; latent.space on IndexShare; Unsloth's GGUF quant sizes; and Bijan Bowen's hands-on coding tests. Benchmark and parameter figures are the creators'/sources' claims; treat single-run results as directional.",
+    "metadata": {
+      "author": "Thomas Newkirk",
+      "sitename": "Vetted Consumer",
+      "date": "2026-06-18"
+    },
+    "scraped_at": "2026-06-19T14:56:31.280193+00:00",
+    "fetch_status": "ok",
+    "fetch_error": null
+  },
+  {
+    "original": {
+      "source": "hn",
+      "source_id": "48562094",
+      "title": "GLM-5.2: Frontier Intelligence, Open Weights",
+      "url": "https://twitter.com/Zai_org/status/2066938937344495629",
+      "description": null,
+      "posted_at": "2026-06-16T21:07:04Z",
+      "language": null,
+      "metrics": {
+        "points": 34,
+        "num_comments": 19
+      },
+      "signal_type": "signal",
+      "roles": [
+        "signal"
+      ]
+    },
+    "full_text": "Introducing GLM-5.2: Frontier Intelligence, Open Weights\n- Significant improvements in coding and agentic tasks\n- Strong long-horizon capabilities with a 1M context window\n- Two levels of reasoning effort: GLM-5.2 (max) pushes the limits, while GLM-5.2 (high) strikes a strong balance between performance and token efficiency\n- MIT-licensed open weights\n- Same API pricing as GLM-5.1\nTech Blog: z.ai/blog/glm-5.2\nWeights: huggingface.co/zai-org/GLM-5.2\nAPI: docs.z.ai/guides/llm/glm…\nCoding Plan: z.ai/subscribe\nChat: chat.z.ai",
+    "metadata": {
+      "author": "Z ai",
+      "sitename": "X (formerly Twitter)",
+      "date": "2026-06-16"
+    },
+    "scraped_at": "2026-06-19T14:56:32.350181+00:00",
+    "fetch_status": "ok",
+    "fetch_error": null
+  },
+  {
+    "original": {
+      "source": "hn",
+      "source_id": "48558960",
+      "title": "GLM-5.2: Built for Long-Horizon Tasks",
+      "url": "https://z.ai/blog/glm-5.2",
+      "description": null,
+      "posted_at": "2026-06-16T17:41:07Z",
+      "language": null,
+      "metrics": {
+        "points": 30,
+        "num_comments": 2
+      },
+      "signal_type": "signal",
+      "roles": [
+        "signal"
+      ]
+    },
+    "full_text": "",
+    "metadata": {
+      "author": null,
+      "sitename": null,
+      "date": null
+    },
+    "scraped_at": "2026-06-19T14:56:32.967262+00:00",
+    "fetch_status": "ok",
+    "fetch_error": null
+  },
+  {
+    "original": {
+      "source": "hn",
+      "source_id": "48515912",
+      "title": "GLM 5.2 Released",
+      "url": "https://twitter.com/Zai_org/status/2065704919299235870",
+      "description": null,
+      "posted_at": "2026-06-13T10:57:23Z",
+      "language": null,
+      "metrics": {
+        "points": 28,
+        "num_comments": 2
+      },
+      "signal_type": "signal",
+      "roles": [
+        "signal"
+      ]
+    },
+    "full_text": "Intelligence should be open, accessible, and ready to build with, empowering every developer, everywhere.\nGLM-5.2 is now available to all GLM Coding Plan users, including Lite, Pro, Max, and Team plans.\ndocs.z.ai/devpack/latest…\nAs our new flagship model, GLM-5.2 delivers powerful coding capabilities, usable 1M-context support, and continued strengths in long-horizon tasks.\nAPI and Chatbot services will launch next week. The model will also be officially open-sourced next week under the MIT License.\nThe future of AI is open, and it belongs to the people.",
+    "metadata": {
+      "author": "Z ai",
+      "sitename": "X (formerly Twitter)",
+      "date": "2026-06-13"
+    },
+    "scraped_at": "2026-06-19T14:56:35.979897+00:00",
+    "fetch_status": "ok",
+    "fetch_error": null
+  },
+  {
+    "original": {
+      "source": "hn",
+      "source_id": "48587383",
+      "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
+      "url": "https://simonwillison.net/2026/Jun/17/glm-52/",
+      "description": null,
+      "posted_at": "2026-06-18T15:58:09Z",
+      "language": null,
+      "metrics": {
+        "points": 26,
+        "num_comments": 4
+      },
+      "signal_type": "signal",
+      "roles": [
+        "signal"
+      ]
+    },
+    "full_text": "GLM-5.2 is probably the most powerful text-only open weights LLM\n17th June 2026\nChinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases, this is 753B parameter, 1.51TB monster—with 40 active parameters (Mixture of Experts). GLM-5.2 is a text input only model—Z.ai have a separate vision family most recently represented by GLM-5V-Turbo, but that one isn’t open weights. GLM-5.2 has a 1 million token context window, up from GLM-5.1’s 200,000.\nThe buzz around this model is strong.\nArtificial Analysis, who run one of the most widely respected independent benchmarks: GLM-5.2 is the new leading open weights model on the Artificial Analysis Intelligence Index.\nGLM-5.2 is the leading open weights model on the Intelligence Index v4.1. At 51, it leads MiniMax-M3 (44), DeepSeek V4 Pro (max, 44) and Kimi K2.6 (43)\nThey did however find it to be quite token-hungry:\nGLM-5.2 uses more output tokens per task than other leading open weights models: the model uses 43k output tokens per Intelligence Index task, up from GLM-5.1 (26k) and above MiniMax-M3 (24k), Kimi K2.6 (35k) and DeepSeek V4 Pro (max, 37k)\nThe model is also now ranked 2nd on the Code Arena WebDev leaderboard, behind only Claude Fable 5. That leaderboard measures “front-end web development tasks, including agentic coding workflows”. I’m impressed to see it rank so highly given the lack of image input, which I had incorrectly assumed was a key part of building a truly great frontend coding model.\nI’ve been trying it out via OpenRouter, which has it from 9 different providers, almost all of which are charging $1.40/million for input and $4.40/million for output. For comparison, GPT-5.5 is $5/$30 and Claude Opus 4.5-4.8 is $5/$25.\nExcellent pelican, disappointing opossum\nGLM-5.1 gave me one of my favorite pelicans and my all time favorite opossum (for the prompt “Generate an SVG of a NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER”.) Interestingly, in both of those cases the model chose to return SVG wrapped in an HTML document that added additional animations using CSS.\nLet’s try GLM-5.2. For “Generate an SVG of a pelican riding a bicycle” I got this:\nIt’s a self-contained fully animated SVG, and the animations aren’t broken! Often I’ll see eyes falling off or wheels rotating independently of the bicycle but here everything works great. It’s a very nice vector illustration of a pelican too. Very impressive.\nSadly, the NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER did not come out nearly as well:\nThis is such a step down from GLM-5.1! As a reminder, that possum looked like this:\n5.2 didn’t even try to animate it.\nMore recent articles\n- Datasette Apps: Host custom HTML applications inside Datasette - 18th June 2026\n- Publishing WASM wheels to PyPI for use with Pyodide - 13th June 2026",
+    "metadata": {
+      "author": "Simon Willison",
+      "sitename": "Simon Willison’s Weblog",
+      "date": "2026-06-17"
+    },
+    "scraped_at": "2026-06-19T14:56:36.430385+00:00",
+    "fetch_status": "ok",
+    "fetch_error": null
+  }
+]

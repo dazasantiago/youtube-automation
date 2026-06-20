@@ -19,7 +19,7 @@ downstream stage.
    string.
 4. **Every enrichment is isolated.** A single failed fetch must never abort the pipeline
    (try/except per unit, returns `fetch_status: "error"` or `"skipped"`).
-5. **`results/` is gitignored.** Do not commit output files.
+5. **`results/` is versioned.** Output files per topic/week are committed; `data/*.json` inputs stay gitignored.
 
 ---
 
@@ -176,6 +176,10 @@ chars with hyphens (`"MCP Servers"` → `"mcp-servers"`).
 }
 ```
 `published_date` can be `null`.
+
+See [`data/example.output.json`](data/example.output.json) for a full example. A real run writes the
+two arrays as **separate files** (`signals_enriched.json` and `discovered_sources.json`); the example
+combines them in one documented object under `signals_enriched` / `discovered_sources` keys.
 
 ---
 

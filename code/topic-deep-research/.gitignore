@@ -1,5 +1,4 @@
 .env
-results/
 data/*.json
 __pycache__/
 *.pyc
