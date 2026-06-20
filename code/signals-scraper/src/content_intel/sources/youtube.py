@@ -11,7 +11,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
-from googleapiclient.discovery import build
+from googleapiclient.discovery import build  # type: ignore[import-untyped]
 
 from content_intel.db import DB_PATH, get_db, log_quota
 
@@ -410,7 +410,7 @@ def bootstrap_channels(db_path: Path = DB_PATH) -> None:
         logger.error("YOUTUBE_API_KEY environment variable is not set; cannot bootstrap channels")
         return
 
-    youtube: Any = build(YOUTUBE_SERVICE_NAME, YOUTUBE_API_VERSION, developerKey=api_key)
+    youtube: Any = build(YOUTUBE_SERVICE_NAME, YOUTUBE_API_VERSION, developerKey=api_key, cache_discovery=False)
 
     conn = get_db(db_path)
     inserted = 0
@@ -485,7 +485,7 @@ def run_yt_scan(db_path: Path = DB_PATH) -> None:
         logger.error("YOUTUBE_API_KEY not set; skipping yt-scan")
         return
 
-    youtube: Any = build(YOUTUBE_SERVICE_NAME, YOUTUBE_API_VERSION, developerKey=api_key)
+    youtube: Any = build(YOUTUBE_SERVICE_NAME, YOUTUBE_API_VERSION, developerKey=api_key, cache_discovery=False)
     conn = get_db(db_path)
     try:
         if _get_daily_youtube_quota(conn) >= 7500:
