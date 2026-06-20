@@ -17,6 +17,7 @@ Python project. There is no runnable package here, only a prompt and a post-proc
 signals-scraper  →  topic-classifier  →  topic-deep-research
    intel.db            topics-YYYY-WNN.json   <slug>.json
    handoff.json        topic_inputs/
+   handoff_yt.json
 ```
 
 ---
@@ -26,7 +27,8 @@ signals-scraper  →  topic-classifier  →  topic-deep-research
 ### Step 1 — Generate signals export
 
 The signals-scraper must have run recently. Its outputs are at:
-- `code/signals-scraper/data/handoff.json` — minimal flat list of `{id, title, url}` used as classifier input
+- `code/signals-scraper/data/handoff.json` — compact `{id, title}` list of all non-YT signals
+- `code/signals-scraper/data/handoff_yt.json` — compact `{id, title, url, description?}` list of YT competitor and underperformer videos (descriptions truncated to 150 chars)
 - `code/signals-scraper/data/intel.db` — SQLite DB used by `build_topic_inputs.py` to resolve signal IDs
 
 If they are stale, run the export manually from the signals-scraper project:
@@ -37,7 +39,7 @@ uv run --project code/signals-scraper content-intel export
 ### Step 2 — Run the classifier (Claude prompt)
 
 Give Claude the contents of `prompt.md` as instructions. Claude will:
-1. Read `code/signals-scraper/data/handoff.json`
+1. Read both `handoff.json` and `handoff_yt.json`
 2. Group signals into topics following the rules in the prompt
 3. Write `code/topic-classifier/data/topics-YYYY-WNN.json` (e.g. `topics-2026-W26.json`)
 
@@ -83,11 +85,11 @@ Full rules live in `prompt.md`. Key decisions:
 - **Specificity**: "AI Agents" is too broad. "Claude Computer Use" is good.
 - **Each signal belongs to exactly one topic.**
 - **Signal strength hierarchy** (strongest → weakest):
-  1. `yt_competitor_videos` with `outlier_ratio ≥ 2.0` — a competitor video is already viral
+  1. `yt:` with `outlier_ratio ≥ 2.0` — a competitor video is already viral (from `handoff_yt.json`)
   2. `hn`, `reddit`, `x_apify` — community engagement
-  3. `rss`, `product_hunt`, `github_trending`, `hf` — product/launch signals
+  3. `rss`, `github_trending`, `hf` — product/launch signals
   4. `gtrends` — search interest, weak corroboration only
-  5. `yt_underperformer_videos` with `outlier_ratio < 0.5` — anti-signal (topic flopped on YT)
+  5. `yt_under:` with `outlier_ratio < 0.5` — anti-signal (topic flopped on YT, from `handoff_yt.json`)
 
 **Strongest content opportunity**: `has_viral_yt: true` + signals from 3+ distinct sources.
 
@@ -105,7 +107,6 @@ The classifier references signals as `source:id`:
 | `rss` | `signals` | `rss:anthropic-blog-2026-06-10` |
 | `github_trending` | `signals` | `github_trending:modelcontextprotocol-servers` |
 | `hf` | `signals` | `hf:zai-org-GLM-5.2` |
-| `product_hunt` | `signals` | `product_hunt:some-tool` |
 | `gtrends` | `signals` | `gtrends:ai_coding_assistants` |
 | `yt` | `yt_videos` | `yt:RuhhLUfTXrY` |
 | `yt_under` | `yt_videos` | `yt_under:Nn7EbMJRRGo` |

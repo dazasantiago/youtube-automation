@@ -64,7 +64,9 @@ Dos bases vinculadas en la página **🎬 Content Hub**:
 
 ### Fase 0 — Precondiciones (hazlo siempre primero, sin preguntar)
 
-1. Encuentra el archivo `topics-YYYY-WNN.json` más reciente en `code/topic-classifier/data/` (orden lexicográfico, el último es el más nuevo). Léelo.
+1. Haz `git pull origin main` para asegurarte de trabajar con el estado más reciente del repositorio.
+   - Si el pull falla por conflictos o red, repórtalo y detente. No continúes con datos potencialmente desactualizados.
+2. Encuentra el archivo `topics-YYYY-WNN.json` más reciente en `code/topic-classifier/data/` (orden lexicográfico, el último es el más nuevo). Léelo.
    - Si **no existe ninguno** o el JSON trae `{"error": ...}` o `topics` vacío → **detente** y di:
      "No hay topics clasificados. Corre primero el clasificador (ver `code/topic-classifier/CLAUDE.md`):
      genera `handoff.json`, ejecuta el prompt del clasificador, y vuelve a llamarme."

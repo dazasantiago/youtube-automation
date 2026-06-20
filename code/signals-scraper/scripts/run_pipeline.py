@@ -4,6 +4,11 @@ from __future__ import annotations
 
 import argparse
 import logging
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).parent.parent / ".env")
 
 logging.basicConfig(
     level=logging.INFO,
@@ -12,7 +17,7 @@ logging.basicConfig(
 )
 
 STAGES = {
-    "discovery_morning": ["hn", "reddit", "rss", "hf", "github_trending", "product_hunt", "x_apify", "gtrends"],
+    "discovery_morning": ["hn", "reddit", "rss", "hf", "github_trending", "x_apify", "gtrends"],
     "youtube_scan": [],
     "discovery_afternoon": ["hn", "reddit", "x_apify"],
 }

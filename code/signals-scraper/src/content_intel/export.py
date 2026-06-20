@@ -17,7 +17,6 @@ _SOURCE_ORDER = [
     "reddit",
     "rss",
     "x_apify",
-    "product_hunt",
     "github_trending",
     "gtrends",
     "hf",
@@ -46,7 +45,7 @@ def run_export(days: int = 7, out: str = "data/signals.json", db_path: Path = DB
 
         yt_rows = conn.execute(
             """
-            SELECT v.video_id, v.title,
+            SELECT v.video_id, v.title, v.description,
                    'https://youtube.com/watch?v=' || v.video_id AS url,
                    v.published_at, v.views, v.outlier_ratio,
                    v.language, c.channel_name
@@ -60,7 +59,7 @@ def run_export(days: int = 7, out: str = "data/signals.json", db_path: Path = DB
 
         yt_under_rows = conn.execute(
             """
-            SELECT v.video_id, v.title,
+            SELECT v.video_id, v.title, v.description,
                    'https://youtube.com/watch?v=' || v.video_id AS url,
                    v.published_at, v.views, v.outlier_ratio,
                    v.language, c.channel_name
@@ -92,6 +91,7 @@ def run_export(days: int = 7, out: str = "data/signals.json", db_path: Path = DB
         return {
             "video_id": r["video_id"],
             "title": r["title"],
+            "description": r["description"],
             "url": r["url"],
             "published_at": r["published_at"],
             "views": r["views"],
@@ -117,27 +117,42 @@ def run_export(days: int = 7, out: str = "data/signals.json", db_path: Path = DB
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    # Minimal handoff file for topic classifier — id, title, url only
+    # Two handoff files for the topic classifier (compact JSON, each must stay under 25K tokens).
+    #
+    # handoff.json      — all non-YT signals (hn, reddit, rss, x_apify, github_trending,
+    #                     gtrends, hf). No descriptions; titles are sufficient for these sources.
+    # handoff_yt.json   — yt: (viral) and yt_under: (flop) videos with truncated descriptions,
+    #                     because video titles alone are often clickbait or compilations.
+
+    _YT_DESC_MAX = 150  # chars — keeps handoff_yt.json under the 25K-token Read tool limit
+
     handoff_items: list[dict[str, str]] = []
     for src, items in payload["signals_by_source"].items():
         for item in items:
             handoff_items.append({
                 "id": f"{src}:{item['id']}",
                 "title": str(item["title"]),
-                "url": str(item["url"] or ""),
             })
+
+    handoff_yt_items: list[dict[str, str]] = []
     for v in yt_videos:
-        handoff_items.append({
+        entry: dict[str, str] = {
             "id": f"yt:{v['video_id']}",
             "title": str(v["title"]),
             "url": str(v["url"]),
-        })
+        }
+        if v["description"]:
+            entry["description"] = str(v["description"])[:_YT_DESC_MAX]
+        handoff_yt_items.append(entry)
     for v in yt_underperformers:
-        handoff_items.append({
+        entry = {
             "id": f"yt_under:{v['video_id']}",
             "title": str(v["title"]),
             "url": str(v["url"]),
-        })
+        }
+        if v["description"]:
+            entry["description"] = str(v["description"])[:_YT_DESC_MAX]
+        handoff_yt_items.append(entry)
 
     handoff_path = out_path.parent / "handoff.json"
     handoff_payload = {
@@ -145,7 +160,15 @@ def run_export(days: int = 7, out: str = "data/signals.json", db_path: Path = DB
         "total": len(handoff_items),
         "items": handoff_items,
     }
-    handoff_path.write_text(json.dumps(handoff_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    handoff_path.write_text(json.dumps(handoff_payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+    handoff_yt_path = out_path.parent / "handoff_yt.json"
+    handoff_yt_payload = {
+        "generated_at": payload["generated_at"],
+        "total": len(handoff_yt_items),
+        "items": handoff_yt_items,
+    }
+    handoff_yt_path.write_text(json.dumps(handoff_yt_payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     logger.info(
         "Exported %d signals + %d YT outliers + %d YT underperformers to %s",
@@ -154,6 +177,8 @@ def run_export(days: int = 7, out: str = "data/signals.json", db_path: Path = DB
         len(yt_underperformers),
         out_path,
     )
-    logger.info("Wrote handoff.json with %d items to %s", len(handoff_items), handoff_path)
-    print(f"Exported {payload['total_signals']} signals + {len(yt_videos)} outliers + {len(yt_underperformers)} underperformers → {out_path}")
-    print(f"Handoff: {len(handoff_items)} items → {handoff_path}")
+    logger.info("Wrote handoff.json (%d items) and handoff_yt.json (%d items) to %s",
+                len(handoff_items), len(handoff_yt_items), handoff_path.parent)
+    print(f"Exported {payload['total_signals']} signals + {len(yt_videos)} outliers + {len(yt_underperformers)} underperformers -> {out_path}")
+    print(f"Handoff: {len(handoff_items)} items -> {handoff_path}")
+    print(f"Handoff YT: {len(handoff_yt_items)} items (with descriptions) -> {handoff_yt_path}")

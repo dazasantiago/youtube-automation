@@ -8,16 +8,15 @@ This is a **scraping-only module**. Its sole job is to collect raw signals from 
 
 ## Sources
 
-Eight sources are scraped daily:
+Seven sources are scraped daily:
 - `hn` — HackerNews (Algolia API)
 - `reddit` — Configured subreddits (public RSS)
 - `rss` — AI lab blogs + tech news feeds
 - `hf` — HuggingFace models and spaces
 - `github_trending` — GitHub trending repositories
-- `product_hunt` — Product Hunt launches
 - `x_apify` — X/Twitter accounts via Apify (optional; skipped gracefully if token missing)
 - `gtrends` — Google Trends rising queries
-- YouTube — Competitor channel scan via `run_yt_scan()` (separate from the 8 source adapters)
+- YouTube — Competitor channel scan via `run_yt_scan()` (separate from the 7 source adapters)
 
 ## Architecture invariants
 
@@ -34,7 +33,7 @@ Eight sources are scraped daily:
 
 | UTC hour | Stage | What happens |
 |---|---|---|
-| 11:00 | `discovery_morning` | pull hn, reddit, rss, hf, github_trending, product_hunt, x_apify, gtrends |
+| 11:00 | `discovery_morning` | pull hn, reddit, rss, hf, github_trending, x_apify, gtrends |
 | 12:00 | `youtube_scan` | scan tracked channels → new uploads → outlier detection |
 | 21:00 | `discovery_afternoon` | lighter re-scan: hn, reddit, x_apify |
 
@@ -44,7 +43,10 @@ Eight sources are scraped daily:
 
 - `data/intel.db` — SQLite with raw signals, yt_channels, yt_videos, quota_log, run_log
 - `data/signals.json` — Full export: last 7 days of signals grouped by source + YT outliers + YT underperformers. Rich structure with metrics and metadata.
-- `data/handoff.json` — Minimal flat list of `{id, title, url}` for every item in signals.json. Feed this to the topic-classifier. IDs are namespaced: `hn:`, `reddit:`, `yt:`, `yt_under:`, etc.
+- `data/handoff.json` — Compact flat list of `{id, title}` for all non-YT signals (hn, reddit, rss, x_apify, github_trending, gtrends, hf). No URLs — titles are sufficient for classification. ~15K tokens.
+- `data/handoff_yt.json` — Compact flat list of `{id, title, url, description?}` for YT competitor videos (`yt:`) and underperformers (`yt_under:`). Descriptions truncated to 150 chars. ~20K tokens.
+
+Both handoff files use compact JSON (no indentation) to stay under the Claude Read tool's 25K-token per-file limit.
 
 ## Database schema (simplified)
 

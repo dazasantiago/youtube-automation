@@ -18,7 +18,6 @@ _ALL_SOURCES = [
     "rss",
     "hf",
     "github_trending",
-    "product_hunt",
     "x_apify",
     "gtrends",
 ]
@@ -40,9 +39,6 @@ def _load_adapter(name: str) -> SourceAdapter:
     if name == "github_trending":
         from content_intel.sources.github_trending import GitHubTrendingAdapter
         return GitHubTrendingAdapter()
-    if name == "product_hunt":
-        from content_intel.sources.product_hunt import ProductHuntAdapter
-        return ProductHuntAdapter()
     if name == "x_apify":
         from content_intel.sources.x_apify import XApifyAdapter
         return XApifyAdapter()

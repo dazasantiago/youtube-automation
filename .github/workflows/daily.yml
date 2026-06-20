@@ -56,7 +56,6 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-          PRODUCT_HUNT_TOKEN: ${{ secrets.PRODUCT_HUNT_TOKEN }}
         run: uv run python scripts/run_pipeline.py --stage ${{ steps.stage.outputs.value }}
       - name: Commit results
         if: success()
