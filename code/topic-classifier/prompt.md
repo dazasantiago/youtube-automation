@@ -93,12 +93,12 @@ Sort `topics` by `signal_count` descending.
 
 Run these steps in order from the repo root (replace `YYYY-WNN` with the actual week label):
 
-### 1. Commit the topics file
+### 1. Commit the topics file to main
 
 ```bash
 git add code/topic-classifier/data/topics-YYYY-WNN.json
 git commit -m "data: topic-classifier topics-YYYY-WNN [skip ci]"
-git push
+git push origin HEAD:main
 ```
 
 ### 2. Build per-topic input files
