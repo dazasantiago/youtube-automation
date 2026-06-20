@@ -43,7 +43,8 @@ Eight sources are scraped daily:
 ## Output
 
 - `data/intel.db` — SQLite with raw signals, yt_channels, yt_videos, quota_log, run_log
-- `data/signals.json` — JSON export of the last 3 days of signals, grouped by source. Feed this to an LLM to organize by topic.
+- `data/signals.json` — Full export: last 7 days of signals grouped by source + YT outliers + YT underperformers. Rich structure with metrics and metadata.
+- `data/handoff.json` — Minimal flat list of `{id, title, url}` for every item in signals.json. Feed this to the topic-classifier. IDs are namespaced: `hn:`, `reddit:`, `yt:`, `yt_under:`, etc.
 
 ## Database schema (simplified)
 
