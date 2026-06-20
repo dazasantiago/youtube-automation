@@ -53,7 +53,7 @@ def run_export(days: int = 7, out: str = "data/signals.json", db_path: Path = DB
             FROM yt_videos v
             JOIN yt_channels c ON c.channel_id = v.channel_id
             WHERE v.outlier_ratio >= 2.0
-              AND v.published_at >= datetime('now', '-30 days')
+              AND datetime(v.published_at) >= datetime('now', '-30 days')
             ORDER BY v.outlier_ratio DESC
             """,
         ).fetchall()
@@ -67,8 +67,8 @@ def run_export(days: int = 7, out: str = "data/signals.json", db_path: Path = DB
             FROM yt_videos v
             JOIN yt_channels c ON c.channel_id = v.channel_id
             WHERE v.outlier_ratio < 0.5
-              AND v.published_at <= datetime('now', '-10 days')
-              AND v.published_at >= datetime('now', '-30 days')
+              AND datetime(v.published_at) <= datetime('now', '-10 days')
+              AND datetime(v.published_at) >= datetime('now', '-30 days')
             ORDER BY v.outlier_ratio ASC
             """,
         ).fetchall()

@@ -175,7 +175,7 @@ def _refresh_detection_window(youtube: Any, conn: sqlite3.Connection) -> None:
         """
         SELECT video_id FROM yt_videos
         WHERE monitoring_active=0
-          AND published_at >= datetime('now', '-30 days')
+          AND datetime(published_at) >= datetime('now', '-30 days')
         """
     ).fetchall()
 
@@ -220,7 +220,7 @@ def _check_outliers(conn: sqlite3.Connection) -> None:
         FROM yt_videos v
         JOIN yt_channels c ON v.channel_id = c.channel_id
         WHERE v.monitoring_active=0
-          AND v.published_at >= datetime('now', '-30 days')
+          AND datetime(v.published_at) >= datetime('now', '-30 days')
           AND c.median_views_30v IS NOT NULL
           AND c.median_views_30v > 0
         """
@@ -254,7 +254,7 @@ def _deactivate_expired_monitors(conn: sqlite3.Connection) -> None:
         UPDATE yt_videos
         SET monitoring_active=0
         WHERE monitoring_active=1
-          AND monitoring_started_at <= datetime('now', '-7 days')
+          AND datetime(monitoring_started_at) <= datetime('now', '-7 days')
         """
     )
 
@@ -266,7 +266,7 @@ def _refresh_monitored_videos(youtube: Any, conn: sqlite3.Connection) -> None:
         SELECT video_id, published_at, views_history
         FROM yt_videos
         WHERE monitoring_active=1
-          AND (last_refreshed_at IS NULL OR last_refreshed_at <= datetime('now', '-24 hours'))
+          AND (last_refreshed_at IS NULL OR datetime(last_refreshed_at) <= datetime('now', '-24 hours'))
         """
     ).fetchall()
 
@@ -332,7 +332,7 @@ def _weekly_median_refresh(youtube: Any, conn: sqlite3.Connection) -> None:
         """
         SELECT channel_id, uploads_playlist_id
         FROM yt_channels
-        WHERE median_updated_at IS NULL OR median_updated_at <= datetime('now', '-7 days')
+        WHERE median_updated_at IS NULL OR datetime(median_updated_at) <= datetime('now', '-7 days')
         ORDER BY median_updated_at ASC
         LIMIT 50
         """
