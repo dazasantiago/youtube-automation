@@ -97,11 +97,17 @@ def init_db(path: Path = DB_PATH) -> None:
     conn = get_db(path)
     try:
         conn.executescript(_SCHEMA)
-        try:
-            conn.execute("ALTER TABLE yt_videos ADD COLUMN monitoring_started_at TIMESTAMP")
-            conn.commit()
-        except sqlite3.OperationalError:
-            pass  # column already exists
+        _migrations = [
+            "ALTER TABLE yt_videos ADD COLUMN monitoring_started_at TIMESTAMP",
+            "ALTER TABLE yt_channels ADD COLUMN median_views_30v INTEGER",
+            "ALTER TABLE yt_channels ADD COLUMN median_updated_at TIMESTAMP",
+        ]
+        for migration in _migrations:
+            try:
+                conn.execute(migration)
+                conn.commit()
+            except sqlite3.OperationalError:
+                pass  # column already exists
     finally:
         conn.close()
 
