@@ -1,0 +1,6 @@
+# Regenerated each week from intel.db — do not commit
+data/topic_inputs/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -91,7 +91,17 @@ Sort `topics` by `signal_count` descending.
 
 ## Post-processing (run after writing topics-YYYY-WNN.json)
 
-Once the file is written, run the following command from the repo root (replace `YYYY-WNN` with the actual week label):
+Run these steps in order from the repo root (replace `YYYY-WNN` with the actual week label):
+
+### 1. Commit the topics file
+
+```bash
+git add code/topic-classifier/data/topics-YYYY-WNN.json
+git commit -m "data: topic-classifier topics-YYYY-WNN [skip ci]"
+git push
+```
+
+### 2. Build per-topic input files
 
 ```bash
 python code/topic-classifier/build_topic_inputs.py code/topic-classifier/data/topics-YYYY-WNN.json

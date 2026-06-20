@@ -69,7 +69,7 @@ uv run --project code/topic-deep-research deep-research \
 | `data/topics-YYYY-WNN.json` | Weekly output of the Claude classifier — one file per run, never overwritten |
 | `data/topic_inputs/<slug>.json` | One file per topic in the format expected by `topic-deep-research` |
 
-`data/` is gitignored. Do not commit output files.
+`data/topic_inputs/` is gitignored (regenerated each week). `data/topics-*.json` files are committed — one per week.
 
 ---
 
