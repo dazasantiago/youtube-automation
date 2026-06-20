@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-20T14:01:52.651551+00:00",
+  "generated_at": "2026-06-20T14:31:37.809456+00:00",
   "window_days": 7,
-  "total_signals": 380,
+  "total_signals": 389,
   "signals_by_source": {
     "hn": [
       {
@@ -3947,6 +3947,15 @@
     ],
     "reddit:LocalLLaMA": [
       {
+        "id": "t3_1uaxktf",
+        "title": "z.AI as the number 2 gives praise to the number 1 open source model",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uaxktf/zai_as_the_number_2_gives_praise_to_the_number_1/",
+        "description": "submitted by /u/Charuru [link] [comments]",
+        "posted_at": "2026-06-20T14:10:04+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
         "id": "t3_1uawkdg",
         "title": "Research Project: Injecting Natural-Language Tactical Intent into Multi-Agent Football Policies",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uawkdg/research_project_injecting_naturallanguage/",
@@ -4255,6 +4264,80 @@
         "metrics": {}
       }
     ],
+    "reddit:automation": [
+      {
+        "id": "t3_1uaw6ky",
+        "title": "I’ve been using the lucidchart + claude integration for a few weeks, it’s way more useful than I expected",
+        "url": "https://old.reddit.com/r/automation/comments/1uaw6ky/ive_been_using_the_lucidchart_claude_integration/",
+        "description": "I’ve been using the Lucid Claude connector for a few weeks now, since they launched in April and it's been changing how I work more than I expected it to. What surprised me is being able to search Lucidchart docs through Claude in plain language. We have a lot of older diagrams floating around and finding the right one used to take way longer than it should. Being able to just describe what I'm looking for and get it back has made things a lot easier. The other thing that I find useful is turnin",
+        "posted_at": "2026-06-20T13:06:24+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uavbcx",
+        "title": "Coding for every automation edge case is a nightmare, so I made a runner that self-heals and strengthens its code on every failure.",
+        "url": "https://old.reddit.com/r/automation/comments/1uavbcx/coding_for_every_automation_edge_case_is_a/",
+        "description": "I keep seeing two major complaints on this sub: AI agents are too fragile and slow to trust with routine, high-volume tasks. API costs explode if you run every single workflow through an LLM. Yet, traditional deterministic automation (like Playwright/Puppeteer) is a maintenance nightmare because web pages change, menus shift, and edge cases pop up. To bridge this gap, I’ve been working on a hybrid approach: Deterministic execution by default, with AI agents acting as the silent developer that on",
+        "posted_at": "2026-06-20T12:23:47+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaqhup",
+        "title": "Is automation hitting a new wave in the age of AI agents?",
+        "url": "https://old.reddit.com/r/automation/comments/1uaqhup/is_automation_hitting_a_new_wave_in_the_age_of_ai/",
+        "description": "Automation feels like it’s entering a new wave. Before these types of complex app flows were impossible to build into custom solutions for businesses. Most implementations were low-hanging fruit like CMS or blogs. Now we can build fully local customer support and outreach tools for businesses. Curious how people are using tools like n8n or similar ones today. What are you automating, and what has actually been useful versus overhyped? What do you wish existed that currently doesn’t? Full disclai",
+        "posted_at": "2026-06-20T07:41:03+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uaayhz",
+        "title": "Building Client Automation Systems Without a Developer Background",
+        "url": "https://old.reddit.com/r/automation/comments/1uaayhz/building_client_automation_systems_without_a/",
+        "description": "A lot of people assume you need to be a developer to build automation systems for clients, but that hasn't been my experience. Most client projects can be handled with tools like Zapier, Make, or n8n. The real skills is understanding workflows, triggers, conditions, and how data moves between apps. If you can think logically and troubleshoot problems, you're already most of the way there. Typical projects involve things like routing leads, updating CRMs, syncing data between tools, generating re",
+        "posted_at": "2026-06-19T19:13:30+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua9xxc",
+        "title": "Beyond the isolation layer: Telemetry and audit logs for automated database actions",
+        "url": "https://old.reddit.com/r/automation/comments/1ua9xxc/beyond_the_isolation_layer_telemetry_and_audit/",
+        "description": "The discussion on my last post about building API isolation layers for LLMs was awesome. A lot of people rightly pointed out that even with locked-down API endpoints, you still have to worry about session rate limiting, user permission context, and tracking why an agent is hitting a database. We are trying to map out a rock-solid telemetry and audit framework for our system now, and we are hitting a few architectural crossroads. A standard API log just shows a wall of repetitive hits. If a bot g",
+        "posted_at": "2026-06-19T18:34:30+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua8ul8",
+        "title": "3 LPA SDE at 3-man startup vs 6 LPA \"Automation Engineer\" at legacy SaaS — Is the 100% hike worth the title risk?",
+        "url": "https://old.reddit.com/r/automation/comments/1ua8ul8/3_lpa_sde_at_3man_startup_vs_6_lpa_automation/",
+        "description": "Hey everyone, I’m facing a major career dilemma as a final-year student (2026 grad) and could really use some honest perspective from folks who have been in the industry for a while. I’m currently torn between two completely different paths, and I need to make a decision fast. Here is how the two options stack up: Option 1: My Current Job (Joined 1 month ago) Title: Software Development Engineer (SDE) CTC: 3 LPA Work Model: 100% Remote The Setup: A tiny, completely unfunded, early-stage startup.",
+        "posted_at": "2026-06-19T17:53:33+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua8566",
+        "title": "Automated my WooCommerce orders",
+        "url": "https://old.reddit.com/r/automation/comments/1ua8566/automated_my_woocommerce_orders/",
+        "description": "submitted by /u/Boring-Shop-9424 [link] [comments]",
+        "posted_at": "2026-06-19T17:26:26+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ua3n7v",
+        "title": "The full path from “stranger lands on the site” to “booked job”, and the two places most people get it wrong",
+        "url": "https://old.reddit.com/r/automation/comments/1ua3n7v/the_full_path_from_stranger_lands_on_the_site_to/",
+        "description": "Noticed something interesting while helping a local service business improve their website. I used to think the website and chatbot were basically doing the same job, but they really aren’t. The website’s job is mostly trust and direction. Someone lands on the page, usually with an urgent problem, and decides within seconds whether the business feels legit. They want proof like credentials, certifications, and clear next steps. In this case, every section pointed toward two simple actions: call ",
+        "posted_at": "2026-06-19T14:33:55+00:00",
+        "language": null,
+        "metrics": {}
+      }
+    ],
     "reddit:singularity": [
       {
         "id": "t3_1uaw97g",
@@ -4483,6 +4566,2408 @@
       }
     ]
   },
-  "yt_competitor_videos": [],
-  "yt_underperformer_videos": []
+  "yt_competitor_videos": [
+    {
+      "video_id": "F5roaAyBQT8",
+      "title": "Huawei descubre como crear Chips que igualen a los de Estados Unidos",
+      "url": "https://youtube.com/watch?v=F5roaAyBQT8",
+      "published_at": "2026-05-26T22:20:00+00:00",
+      "views": 415953,
+      "outlier_ratio": 21.534116794367364,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "t7L6-fMpxFc",
+      "title": "Apple WWDC 2026: The AI Story Everyone is Missing",
+      "url": "https://youtube.com/watch?v=t7L6-fMpxFc",
+      "published_at": "2026-06-11T14:00:38+00:00",
+      "views": 93418,
+      "outlier_ratio": 19.12343909928352,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "b3jlsjOIOzs",
+      "title": "The End of Unrestricted AI: Why Claude Fable 5 Was Just Forced Offline",
+      "url": "https://youtube.com/watch?v=b3jlsjOIOzs",
+      "published_at": "2026-06-13T06:37:37+00:00",
+      "views": 89060,
+      "outlier_ratio": 18.231320368474922,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "5n3yAxHpehk",
+      "title": "Qué hay detrás de la salida a la bolsa de SpaceX",
+      "url": "https://youtube.com/watch?v=5n3yAxHpehk",
+      "published_at": "2026-05-22T22:47:02+00:00",
+      "views": 260906,
+      "outlier_ratio": 15.45010955172618,
+      "language": null,
+      "channel": "Platzi"
+    },
+    {
+      "video_id": "lDHrmDAD9y4",
+      "title": "How This Mom Makes $48K/Month With Claude",
+      "url": "https://youtube.com/watch?v=lDHrmDAD9y4",
+      "published_at": "2026-06-06T16:00:26+00:00",
+      "views": 112085,
+      "outlier_ratio": 14.744146277295448,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "yy9Qqts8pX0",
+      "title": "Tus mensajes en Instagram y redes sociales ya no son privados",
+      "url": "https://youtube.com/watch?v=yy9Qqts8pX0",
+      "published_at": "2026-06-02T00:17:44+00:00",
+      "views": 224070,
+      "outlier_ratio": 13.266358737490377,
+      "language": null,
+      "channel": "Platzi"
+    },
+    {
+      "video_id": "17m_BG_2qPQ",
+      "title": "¿El fin de las empresas de software?",
+      "url": "https://youtube.com/watch?v=17m_BG_2qPQ",
+      "published_at": "2026-06-06T15:00:06+00:00",
+      "views": 222059,
+      "outlier_ratio": 13.149700953396103,
+      "language": null,
+      "channel": "Platzi"
+    },
+    {
+      "video_id": "rqVzTX8w_w0",
+      "title": "My AI Workflow Has Changed (Here is What I Learned)",
+      "url": "https://youtube.com/watch?v=rqVzTX8w_w0",
+      "published_at": "2026-05-30T15:00:04+00:00",
+      "views": 62316,
+      "outlier_ratio": 12.755373592630502,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "xqGCbEDbny8",
+      "title": "Codex: Your First Personal AI Agent Delegation Loop",
+      "url": "https://youtube.com/watch?v=xqGCbEDbny8",
+      "published_at": "2026-06-12T14:00:09+00:00",
+      "views": 57726,
+      "outlier_ratio": 11.816990788126919,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "DOwWNV7ijwk",
+      "title": "El peor error de EE.UU. con los chips y China",
+      "url": "https://youtube.com/watch?v=DOwWNV7ijwk",
+      "published_at": "2026-05-29T18:06:04+00:00",
+      "views": 222304,
+      "outlier_ratio": 11.508800993994615,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "BOXK2XFLA-E",
+      "title": "Don't build more AI agents until you watch this",
+      "url": "https://youtube.com/watch?v=BOXK2XFLA-E",
+      "published_at": "2026-06-17T14:00:31+00:00",
+      "views": 55397,
+      "outlier_ratio": 11.340225179119754,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "nQwJVHCtDDY",
+      "title": "Matt Pocock’s Agentic Engineering Workflow (just copy him)",
+      "url": "https://youtube.com/watch?v=nQwJVHCtDDY",
+      "published_at": "2026-06-18T19:26:59+00:00",
+      "views": 79543,
+      "outlier_ratio": 11.103154662199888,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "BFH9D05UFvM",
+      "title": "Unsloth Studio is insane… fine-tune any AI model locally",
+      "url": "https://youtube.com/watch?v=BFH9D05UFvM",
+      "published_at": "2026-05-28T22:00:11+00:00",
+      "views": 76816,
+      "outlier_ratio": 10.72250139586823,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "KYGyvIjI2Vk",
+      "title": "Por qué el 80% de empresas no ve resultados con AI",
+      "url": "https://youtube.com/watch?v=KYGyvIjI2Vk",
+      "published_at": "2026-05-29T23:50:12+00:00",
+      "views": 172026,
+      "outlier_ratio": 10.186889323147984,
+      "language": null,
+      "channel": "Platzi"
+    },
+    {
+      "video_id": "z7xyZQVK4Dg",
+      "title": "Build Anything with Tmux, Here's How",
+      "url": "https://youtube.com/watch?v=z7xyZQVK4Dg",
+      "published_at": "2026-05-25T17:10:49+00:00",
+      "views": 68999,
+      "outlier_ratio": 9.631351200446678,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "u6L9aedHqZc",
+      "title": "Hermes Agent is crazy… 180,000+ github stars",
+      "url": "https://youtube.com/watch?v=u6L9aedHqZc",
+      "published_at": "2026-06-08T15:23:55+00:00",
+      "views": 68807,
+      "outlier_ratio": 9.604550530429927,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "R2-Y1Hjwx2U",
+      "title": "Stop Picking Between Claude Code and Codex | Do This Instead",
+      "url": "https://youtube.com/watch?v=R2-Y1Hjwx2U",
+      "published_at": "2026-06-10T14:00:38+00:00",
+      "views": 45750,
+      "outlier_ratio": 9.365404298874104,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "_77-lDliknU",
+      "title": "La controversia de Claude Fable 5",
+      "url": "https://youtube.com/watch?v=_77-lDliknU",
+      "published_at": "2026-06-12T22:53:37+00:00",
+      "views": 154213,
+      "outlier_ratio": 9.132054242908746,
+      "language": null,
+      "channel": "Platzi"
+    },
+    {
+      "video_id": "E2UgYp2vh5U",
+      "title": "I Built the Same App With Claude Code and Codex",
+      "url": "https://youtube.com/watch?v=E2UgYp2vh5U",
+      "published_at": "2026-05-22T13:00:14+00:00",
+      "views": 125403,
+      "outlier_ratio": 8.974023185916703,
+      "language": null,
+      "channel": "Tech With Tim"
+    },
+    {
+      "video_id": "z73yuF14udI",
+      "title": "Opus 4.8 Scored 81. Your Workflow Doesn't Care.",
+      "url": "https://youtube.com/watch?v=z73yuF14udI",
+      "published_at": "2026-06-03T14:00:38+00:00",
+      "views": 43098,
+      "outlier_ratio": 8.822517911975435,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "UnzD_bwylWs",
+      "title": "5 NEW Vibe Coding Repos You Haven't Heard of Yet",
+      "url": "https://youtube.com/watch?v=UnzD_bwylWs",
+      "published_at": "2026-06-17T11:23:33+00:00",
+      "views": 55059,
+      "outlier_ratio": 8.23496859108585,
+      "language": null,
+      "channel": "Sean Kochel"
+    },
+    {
+      "video_id": "mn4XBSBIuag",
+      "title": "Your $20 AI Plan Costs Them Thousands. That's Not The Bubble.",
+      "url": "https://youtube.com/watch?v=mn4XBSBIuag",
+      "published_at": "2026-06-15T14:00:28+00:00",
+      "views": 39270,
+      "outlier_ratio": 8.038894575230296,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "qlx40oVrXTY",
+      "title": "Fable 5 is never coming back, here's why",
+      "url": "https://youtube.com/watch?v=qlx40oVrXTY",
+      "published_at": "2026-06-13T23:11:36+00:00",
+      "views": 55678,
+      "outlier_ratio": 7.771915131211614,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "OaRhpwz_TGM",
+      "title": "The Future of AI Agents with Andrew Ng | Interrupt 26",
+      "url": "https://youtube.com/watch?v=OaRhpwz_TGM",
+      "published_at": "2026-06-17T12:34:20+00:00",
+      "views": 12495,
+      "outlier_ratio": 7.632864996945632,
+      "language": null,
+      "channel": "LangChain"
+    },
+    {
+      "video_id": "Qy25rSEXpPQ",
+      "title": "Midjourney Built What?!?",
+      "url": "https://youtube.com/watch?v=Qy25rSEXpPQ",
+      "published_at": "2026-06-18T04:32:28+00:00",
+      "views": 133016,
+      "outlier_ratio": 7.344892324682496,
+      "language": null,
+      "channel": "Matt Wolfe"
+    },
+    {
+      "video_id": "PPyOWHTf9Xk",
+      "title": "Cuando estas aprendiendo varios lenguajes de programación a la vez... #programador",
+      "url": "https://youtube.com/watch?v=PPyOWHTf9Xk",
+      "published_at": "2026-05-23T22:07:01+00:00",
+      "views": 17233,
+      "outlier_ratio": 6.666537717601547,
+      "language": null,
+      "channel": "Victor Robles WEB"
+    },
+    {
+      "video_id": "MhbamAlPpNU",
+      "title": "No te equivoques, Huawei no puede crear chips de 1.4nm",
+      "url": "https://youtube.com/watch?v=MhbamAlPpNU",
+      "published_at": "2026-05-27T19:26:46+00:00",
+      "views": 128374,
+      "outlier_ratio": 6.645992959204804,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "LdQpoK2TzSo",
+      "title": "Introducing Managed Deep Agents | Interrupt 26",
+      "url": "https://youtube.com/watch?v=LdQpoK2TzSo",
+      "published_at": "2026-05-29T13:06:00+00:00",
+      "views": 10752,
+      "outlier_ratio": 6.568112400733049,
+      "language": null,
+      "channel": "LangChain"
+    },
+    {
+      "video_id": "BxR-r4F4Pbw",
+      "title": "Don't use Fable 5 in Claude… do this instead",
+      "url": "https://youtube.com/watch?v=BxR-r4F4Pbw",
+      "published_at": "2026-06-10T17:59:39+00:00",
+      "views": 45947,
+      "outlier_ratio": 6.413456169737577,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "UsCgEuIAclE",
+      "title": "Microsoft Says 86% Treat AI Output as a Starting Point. Your Resume Just Stopped Working.",
+      "url": "https://youtube.com/watch?v=UsCgEuIAclE",
+      "published_at": "2026-05-31T17:00:39+00:00",
+      "views": 29308,
+      "outlier_ratio": 5.9995905834186285,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "Q_K3k_ge8NA",
+      "title": "Claude Code just Changed Website Design Forever",
+      "url": "https://youtube.com/watch?v=Q_K3k_ge8NA",
+      "published_at": "2026-06-04T10:59:19+00:00",
+      "views": 75002,
+      "outlier_ratio": 5.964373757455268,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "kyOPFFy3I38",
+      "title": "AI News: These Google Updates Are Dividing People",
+      "url": "https://youtube.com/watch?v=kyOPFFy3I38",
+      "published_at": "2026-05-22T16:14:15+00:00",
+      "views": 106309,
+      "outlier_ratio": 5.8701822197680835,
+      "language": null,
+      "channel": "Matt Wolfe"
+    },
+    {
+      "video_id": "k5NhsF7t68M",
+      "title": "100 hours of Hermes Agent lessons in 23 minutes",
+      "url": "https://youtube.com/watch?v=k5NhsF7t68M",
+      "published_at": "2026-05-24T13:06:14+00:00",
+      "views": 72758,
+      "outlier_ratio": 5.785924453280318,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "ulNsa0sD8N0",
+      "title": "Harness Engineering: What Separates Top Agentic Engineers Right Now",
+      "url": "https://youtube.com/watch?v=ulNsa0sD8N0",
+      "published_at": "2026-05-28T00:00:02+00:00",
+      "views": 55213,
+      "outlier_ratio": 5.758552357113058,
+      "language": null,
+      "channel": "Cole Medin"
+    },
+    {
+      "video_id": "nIljW_w7ayc",
+      "title": "7 Free Courses From Harvard, Yale, and MIT (No Tuition Required)",
+      "url": "https://youtube.com/watch?v=nIljW_w7ayc",
+      "published_at": "2026-06-14T20:45:27+00:00",
+      "views": 42568,
+      "outlier_ratio": 5.60247303341226,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "mMuuLocDkog",
+      "title": "Watch this 100x developer use Codex… it’s insane",
+      "url": "https://youtube.com/watch?v=mMuuLocDkog",
+      "published_at": "2026-06-04T14:14:56+00:00",
+      "views": 39968,
+      "outlier_ratio": 5.579006141820212,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "hfba9dAT6xE",
+      "title": "The Best LOCAL Agentic Coding Workflow (Complete Guide)",
+      "url": "https://youtube.com/watch?v=hfba9dAT6xE",
+      "published_at": "2026-06-10T13:00:23+00:00",
+      "views": 77341,
+      "outlier_ratio": 5.534635752111064,
+      "language": null,
+      "channel": "Tech With Tim"
+    },
+    {
+      "video_id": "_hdUddANh_o",
+      "title": "How to learn Machine Learning like a GENIUS and not waste time",
+      "url": "https://youtube.com/watch?v=_hdUddANh_o",
+      "published_at": "2026-05-26T12:48:45+00:00",
+      "views": 76437,
+      "outlier_ratio": 5.469944182052383,
+      "language": null,
+      "channel": "Tech With Tim"
+    },
+    {
+      "video_id": "L0tQrTQBmjI",
+      "title": "Every Hermes Concept explained for Normal People",
+      "url": "https://youtube.com/watch?v=L0tQrTQBmjI",
+      "published_at": "2026-05-29T19:32:05+00:00",
+      "views": 68609,
+      "outlier_ratio": 5.455984095427436,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "nydHKXjwu0U",
+      "title": "AI News: An INSANE Week… Here’s What Matters",
+      "url": "https://youtube.com/watch?v=nydHKXjwu0U",
+      "published_at": "2026-06-12T15:00:18+00:00",
+      "views": 95135,
+      "outlier_ratio": 5.253175041413583,
+      "language": null,
+      "channel": "Matt Wolfe"
+    },
+    {
+      "video_id": "pHJsXyFZobw",
+      "title": "El plan de China para crear LOS CHIPS MAS AVANZADOS (y saltarse los bloqueos)",
+      "url": "https://youtube.com/watch?v=pHJsXyFZobw",
+      "published_at": "2026-05-27T23:49:44+00:00",
+      "views": 100835,
+      "outlier_ratio": 5.220283702629944,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "hzAcDU1FYDo",
+      "title": "Beyond The Hype: Why Meta And Block Are Firing People",
+      "url": "https://youtube.com/watch?v=hzAcDU1FYDo",
+      "published_at": "2026-06-08T14:00:32+00:00",
+      "views": 25173,
+      "outlier_ratio": 5.153121801432958,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "l8BloTSLK6M",
+      "title": "My Codex Ran 800 Million Tokens in A Day. The Real Story Isn't Cost.",
+      "url": "https://youtube.com/watch?v=l8BloTSLK6M",
+      "published_at": "2026-06-05T14:00:07+00:00",
+      "views": 25076,
+      "outlier_ratio": 5.133265097236438,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "PsE9u37gJjU",
+      "title": "How I build $10,000 AI Websites in 17 mins (Google AI Studio 2.0)",
+      "url": "https://youtube.com/watch?v=PsE9u37gJjU",
+      "published_at": "2026-05-26T16:59:02+00:00",
+      "views": 64465,
+      "outlier_ratio": 5.126441351888668,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "jcUqsNpDDDk",
+      "title": "If you don’t run Pi locally you’re falling behind…",
+      "url": "https://youtube.com/watch?v=jcUqsNpDDDk",
+      "published_at": "2026-06-12T18:58:02+00:00",
+      "views": 35840,
+      "outlier_ratio": 5.002791736460078,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "7RDK84LLL2U",
+      "title": "OpenAI Just Filed For Its IPO. The Real Story Isn't The Trillion Dollars.",
+      "url": "https://youtube.com/watch?v=7RDK84LLL2U",
+      "published_at": "2026-06-14T17:00:39+00:00",
+      "views": 24213,
+      "outlier_ratio": 4.956601842374616,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "-EInjdpjKy0",
+      "title": "Claude Code Google Ads: Automate Everything ($730K Earned)",
+      "url": "https://youtube.com/watch?v=-EInjdpjKy0",
+      "published_at": "2026-06-07T16:23:57+00:00",
+      "views": 80652,
+      "outlier_ratio": 4.917205218875747,
+      "language": null,
+      "channel": "Jono Catliff"
+    },
+    {
+      "video_id": "LpXhy2iiaQE",
+      "title": "DeepSeek’s New AI Is A Game Changer",
+      "url": "https://youtube.com/watch?v=LpXhy2iiaQE",
+      "published_at": "2026-05-22T00:47:58+00:00",
+      "views": 317514,
+      "outlier_ratio": 4.914316669246246,
+      "language": null,
+      "channel": "Two Minute Papers"
+    },
+    {
+      "video_id": "74P-N6JZ5lc",
+      "title": "Fable 5 is here—but who is it for? #ai #anthropic #shorts",
+      "url": "https://youtube.com/watch?v=74P-N6JZ5lc",
+      "published_at": "2026-06-11T03:00:37+00:00",
+      "views": 23756,
+      "outlier_ratio": 4.863050153531218,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "EH2MMQTaPEA",
+      "title": "Claude Code Creator: “Write Loops, Not Prompts”",
+      "url": "https://youtube.com/watch?v=EH2MMQTaPEA",
+      "published_at": "2026-06-09T16:15:56+00:00",
+      "views": 31558,
+      "outlier_ratio": 4.720011965300628,
+      "language": null,
+      "channel": "Sean Kochel"
+    },
+    {
+      "video_id": "AHIEISxt8Vk",
+      "title": "¿La universidad sigue valiendo la pena hoy?",
+      "url": "https://youtube.com/watch?v=AHIEISxt8Vk",
+      "published_at": "2026-06-08T20:55:46+00:00",
+      "views": 79633,
+      "outlier_ratio": 4.715639249126547,
+      "language": null,
+      "channel": "Platzi"
+    },
+    {
+      "video_id": "oqzcAO-azUA",
+      "title": "6 Claude Features to Get You Ahead of 99% of People Using AI",
+      "url": "https://youtube.com/watch?v=oqzcAO-azUA",
+      "published_at": "2026-06-05T01:45:25+00:00",
+      "views": 34948,
+      "outlier_ratio": 4.597211260194686,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "uCKhOmth2ms",
+      "title": "The best AI agents are simpler than you think",
+      "url": "https://youtube.com/watch?v=uCKhOmth2ms",
+      "published_at": "2026-06-18T14:00:08+00:00",
+      "views": 7223,
+      "outlier_ratio": 4.412339645693342,
+      "language": null,
+      "channel": "LangChain"
+    },
+    {
+      "video_id": "7MUr0euKazc",
+      "title": "Mi Cliente Dijo \"La IA Me Crea La App en 15 Minutos\"",
+      "url": "https://youtube.com/watch?v=7MUr0euKazc",
+      "published_at": "2026-06-17T14:50:07+00:00",
+      "views": 11048,
+      "outlier_ratio": 4.273887814313346,
+      "language": null,
+      "channel": "Victor Robles WEB"
+    },
+    {
+      "video_id": "tbUGgvw56mk",
+      "title": "14 ChatGPT Secret Codes Nobody Taught You",
+      "url": "https://youtube.com/watch?v=tbUGgvw56mk",
+      "published_at": "2026-06-04T12:43:22+00:00",
+      "views": 31878,
+      "outlier_ratio": 4.193370165745856,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "7TG78vIYI-Q",
+      "title": "AI News: Claude Opus 4.8, Insane Omni Use-Case, and A Dog Translator?",
+      "url": "https://youtube.com/watch?v=7TG78vIYI-Q",
+      "published_at": "2026-05-29T14:00:14+00:00",
+      "views": 72918,
+      "outlier_ratio": 4.0263942573164,
+      "language": null,
+      "channel": "Matt Wolfe"
+    },
+    {
+      "video_id": "nz4h3H1MmTg",
+      "title": "AI News: Microsoft Finally Reveals Their Plan!",
+      "url": "https://youtube.com/watch?v=nz4h3H1MmTg",
+      "published_at": "2026-06-05T15:00:00+00:00",
+      "views": 72528,
+      "outlier_ratio": 4.004859193815571,
+      "language": null,
+      "channel": "Matt Wolfe"
+    },
+    {
+      "video_id": "n0nC1kmztSk",
+      "title": "A Cursor Agent Wiped a Database in 9 Seconds. Agent Analytics Would Have Seen It Coming.",
+      "url": "https://youtube.com/watch?v=n0nC1kmztSk",
+      "published_at": "2026-05-28T14:00:28+00:00",
+      "views": 18938,
+      "outlier_ratio": 3.876765609007165,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "b6J387xJvHg",
+      "title": "Cheap software made your PM job harder, not easier. Here's the new job.",
+      "url": "https://youtube.com/watch?v=b6J387xJvHg",
+      "published_at": "2026-05-29T14:00:08+00:00",
+      "views": 18862,
+      "outlier_ratio": 3.861207778915046,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "yaMcm3sQswc",
+      "title": "Hermes Agent + Ollama = 100% Private OS",
+      "url": "https://youtube.com/watch?v=yaMcm3sQswc",
+      "published_at": "2026-06-05T17:53:27+00:00",
+      "views": 48478,
+      "outlier_ratio": 3.8551093439363817,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "Owv503rTqYY",
+      "title": "Claude Code + Graphify = Insane Agentic OS",
+      "url": "https://youtube.com/watch?v=Owv503rTqYY",
+      "published_at": "2026-06-08T18:40:21+00:00",
+      "views": 47933,
+      "outlier_ratio": 3.811769383697813,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "BTnU_cCx36Y",
+      "title": "Claude Code Local SEO: How I Got 50,000 Google Clicks/Mo (Steal This)",
+      "url": "https://youtube.com/watch?v=BTnU_cCx36Y",
+      "published_at": "2026-05-26T16:38:25+00:00",
+      "views": 62478,
+      "outlier_ratio": 3.8091696134617727,
+      "language": null,
+      "channel": "Jono Catliff"
+    },
+    {
+      "video_id": "crBBgWEggkQ",
+      "title": "Agentic Loops Are Changing Software Development",
+      "url": "https://youtube.com/watch?v=crBBgWEggkQ",
+      "published_at": "2026-06-08T17:31:34+00:00",
+      "views": 17127,
+      "outlier_ratio": 3.805154410131082,
+      "language": null,
+      "channel": "Web Dev Cody"
+    },
+    {
+      "video_id": "ir93tUo6jFw",
+      "title": "Hands on: Fable 5 makes GPT 5.5 feel like a \"toy\"",
+      "url": "https://youtube.com/watch?v=ir93tUo6jFw",
+      "published_at": "2026-06-09T21:24:55+00:00",
+      "views": 43406,
+      "outlier_ratio": 3.7909170305676856,
+      "language": null,
+      "channel": "MattVidPro"
+    },
+    {
+      "video_id": "GduT8tdSnaw",
+      "title": "Custom Skills for Hermes Agent: Full Tutorial",
+      "url": "https://youtube.com/watch?v=GduT8tdSnaw",
+      "published_at": "2026-05-27T22:42:20+00:00",
+      "views": 10123,
+      "outlier_ratio": 3.774422073079791,
+      "language": null,
+      "channel": "Mervin Praison"
+    },
+    {
+      "video_id": "2lE1-5hBfKk",
+      "title": "Why Everyone Is Freaking Out About Fable 5 (Mythos)",
+      "url": "https://youtube.com/watch?v=2lE1-5hBfKk",
+      "published_at": "2026-06-11T01:34:23+00:00",
+      "views": 67694,
+      "outlier_ratio": 3.7379348426283823,
+      "language": null,
+      "channel": "Matt Wolfe"
+    },
+    {
+      "video_id": "zjFE-dBzP_E",
+      "title": "You NEED to try these open-source AI projects RIGHT NOW",
+      "url": "https://youtube.com/watch?v=zjFE-dBzP_E",
+      "published_at": "2026-06-12T23:47:25+00:00",
+      "views": 128192,
+      "outlier_ratio": 3.736940298507463,
+      "language": null,
+      "channel": "Matthew Berman"
+    },
+    {
+      "video_id": "8jDXI4_rJOE",
+      "title": "This 100% open-source terminal is insane… just watch",
+      "url": "https://youtube.com/watch?v=8jDXI4_rJOE",
+      "published_at": "2026-05-29T23:02:44+00:00",
+      "views": 26554,
+      "outlier_ratio": 3.7065884980457846,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "ZfPEaM3ETx4",
+      "title": "Cuando el programador junior te pregunta: ¿Qué es Git?  #programacion #junior #git",
+      "url": "https://youtube.com/watch?v=ZfPEaM3ETx4",
+      "published_at": "2026-06-12T22:07:14+00:00",
+      "views": 9491,
+      "outlier_ratio": 3.671566731141199,
+      "language": null,
+      "channel": "Victor Robles WEB"
+    },
+    {
+      "video_id": "Mf-Ri1ySdfI",
+      "title": "10 ChatGPT Power Words to Change How It Answers",
+      "url": "https://youtube.com/watch?v=Mf-Ri1ySdfI",
+      "published_at": "2026-06-08T12:43:33+00:00",
+      "views": 27597,
+      "outlier_ratio": 3.6302288871349644,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "2ZwO6LhC0SU",
+      "title": "Claude Fable 5 Just Changed Website Design Forever",
+      "url": "https://youtube.com/watch?v=2ZwO6LhC0SU",
+      "published_at": "2026-06-12T18:54:49+00:00",
+      "views": 45596,
+      "outlier_ratio": 3.6262425447316105,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "mTYxpIRK7xA",
+      "title": "Hermes Agent - Full Course & Setup Guide - For COMPLETE Beginners",
+      "url": "https://youtube.com/watch?v=mTYxpIRK7xA",
+      "published_at": "2026-06-05T14:00:09+00:00",
+      "views": 49955,
+      "outlier_ratio": 3.574853298983827,
+      "language": null,
+      "channel": "Tech With Tim"
+    },
+    {
+      "video_id": "g5gTUyMUmAs",
+      "title": "Here's What Claude Fable 5 Can REALLY Do!",
+      "url": "https://youtube.com/watch?v=g5gTUyMUmAs",
+      "published_at": "2026-06-12T18:52:09+00:00",
+      "views": 42410,
+      "outlier_ratio": 3.5656633596771483,
+      "language": null,
+      "channel": "The AI Advantage"
+    },
+    {
+      "video_id": "q-gm1QKKeWQ",
+      "title": "Google I/O 2026: Gemini POR FIN integrado en todo el ecosistema",
+      "url": "https://youtube.com/watch?v=q-gm1QKKeWQ",
+      "published_at": "2026-05-22T01:00:18+00:00",
+      "views": 68751,
+      "outlier_ratio": 3.5592772830813835,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "zqUdtL5l9yM",
+      "title": "Hermes Agentic OS is Insane... just watch",
+      "url": "https://youtube.com/watch?v=zqUdtL5l9yM",
+      "published_at": "2026-06-01T14:45:18+00:00",
+      "views": 44649,
+      "outlier_ratio": 3.550616302186879,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "pDEbyDkE0hw",
+      "title": "I opened an office in Katowice (the next Dubai)",
+      "url": "https://youtube.com/watch?v=pDEbyDkE0hw",
+      "published_at": "2026-05-22T20:58:38+00:00",
+      "views": 25351,
+      "outlier_ratio": 3.5386655499720825,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "8QQ_INxAhRs",
+      "title": "I Turned Claude Into the Ultimate Second Brain",
+      "url": "https://youtube.com/watch?v=8QQ_INxAhRs",
+      "published_at": "2026-06-10T04:40:11+00:00",
+      "views": 284247,
+      "outlier_ratio": 3.5050248467884138,
+      "language": null,
+      "channel": "Nate Herk | AI Automation"
+    },
+    {
+      "video_id": "QH42hEuaMhk",
+      "title": "NVIDIA lanza la RTX Spark ¿revolución o humo?",
+      "url": "https://youtube.com/watch?v=QH42hEuaMhk",
+      "published_at": "2026-06-03T20:14:55+00:00",
+      "views": 67477,
+      "outlier_ratio": 3.4933215986746737,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "9PUaEj0pMYE",
+      "title": "Your AI Skills Are Trapped | Here's How to Own Them",
+      "url": "https://youtube.com/watch?v=9PUaEj0pMYE",
+      "published_at": "2026-06-19T14:00:08+00:00",
+      "views": 16789,
+      "outlier_ratio": 3.436847492323439,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "HiMLC1MRzNE",
+      "title": "OpenClaw en Platzi",
+      "url": "https://youtube.com/watch?v=HiMLC1MRzNE",
+      "published_at": "2026-05-25T19:52:34+00:00",
+      "views": 57624,
+      "outlier_ratio": 3.4106117131521287,
+      "language": null,
+      "channel": "Platzi"
+    },
+    {
+      "video_id": "LVA2IlGWmlo",
+      "title": "Make your resume un-rejectable with Claude (3 prompts)",
+      "url": "https://youtube.com/watch?v=LVA2IlGWmlo",
+      "published_at": "2026-06-06T18:43:17+00:00",
+      "views": 24563,
+      "outlier_ratio": 3.231123388581952,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "MkFThJWJgg8",
+      "title": "GLM-5.2 (Fully Tested): I got EARLY ACCESS & This MODEL is CRAZY!",
+      "url": "https://youtube.com/watch?v=MkFThJWJgg8",
+      "published_at": "2026-06-13T10:43:33+00:00",
+      "views": 27890,
+      "outlier_ratio": 3.1879286694101507,
+      "language": null,
+      "channel": "AICodeKing"
+    },
+    {
+      "video_id": "6d__WOpZswY",
+      "title": "New #1 open-source AI model is here!",
+      "url": "https://youtube.com/watch?v=6d__WOpZswY",
+      "published_at": "2026-06-17T03:26:33+00:00",
+      "views": 356889,
+      "outlier_ratio": 3.137816736710686,
+      "language": null,
+      "channel": "AI Search"
+    },
+    {
+      "video_id": "4_Kl2sUvL70",
+      "title": "¿Por qué Anthropic desactivó Fable en todo el mundo? La historia completa",
+      "url": "https://youtube.com/watch?v=4_Kl2sUvL70",
+      "published_at": "2026-06-14T02:12:53+00:00",
+      "views": 60481,
+      "outlier_ratio": 3.1311348105197765,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "fu0dNQi0_uU",
+      "title": "Así es la nueva educación impulsada por AI",
+      "url": "https://youtube.com/watch?v=fu0dNQi0_uU",
+      "published_at": "2026-05-23T15:23:59+00:00",
+      "views": 52451,
+      "outlier_ratio": 3.1059986972227156,
+      "language": null,
+      "channel": "Platzi"
+    },
+    {
+      "video_id": "QDQT99csHJQ",
+      "title": "Getting Evals Right for LLM Applications | Interrupt 26",
+      "url": "https://youtube.com/watch?v=QDQT99csHJQ",
+      "published_at": "2026-06-12T12:47:16+00:00",
+      "views": 5033,
+      "outlier_ratio": 3.074526572999389,
+      "language": null,
+      "channel": "LangChain"
+    },
+    {
+      "video_id": "V80QfRa7t_c",
+      "title": "This MCP makes Hermes Agent 10x more powerful",
+      "url": "https://youtube.com/watch?v=V80QfRa7t_c",
+      "published_at": "2026-06-15T19:11:17+00:00",
+      "views": 21883,
+      "outlier_ratio": 3.0545784477945284,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "DiqHpgHReaY",
+      "title": "Las Skills de Claude Code Cambian Todo… Así Se Usan",
+      "url": "https://youtube.com/watch?v=DiqHpgHReaY",
+      "published_at": "2026-05-27T14:50:29+00:00",
+      "views": 7890,
+      "outlier_ratio": 3.051063829787234,
+      "language": null,
+      "channel": "Victor Robles WEB"
+    },
+    {
+      "video_id": "BaHAmiXT2uE",
+      "title": "After Using Fable 5, Here's My Take",
+      "url": "https://youtube.com/watch?v=BaHAmiXT2uE",
+      "published_at": "2026-06-10T15:01:50+00:00",
+      "views": 13619,
+      "outlier_ratio": 3.02577205065541,
+      "language": null,
+      "channel": "Web Dev Cody"
+    },
+    {
+      "video_id": "HKpFR7Tmm6c",
+      "title": "Dario Amodei (tres doritos después): La IA generará más empleo",
+      "url": "https://youtube.com/watch?v=HKpFR7Tmm6c",
+      "published_at": "2026-05-28T00:06:04+00:00",
+      "views": 58257,
+      "outlier_ratio": 3.015997100849037,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "lggtc9D5e7E",
+      "title": "Uber's expensive AI mistake revealed #tech #shorts",
+      "url": "https://youtube.com/watch?v=lggtc9D5e7E",
+      "published_at": "2026-06-07T16:00:34+00:00",
+      "views": 14620,
+      "outlier_ratio": 2.9930399181166836,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "o_ondDD8taw",
+      "title": "Lo que ha pasado con Claude Code y un modelo de IA es SALVAJE",
+      "url": "https://youtube.com/watch?v=o_ondDD8taw",
+      "published_at": "2026-05-25T14:50:01+00:00",
+      "views": 7671,
+      "outlier_ratio": 2.967504835589942,
+      "language": null,
+      "channel": "Victor Robles WEB"
+    },
+    {
+      "video_id": "eTBSF411yQ4",
+      "title": "AI engineer salary - What to expect: Junior to senior",
+      "url": "https://youtube.com/watch?v=eTBSF411yQ4",
+      "published_at": "2026-05-27T12:30:42+00:00",
+      "views": 41128,
+      "outlier_ratio": 2.943180191784743,
+      "language": null,
+      "channel": "Tech With Tim"
+    },
+    {
+      "video_id": "6GtF_uHbGhw",
+      "title": "Every Level of Hermes Agent Explained",
+      "url": "https://youtube.com/watch?v=6GtF_uHbGhw",
+      "published_at": "2026-06-17T19:27:42+00:00",
+      "views": 36720,
+      "outlier_ratio": 2.920079522862823,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "kjtGZu67z9E",
+      "title": "China te REGALA la IA (Silicon Valley se DESESPERA)",
+      "url": "https://youtube.com/watch?v=kjtGZu67z9E",
+      "published_at": "2026-05-24T13:13:10+00:00",
+      "views": 232216,
+      "outlier_ratio": 2.8479481959331845,
+      "language": null,
+      "channel": "Xavier Mitjana"
+    },
+    {
+      "video_id": "7p-bpFf0Q6w",
+      "title": "12 Ways To Make Money With Claude AI in 2026",
+      "url": "https://youtube.com/watch?v=7p-bpFf0Q6w",
+      "published_at": "2026-06-07T18:43:36+00:00",
+      "views": 21352,
+      "outlier_ratio": 2.8087345435411732,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "jxOsPBXYKzE",
+      "title": "If I Wanted to Become AI Millionaire In 2026, This is What I'd Do [FULL BLUEPRINT]",
+      "url": "https://youtube.com/watch?v=jxOsPBXYKzE",
+      "published_at": "2026-06-10T17:00:17+00:00",
+      "views": 21094,
+      "outlier_ratio": 2.774796106287819,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "U1t4Zm-iclE",
+      "title": "10 Broken ChatGPT Codes To Change How It Answers You",
+      "url": "https://youtube.com/watch?v=U1t4Zm-iclE",
+      "published_at": "2026-06-05T18:43:32+00:00",
+      "views": 20979,
+      "outlier_ratio": 2.7596685082872927,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "GiohIwpESpk",
+      "title": "Tutorial de Excel con Inteligencia Artificial",
+      "url": "https://youtube.com/watch?v=GiohIwpESpk",
+      "published_at": "2026-06-04T16:29:50+00:00",
+      "views": 46096,
+      "outlier_ratio": 2.729673713507432,
+      "language": null,
+      "channel": "Platzi"
+    },
+    {
+      "video_id": "D6XWu54oG4g",
+      "title": "Inside Cogent's three-agent architecture for autonomous defense | Geng Sng (Co-founder, Cogent)",
+      "url": "https://youtube.com/watch?v=D6XWu54oG4g",
+      "published_at": "2026-05-22T14:00:13+00:00",
+      "views": 4442,
+      "outlier_ratio": 2.713500305436775,
+      "language": null,
+      "channel": "LangChain"
+    },
+    {
+      "video_id": "2dLIIKrvEJY",
+      "title": "Anthropic's Free Claude AI Learning Path (9 Free Courses)",
+      "url": "https://youtube.com/watch?v=2dLIIKrvEJY",
+      "published_at": "2026-06-16T20:45:21+00:00",
+      "views": 20405,
+      "outlier_ratio": 2.6841620626151013,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "59NCmQ3hxz4",
+      "title": "The death of the filing cabinet #ai #tech",
+      "url": "https://youtube.com/watch?v=59NCmQ3hxz4",
+      "published_at": "2026-05-30T00:00:01+00:00",
+      "views": 12874,
+      "outlier_ratio": 2.6354145342886386,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "kUMZ5YNA13k",
+      "title": "24 Agents tasked to build a $1B app",
+      "url": "https://youtube.com/watch?v=kUMZ5YNA13k",
+      "published_at": "2026-06-06T12:16:32+00:00",
+      "views": 18748,
+      "outlier_ratio": 2.6169737576772754,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "xvfz3gXVYNI",
+      "title": "WTF is going on?!",
+      "url": "https://youtube.com/watch?v=xvfz3gXVYNI",
+      "published_at": "2026-06-13T20:21:41+00:00",
+      "views": 88885,
+      "outlier_ratio": 2.5911555503731343,
+      "language": null,
+      "channel": "Matthew Berman"
+    },
+    {
+      "video_id": "5mJQePqMszs",
+      "title": "Why the US Government Shut Off Claude Fable 5 (Explained)",
+      "url": "https://youtube.com/watch?v=5mJQePqMszs",
+      "published_at": "2026-06-18T20:45:15+00:00",
+      "views": 19571,
+      "outlier_ratio": 2.574454091028677,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "9WWp3cYiAZg",
+      "title": "Diferencia de Claude con otras IAs",
+      "url": "https://youtube.com/watch?v=9WWp3cYiAZg",
+      "published_at": "2026-06-11T22:52:14+00:00",
+      "views": 49300,
+      "outlier_ratio": 2.5522882584386,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "dMrm2jAyrKM",
+      "title": "Only the best are using them...",
+      "url": "https://youtube.com/watch?v=dMrm2jAyrKM",
+      "published_at": "2026-06-09T02:01:01+00:00",
+      "views": 87377,
+      "outlier_ratio": 2.5471373600746268,
+      "language": null,
+      "channel": "Matthew Berman"
+    },
+    {
+      "video_id": "ZSvcxjNZdxk",
+      "title": "I Tried 100+ Claude Code Skills. These 6 Are The Best.",
+      "url": "https://youtube.com/watch?v=ZSvcxjNZdxk",
+      "published_at": "2026-05-29T10:57:35+00:00",
+      "views": 35178,
+      "outlier_ratio": 2.5174609989981396,
+      "language": null,
+      "channel": "Tech With Tim"
+    },
+    {
+      "video_id": "QcDtTU0y02g",
+      "title": "Fully FREE Opus-4.8 CODER: This is ACTUALLY VERY USEFUL!",
+      "url": "https://youtube.com/watch?v=QcDtTU0y02g",
+      "published_at": "2026-05-30T10:34:11+00:00",
+      "views": 21922,
+      "outlier_ratio": 2.505944215820759,
+      "language": null,
+      "channel": "AICodeKing"
+    },
+    {
+      "video_id": "Ou-0vjl6FZo",
+      "title": "MYTHOS MYTHOS MYTHOS",
+      "url": "https://youtube.com/watch?v=Ou-0vjl6FZo",
+      "published_at": "2026-06-09T23:02:27+00:00",
+      "views": 84940,
+      "outlier_ratio": 2.4759794776119404,
+      "language": null,
+      "channel": "Matthew Berman"
+    },
+    {
+      "video_id": "Q2Smh86VQyY",
+      "title": "¡HITO! OPENAI ha resuelto un PROBLEMA HISTÓRICO de MATEMÁTICAS",
+      "url": "https://youtube.com/watch?v=Q2Smh86VQyY",
+      "published_at": "2026-05-25T15:57:43+00:00",
+      "views": 208941,
+      "outlier_ratio": 2.435805966495296,
+      "language": null,
+      "channel": "Dot CSV Lab "
+    },
+    {
+      "video_id": "Db260rUuKJg",
+      "title": "AI News: Fable Banned, New Open-Source Leader, Midjourney Shocker",
+      "url": "https://youtube.com/watch?v=Db260rUuKJg",
+      "published_at": "2026-06-19T15:00:23+00:00",
+      "views": 44109,
+      "outlier_ratio": 2.4356156819436774,
+      "language": null,
+      "channel": "Matt Wolfe"
+    },
+    {
+      "video_id": "NDJhSa1U-iE",
+      "title": "¿Qué te llevas de Platzi Conf México?",
+      "url": "https://youtube.com/watch?v=NDJhSa1U-iE",
+      "published_at": "2026-05-27T00:23:02+00:00",
+      "views": 40932,
+      "outlier_ratio": 2.4252383490258778,
+      "language": null,
+      "channel": "Platzi"
+    },
+    {
+      "video_id": "PNjXhAvpeSE",
+      "title": "what is Cloudflare? (as easy as possible)",
+      "url": "https://youtube.com/watch?v=PNjXhAvpeSE",
+      "published_at": "2026-05-21T19:50:00+00:00",
+      "views": 5163,
+      "outlier_ratio": 2.423943661971831,
+      "language": null,
+      "channel": "corbin"
+    },
+    {
+      "video_id": "XzUB8_gj6xM",
+      "title": "It’s starting…",
+      "url": "https://youtube.com/watch?v=XzUB8_gj6xM",
+      "published_at": "2026-06-05T13:59:18+00:00",
+      "views": 83150,
+      "outlier_ratio": 2.423915578358209,
+      "language": null,
+      "channel": "Matthew Berman"
+    },
+    {
+      "video_id": "rWmPFSqMAVg",
+      "title": "¿Hasta qué nivel de inglés entiendes?",
+      "url": "https://youtube.com/watch?v=rWmPFSqMAVg",
+      "published_at": "2026-05-27T15:14:34+00:00",
+      "views": 40795,
+      "outlier_ratio": 2.4158820394386216,
+      "language": null,
+      "channel": "Platzi"
+    },
+    {
+      "video_id": "BvjkywaIC1A",
+      "title": "Claude Fable 5 is Banned... Do THIS Right Now",
+      "url": "https://youtube.com/watch?v=BvjkywaIC1A",
+      "published_at": "2026-06-15T18:28:45+00:00",
+      "views": 30143,
+      "outlier_ratio": 2.397057654075547,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "hx-SY0U4q3o",
+      "title": "How To Build an AI Trading Bot With No Code",
+      "url": "https://youtube.com/watch?v=hx-SY0U4q3o",
+      "published_at": "2026-05-31T14:00:11+00:00",
+      "views": 5103,
+      "outlier_ratio": 2.395774647887324,
+      "language": null,
+      "channel": "corbin"
+    },
+    {
+      "video_id": "XE8umqpgKxg",
+      "title": "Curso gratis: Claude para todos (2026)",
+      "url": "https://youtube.com/watch?v=XE8umqpgKxg",
+      "published_at": "2026-06-11T19:22:16+00:00",
+      "views": 45969,
+      "outlier_ratio": 2.379840546697039,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "y1I5VAGF3Qs",
+      "title": "ChatGPT vs. Claude: Which Should You Use in 2026?",
+      "url": "https://youtube.com/watch?v=y1I5VAGF3Qs",
+      "published_at": "2026-06-08T17:04:22+00:00",
+      "views": 28266,
+      "outlier_ratio": 2.3764923490835717,
+      "language": null,
+      "channel": "The AI Advantage"
+    },
+    {
+      "video_id": "Gt8tT-xf6g4",
+      "title": "How I Built INSANE WordPress Websites In 20 Minutes (Claude Code)",
+      "url": "https://youtube.com/watch?v=Gt8tT-xf6g4",
+      "published_at": "2026-05-25T16:05:04+00:00",
+      "views": 38835,
+      "outlier_ratio": 2.3676990610901107,
+      "language": null,
+      "channel": "Jono Catliff"
+    },
+    {
+      "video_id": "CVOmQS6-QmI",
+      "title": "Opus 4.8 investiga mal, niega su error y discute!",
+      "url": "https://youtube.com/watch?v=CVOmQS6-QmI",
+      "published_at": "2026-06-05T19:30:21+00:00",
+      "views": 45629,
+      "outlier_ratio": 2.362238558707807,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "OB2azvOLOc8",
+      "title": "Por esto debes aprender programación en 2026",
+      "url": "https://youtube.com/watch?v=OB2azvOLOc8",
+      "published_at": "2026-06-02T18:15:57+00:00",
+      "views": 39674,
+      "outlier_ratio": 2.3507431752235446,
+      "language": null,
+      "channel": "Platzi"
+    },
+    {
+      "video_id": "V23RFc13ml4",
+      "title": "Qwen 3.7 Max (+Free API): WHY IS NO ONE TALKING ABOUT THIS!?",
+      "url": "https://youtube.com/watch?v=V23RFc13ml4",
+      "published_at": "2026-05-26T09:24:12+00:00",
+      "views": 20504,
+      "outlier_ratio": 2.3438500228623687,
+      "language": null,
+      "channel": "AICodeKing"
+    },
+    {
+      "video_id": "huAwz_BR8WM",
+      "title": "Demis Hassabis On What AI Will Do Next",
+      "url": "https://youtube.com/watch?v=huAwz_BR8WM",
+      "published_at": "2026-05-25T17:49:30+00:00",
+      "views": 150740,
+      "outlier_ratio": 2.3330753753288964,
+      "language": null,
+      "channel": "Two Minute Papers"
+    },
+    {
+      "video_id": "GBISeUYMzoU",
+      "title": "Cursor just beat EVERYONE.",
+      "url": "https://youtube.com/watch?v=GBISeUYMzoU",
+      "published_at": "2026-05-26T16:40:27+00:00",
+      "views": 78726,
+      "outlier_ratio": 2.294951026119403,
+      "language": null,
+      "channel": "Matthew Berman"
+    },
+    {
+      "video_id": "XOCVdPIhAHg",
+      "title": "Cursor just crushed Claude Code",
+      "url": "https://youtube.com/watch?v=XOCVdPIhAHg",
+      "published_at": "2026-06-02T11:58:44+00:00",
+      "views": 31811,
+      "outlier_ratio": 2.2764419636467728,
+      "language": null,
+      "channel": "Tech With Tim"
+    },
+    {
+      "video_id": "Kb7FxKgUWvo",
+      "title": "OpenAI's Compound Bet: A Risk Worth Taking? #OpenAIstory #ainews",
+      "url": "https://youtube.com/watch?v=Kb7FxKgUWvo",
+      "published_at": "2026-05-31T00:00:03+00:00",
+      "views": 11085,
+      "outlier_ratio": 2.269191402251791,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "X8RTJkN4u7c",
+      "title": "what is API? (as easy as possible)",
+      "url": "https://youtube.com/watch?v=X8RTJkN4u7c",
+      "published_at": "2026-05-25T21:53:45+00:00",
+      "views": 4821,
+      "outlier_ratio": 2.2633802816901407,
+      "language": null,
+      "channel": "corbin"
+    },
+    {
+      "video_id": "_7BHqZayPOc",
+      "title": "PewDiePie’s FREE Odysseus AI (Full Review & Setup)",
+      "url": "https://youtube.com/watch?v=_7BHqZayPOc",
+      "published_at": "2026-06-17T16:12:43+00:00",
+      "views": 40759,
+      "outlier_ratio": 2.2506350082827167,
+      "language": null,
+      "channel": "Matt Wolfe"
+    },
+    {
+      "video_id": "SzSL54SrSVE",
+      "title": "Apple’s Worst Nightmare #apple #google #gemini",
+      "url": "https://youtube.com/watch?v=SzSL54SrSVE",
+      "published_at": "2026-06-19T03:00:21+00:00",
+      "views": 10935,
+      "outlier_ratio": 2.2384851586489254,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "Dkqzqw8rxXI",
+      "title": "DeepMind’s New AI Found A Strange New Way To Think",
+      "url": "https://youtube.com/watch?v=Dkqzqw8rxXI",
+      "published_at": "2026-06-05T15:50:26+00:00",
+      "views": 144264,
+      "outlier_ratio": 2.2328432131249034,
+      "language": null,
+      "channel": "Two Minute Papers"
+    },
+    {
+      "video_id": "koL8eSRqRMY",
+      "title": "The Free Claude Learning Path Most People Never Finish (9 Courses)",
+      "url": "https://youtube.com/watch?v=koL8eSRqRMY",
+      "published_at": "2026-06-17T20:45:22+00:00",
+      "views": 16925,
+      "outlier_ratio": 2.2263877926861353,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "UdbndwiYUy4",
+      "title": "I Didn’t Know AI Could Do THIS",
+      "url": "https://youtube.com/watch?v=UdbndwiYUy4",
+      "published_at": "2026-06-05T14:06:59+00:00",
+      "views": 40307,
+      "outlier_ratio": 2.225676421866372,
+      "language": null,
+      "channel": "Matt Wolfe"
+    },
+    {
+      "video_id": "oGE_Dwz-rMk",
+      "title": "Omnigent: The New Meta-Harness for EVERY Coding Agent - Claude Code, Codex, Pi, More",
+      "url": "https://youtube.com/watch?v=oGE_Dwz-rMk",
+      "published_at": "2026-06-15T14:42:51+00:00",
+      "views": 21252,
+      "outlier_ratio": 2.216520650813517,
+      "language": null,
+      "channel": "Cole Medin"
+    },
+    {
+      "video_id": "YlXTlwInDkk",
+      "title": "Otra de mis habilidades extrañas (aparte de programar)",
+      "url": "https://youtube.com/watch?v=YlXTlwInDkk",
+      "published_at": "2026-05-27T22:07:01+00:00",
+      "views": 5722,
+      "outlier_ratio": 2.2135396518375243,
+      "language": null,
+      "channel": "Victor Robles WEB"
+    },
+    {
+      "video_id": "bdhUBBACglw",
+      "title": "Claude Fable 5 is BANNED. What to do?",
+      "url": "https://youtube.com/watch?v=bdhUBBACglw",
+      "published_at": "2026-06-13T21:25:13+00:00",
+      "views": 138582,
+      "outlier_ratio": 2.2099925048240228,
+      "language": null,
+      "channel": "Greg Isenberg"
+    },
+    {
+      "video_id": "t8qNXyDXQ9k",
+      "title": "Free Claude Design?",
+      "url": "https://youtube.com/watch?v=t8qNXyDXQ9k",
+      "published_at": "2026-05-30T10:25:31+00:00",
+      "views": 27732,
+      "outlier_ratio": 2.2053280318091453,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "_oqJju91qPk",
+      "title": "Cómo no quemarte con AI",
+      "url": "https://youtube.com/watch?v=_oqJju91qPk",
+      "published_at": "2026-06-19T23:09:03+00:00",
+      "views": 37141,
+      "outlier_ratio": 2.199384141647421,
+      "language": null,
+      "channel": "Platzi"
+    },
+    {
+      "video_id": "PEg08OAht2s",
+      "title": "Running Local AI on AMD",
+      "url": "https://youtube.com/watch?v=PEg08OAht2s",
+      "published_at": "2026-05-26T16:00:37+00:00",
+      "views": 31575,
+      "outlier_ratio": 2.1529387699440883,
+      "language": null,
+      "channel": "Sam Witteveen"
+    },
+    {
+      "video_id": "W-kM56mf-Nw",
+      "title": "BREAKING: Fable and Mythos have been taken down for security concerns.",
+      "url": "https://youtube.com/watch?v=W-kM56mf-Nw",
+      "published_at": "2026-06-13T02:16:41+00:00",
+      "views": 156542,
+      "outlier_ratio": 2.1397504066485324,
+      "language": null,
+      "channel": "Theo - t3․gg"
+    },
+    {
+      "video_id": "7IewbRdaBWI",
+      "title": "Fable is Mythos, and it is really good.",
+      "url": "https://youtube.com/watch?v=7IewbRdaBWI",
+      "published_at": "2026-06-11T04:06:46+00:00",
+      "views": 155743,
+      "outlier_ratio": 2.128828988914556,
+      "language": null,
+      "channel": "Theo - t3․gg"
+    },
+    {
+      "video_id": "6UBGecQTsZE",
+      "title": "Codex 5.5 vs Claude Opus 4.7 Polymarket Trading Challenge",
+      "url": "https://youtube.com/watch?v=6UBGecQTsZE",
+      "published_at": "2026-05-25T17:30:20+00:00",
+      "views": 9521,
+      "outlier_ratio": 2.1171892372692906,
+      "language": null,
+      "channel": "All About AI"
+    },
+    {
+      "video_id": "z_pZENEljr0",
+      "title": "Vercel Explained in 3 Minutes (for beginners)",
+      "url": "https://youtube.com/watch?v=z_pZENEljr0",
+      "published_at": "2026-06-06T14:00:17+00:00",
+      "views": 4424,
+      "outlier_ratio": 2.0769953051643193,
+      "language": null,
+      "channel": "corbin"
+    },
+    {
+      "video_id": "1b8e64Nxd1E",
+      "title": "The reason OpenClaw feels unusable lately",
+      "url": "https://youtube.com/watch?v=1b8e64Nxd1E",
+      "published_at": "2026-05-21T22:00:04+00:00",
+      "views": 14867,
+      "outlier_ratio": 2.0752372975991067,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "-8v2rv22pKM",
+      "title": "You Might Want to Switch to Gemini...",
+      "url": "https://youtube.com/watch?v=-8v2rv22pKM",
+      "published_at": "2026-05-22T17:52:57+00:00",
+      "views": 24648,
+      "outlier_ratio": 2.0723053640491003,
+      "language": null,
+      "channel": "The AI Advantage"
+    },
+    {
+      "video_id": "ytygMoijP4c",
+      "title": "Karpathy joins Anthropic: the end of OpenAI’s dominance?",
+      "url": "https://youtube.com/watch?v=ytygMoijP4c",
+      "published_at": "2026-05-23T12:36:08+00:00",
+      "views": 14827,
+      "outlier_ratio": 2.06965382467895,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "CecxM0tdnXc",
+      "title": "Estos son los trabajos que la IA está eliminando en 2026 (ya empezaron los despidos)",
+      "url": "https://youtube.com/watch?v=CecxM0tdnXc",
+      "published_at": "2026-05-22T20:24:37+00:00",
+      "views": 39960,
+      "outlier_ratio": 2.0686995237109134,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "t3uBGhpii6w",
+      "title": "Anthropic just dropped Opus 4.8... (WOAH)",
+      "url": "https://youtube.com/watch?v=t3uBGhpii6w",
+      "published_at": "2026-05-29T01:01:34+00:00",
+      "views": 70849,
+      "outlier_ratio": 2.0652985074626864,
+      "language": null,
+      "channel": "Matthew Berman"
+    },
+    {
+      "video_id": "HC3PU1ZjyCU",
+      "title": "The trap hidden inside Salesforce #salesforce #crm #startup",
+      "url": "https://youtube.com/watch?v=HC3PU1ZjyCU",
+      "published_at": "2026-05-29T03:00:01+00:00",
+      "views": 10052,
+      "outlier_ratio": 2.057727737973388,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "sI4nyJ_uNV0",
+      "title": "LangChain Academy New Course: Introduction to LangSmith Deployment",
+      "url": "https://youtube.com/watch?v=sI4nyJ_uNV0",
+      "published_at": "2026-05-28T16:33:55+00:00",
+      "views": 3368,
+      "outlier_ratio": 2.05742211362248,
+      "language": null,
+      "channel": "LangChain"
+    },
+    {
+      "video_id": "SzY6Sl-fGqw",
+      "title": "El fin del software por licencias",
+      "url": "https://youtube.com/watch?v=SzY6Sl-fGqw",
+      "published_at": "2026-06-12T18:16:14+00:00",
+      "views": 34448,
+      "outlier_ratio": 2.039912358619056,
+      "language": null,
+      "channel": "Platzi"
+    },
+    {
+      "video_id": "dQwDfj1wgns",
+      "title": "5 Secret ChatGPT Power Words To Get Better Answers",
+      "url": "https://youtube.com/watch?v=dQwDfj1wgns",
+      "published_at": "2026-06-07T12:43:14+00:00",
+      "views": 15490,
+      "outlier_ratio": 2.0376216785056562,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "MVvFDfxaeWg",
+      "title": "How We Built LangSmith Engine | Interrupt 26",
+      "url": "https://youtube.com/watch?v=MVvFDfxaeWg",
+      "published_at": "2026-05-27T14:07:52+00:00",
+      "views": 3332,
+      "outlier_ratio": 2.0329871716554675,
+      "language": null,
+      "channel": "LangChain"
+    },
+    {
+      "video_id": "y1ixWoqkfR4",
+      "title": "Programador mientras deja a Claude Code que haga su código",
+      "url": "https://youtube.com/watch?v=y1ixWoqkfR4",
+      "published_at": "2026-06-07T13:00:36+00:00",
+      "views": 5251,
+      "outlier_ratio": 2.0313346228239846,
+      "language": null,
+      "channel": "Victor Robles WEB"
+    },
+    {
+      "video_id": "q5lg3npxjAc",
+      "title": "Opus 4.8 Just Dropped. Here's How To Actually Use It.",
+      "url": "https://youtube.com/watch?v=q5lg3npxjAc",
+      "published_at": "2026-05-28T18:52:03+00:00",
+      "views": 164607,
+      "outlier_ratio": 2.0297544915348285,
+      "language": null,
+      "channel": "Nate Herk | AI Automation"
+    },
+    {
+      "video_id": "S5O_4bKA6o0",
+      "title": "Hablando por teléfono con un hater de la programacion",
+      "url": "https://youtube.com/watch?v=S5O_4bKA6o0",
+      "published_at": "2026-06-01T22:07:02+00:00",
+      "views": 5219,
+      "outlier_ratio": 2.018955512572534,
+      "language": null,
+      "channel": "Victor Robles WEB"
+    },
+    {
+      "video_id": "6LwQ8RbU9as",
+      "title": "DeepSWE just changed the benchmark game...",
+      "url": "https://youtube.com/watch?v=6LwQ8RbU9as",
+      "published_at": "2026-05-27T16:03:45+00:00",
+      "views": 69147,
+      "outlier_ratio": 2.015712453358209,
+      "language": null,
+      "channel": "Matthew Berman"
+    },
+    {
+      "video_id": "CSnXeafJfO8",
+      "title": "Programación: Un empleo perdido...",
+      "url": "https://youtube.com/watch?v=CSnXeafJfO8",
+      "published_at": "2026-06-01T14:50:32+00:00",
+      "views": 5198,
+      "outlier_ratio": 2.0108317214700193,
+      "language": null,
+      "channel": "Victor Robles WEB"
+    },
+    {
+      "video_id": "_goOUJkkxUk",
+      "title": "Anthropic fights back",
+      "url": "https://youtube.com/watch?v=_goOUJkkxUk",
+      "published_at": "2026-05-29T08:57:15+00:00",
+      "views": 146332,
+      "outlier_ratio": 2.0001913640153637,
+      "language": null,
+      "channel": "Theo - t3․gg"
+    }
+  ],
+  "yt_underperformer_videos": [
+    {
+      "video_id": "2x3xxkBzU5c",
+      "title": "21 Hermes concepts to get you started",
+      "url": "https://youtube.com/watch?v=2x3xxkBzU5c",
+      "published_at": "2026-06-09T20:12:22+00:00",
+      "views": 519,
+      "outlier_ratio": 0.041272365805168985,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "aHI8OG6gODA",
+      "title": "Make Claude Code Write EXACTLY Like You (Free Templates)",
+      "url": "https://youtube.com/watch?v=aHI8OG6gODA",
+      "published_at": "2026-05-27T17:13:48+00:00",
+      "views": 2012,
+      "outlier_ratio": 0.1226679673210584,
+      "language": null,
+      "channel": "Jono Catliff"
+    },
+    {
+      "video_id": "nHelR24WUak",
+      "title": "La clave para emprender en programación y desarrollo de software #programacion #inteligencia",
+      "url": "https://youtube.com/watch?v=nHelR24WUak",
+      "published_at": "2026-06-08T22:07:20+00:00",
+      "views": 345,
+      "outlier_ratio": 0.13346228239845262,
+      "language": null,
+      "channel": "Victor Robles WEB"
+    },
+    {
+      "video_id": "NHFbAg2b54U",
+      "title": "100 Years of Artificial Intelligence Explained",
+      "url": "https://youtube.com/watch?v=NHFbAg2b54U",
+      "published_at": "2026-06-02T12:57:25+00:00",
+      "views": 12541,
+      "outlier_ratio": 0.15464197195950527,
+      "language": null,
+      "channel": "Nate Herk | AI Automation"
+    },
+    {
+      "video_id": "iz7elwbqZVI",
+      "title": "Meet the AI \"Co-Scientist\" Changing Everything 🤖🧪 #ai",
+      "url": "https://youtube.com/watch?v=iz7elwbqZVI",
+      "published_at": "2026-06-03T17:00:19+00:00",
+      "views": 10366,
+      "outlier_ratio": 0.16043956043956045,
+      "language": null,
+      "channel": "Two Minute Papers"
+    },
+    {
+      "video_id": "RGh9kL8hVgQ",
+      "title": "It's like AI insurance",
+      "url": "https://youtube.com/watch?v=RGh9kL8hVgQ",
+      "published_at": "2026-06-04T21:06:16+00:00",
+      "views": 5656,
+      "outlier_ratio": 0.16487873134328357,
+      "language": null,
+      "channel": "Matthew Berman"
+    },
+    {
+      "video_id": "nvW-dTgHAHg",
+      "title": "Live AI Q&A + Crushing it in Chess at the Same Time - Come Hang Out!",
+      "url": "https://youtube.com/watch?v=nvW-dTgHAHg",
+      "published_at": "2026-06-07T04:26:50+00:00",
+      "views": 1706,
+      "outlier_ratio": 0.17793074676679183,
+      "language": null,
+      "channel": "Cole Medin"
+    },
+    {
+      "video_id": "j08GzapSxYk",
+      "title": "En vivo: ¿Qué mejoras nos trae Apple para 2026? WWDC Apple 2026",
+      "url": "https://youtube.com/watch?v=j08GzapSxYk",
+      "published_at": "2026-06-09T01:19:15+00:00",
+      "views": 3523,
+      "outlier_ratio": 0.18238765790018638,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "ikH1--DSzMs",
+      "title": "How to build proactive agents & self-improving company (Fully explained)",
+      "url": "https://youtube.com/watch?v=ikH1--DSzMs",
+      "published_at": "2026-06-02T12:17:34+00:00",
+      "views": 7500,
+      "outlier_ratio": 0.1897485199615443,
+      "language": null,
+      "channel": "AI Jason"
+    },
+    {
+      "video_id": "srIaywtgV40",
+      "title": "Been playing with this cool ai tool from genspark",
+      "url": "https://youtube.com/watch?v=srIaywtgV40",
+      "published_at": "2026-05-27T16:31:26+00:00",
+      "views": 12835,
+      "outlier_ratio": 0.20468209290828776,
+      "language": null,
+      "channel": "Greg Isenberg"
+    },
+    {
+      "video_id": "fdkwkmZrpEU",
+      "title": "Everyone's holding their laptops open",
+      "url": "https://youtube.com/watch?v=fdkwkmZrpEU",
+      "published_at": "2026-06-02T21:42:27+00:00",
+      "views": 7270,
+      "outlier_ratio": 0.2119286380597015,
+      "language": null,
+      "channel": "Matthew Berman"
+    },
+    {
+      "video_id": "zOndwcirGVY",
+      "title": "The most expensive AI mistake you are making #ai #learning #shorts",
+      "url": "https://youtube.com/watch?v=zOndwcirGVY",
+      "published_at": "2026-06-06T15:00:16+00:00",
+      "views": 1103,
+      "outlier_ratio": 0.22579324462640737,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "n_01yq6icHs",
+      "title": "What You Think Is what You Become",
+      "url": "https://youtube.com/watch?v=n_01yq6icHs",
+      "published_at": "2026-06-04T09:00:02+00:00",
+      "views": 1686,
+      "outlier_ratio": 0.23534338358458962,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "EO9dLjmT0Ko",
+      "title": "8 AI Tools I Use Every Single Day (My Daily Stack)",
+      "url": "https://youtube.com/watch?v=EO9dLjmT0Ko",
+      "published_at": "2026-06-03T18:43:18+00:00",
+      "views": 1791,
+      "outlier_ratio": 0.2355958958168903,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "MOviZKtFeHM",
+      "title": "A Second Nobel Prize for AlphaFold? 🧬🏆 #alphafold #deepmind #nobelprize #science #ai",
+      "url": "https://youtube.com/watch?v=MOviZKtFeHM",
+      "published_at": "2026-06-02T07:13:59+00:00",
+      "views": 15290,
+      "outlier_ratio": 0.23665067327039158,
+      "language": null,
+      "channel": "Two Minute Papers"
+    },
+    {
+      "video_id": "wKWt8Cq4oDs",
+      "title": "Don't let your AI output go to waste #strategy #ai",
+      "url": "https://youtube.com/watch?v=wKWt8Cq4oDs",
+      "published_at": "2026-06-04T16:00:16+00:00",
+      "views": 1157,
+      "outlier_ratio": 0.2368474923234391,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "Vvks-ridADM",
+      "title": "May 2026 Recap",
+      "url": "https://youtube.com/watch?v=Vvks-ridADM",
+      "published_at": "2026-06-04T16:00:09+00:00",
+      "views": 187,
+      "outlier_ratio": 0.24540682414698162,
+      "language": null,
+      "channel": "AssemblyAI"
+    },
+    {
+      "video_id": "AEnQEupGS_Q",
+      "title": "Fix your AI pipeline: Rethink ownership #ai #tech",
+      "url": "https://youtube.com/watch?v=AEnQEupGS_Q",
+      "published_at": "2026-06-07T20:00:04+00:00",
+      "views": 1199,
+      "outlier_ratio": 0.24544524053224157,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "jzq3FUrQ-u0",
+      "title": "How To Land Your First AI Client As A Freelancer (100+ Beginners Did This)",
+      "url": "https://youtube.com/watch?v=jzq3FUrQ-u0",
+      "published_at": "2026-06-01T17:52:32+00:00",
+      "views": 4036,
+      "outlier_ratio": 0.24606755273747105,
+      "language": null,
+      "channel": "Jono Catliff"
+    },
+    {
+      "video_id": "82m7YqosdgU",
+      "title": "AI Agents as \"Games Masters\"? 🎮🔥",
+      "url": "https://youtube.com/watch?v=82m7YqosdgU",
+      "published_at": "2026-06-06T06:20:46+00:00",
+      "views": 16088,
+      "outlier_ratio": 0.24900170252282927,
+      "language": null,
+      "channel": "Two Minute Papers"
+    },
+    {
+      "video_id": "5tY4oZ2CsYo",
+      "title": "PSICOCMS: Web profesional para Psicólogas + Agenda online, reserva de citas online, pacientes y + 🔥",
+      "url": "https://youtube.com/watch?v=5tY4oZ2CsYo",
+      "published_at": "2026-06-08T14:50:28+00:00",
+      "views": 652,
+      "outlier_ratio": 0.25222437137330755,
+      "language": null,
+      "channel": "Victor Robles WEB"
+    },
+    {
+      "video_id": "tk9lt-9x8mE",
+      "title": "Composer 2.5 and I INTERVIEWED THE CEO OF ALPHABET",
+      "url": "https://youtube.com/watch?v=tk9lt-9x8mE",
+      "published_at": "2026-05-21T19:49:20+00:00",
+      "views": 8764,
+      "outlier_ratio": 0.2554804104477612,
+      "language": null,
+      "channel": "Matthew Berman"
+    },
+    {
+      "video_id": "09FXcinkQ_o",
+      "title": "ChatGPT Memory Got a Much Needed Update!",
+      "url": "https://youtube.com/watch?v=09FXcinkQ_o",
+      "published_at": "2026-06-09T15:08:21+00:00",
+      "views": 3060,
+      "outlier_ratio": 0.25727257440726414,
+      "language": null,
+      "channel": "The AI Advantage"
+    },
+    {
+      "video_id": "pO4qoLEMMog",
+      "title": "The most expensive AI mistake isn't prompting #ai #business",
+      "url": "https://youtube.com/watch?v=pO4qoLEMMog",
+      "published_at": "2026-06-05T01:00:00+00:00",
+      "views": 1268,
+      "outlier_ratio": 0.25957011258955986,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "_obduBedO9w",
+      "title": "¡BRUTAL! Probé Manus AI y el resultado es una completa LOCURA",
+      "url": "https://youtube.com/watch?v=_obduBedO9w",
+      "published_at": "2026-06-02T18:00:06+00:00",
+      "views": 3159,
+      "outlier_ratio": 0.2620924251223762,
+      "language": null,
+      "channel": "NextGen IA Hub"
+    },
+    {
+      "video_id": "wg9jm_d7Emk",
+      "title": "THIS was the whole point of Microsoft Builld",
+      "url": "https://youtube.com/watch?v=wg9jm_d7Emk",
+      "published_at": "2026-06-09T12:49:35+00:00",
+      "views": 4891,
+      "outlier_ratio": 0.2700717835450028,
+      "language": null,
+      "channel": "Matt Wolfe"
+    },
+    {
+      "video_id": "hArHak_tzN4",
+      "title": "En vivo: Anthropic se vuelve la empresa de IA más valiosa",
+      "url": "https://youtube.com/watch?v=hArHak_tzN4",
+      "published_at": "2026-06-03T00:55:25+00:00",
+      "views": 5258,
+      "outlier_ratio": 0.2722095671981777,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "nnucF6YiBKA",
+      "title": "AIAnytime Russia | Lekkala Srinivasu Founder & CEO of Millinox Limited Liability company (Russia)",
+      "url": "https://youtube.com/watch?v=nnucF6YiBKA",
+      "published_at": "2026-06-01T16:13:26+00:00",
+      "views": 243,
+      "outlier_ratio": 0.28421052631578947,
+      "language": null,
+      "channel": "AI Anytime"
+    },
+    {
+      "video_id": "g4FSU7g3IJw",
+      "title": "The hidden value in your AI's worst outputs #ai #tech #work",
+      "url": "https://youtube.com/watch?v=g4FSU7g3IJw",
+      "published_at": "2026-06-06T20:00:19+00:00",
+      "views": 1440,
+      "outlier_ratio": 0.2947799385875128,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "D-gcNGdHYz0",
+      "title": "Así Automatizaría Cualquier Negocio en 2026 (Desde Cero)",
+      "url": "https://youtube.com/watch?v=D-gcNGdHYz0",
+      "published_at": "2026-06-06T23:00:23+00:00",
+      "views": 14620,
+      "outlier_ratio": 0.2980996656063943,
+      "language": null,
+      "channel": "Benjamín Cordero"
+    },
+    {
+      "video_id": "Nn7EbMJRRGo",
+      "title": "Why The Universe Ignores Most People",
+      "url": "https://youtube.com/watch?v=Nn7EbMJRRGo",
+      "published_at": "2026-06-08T13:00:20+00:00",
+      "views": 2169,
+      "outlier_ratio": 0.3027638190954774,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "4KU1CiiAsMI",
+      "title": "The most expensive AI mistake you’re making right now #ai #strategy",
+      "url": "https://youtube.com/watch?v=4KU1CiiAsMI",
+      "published_at": "2026-06-04T21:00:37+00:00",
+      "views": 1488,
+      "outlier_ratio": 0.3046059365404299,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "ch3E8AaJ0jM",
+      "title": "15 AI Updates You Missed This Week (Nemotron, Gemma 4, MAI & More)",
+      "url": "https://youtube.com/watch?v=ch3E8AaJ0jM",
+      "published_at": "2026-06-09T07:58:47+00:00",
+      "views": 831,
+      "outlier_ratio": 0.3098434004474273,
+      "language": null,
+      "channel": "Mervin Praison"
+    },
+    {
+      "video_id": "pFpBq4wOfQ4",
+      "title": "The Best AI Tool For Every Job (My Full List)",
+      "url": "https://youtube.com/watch?v=pFpBq4wOfQ4",
+      "published_at": "2026-06-06T12:43:31+00:00",
+      "views": 2364,
+      "outlier_ratio": 0.31097079715864245,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "IZjbq7cGqqs",
+      "title": "AI didn't fix your meetings, it broke your team size #productivity",
+      "url": "https://youtube.com/watch?v=IZjbq7cGqqs",
+      "published_at": "2026-06-03T03:00:11+00:00",
+      "views": 1560,
+      "outlier_ratio": 0.3193449334698055,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "wk4_ku8EtGU",
+      "title": "Testing Out the New Opus 4.8 👌",
+      "url": "https://youtube.com/watch?v=wk4_ku8EtGU",
+      "published_at": "2026-06-01T19:09:06+00:00",
+      "views": 3819,
+      "outlier_ratio": 0.3210862619808307,
+      "language": null,
+      "channel": "The AI Advantage"
+    },
+    {
+      "video_id": "h9V2D2b7hfo",
+      "title": "Angular ha resucitado",
+      "url": "https://youtube.com/watch?v=h9V2D2b7hfo",
+      "published_at": "2026-05-29T22:07:00+00:00",
+      "views": 836,
+      "outlier_ratio": 0.32340425531914896,
+      "language": null,
+      "channel": "Victor Robles WEB"
+    },
+    {
+      "video_id": "IhnyBh8uoJY",
+      "title": "Google is Making HUGE Changes to Search...",
+      "url": "https://youtube.com/watch?v=IhnyBh8uoJY",
+      "published_at": "2026-06-02T17:13:22+00:00",
+      "views": 3899,
+      "outlier_ratio": 0.3278123423574912,
+      "language": null,
+      "channel": "The AI Advantage"
+    },
+    {
+      "video_id": "iAMaBYKhQCk",
+      "title": "En vivo: Comienzan los despidos por la IA",
+      "url": "https://youtube.com/watch?v=iAMaBYKhQCk",
+      "published_at": "2026-05-22T01:13:49+00:00",
+      "views": 6451,
+      "outlier_ratio": 0.3339718368192172,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "hGCrvDDpl5w",
+      "title": "Ghost AI let's AI Agents build disposable worlds",
+      "url": "https://youtube.com/watch?v=hGCrvDDpl5w",
+      "published_at": "2026-05-30T02:53:11+00:00",
+      "views": 17154,
+      "outlier_ratio": 0.334490289369004,
+      "language": null,
+      "channel": "Wes Roth"
+    },
+    {
+      "video_id": "nAqtdPuKj0Y",
+      "title": "How Listen Labs stopped reviewing traces manually with LangSmith Engine",
+      "url": "https://youtube.com/watch?v=nAqtdPuKj0Y",
+      "published_at": "2026-06-03T17:31:35+00:00",
+      "views": 551,
+      "outlier_ratio": 0.33659132559560173,
+      "language": null,
+      "channel": "LangChain"
+    },
+    {
+      "video_id": "fUmtS2jsqng",
+      "title": "HTML5 revoluciona el mercado...",
+      "url": "https://youtube.com/watch?v=fUmtS2jsqng",
+      "published_at": "2026-06-06T13:00:25+00:00",
+      "views": 891,
+      "outlier_ratio": 0.3446808510638298,
+      "language": null,
+      "channel": "Victor Robles WEB"
+    },
+    {
+      "video_id": "kpKb7LI__78",
+      "title": "we are NOT PREPARED for the end of 2026",
+      "url": "https://youtube.com/watch?v=kpKb7LI__78",
+      "published_at": "2026-05-22T05:12:10+00:00",
+      "views": 18048,
+      "outlier_ratio": 0.3519226269401763,
+      "language": null,
+      "channel": "Wes Roth"
+    },
+    {
+      "video_id": "X9cvCQ3qrVk",
+      "title": "GitHub Just Made a Big AI Coding Move",
+      "url": "https://youtube.com/watch?v=X9cvCQ3qrVk",
+      "published_at": "2026-06-10T14:11:43+00:00",
+      "views": 6462,
+      "outlier_ratio": 0.3568194367752623,
+      "language": null,
+      "channel": "Matt Wolfe"
+    },
+    {
+      "video_id": "ItlPK13OKVg",
+      "title": "This One Change Made My AI Workspaces Much Faster",
+      "url": "https://youtube.com/watch?v=ItlPK13OKVg",
+      "published_at": "2026-06-08T14:45:52+00:00",
+      "views": 1622,
+      "outlier_ratio": 0.3603643634747834,
+      "language": null,
+      "channel": "Web Dev Cody"
+    },
+    {
+      "video_id": "j7DIuMos1-0",
+      "title": "Los juniors no murieron, evolucionaron",
+      "url": "https://youtube.com/watch?v=j7DIuMos1-0",
+      "published_at": "2026-06-01T19:39:16+00:00",
+      "views": 6965,
+      "outlier_ratio": 0.36058190101470283,
+      "language": null,
+      "channel": "EDteam"
+    },
+    {
+      "video_id": "JfPWbttemYE",
+      "title": "The forgotten developer who saved JavaScript...",
+      "url": "https://youtube.com/watch?v=JfPWbttemYE",
+      "published_at": "2026-05-29T17:06:48+00:00",
+      "views": 313244,
+      "outlier_ratio": 0.3753600889617455,
+      "language": null,
+      "channel": "Fireship"
+    },
+    {
+      "video_id": "jKgrNh_q_b0",
+      "title": "The Biggest Microsoft Build News in 82 seconds",
+      "url": "https://youtube.com/watch?v=jKgrNh_q_b0",
+      "published_at": "2026-06-08T14:43:43+00:00",
+      "views": 6976,
+      "outlier_ratio": 0.38520154610712315,
+      "language": null,
+      "channel": "Matt Wolfe"
+    },
+    {
+      "video_id": "yOGLr2IwAWk",
+      "title": "Where AI hits a wall #ai #tech #learning",
+      "url": "https://youtube.com/watch?v=yOGLr2IwAWk",
+      "published_at": "2026-06-07T01:00:29+00:00",
+      "views": 1890,
+      "outlier_ratio": 0.38689866939611056,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "hsJ9t2scY5g",
+      "title": "How Odessia ships a consumer-grade travel agent with LangSmith Engine",
+      "url": "https://youtube.com/watch?v=hsJ9t2scY5g",
+      "published_at": "2026-06-05T16:54:28+00:00",
+      "views": 635,
+      "outlier_ratio": 0.3879047037263286,
+      "language": null,
+      "channel": "LangChain"
+    },
+    {
+      "video_id": "rdYgKhgnWrg",
+      "title": "AI didn't fix your meetings, it broke them #management #ai",
+      "url": "https://youtube.com/watch?v=rdYgKhgnWrg",
+      "published_at": "2026-06-03T00:00:28+00:00",
+      "views": 1921,
+      "outlier_ratio": 0.3932446264073695,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "kIvvzCR5NjA",
+      "title": "Google DeepMind CEO Loves Hard Questions 🙂",
+      "url": "https://youtube.com/watch?v=kIvvzCR5NjA",
+      "published_at": "2026-05-26T17:35:28+00:00",
+      "views": 25417,
+      "outlier_ratio": 0.3933911159263272,
+      "language": null,
+      "channel": "Two Minute Papers"
+    },
+    {
+      "video_id": "vsKH3oPwss4",
+      "title": "Einstein vs Feynman,  Who Wins? 🧠🤔 #physics #ai #science #feynman #research",
+      "url": "https://youtube.com/watch?v=vsKH3oPwss4",
+      "published_at": "2026-06-01T00:16:21+00:00",
+      "views": 25599,
+      "outlier_ratio": 0.3962080173347779,
+      "language": null,
+      "channel": "Two Minute Papers"
+    },
+    {
+      "video_id": "uA5lAVALeFg",
+      "title": "AI avatars can do this now?",
+      "url": "https://youtube.com/watch?v=uA5lAVALeFg",
+      "published_at": "2026-05-30T10:25:19+00:00",
+      "views": 4999,
+      "outlier_ratio": 0.3975347912524851,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "l2r3aWn96K8",
+      "title": "SWEbench is done.",
+      "url": "https://youtube.com/watch?v=l2r3aWn96K8",
+      "published_at": "2026-06-01T15:23:07+00:00",
+      "views": 13740,
+      "outlier_ratio": 0.4005363805970149,
+      "language": null,
+      "channel": "Matthew Berman"
+    },
+    {
+      "video_id": "D_mcHcEhL3k",
+      "title": "Git, herramienta fundamental para el desarrollador IA #git #github #antigravity #cursor #claude #ia",
+      "url": "https://youtube.com/watch?v=D_mcHcEhL3k",
+      "published_at": "2026-05-25T22:07:00+00:00",
+      "views": 1037,
+      "outlier_ratio": 0.4011605415860735,
+      "language": null,
+      "channel": "Victor Robles WEB"
+    },
+    {
+      "video_id": "nO7eQUOhUHU",
+      "title": "Inflation isn’t what they taught you in school",
+      "url": "https://youtube.com/watch?v=nO7eQUOhUHU",
+      "published_at": "2026-05-24T09:00:43+00:00",
+      "views": 2977,
+      "outlier_ratio": 0.4155499720826354,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "YGx_EQRM1Qs",
+      "title": "STOP pretending AI doesn’t Affect You",
+      "url": "https://youtube.com/watch?v=YGx_EQRM1Qs",
+      "published_at": "2026-06-09T09:00:21+00:00",
+      "views": 2985,
+      "outlier_ratio": 0.4166666666666667,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "S9-Htw3URuo",
+      "title": "La automatización y el futuro de la ingeniería de software",
+      "url": "https://youtube.com/watch?v=S9-Htw3URuo",
+      "published_at": "2026-06-07T14:30:46+00:00",
+      "views": 7094,
+      "outlier_ratio": 0.4200864570379582,
+      "language": null,
+      "channel": "Platzi"
+    },
+    {
+      "video_id": "LVmijkrVti0",
+      "title": "Why you only have 150 friends #psychology #science",
+      "url": "https://youtube.com/watch?v=LVmijkrVti0",
+      "published_at": "2026-06-02T18:00:09+00:00",
+      "views": 2065,
+      "outlier_ratio": 0.4227226202661208,
+      "language": null,
+      "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "2EPJfItms2I",
+      "title": "Gemini's Video Understanding is Nuts...",
+      "url": "https://youtube.com/watch?v=2EPJfItms2I",
+      "published_at": "2026-05-27T16:17:01+00:00",
+      "views": 5307,
+      "outlier_ratio": 0.44619135698671597,
+      "language": null,
+      "channel": "The AI Advantage"
+    },
+    {
+      "video_id": "uFnxyXlRxag",
+      "title": "Claude, The Pope, and AGI",
+      "url": "https://youtube.com/watch?v=uFnxyXlRxag",
+      "published_at": "2026-05-26T05:05:02+00:00",
+      "views": 23033,
+      "outlier_ratio": 0.4491264331955386,
+      "language": null,
+      "channel": "Wes Roth"
+    },
+    {
+      "video_id": "6CNardWigoA",
+      "title": "Testing out Composer 2.5 on Mission Control",
+      "url": "https://youtube.com/watch?v=6CNardWigoA",
+      "published_at": "2026-05-25T04:40:42+00:00",
+      "views": 2054,
+      "outlier_ratio": 0.45634303488113753,
+      "language": null,
+      "channel": "Web Dev Cody"
+    },
+    {
+      "video_id": "8ktcSaSTvxk",
+      "title": "The Playbook for a $100M AI Agency",
+      "url": "https://youtube.com/watch?v=8ktcSaSTvxk",
+      "published_at": "2026-05-25T16:23:09+00:00",
+      "views": 37045,
+      "outlier_ratio": 0.45679864853200486,
+      "language": null,
+      "channel": "Nate Herk | AI Automation"
+    },
+    {
+      "video_id": "4ftONmdO9yo",
+      "title": "FULL Hermes Agent Tutorial For Beginners in 2026! (Become a PRO)",
+      "url": "https://youtube.com/watch?v=4ftONmdO9yo",
+      "published_at": "2026-06-03T14:00:39+00:00",
+      "views": 6544,
+      "outlier_ratio": 0.4579746658268598,
+      "language": null,
+      "channel": "AI Foundations"
+    },
+    {
+      "video_id": "lkR6mvqQQlk",
+      "title": "Is Claude Mythos Coming?",
+      "url": "https://youtube.com/watch?v=lkR6mvqQQlk",
+      "published_at": "2026-06-06T21:26:20+00:00",
+      "views": 37222,
+      "outlier_ratio": 0.4589812200204693,
+      "language": null,
+      "channel": "Nate Herk | AI Automation"
+    },
+    {
+      "video_id": "Ssa5lSAmWmc",
+      "title": "¿Adiós a pagar ChatGPT, Gemini, Claude y más? Probé i10X AI y me sorprendió",
+      "url": "https://youtube.com/watch?v=Ssa5lSAmWmc",
+      "published_at": "2026-06-04T17:30:09+00:00",
+      "views": 5553,
+      "outlier_ratio": 0.4607151746453165,
+      "language": null,
+      "channel": "NextGen IA Hub"
+    },
+    {
+      "video_id": "WiOtj7g39sE",
+      "title": "Animated Comedy Shortfilm Project with AI! | Full Breakdown",
+      "url": "https://youtube.com/watch?v=WiOtj7g39sE",
+      "published_at": "2026-05-29T21:46:10+00:00",
+      "views": 5306,
+      "outlier_ratio": 0.4634061135371179,
+      "language": null,
+      "channel": "MattVidPro"
+    },
+    {
+      "video_id": "C1dS-oFoyhk",
+      "title": "Plan with Claude Opus, Build with Kimi K2.6? LIVE Mixed-Provider Benchmark",
+      "url": "https://youtube.com/watch?v=C1dS-oFoyhk",
+      "published_at": "2026-05-22T03:36:08+00:00",
+      "views": 4532,
+      "outlier_ratio": 0.47267417605340006,
+      "language": null,
+      "channel": "Cole Medin"
+    },
+    {
+      "video_id": "QtA8UGyeWzk",
+      "title": "AI Contract Negotiation Saved Me $6,000!",
+      "url": "https://youtube.com/watch?v=QtA8UGyeWzk",
+      "published_at": "2026-05-24T15:28:15+00:00",
+      "views": 3391,
+      "outlier_ratio": 0.4733389168062535,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "AqU_WyOdEyo",
+      "title": "Observing And Testing CX Agents | Interrupt 26",
+      "url": "https://youtube.com/watch?v=AqU_WyOdEyo",
+      "published_at": "2026-06-10T12:59:00+00:00",
+      "views": 783,
+      "outlier_ratio": 0.47831398900427613,
+      "language": null,
+      "channel": "LangChain"
+    },
+    {
+      "video_id": "-8TPfUeBdmQ",
+      "title": "How To Build a Mobile Design System With AI",
+      "url": "https://youtube.com/watch?v=-8TPfUeBdmQ",
+      "published_at": "2026-05-23T14:00:02+00:00",
+      "views": 1025,
+      "outlier_ratio": 0.4812206572769953,
+      "language": null,
+      "channel": "corbin"
+    },
+    {
+      "video_id": "o4KZH_KSqYQ",
+      "title": "Pi Coding Agent Observability: HTML Specs with Gemini 3.5 Flash and GPT Image 2",
+      "url": "https://youtube.com/watch?v=o4KZH_KSqYQ",
+      "published_at": "2026-06-01T13:00:30+00:00",
+      "views": 14761,
+      "outlier_ratio": 0.4842530017715373,
+      "language": null,
+      "channel": "IndyDevDan"
+    },
+    {
+      "video_id": "iJIk7arrwbE",
+      "title": "Nobody is talking about what OpenAI just did to every financial planner. They just connected ChatGPT",
+      "url": "https://youtube.com/watch?v=iJIk7arrwbE",
+      "published_at": "2026-05-30T11:56:21+00:00",
+      "views": 6090,
+      "outlier_ratio": 0.4842942345924453,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "4o-D6hHZAG4",
+      "title": "You can have anything you want with This trick",
+      "url": "https://youtube.com/watch?v=4o-D6hHZAG4",
+      "published_at": "2026-05-26T11:00:10+00:00",
+      "views": 3509,
+      "outlier_ratio": 0.4898101619207147,
+      "language": null,
+      "channel": "David Ondrej"
+    },
+    {
+      "video_id": "HoMvCjnpAJ8",
+      "title": "Breaking Down the Pope's AI Essay",
+      "url": "https://youtube.com/watch?v=HoMvCjnpAJ8",
+      "published_at": "2026-05-29T17:03:37+00:00",
+      "views": 16921,
+      "outlier_ratio": 0.49326609141791045,
+      "language": null,
+      "channel": "Matthew Berman"
+    },
+    {
+      "video_id": "VXJzHJqnhBk",
+      "title": "I'm working on a self hosting cli tool",
+      "url": "https://youtube.com/watch?v=VXJzHJqnhBk",
+      "published_at": "2026-06-05T13:18:39+00:00",
+      "views": 2242,
+      "outlier_ratio": 0.4981115307709398,
+      "language": null,
+      "channel": "Web Dev Cody"
+    },
+    {
+      "video_id": "9q1321vbpMQ",
+      "title": "Did AI just solve math?",
+      "url": "https://youtube.com/watch?v=9q1321vbpMQ",
+      "published_at": "2026-06-01T16:00:32+00:00",
+      "views": 6266,
+      "outlier_ratio": 0.4982902584493042,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
+      "video_id": "EXP6MMEPKIE",
+      "title": "Esta IA hace videos SOLA 🤯 ¡Descubre el Claude Code del video!",
+      "url": "https://youtube.com/watch?v=EXP6MMEPKIE",
+      "published_at": "2026-05-29T14:13:51+00:00",
+      "views": 40704,
+      "outlier_ratio": 0.49920282567637175,
+      "language": null,
+      "channel": "Xavier Mitjana"
+    },
+    {
+      "video_id": "wxjztwJXXUg",
+      "title": "Así se programa con IA sin improvisar",
+      "url": "https://youtube.com/watch?v=wxjztwJXXUg",
+      "published_at": "2026-05-27T21:41:53+00:00",
+      "views": 9657,
+      "outlier_ratio": 0.4999482294470905,
+      "language": null,
+      "channel": "EDteam"
+    }
+  ]
 }
