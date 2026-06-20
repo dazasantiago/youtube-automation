@@ -139,7 +139,6 @@ def run_export(days: int = 7, out: str = "data/signals.json", db_path: Path = DB
         entry: dict[str, str] = {
             "id": f"yt:{v['video_id']}",
             "title": str(v["title"]),
-            "url": str(v["url"]),
         }
         if v["description"]:
             entry["description"] = str(v["description"])[:_YT_DESC_MAX]
@@ -148,7 +147,6 @@ def run_export(days: int = 7, out: str = "data/signals.json", db_path: Path = DB
         entry = {
             "id": f"yt_under:{v['video_id']}",
             "title": str(v["title"]),
-            "url": str(v["url"]),
         }
         if v["description"]:
             entry["description"] = str(v["description"])[:_YT_DESC_MAX]

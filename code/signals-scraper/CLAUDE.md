@@ -44,7 +44,7 @@ Seven sources are scraped daily:
 - `data/intel.db` — SQLite with raw signals, yt_channels, yt_videos, quota_log, run_log
 - `data/signals.json` — Full export: last 7 days of signals grouped by source + YT outliers + YT underperformers. Rich structure with metrics and metadata.
 - `data/handoff.json` — Compact flat list of `{id, title}` for all non-YT signals (hn, reddit, rss, x_apify, github_trending, gtrends, hf). No URLs — titles are sufficient for classification. ~15K tokens.
-- `data/handoff_yt.json` — Compact flat list of `{id, title, url, description?}` for YT competitor videos (`yt:`) and underperformers (`yt_under:`). Descriptions truncated to 150 chars. ~20K tokens.
+- `data/handoff_yt.json` — Compact flat list of `{id, title, description?}` for YT competitor videos (`yt:`) and underperformers (`yt_under:`). No URLs. Descriptions truncated to 150 chars. ~20K tokens.
 
 Both handoff files use compact JSON (no indentation) to stay under the Claude Read tool's 25K-token per-file limit.
 
