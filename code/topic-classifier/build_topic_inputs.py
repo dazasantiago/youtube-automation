@@ -114,6 +114,11 @@ def _resolve_signals(
         prefix, raw_id = parts
         if prefix in ("yt", "yt_under"):
             row = _fetch_yt_video(raw_id, conn)
+        elif prefix == "reddit" and ":" in raw_id:
+            # signals table stores reddit signals with a subreddit-qualified
+            # source (e.g. "reddit:LocalLLaMA"), so re-split off the subreddit.
+            subreddit, post_id = raw_id.split(":", 1)
+            row = _fetch_signal(f"reddit:{subreddit}", post_id, conn)
         else:
             row = _fetch_signal(prefix, raw_id, conn)
         if row is None:
