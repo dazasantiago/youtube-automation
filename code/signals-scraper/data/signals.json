@@ -1,9 +1,21 @@
 {
-  "generated_at": "2026-06-30T19:27:17.936612+00:00",
+  "generated_at": "2026-06-30T22:19:09.689251+00:00",
   "window_days": 7,
-  "total_signals": 101,
+  "total_signals": 223,
   "signals_by_source": {
     "hn": [
+      {
+        "id": "48737226",
+        "title": "Tell HN: Installing Cursor on iOS irreversibly changes your privacy settings",
+        "url": "https://news.ycombinator.com/item?id=48737226",
+        "description": "Just hit this today and I&#x27;m furious. I installed the Cursor iOS app to see what it had.<p>I&#x27;ve been on `Privacy Mode (Legacy)` for a long time, which is the &quot;Do not store my code&quot; setting. A year or so ago they marked this as &quot;Legacy&quot; and hid it under a &quot;Extra options&quot; menu. They added a new Privacy Mode which is significantly more wishy-washy about what it might store - it includes a clause of &quot;Code may be stored for Background Agents or Other Features&quot;, so I&#x27;ve never touched it or wanted to enable it.<p>pic: https:&#x2F;&#x2F;us1.discourse-cdn.com&#x2F;cursor1&#x2F;optimized&#x2F;3X&#x2F;0&#x2F;9&#x2F;09412f800cb07a713d13c034f40eaf28e165e8f4_2_1032x1000.jpeg<p>Upon installing and logging in to the iOS app, my account was changed to the softer Privacy Mode and the previous setting I was on has disappeared from all menus. I contacted support and they&#x27;ve said:<p>&gt; Really sorry about this. When you set up the mobile app, the prompt to turn on Cloud Agents switched you from Privacy Mode (Legacy) to our current Privacy Mode,<p>&gt; without making clear what that meant or that it&#x27;s hard to undo. That wasn&#x27;t right, and we&#x27;re working on making that prompt clearer.<p>&gt;<p>&gt; To be straight with you: I&#x27;m not able to switch your account back to Privacy Mode (Legacy). The option to move back isn&#x27;t available in the app today.<p>So just a PSA I guess; do not install or set up the app if you want to keep your privacy settings.<p>I honestly don&#x27;t understand how it&#x27;s legal to make logging into the iOS app change your privacy settings at all. Making the option then disappear from all menus so you can&#x27;t get it back is doubly ridiculous.",
+        "posted_at": "2026-06-30T18:33:59+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 182,
+          "num_comments": 27
+        }
+      },
       {
         "id": "48736605",
         "title": "Claude Sonnet 5",
@@ -12,8 +24,20 @@
         "posted_at": "2026-06-30T17:59:52+00:00",
         "language": "en",
         "metrics": {
-          "points": 408,
-          "num_comments": 206
+          "points": 405,
+          "num_comments": 202
+        }
+      },
+      {
+        "id": "48736137",
+        "title": "I built a mmWave material classification radar (2025)",
+        "url": "https://gauthier-lechevalier.com/radar",
+        "description": null,
+        "posted_at": "2026-06-30T17:29:36+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 112,
+          "num_comments": 30
         }
       },
       {
@@ -24,8 +48,8 @@
         "posted_at": "2026-06-30T17:07:41+00:00",
         "language": "en",
         "metrics": {
-          "points": 159,
-          "num_comments": 64
+          "points": 156,
+          "num_comments": 63
         }
       },
       {
@@ -36,8 +60,8 @@
         "posted_at": "2026-06-30T17:05:58+00:00",
         "language": "en",
         "metrics": {
-          "points": 62,
-          "num_comments": 88
+          "points": 61,
+          "num_comments": 87
         }
       },
       {
@@ -48,7 +72,7 @@
         "posted_at": "2026-06-30T16:48:37+00:00",
         "language": "en",
         "metrics": {
-          "points": 153,
+          "points": 150,
           "num_comments": 47
         }
       },
@@ -60,8 +84,20 @@
         "posted_at": "2026-06-30T15:44:24+00:00",
         "language": "en",
         "metrics": {
-          "points": 798,
-          "num_comments": 233
+          "points": 790,
+          "num_comments": 231
+        }
+      },
+      {
+        "id": "48734220",
+        "title": "Supreme Court strikes down limits on party spending in federal elections",
+        "url": "https://apnews.com/article/supreme-court-campaign-finance-party-spending-ohio-91e49ee112197ae1210a9abfa46986ed",
+        "description": null,
+        "posted_at": "2026-06-30T15:34:27+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 51,
+          "num_comments": 9
         }
       },
       {
@@ -96,7 +132,7 @@
         "posted_at": "2026-06-30T10:34:25+00:00",
         "language": "en",
         "metrics": {
-          "points": 115,
+          "points": 114,
           "num_comments": 10
         }
       },
@@ -617,234 +653,1061 @@
         }
       }
     ],
-    "reddit:AI_Agents": [
+    "rss": [
       {
-        "id": "t3_1ujywng",
-        "title": "SRIFT - Secure P2P File Transfer, Encrypted Chat & Communication | Decentralized & Military-Grade Encryption | For Humans & AI Agents / MCPs",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujywng/srift_secure_p2p_file_transfer_encrypted_chat/",
-        "description": "Guys, Do any one know about this Srift .app I got it so randomly, and its freaking awesome (I tested it a bit not completely). Did anyone tried it? And its so crazy as far as i read about it in its website and i was wondering why there is no threads about it and discussions. Please post about it and your experience about it!! I feel that thing need discussion for sure. submitted by /u/No_Department_5306 [link] [comments]",
-        "posted_at": "2026-06-30T19:25:19+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3137719",
+        "title": "Google introduces a faster, cheaper image generator with Nano Banana 2 Lite",
+        "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+        "description": "Google is updating its image generator to make it faster and cheaper, making it a more useful tool for creators looking to make AI content.",
+        "posted_at": "2026-06-30T19:02:38+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujy409",
-        "title": "Built an MCP that lets Claude shop across ~25k stores - looking for testers + honest feedback (rough edges included)",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujy409/built_an_mcp_that_lets_claude_shop_across_25k/",
-        "description": "We've been building an MCP server called Nash that gives Claude the ability to search and buy across real stores and not just give you a list of options. The idea: instead of Claude handing you links to go check out yourself, it can find the item, compare options, and handle the purchase flow through one connector. What we're trying to figure out: Does agent-driven shopping actually work, or is it a solution looking for a problem? Where does it break (bad product matches, checkout friction, trus",
-        "posted_at": "2026-06-30T18:56:53+00:00",
-        "language": null,
+        "id": "https://huggingface.co/blog/ibm-research/scarfbench",
+        "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+        "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+        "description": null,
+        "posted_at": "2026-06-30T18:32:50+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujx0mi",
-        "title": "Sharing code for creating your own Claude Cowork",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujx0mi/sharing_code_for_creating_your_own_claude_cowork/",
-        "description": "I built and open-sourced OpenCoDesk — a starter template for AI agents that work like a coworker on a shared drive, not just a chat box. Problem it targets: a lot of agent UIs are \"message in, message out.\" If your agent writes files, generates reports, or runs code, you still need durable storage, a file viewer, and a way to show live previews — plus a clear folder contract so the agent and UI stay in sync. What it does: - Blaxel Agent Drive mounted at `/workspace` — persistent across chats - P",
-        "posted_at": "2026-06-30T18:17:02+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3137668",
+        "title": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
+        "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+        "description": "Nvidia AI chip competitor Etched says it has already booked $1 billion under contract for the inference systems powered by its chip.",
+        "posted_at": "2026-06-30T18:13:02+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujup0i",
-        "title": "Datafense lets your Ai agent use your Gmail: but you control exactly what it's allowed to see, and block whatever you want hidden from the AI.",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujup0i/datafense_lets_your_ai_agent_use_your_gmail_but/",
-        "description": "Datafense lets your agent use your Gmail — but you control exactly what it's allowed to see, and block whatever you want hidden from the AI. Here's the problem we built it for: You want your agent to actually be useful, so it needs your Gmail. But connecting it to Gmail usually means handing over everything — every client thread, every invoice, every private message. To answer one question, it gets the keys to your whole inbox. So you're stuck choosing between a useful agent and a safe one. Data",
-        "posted_at": "2026-06-30T16:53:23+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3137723",
+        "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
+        "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+        "description": "Anthropic’s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro.",
+        "posted_at": "2026-06-30T18:00:00+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujum8l",
-        "title": "AI agent that lives inside live streams and negotiates brand deals",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujum8l/ai_agent_that_lives_inside_live_streams_and/",
-        "description": "Built an AI agent (Bind) that reads live signals during streams (chat velocity, vault growth, audience fit) and helps creators accept/negotiate sponsor campaigns in real time. Early stage. Honest feedback wanted. submitted by /u/Guidance_Complete [link] [comments]",
-        "posted_at": "2026-06-30T16:50:35+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3137678",
+        "title": "Acti puts AI agents directly into your smartphone keyboard",
+        "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
+        "description": "Acti is betting the smartphone keyboard is the next home for AI assistants. The startup's new keyboard for iOS and Android works across apps and lets users create custom AI-powered shortcuts using natural language.",
+        "posted_at": "2026-06-30T17:52:46+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujuiui",
-        "title": "Need help with deployment",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujuiui/need_help_with_deployment/",
-        "description": "Hey everyone, I'm trying to deploy Hermes on an Azure VM for a project I'm working on, but I'm running into a few deployment issues. The main problems I'm facing are: Environment setup seems correct, but some services aren't initializing properly after startup. A few dependencies appear to work locally but fail on the Azure instance. I'm also seeing intermittent connection/timeout issues between components, so I'm not sure if it's an Azure networking issue or something in my configuration. Has a",
-        "posted_at": "2026-06-30T16:47:07+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3137674",
+        "title": "Anthropic’s Claude Science bets on workflow, not a new model, to win over scientists",
+        "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
+        "description": "Anthropic's Claude Science is a workbench that gives scientists one environment to do computational research, saving them from the need to bounce between databases, pipelines, and tools.",
+        "posted_at": "2026-06-30T17:00:00+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujtuao",
-        "title": "how do you collaborate on a markdown doc with non-devs without losing your source of truth?",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujtuao/how_do_you_collaborate_on_a_markdown_doc_with/",
-        "description": "most of my docs are markdown now, a lot of it out of agents I've got running. writing's solved. collaborating on review is the broken part. the reviewers aren't technical. a PM, ops, a client. and yeah, github PR comments is the dev answer, they won't touch it. so the second I share it somewhere they'll actually open, it splinters, one gets a pdf, one a google docs paste, one replies over slack, and I'm merging notes back into a .md that already moved on. what I wanted was everyone on the same r",
-        "posted_at": "2026-06-30T16:22:24+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3137526",
+        "title": "X now offers an MCP server to make its platform easier for AI tools to use",
+        "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
+        "description": "X has launched a hosted MCP server, making it easier for developers to connect AI applications with the company’s API.",
+        "posted_at": "2026-06-30T15:08:42+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujs0as",
-        "title": "Unpopular opinion: You don't have a lead gen problem. You have a lead response problem.",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujs0as/unpopular_opinion_you_dont_have_a_lead_gen/",
-        "description": "A brokerage owner approached me few months back. He spent $18K per month on Zillow and Google and told me his leads sucked and he needed better ones. So I got his response data before building anything. How long did it take for someone to contact them on average? 3 hrs and 14 minutes.. And yk what… some leads just sat there for like 2 days. Neither anyone called them nor someone sent them a text. Literally nothing happened. It's like he is throwing 18k dollars into a pit. Here's the thing most a",
-        "posted_at": "2026-06-30T15:13:55+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3135237",
+        "title": "Podcasting platform Riverside enters the newsletter publishing game",
+        "url": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/",
+        "description": "Users will be able use AI to create newsletters based on their recordings.",
+        "posted_at": "2026-06-30T15:00:00+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujrhth",
-        "title": "The 3 verticals where AI agents are quietly printing money for solo operators right now",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujrhth/the_3_verticals_where_ai_agents_are_quietly/",
-        "description": "Spent the year tracking which \"I built an agent for X\" stories on this sub and IndieHackers actually turn into revenue. Most don't. A few categories keep recurring among people who are pulling 5 figures a month solo. Sharing the pattern in case it's useful. Voice agents for local service businesses By a wide margin the highest-margin solo opportunity I've watched work this year. VAPI and Retell brought voice agent costs down to roughly 20 cents a minute. Local businesses (dental offices, HVAC, r",
-        "posted_at": "2026-06-30T14:55:02+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3137516",
+        "title": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic",
+        "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+        "description": "Engineers on the new team will embed within companies to deploy purpose-built agents, focusing on fast deployments and customer self-sufficiency.",
+        "posted_at": "2026-06-30T15:00:00+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujqbrd",
-        "title": "Preventative measures to stop agents from using your entire budget?",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujqbrd/preventative_measures_to_stop_agents_from_using/",
-        "description": "Hey guys, I've been building a few autonomous agents and I've been worried from all the horror stories of agents getting stuck in a loop. I've set a hard limit on Anthropic but since those are acc-wide, if something goes wrong on one agent it'll shut down my entire API access. So I'm looking for anything that can help me isolate these costs better and set limits per project or API key, instead of capping the whole account. Thanks! submitted by /u/stealth-crown1450 [link] [comments]",
-        "posted_at": "2026-06-30T14:10:40+00:00",
-        "language": null,
+        "id": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+        "title": "Why Specialization Is Inevitable",
+        "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+        "description": null,
+        "posted_at": "2026-06-30T14:39:11+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujpqt4",
-        "title": "OmniDimension vs Retell AI vs Vapi – Which one would you choose?",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujpqt4/omnidimension_vs_retell_ai_vs_vapi_which_one/",
-        "description": "Hi everyone, I'm planning to use an AI voice platform and I'm currently looking at OmniDimension, Retell AI, and Vapi. I've watched a few videos and checked their websites, but I'd rather hear from people who have actually used them. Which one are you using? What do you like or dislike about it? Any issues you've faced? If you had to choose again today, would you still pick the same one? I'm not looking for the \"best on paper.\" I just want to know which one has worked well in real projects. Than",
-        "posted_at": "2026-06-30T13:47:38+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3137266",
+        "title": "Lumo, Proton’s privacy-focused AI chatbot, gets an upgrade",
+        "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/",
+        "description": "Proton's Lumo 2.0 is dropping this week, giving users a broader variety of capabilities.",
+        "posted_at": "2026-06-30T14:00:00+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujph52",
-        "title": "What harness/setup are you running for local LLMs?",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujph52/what_harnesssetup_are_you_running_for_local_llms/",
-        "description": "Pretty new to AI hosting thing and want to know what you're setups are. So far I've tried running local LLMs with a couple of different ones, Hermes and openClaw being the main two. Hermes was easily the better experience out of those, definitely the most promising, but even then I'm honestly struggling to see how local hosting is ever going to actually work for proper agentic work. Every time I try a smaller model like qwen2.5-coder:14b they just hallucinate constantly. Like they'll straight up",
-        "posted_at": "2026-06-30T13:36:57+00:00",
-        "language": null,
+        "id": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+        "title": "How ChatGPT adoption has expanded",
+        "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+        "description": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+        "posted_at": "2026-06-30T09:00:00+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujorhg",
-        "title": "We somehow ended up with three different versions of the same prompt in production",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujorhg/we_somehow_ended_up_with_three_different_versions/",
-        "description": "Spent two days chasing what i thought was a model regression. turned out we just had three different versions of the same prompt running. the weird part was only one team was complaining. everyone else said outputs looked normal. at first i ignored that because i figured if the model had changed it'd hit everyone eventually. rewrote the prompt a few different ways, reran evals, everything still passed. which just made it more confusing because if quality had actually dropped you'd expect the eva",
-        "posted_at": "2026-06-30T13:07:52+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3137159",
+        "title": "Crypto exchange OKX wants AI agents to hire and pay each other",
+        "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+        "description": "OKX is bringing together payments, identity, and reputation into a marketplace for AI agents.",
+        "posted_at": "2026-06-30T09:00:00+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujokj3",
-        "title": "Decentralized Git for AI Agents: Gitlawb looks like the real deal (must-watch video)",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujokj3/decentralized_git_for_ai_agents_gitlawb_looks/",
-        "description": "As AI agents get more autonomous and start owning/editing code at scale, the old centralized GitHub + PAT token model is going to break down fast. This video does a great job explaining the problem and how Gitlawb is building the solution: Decentralized git network where agents are first-class citizens (not just bots) Cryptographic DIDs for identities (human or agent) Every commit signed properly Running on Base L2 with their own nodes Incentives for independent node runners via token Tools like",
-        "posted_at": "2026-06-30T13:00:08+00:00",
-        "language": null,
+        "id": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+        "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+        "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+        "description": "Four illustrated characters representing different professional roles, including a scientist, technician, explorer, and observer.",
+        "posted_at": "2026-06-30T06:00:00+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujoapd",
-        "title": "browser-search — three tools, zero cost, and your AI agent learns to search and browse the web",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujoapd/browsersearch_three_tools_zero_cost_and_your_ai/",
-        "description": "I've been using AI agents like OpenCode, Claude Code, and Cursor for months. They're great with code, but when they need to search or browse the web, things get complicated: Cloudflare blocks them, JavaScript-heavy sites don't load, APIs cost money. So I built browser-search . It's three open source tools orchestrated by a skill, fully self-hosted: SearXNG — metasearch engine that queries dozens of search engines at once Camofox — full browser via REST API, always warm, for browsing and interact",
-        "posted_at": "2026-06-30T12:48:34+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3137448",
+        "title": "The AI jobs debate just got messier",
+        "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+        "description": "A new report finds \"high-intensity AI adopters” saw headcount increase 10.2%. Among those companies, entry-level headcount rose by 12%, countering the rhetoric that AI kills junior jobs.",
+        "posted_at": "2026-06-30T04:01:00+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujo7f2",
-        "title": "AI gave you outdated info with confidence. Here's one reason why, and how to prevent it",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujo7f2/ai_gave_you_outdated_info_with_confidence_heres/",
-        "description": "I recently found out something interesting about why AI keeps feeding me outdated info. I set up a daily scheduled task where the AI pulls a set of documents and flags inconsistencies. Noticed it kept reusing yesterday's numbers even when the underlying docs had changed — and it sounded just as sure either way. So I dug into it, because it was handing me stale numbers fairly consistently in other tasks as well. The reason seems to be this: once a piece of info lands in the chat, it's sitting the",
-        "posted_at": "2026-06-30T12:44:38+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3137107",
+        "title": "Vibe-coding platform Base44 launches own model as AI startups seek defensibility",
+        "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+        "description": "Wix-owned vibe-coding platform Base44 has started rolling out its own AI model — with hopes that it will eventually outperform frontier models.",
+        "posted_at": "2026-06-30T02:28:41+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujo0it",
-        "title": "Your coding agent says \"done.\" It never actually checked if the thing works in a browser.",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujo0it/your_coding_agent_says_done_it_never_actually/",
-        "description": "Something that took me way too long to admit: when my coding agent finishes a task and says it's done, it usually has no idea whether the thing works. It wrote the code, it read the code back, it decided the code looks right. It never opened a browser. It never clicked the button it just built. So I'd get \"done,\" go check myself, and the login flow would be broken in a way that was obvious the second a real page loaded. For a while my fix was telling the agent to write Playwright tests. That hel",
-        "posted_at": "2026-06-30T12:36:19+00:00",
-        "language": null,
+        "id": "https://openai.com/index/introducing-genebench-pro",
+        "title": "Introducing GeneBench-Pro",
+        "url": "https://openai.com/index/introducing-genebench-pro",
+        "description": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+        "posted_at": "2026-06-30T00:00:00+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujmou3",
-        "title": "AI agents just got their own network. They can finally discover each other.",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujmou3/ai_agents_just_got_their_own_network_they_can/",
-        "description": "I've spent the last few months building AI agents, and one thing kept bothering me. Every agent only knew about the agents I'd manually connected. They could use tools, browse the web, call MCP servers... but they had no way to discover another agent they'd never seen before. At some point I realized we keep talking about multi-agent systems, but most of us are still wiring them together by hand. So I built a network for agents. Every agent gets its own address, publishes what it can do, and bec",
-        "posted_at": "2026-06-30T11:35:14+00:00",
-        "language": null,
+        "id": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+        "title": "Core dump epidemiology: fixing an 18-year-old bug",
+        "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+        "description": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+        "posted_at": "2026-06-30T00:00:00+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujmmo4",
-        "title": "Looking for a real Lovable alternative: local, open-source, or production-ready?",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujmmo4/looking_for_a_real_lovable_alternative_local/",
-        "description": "I’ve been looking into AI app builders lately, and the same pattern keeps coming up.. A lot of tools are great at producing an impressive first demo. But the hard part starts after that. Auth, database structure, permissions, deployment, maintainability, editing the generated code, avoiding weird AI spaghetti, and not burning through tokens just to make small changes. Tools I’ve seen mentioned so far: AppWizzy Bolt v0 Replit Agent Cursor Claude Code Base44 Tempo Same.new Firebase Studio Windsurf",
-        "posted_at": "2026-06-30T11:32:17+00:00",
-        "language": null,
+        "id": "https://openai.com/index/genebench-pro/case-studies",
+        "title": "Inside Genebench-Pro",
+        "url": "https://openai.com/index/genebench-pro/case-studies",
+        "description": null,
+        "posted_at": "2026-06-30T00:00:00+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujlfa8",
-        "title": "A CEO built his own AI agent on NetSuite with Claude MCP. We helped him scale it into production.",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujlfa8/a_ceo_built_his_own_ai_agent_on_netsuite_with/",
-        "description": "How many of you have a working prototype that's ready to grow into something bigger? This is that story, and the person who built the prototype was the CEO himself. S&B Filters, a U.S. manufacturer with 700+ employees, runs its entire operation on NetSuite. Their CEO wired up Claude's MCP connector to NetSuite, wrote his own prompts, and got an internal AI assistant working for order status lookups. Legit impressive for a solo build. Then came the next chapter: taking it from prototype to produc",
-        "posted_at": "2026-06-30T10:29:17+00:00",
-        "language": null,
+        "id": "https://huggingface.co/blog/eee-community-evals",
+        "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+        "url": "https://huggingface.co/blog/eee-community-evals",
+        "description": null,
+        "posted_at": "2026-06-30T00:00:00+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujjd9t",
-        "title": "Who gave your AI agent authority?",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujjd9t/who_gave_your_ai_agent_authority/",
-        "description": "In most agent workflows we basically assume the agent will stop and ask when it gets to a critical point. For example, when an agent can send email, delete files, modify repos, or touch production systems, we expect it to ask for permission before doing something destructive. That might be fine in demos. In production, I don't believe that would pass a serious CISO/security review. As agent tools like OpenClaw and Hermes start doing real work inside companies, the issue becomes more obvious: com",
-        "posted_at": "2026-06-30T08:27:46+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3137386",
+        "title": "Gemini’s personalized AI image generation is now free for US users",
+        "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+        "description": "Google is expanding Gemini’s personalized AI image generation to eligible free users in the U.S., allowing the chatbot to create images based on your interests and data from connected Google apps.",
+        "posted_at": "2026-06-29T20:12:59+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujj9ng",
-        "title": "We NEED a harness benchmark leaderboard",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujj9ng/we_need_a_harness_benchmark_leaderboard/",
-        "description": "This question is always sitting in the back of my brain: If I’m using a Kimi model, is KimiCode actually better than OpenCode for interacting with it? What if a lower-intelligence GPT model in OpenCode performs better than the same model in Codex? What if the “best” setup is not just about the model, but about the harness wrapped around it? Today we have tons of AI model leaderboards, but almost nothing comparing the harnesses that use those models. That’s why I made this repo: (down in the comm",
-        "posted_at": "2026-06-30T08:21:49+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3137238",
+        "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
+        "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+        "description": "As Anthropic forges a closer relationship with the state of California, the federal government has made an enemy out of the OpenAI rival.",
+        "posted_at": "2026-06-29T18:10:26+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujigq2",
-        "title": "A lot of conversation around Harness Engineering, What does that even mean?",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujigq2/a_lot_of_conversation_around_harness_engineering/",
-        "description": "Soo much buzz around Harness Engineering, AI agent Harness - Does this mean that the industry is moving away from the basic idea of Models doing everything or maybe let me put it this way - LLMs deciding what my agents are going to answer? I am genuinely interested in knowing more about this. submitted by /u/theagenticmind [link] [comments]",
-        "posted_at": "2026-06-30T07:34:30+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3137204",
+        "title": "South Korean tech giants commit over $550B to ease ‘RAMageddon’",
+        "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
+        "description": "The world's two largest memory chip companies vow to build more memory lab fabs as South Korea positions itself as an AI tech powerhouse country.",
+        "posted_at": "2026-06-29T18:07:48+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujhwwc",
-        "title": "Loops: Am I doing it wrong?",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujhwwc/loops_am_i_doing_it_wrong/",
-        "description": "I run a swarm of agents most of the day. I say run. Some days I feel like they run me. Work its fine, most days feels like an extremely addictive video game. It’s the after that gets me. Even when i close my laptop my head keeps going. Everyone talking about agentic loops nowdays, anyone feeling the mental loop or is this just me? If you have felt it too, what pulls you out? submitted by /u/No-Pollution-6474 [link] [comments]",
-        "posted_at": "2026-06-30T07:02:48+00:00",
-        "language": null,
+        "id": "https://huggingface.co/blog/allenai/discoformer",
+        "title": "DiScoFormer: One transformer for density and score, across distributions",
+        "url": "https://huggingface.co/blog/allenai/discoformer",
+        "description": null,
+        "posted_at": "2026-06-29T18:02:48+00:00",
+        "language": "en",
         "metrics": {}
       },
       {
-        "id": "t3_1ujgykn",
-        "title": "Is apple the smartest tech company right now?",
-        "url": "https://old.reddit.com/r/AI_Agents/comments/1ujgykn/is_apple_the_smartest_tech_company_right_now/",
-        "description": "With all this Ai craze I looked at stock valuations and saw something surprising apple is still top 3. Yet they are barely into the Ai race as we know it. It got me thinking, Microsoft first all lost about a trillion or so in valuation, because of ai, Meta is paying $100M- $Billions for Ai “talent” This got me thinking what’s so crucial about Ai ? I’m really trying to figure it out, they said jobs lost on a massive scale yet, Sam Altman is starting to pull back his statements, Sora got shutdown,",
-        "posted_at": "2026-06-30T06:09:02+00:00",
-        "language": null,
+        "id": "https://techcrunch.com/?p=3137220",
+        "title": "Arena, the AI leaderboard everyone uses, is now a $100M business",
+        "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+        "description": "The startup, which runs a popular free AI leaderboard, launched its commercial service just last September.",
+        "posted_at": "2026-06-29T17:39:17+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3137155",
+        "title": "Cursor now has a mobile app for guiding your coding agent on the go",
+        "url": "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/",
+        "description": "Cursor has launched a new mobile app for remote oversight over coding agents.",
+        "posted_at": "2026-06-29T17:03:50+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3137152",
+        "title": "TIDAL cracks down on AI music by cutting off monetization",
+        "url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
+        "description": "In addition, TIDAL will use automated tools to remove AI-generated music that attempts to impersonate an artist or a group, the company said.",
+        "posted_at": "2026-06-29T16:29:04+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+        "title": "Ask an AI expert: What exactly is the full stack?",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+        "description": "An illustration depicting a full-stack AI infrastructure against a dark background",
+        "posted_at": "2026-06-29T16:00:00+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3136644",
+        "title": "Robot hand company settles Tesla trade secret suit and announces $11M raise",
+        "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+        "description": "The startup, Proception, is taking a unique approach to collecting training data to tackle one of the hardest problems in robotics: hands.",
+        "posted_at": "2026-06-29T14:00:08+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3137020",
+        "title": "Omen AI’s plan to optimize data centers is all wet",
+        "url": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
+        "description": "Omen AI raised a $31 million Series A to monitor chip coolant and stop bacterial outbreaks in data centers.",
+        "posted_at": "2026-06-29T13:00:00+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+        "title": "Mapping Europe’s AI Workforce Opportunity",
+        "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+        "description": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+        "posted_at": "2026-06-29T07:00:00+00:00",
+        "language": "en",
         "metrics": {}
       }
     ],
+    "github_trending": [
+      {
+        "id": "ChromeDevTools/chrome-devtools-mcp",
+        "title": "ChromeDevTools/chrome-devtools-mcp",
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "description": "Chrome DevTools for coding agents",
+        "posted_at": "2026-06-30T19:24:40.081305+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 85,
+          "stars_total": 44777
+        }
+      },
+      {
+        "id": "cloudflare/skills",
+        "title": "cloudflare/skills",
+        "url": "https://github.com/cloudflare/skills",
+        "description": "Skills for teaching agents how to build on Cloudflare.",
+        "posted_at": "2026-06-30T19:24:40.081172+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 17,
+          "stars_total": 2010
+        }
+      },
+      {
+        "id": "danielmiessler/LifeOS",
+        "title": "danielmiessler/LifeOS",
+        "url": "https://github.com/danielmiessler/LifeOS",
+        "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+        "posted_at": "2026-06-30T19:24:40.081018+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 29,
+          "stars_total": 16198
+        }
+      },
+      {
+        "id": "siteboon/claudecodeui",
+        "title": "siteboon/claudecodeui",
+        "url": "https://github.com/siteboon/claudecodeui",
+        "description": "Use Claude Code, OpenCode, Cursor CLI, and Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely.",
+        "posted_at": "2026-06-30T19:24:40.080706+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 31,
+          "stars_total": 12265
+        }
+      },
+      {
+        "id": "humanlayer/12-factor-agents",
+        "title": "humanlayer/12-factor-agents",
+        "url": "https://github.com/humanlayer/12-factor-agents",
+        "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+        "posted_at": "2026-06-30T19:24:40.080569+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 204,
+          "stars_total": 23885
+        }
+      },
+      {
+        "id": "ZSeven-W/openpencil",
+        "title": "ZSeven-W/openpencil",
+        "url": "https://github.com/ZSeven-W/openpencil",
+        "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
+        "posted_at": "2026-06-30T19:24:40.080381+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 129,
+          "stars_total": 3755
+        }
+      },
+      {
+        "id": "vercel-labs/skills",
+        "title": "vercel-labs/skills",
+        "url": "https://github.com/vercel-labs/skills",
+        "description": "The open agent skills tool - npx skills",
+        "posted_at": "2026-06-30T19:24:40.080217+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 186,
+          "stars_total": 24476
+        }
+      },
+      {
+        "id": "craft-ai-agents/craft-agents-oss",
+        "title": "craft-ai-agents/craft-agents-oss",
+        "url": "https://github.com/craft-ai-agents/craft-agents-oss",
+        "description": null,
+        "posted_at": "2026-06-30T19:24:40.080055+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 27,
+          "stars_total": 6594
+        }
+      },
+      {
+        "id": "yikart/AiToEarn",
+        "title": "yikart/AiToEarn",
+        "url": "https://github.com/yikart/AiToEarn",
+        "description": "Let's use AI to Earn!",
+        "posted_at": "2026-06-30T19:24:40.079904+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 125,
+          "stars_total": 22274
+        }
+      },
+      {
+        "id": "logto-io/logto",
+        "title": "logto-io/logto",
+        "url": "https://github.com/logto-io/logto",
+        "description": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+        "posted_at": "2026-06-30T19:24:40.079751+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 614,
+          "stars_total": 13010
+        }
+      },
+      {
+        "id": "comet-ml/opik",
+        "title": "comet-ml/opik",
+        "url": "https://github.com/comet-ml/opik",
+        "description": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
+        "posted_at": "2026-06-30T19:24:38.185010+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 44,
+          "stars_total": 20142
+        }
+      },
+      {
+        "id": "Unclecheng-li/VulnClaw",
+        "title": "Unclecheng-li/VulnClaw",
+        "url": "https://github.com/Unclecheng-li/VulnClaw",
+        "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
+        "posted_at": "2026-06-30T19:24:38.184869+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 72,
+          "stars_total": 1420
+        }
+      },
+      {
+        "id": "opendatalab/MinerU",
+        "title": "opendatalab/MinerU",
+        "url": "https://github.com/opendatalab/MinerU",
+        "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+        "posted_at": "2026-06-30T19:24:38.184714+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 567,
+          "stars_total": 72563
+        }
+      },
+      {
+        "id": "aws/agent-toolkit-for-aws",
+        "title": "aws/agent-toolkit-for-aws",
+        "url": "https://github.com/aws/agent-toolkit-for-aws",
+        "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+        "posted_at": "2026-06-30T19:24:34.205770+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 93,
+          "stars_total": 1642
+        }
+      },
+      {
+        "id": "interviewstreet/hiring-agent",
+        "title": "interviewstreet/hiring-agent",
+        "url": "https://github.com/interviewstreet/hiring-agent",
+        "description": "AI agent to evaluate and score resumes.",
+        "posted_at": "2026-06-30T19:24:34.205203+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 319,
+          "stars_total": 3961
+        }
+      },
+      {
+        "id": "topoteretes/cognee",
+        "title": "topoteretes/cognee",
+        "url": "https://github.com/topoteretes/cognee",
+        "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+        "posted_at": "2026-06-30T19:24:34.204999+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 905,
+          "stars_total": 26064
+        }
+      },
+      {
+        "id": "alibaba/page-agent",
+        "title": "alibaba/page-agent",
+        "url": "https://github.com/alibaba/page-agent",
+        "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+        "posted_at": "2026-06-30T19:24:34.204842+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 265,
+          "stars_total": 20767
+        }
+      },
+      {
+        "id": "stablyai/orca",
+        "title": "stablyai/orca",
+        "url": "https://github.com/stablyai/orca",
+        "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+        "posted_at": "2026-06-30T19:24:34.204706+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 435,
+          "stars_total": 9591
+        }
+      },
+      {
+        "id": "ZhuLinsen/daily_stock_analysis",
+        "title": "ZhuLinsen/daily_stock_analysis",
+        "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+        "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+        "posted_at": "2026-06-30T19:24:34.204566+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 900,
+          "stars_total": 52420
+        }
+      },
+      {
+        "id": "JCodesMore/ai-website-cloner-template",
+        "title": "JCodesMore/ai-website-cloner-template",
+        "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+        "description": "Clone any website with one command using AI coding agents",
+        "posted_at": "2026-06-30T19:24:34.204376+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 848,
+          "stars_total": 23918
+        }
+      },
+      {
+        "id": "google-labs-code/design.md",
+        "title": "google-labs-code/design.md",
+        "url": "https://github.com/google-labs-code/design.md",
+        "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+        "posted_at": "2026-06-30T19:24:34.204021+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 1015,
+          "stars_total": 23662
+        }
+      },
+      {
+        "id": "obra/superpowers",
+        "title": "obra/superpowers",
+        "url": "https://github.com/obra/superpowers",
+        "description": "An agentic skills framework & software development methodology that works.",
+        "posted_at": "2026-06-30T19:24:32.274258+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 884,
+          "stars_total": 242357
+        }
+      },
+      {
+        "id": "HKUDS/Vibe-Trading",
+        "title": "HKUDS/Vibe-Trading",
+        "url": "https://github.com/HKUDS/Vibe-Trading",
+        "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+        "posted_at": "2026-06-30T19:24:32.274061+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 719,
+          "stars_total": 15697
+        }
+      },
+      {
+        "id": "facebook/astryx",
+        "title": "facebook/astryx",
+        "url": "https://github.com/facebook/astryx",
+        "description": "An open source design system that's fully customizable and agent ready",
+        "posted_at": "2026-06-30T19:24:32.273906+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 399,
+          "stars_total": 1661
+        }
+      },
+      {
+        "id": "microsoft/AI-For-Beginners",
+        "title": "microsoft/AI-For-Beginners",
+        "url": "https://github.com/microsoft/AI-For-Beginners",
+        "description": "12 Weeks, 24 Lessons, AI for All!",
+        "posted_at": "2026-06-30T19:24:32.273769+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 180,
+          "stars_total": 49201
+        }
+      },
+      {
+        "id": "ogulcancelik/herdr",
+        "title": "ogulcancelik/herdr",
+        "url": "https://github.com/ogulcancelik/herdr",
+        "description": "agent multiplexer that lives in your terminal.",
+        "posted_at": "2026-06-30T19:24:32.273522+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 485,
+          "stars_total": 8901
+        }
+      },
+      {
+        "id": "xbtlin/ai-berkshire",
+        "title": "xbtlin/ai-berkshire",
+        "url": "https://github.com/xbtlin/ai-berkshire",
+        "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+        "posted_at": "2026-06-30T19:24:32.273060+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 966,
+          "stars_total": 7431
+        }
+      },
+      {
+        "id": "browser-use/video-use",
+        "title": "browser-use/video-use",
+        "url": "https://github.com/browser-use/video-use",
+        "description": "Edit videos with coding agents",
+        "posted_at": "2026-06-30T19:24:32.272924+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 722,
+          "stars_total": 12489
+        }
+      },
+      {
+        "id": "diegosouzapw/OmniRoute",
+        "title": "diegosouzapw/OmniRoute",
+        "url": "https://github.com/diegosouzapw/OmniRoute",
+        "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+        "posted_at": "2026-06-30T19:24:32.272782+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 459,
+          "stars_total": 8362
+        }
+      },
+      {
+        "id": "altic-dev/FluidVoice",
+        "title": "altic-dev/FluidVoice",
+        "url": "https://github.com/altic-dev/FluidVoice",
+        "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS and Linux coming soon.",
+        "posted_at": "2026-06-30T19:24:32.272613+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 586,
+          "stars_total": 4837
+        }
+      },
+      {
+        "id": "msitarzewski/agency-agents",
+        "title": "msitarzewski/agency-agents",
+        "url": "https://github.com/msitarzewski/agency-agents",
+        "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+        "posted_at": "2026-06-30T19:24:32.272437+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 1793,
+          "stars_total": 120619
+        }
+      },
+      {
+        "id": "usestrix/strix",
+        "title": "usestrix/strix",
+        "url": "https://github.com/usestrix/strix",
+        "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+        "posted_at": "2026-06-30T19:24:32.272255+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 395,
+          "stars_total": 27977
+        }
+      }
+    ],
+    "gtrends": [
+      {
+        "id": "Anthropic:claude ai",
+        "title": "claude ai (rising: 40% related to Anthropic)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:25:39.716049+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 40,
+          "keyword": "Anthropic",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Anthropic:claude",
+        "title": "claude (rising: 40% related to Anthropic)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:25:39.716010+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 40,
+          "keyword": "Anthropic",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Anthropic:claude anthropic",
+        "title": "claude anthropic (rising: 50% related to Anthropic)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:25:39.715967+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "Anthropic",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Anthropic:claude by anthropic",
+        "title": "claude by anthropic (rising: 60% related to Anthropic)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:25:39.715924+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "Anthropic",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "OpenAI:openai whisper",
+        "title": "openai whisper (rising: 50% related to OpenAI)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:25:38.364121+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "OpenAI",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "RAG:rag n bone man",
+        "title": "rag n bone man (rising: 70% related to RAG)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:25:34.852121+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 70,
+          "keyword": "RAG",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Gemini:kling ai",
+        "title": "kling ai (rising: 60% related to Gemini)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:25:29.595685+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "Gemini",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:openclaw",
+        "title": "openclaw (rising: 40% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:25:27.746313+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 40,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:claude download",
+        "title": "claude download (rising: 50% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:25:27.746244+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:clause",
+        "title": "clause (rising: 60% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:25:27.746127+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 60,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Claude:claude sonnet 5",
+        "title": "claude sonnet 5 (rising: 55300% related to Claude)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:25:27.745909+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 55300,
+          "keyword": "Claude",
+          "geo": "ES",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "Anthropic:anthropic api key",
+        "title": "anthropic api key (rising: 100% related to Anthropic)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:25:21.320226+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 100,
+          "keyword": "Anthropic",
+          "geo": "CO",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:gemma 4",
+        "title": "gemma 4 (rising: 40% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:24:43.109710+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 40,
+          "keyword": "LLM",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:cursor",
+        "title": "cursor (rising: 50% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:24:43.109632+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 50,
+          "keyword": "LLM",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:nvidia dgx spark",
+        "title": "nvidia dgx spark (rising: 70% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:24:43.109590+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 70,
+          "keyword": "LLM",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:what does llm stand for",
+        "title": "what does llm stand for (rising: 80% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:24:43.109500+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 80,
+          "keyword": "LLM",
+          "geo": "US",
+          "is_breakout": false
+        }
+      },
+      {
+        "id": "LLM:opencode go",
+        "title": "opencode go (rising: 100% related to LLM)",
+        "url": null,
+        "description": null,
+        "posted_at": "2026-06-30T19:24:43.109431+00:00",
+        "language": "en",
+        "metrics": {
+          "value": 100,
+          "keyword": "LLM",
+          "geo": "US",
+          "is_breakout": false
+        }
+      }
+    ],
+    "hf": [
+      {
+        "id": "model:huihui-ai/Huihui-GLM-5.2-abliterated-GGUF",
+        "title": "[HF Model] huihui-ai/Huihui-GLM-5.2-abliterated-GGUF",
+        "url": "https://huggingface.co/huihui-ai/Huihui-GLM-5.2-abliterated-GGUF",
+        "description": "text-generation | transformers | transformers, gguf, glm_moe_dsa, unsloth, abliterated",
+        "posted_at": "2026-06-28T13:28:38+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 88,
+          "likes": 91,
+          "downloads": 65
+        }
+      },
+      {
+        "id": "model:deepseek-ai/DeepSeek-V4-Pro-DSpark",
+        "title": "[HF Model] deepseek-ai/DeepSeek-V4-Pro-DSpark",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
+        "description": "text-generation | transformers | transformers, safetensors, deepseek_v4, text-generation, arxiv:2606.19348",
+        "posted_at": "2026-06-27T03:02:56+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 237,
+          "likes": 247,
+          "downloads": 6939
+        }
+      },
+      {
+        "id": "model:deepseek-ai/DeepSeek-V4-Flash-DSpark",
+        "title": "[HF Model] deepseek-ai/DeepSeek-V4-Flash-DSpark",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
+        "description": "text-generation | transformers | transformers, safetensors, deepseek_v4, text-generation, arxiv:2606.19348",
+        "posted_at": "2026-06-27T02:27:36+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 109,
+          "likes": 111,
+          "downloads": 4446
+        }
+      },
+      {
+        "id": "space:deepreinforce-ai/Ornith-1.0-9B",
+        "title": "[HF Space] deepreinforce-ai/Ornith-1.0-9B",
+        "url": "https://huggingface.co/spaces/deepreinforce-ai/Ornith-1.0-9B",
+        "description": "gradio | gradio, region:us",
+        "posted_at": "2026-06-25T20:13:39+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 36,
+          "likes": 36
+        }
+      },
+      {
+        "id": "space:webml-community/lfm2-webgpu-kernels",
+        "title": "[HF Space] webml-community/lfm2-webgpu-kernels",
+        "url": "https://huggingface.co/spaces/webml-community/lfm2-webgpu-kernels",
+        "description": "static | static, region:us",
+        "posted_at": "2026-06-25T17:57:18+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 41,
+          "likes": 44
+        }
+      },
+      {
+        "id": "model:deepreinforce-ai/Ornith-1.0-35B-GGUF",
+        "title": "[HF Model] deepreinforce-ai/Ornith-1.0-35B-GGUF",
+        "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
+        "description": "text-generation | transformers | transformers, gguf, text-generation, license:mit, endpoints_compatible",
+        "posted_at": "2026-06-25T04:56:44+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 511,
+          "likes": 531,
+          "downloads": 157418
+        }
+      },
+      {
+        "id": "model:deepreinforce-ai/Ornith-1.0-9B-GGUF",
+        "title": "[HF Model] deepreinforce-ai/Ornith-1.0-9B-GGUF",
+        "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF",
+        "description": "text-generation | transformers | transformers, gguf, text-generation, license:mit, endpoints_compatible",
+        "posted_at": "2026-06-25T04:56:13+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 320,
+          "likes": 339,
+          "downloads": 98750
+        }
+      },
+      {
+        "id": "model:unsloth/Qwen-AgentWorld-35B-A3B-GGUF",
+        "title": "[HF Model] unsloth/Qwen-AgentWorld-35B-A3B-GGUF",
+        "url": "https://huggingface.co/unsloth/Qwen-AgentWorld-35B-A3B-GGUF",
+        "description": "text-generation | transformers | transformers, gguf, qwen, unsloth, world-model",
+        "posted_at": "2026-06-24T23:45:03+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 116,
+          "likes": 121,
+          "downloads": 155333
+        }
+      },
+      {
+        "id": "model:LiquidAI/LFM2.5-230M",
+        "title": "[HF Model] LiquidAI/LFM2.5-230M",
+        "url": "https://huggingface.co/LiquidAI/LFM2.5-230M",
+        "description": "text-generation | transformers | transformers, safetensors, lfm2, text-generation, liquid",
+        "posted_at": "2026-06-24T23:14:11+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 159,
+          "likes": 165,
+          "downloads": 17839
+        }
+      },
+      {
+        "id": "space:baidu/Unlimited-OCR",
+        "title": "[HF Space] baidu/Unlimited-OCR",
+        "url": "https://huggingface.co/spaces/baidu/Unlimited-OCR",
+        "description": "gradio | gradio, region:us",
+        "posted_at": "2026-06-24T02:33:43+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 102,
+          "likes": 114
+        }
+      }
+    ],
     "reddit:LocalLLaMA": [
+      {
+        "id": "t3_1ujzyf3",
+        "title": "Devs - you have 64gb of VRAM - which model do you use for coding?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujzyf3/devs_you_have_64gb_of_vram_which_model_do_you_use/",
+        "description": "I've currently settled on an unsloth version of Qwen 3.5 122b-a10b model (UD-IQ4_NL). With 100k bf16 context window, I only had to load a few layers into CPU/RAM, it runs around 30 tok/sec which is fine for me. I've tested many models, hours of testing but I am currently deeply impressed with this one. I also use the Qwen 3.6 models (both) depending on need, but I think this biggun' is about to become my daily driver. Curious to know what others with similar VRAM capacity use? submitted by /u/Jo",
+        "posted_at": "2026-06-30T20:03:46+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujzf35",
+        "title": "Meta fights soaring hardware costs by reusing old DDR4 server memory in new DDR5-only servers — custom CXL 2.0 chip marries legacy DDR4-2400 with cutting-edge DDR5-6400",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujzf35/meta_fights_soaring_hardware_costs_by_reusing_old/",
+        "description": "https://www.tomshardware.com/pc-components/dram/meta-fights-soaring-hardware-costs-by-reusing-old-ddr4-server-memory-in-new-ddr5-only-servers-custom-cxl-2-0-chip-marries-legacy-ddr4-2400-with-cutting-edge-ddr5-6400 submitted by /u/pulse77 [link] [comments]",
+        "posted_at": "2026-06-30T19:43:56+00:00",
+        "language": null,
+        "metrics": {}
+      },
       {
         "id": "t3_1ujwot0",
         "title": "The harness matters more than the model. A 27B behind good critics changed my mind.",
@@ -963,6 +1826,15 @@
         "metrics": {}
       },
       {
+        "id": "t3_1ujkd3p",
+        "title": "Play poker with Reachy Mini and his friend Eliza - Built in 24hrs",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujkd3p/play_poker_with_reachy_mini_and_his_friend_eliza/",
+        "description": "Hey folks, this is my entry into the recent Cerebras x Gemma 24hr Hackathon. It features a full live poker experience with Reachy Mini, his friend Eliza, and a table that's tracked by an orchestrator that guides the whole experience and resolves any showdowns. No buttons or anything - just vocalise your actions like in a real game. A webcam keeps track of the table cards while Reachy and Eliza use their own cameras to see their own cards. All of this is powered by Gemma 31B - notably being used ",
+        "posted_at": "2026-06-30T09:28:00+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
         "id": "t3_1ujjxda",
         "title": "ascend-tribe/openPangu-2.0-Flash (They haven't uploaded it to Huggingface yet）",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujjxda/ascendtribeopenpangu20flash_they_havent_uploaded/",
@@ -1017,6 +1889,15 @@
         "metrics": {}
       },
       {
+        "id": "t3_1ujbsxu",
+        "title": "How I'm using local models from real-world coding",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujbsxu/how_im_using_local_models_from_realworld_coding/",
+        "description": "Just want to share since after many attempts over the past year, I finally have a setup I kinda like and does useful work for me. I only have 32GB of RAM and a 4070 8GB (laptop), just very ordinary hardware. I found that Qwen3.6-35B-A3B runs reliably at about 15 tokens per second*, which is slow but enough to do useful work while I do other things. I treat this local model as a \"small coding agent\", only capable of doing very well-scoped tasks. For deeper code review, task creation and organizat",
+        "posted_at": "2026-06-30T01:52:51+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
         "id": "t3_1uj9viw",
         "title": "Been running Qwen3.6-27B through a 3-critic harness. The harness matters more than I thought",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uj9viw/been_running_qwen3627b_through_a_3critic_harness/",
@@ -1067,6 +1948,460 @@
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uj2yym/on_darios_statement/",
         "description": "submitted by /u/turtle-toaster [link] [comments]",
         "posted_at": "2026-06-29T19:52:04+00:00",
+        "language": null,
+        "metrics": {}
+      }
+    ],
+    "reddit:n8n": [
+      {
+        "id": "t3_1ujy82y",
+        "title": "Feature Requests Organising Pipeline (updated)",
+        "url": "https://www.reddit.com/r/n8n/comments/1ujy82y/feature_requests_organising_pipeline_updated/",
+        "description": "Rebuilt a workflow in n8n that receives customer feedback from Gmail, Typeform and a webhook. It filters input so only feature requests are fed to the next nodes, while Google Sheets logging, error handling and owner notifications via Gmail are also included. The biggest problem was duplicates, and that's why js nodes were added. I'm definitely open to changes and improvements in the future, once again. GitHub: https://github.com/kalouseskimon-dot/feature-request-pipeline submitted by /u/kalousi",
+        "posted_at": "2026-06-30T19:00:58+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujqn6o",
+        "title": "Direct Meta WhatsApp Cloud API vs third-party BSP for appointment reminders — which one for a small business?",
+        "url": "https://www.reddit.com/r/n8n/comments/1ujqn6o/direct_meta_whatsapp_cloud_api_vs_thirdparty_bsp/",
+        "description": "I run a single small business (currently doing salon/appointment booking) and built the website myself using Next.js. When someone books an appointment, I want WhatsApp to send them a confirmation, and then a reminder \\~10 min before their slot. Right now I'm using a third-party WhatsApp API provider that costs me about ₹600/month, set up through an automation tool. It works, but I keep seeing people mention you can go directly through Meta's own WhatsApp Business Platform / Cloud API without a ",
+        "posted_at": "2026-06-30T14:22:34+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujqlef",
+        "title": "I Created a full guide about how to choose and use local AI models with n8n",
+        "url": "https://www.reddit.com/r/n8n/comments/1ujqlef/i_created_a_full_guide_about_how_to_choose_and/",
+        "description": "Check it From here https://github.com/NeetroxX/The-Practical-Guide-to-Cybersecurity-Automation-with-Local-AI-Models/blob/main/README.md And give me your feedback submitted by /u/Annual_Bear_4733 [link] [comments]",
+        "posted_at": "2026-06-30T14:20:45+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujpg4e",
+        "title": "Débutant N8N",
+        "url": "https://www.reddit.com/r/n8n/comments/1ujpg4e/débutant_n8n/",
+        "description": "Bonjour à vous , débutant sur N8N j'ai fais mon premier chatbot et j'esssaye de conclure ma premiere automatisation sur l'outil Linkedin , des personnes interessées pour vocal et m'apprendre d'avantage sur cette app que je trouve fascinante ? Mp direct via discord : cyrius9682 merci :) submitted by /u/OkPermit7844 [link] [comments]",
+        "posted_at": "2026-06-30T13:35:46+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujljjr",
+        "title": "I built a mobile app for voice input into n8n workflows - now it can stream long recordings in chunks",
+        "url": "https://www.reddit.com/r/n8n/comments/1ujljjr/i_built_a_mobile_app_for_voice_input_into_n8n/",
+        "description": "Hey everyone, About a year ago I posted here about a small mobile app I built for sending voice recordings directly into n8n webhooks - Webhook Audio Recorder The idea was pretty simple: open the app, record something, and send the audio straight to a webhook without setting up Telegram bots, extra accounts, or a backend in between. Since then I kept working on it, mostly based on my own usage and feedback from people here. The biggest thing I added recently is audio chunking. So instead of wait",
+        "posted_at": "2026-06-30T10:35:45+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujkuhq",
+        "title": "Need help from mentors",
+        "url": "https://www.reddit.com/r/n8n/comments/1ujkuhq/need_help_from_mentors/",
+        "description": "Hey everyone, I'd love to get some advice from people who have been in this space longer than I have. Over the past couple of years, I've designed GTM strategies and built outbound systems for B2B companies using Clay, n8n, GoHighLevel, and AI automation. I've worked on lead sourcing, enrichment, CRM automation, personalized outreach, and building workflows that support sales teams at scale. I'm at the point where I want to level up, but I'm not sure what the highest leverage skill is from here.",
+        "posted_at": "2026-06-30T09:56:35+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujj0jw",
+        "title": "Budget-friendly way to run n8n 24/7 + WhatsApp API?",
+        "url": "https://www.reddit.com/r/n8n/comments/1ujj0jw/budgetfriendly_way_to_run_n8n_247_whatsapp_api/",
+        "description": "Hi! I'm building a student project with self-hosted n8n and have two issues, Can't keep it running 24/7 without paying for a VPS or n8n Cloud. Having trouble with the WhatsApp API (webhook verification on self-hosting), and the official API is too expensive. As I am student i can't afford anything expensive and for this reason I can't able to build anything useful all the idea which come into my mind requires these two thing. Any free or low-cost alternatives or suggestions? submitted by /u/Sill",
+        "posted_at": "2026-06-30T08:06:43+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujhguk",
+        "title": "Whats the best way for human handover in an",
+        "url": "https://www.reddit.com/r/n8n/comments/1ujhguk/whats_the_best_way_for_human_handover_in_an/",
+        "description": "Im trying to build a chatbot and I wanted to ask whats the best way to handover to a human when the Ai cant handle the request or if the user asks for a human, Lets say I use slack for it, how will the workflow handle the conversation of the human and the customer. Sorry if my question is a little vague, Im kinda new to this and dont know how to put it. This is where im at: https://preview.redd.it/pvfh5smx7dah1.png?width=843&format=png&auto=webp&s=d5d97434224ba5a11ede6935ee55082e28670c3e submitt",
+        "posted_at": "2026-06-30T06:37:33+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujdstl",
+        "title": "Agent placing a phone call",
+        "url": "https://www.reddit.com/r/n8n/comments/1ujdstl/agent_placing_a_phone_call/",
+        "description": "Hi everyone. I'm considering building an automation workflow using n8n but current constraint is that part of the flow is making a phone call to a dedicated human hotline and passing some info (some id and maybe a name). Is that something that can work reliably with n8n? submitted by /u/Khaski [link] [comments]",
+        "posted_at": "2026-06-30T03:26:29+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujc814",
+        "title": "Looking for a partner",
+        "url": "https://www.reddit.com/r/n8n/comments/1ujc814/looking_for_a_partner/",
+        "description": "I am in high ticket international sales person for more than 5 years now. I know basics of n8n but for complex automations, there are limitations. I am looking for a person to build the AI and automation company together. Lets connect! submitted by /u/MutedReaction9353 [link] [comments]",
+        "posted_at": "2026-06-30T02:11:44+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uj5bq0",
+        "title": "Need Guidance",
+        "url": "https://www.reddit.com/r/n8n/comments/1uj5bq0/need_guidance/",
+        "description": "Hello everyone, I'm new to n8n and AI automation, and after reading a few posts in this community, I thought I'd ask for some guidance. People say that you have to find business problem and solve it. But it feels overwhelming to directly hop on to practical projects. And I have no clue what businesses problems are. So far, I've completed a few beginner tutorials and can build simple workflows like automatically sending emails, updating Google Sheets, assigning tasks, setting reminders, etc. I kn",
+        "posted_at": "2026-06-29T21:19:59+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uj4vqv",
+        "title": "How does the Sustainable Use License actually work in practice for SaaS built on n8n? Looking for real experiences",
+        "url": "https://www.reddit.com/r/n8n/comments/1uj4vqv/how_does_the_sustainable_use_license_actually/",
+        "description": "Hey r/n8n , Working on a project where end customers get a workflow automation built and run for them — n8n powers it under the hood (self-hosted), customers never see n8n directly, and they pay a monthly subscription for the result. Reading the Sustainable Use License, this looks like it falls outside \"internal business use\" since the product's value depends on n8n and paying customers effectively trigger the workflows. I've already reached out to [ license@n8n.io ](mailto: license@n8n.io ) dir",
+        "posted_at": "2026-06-29T21:03:11+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uj4ff3",
+        "title": "I built an enquiry Routing n8n workflow",
+        "url": "https://www.reddit.com/r/n8n/comments/1uj4ff3/i_built_an_enquiry_routing_n8n_workflow/",
+        "description": "Workflow Link: https://gist.github.com/iamvaar-dev/f48948bf6be008c91911e307fa26e29f Video Explanation: https://youtu.be/Zi872Mz4GnE?si=W-WIAz82OtenRh2Z Firstly this is a workflow for one of my recent client which is an MVP. And this had more flaws The client knew about this..... but still had a clarity that automations are not perfect too. But can improve But still they are ok to give it a try people like you and me. And here the goal is not be a perfect. It is about daring to solve a random iss",
+        "posted_at": "2026-06-29T20:46:26+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uj434x",
+        "title": "How are you guys monitoring workflow executions?",
+        "url": "https://www.reddit.com/r/n8n/comments/1uj434x/how_are_you_guys_monitoring_workflow_executions/",
+        "description": "I need to start monitoring workflows better. How are you guys doing it? submitted by /u/clear831 [link] [comments]",
+        "posted_at": "2026-06-29T20:33:45+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uj2f9v",
+        "title": "Airtable alternatives people actually use",
+        "url": "https://www.reddit.com/r/n8n/comments/1uj2f9v/airtable_alternatives_people_actually_use/",
+        "description": "Looking for solid Airtable alternatives for database and no code workflows. Main focus is managing structured data, automations, and simple collaboration without Airtable's pricing or limitations. What tools have you used that actually hold up in production and why did you switch? submitted by /u/jimmybobjoeflow [link] [comments]",
+        "posted_at": "2026-06-29T19:32:06+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uiyg6z",
+        "title": "HOW TO: get the Top 10–20 News of the day, ranked by popularity or views?",
+        "url": "https://www.reddit.com/r/n8n/comments/1uiyg6z/how_to_get_the_top_1020_news_of_the_day_ranked_by/",
+        "description": "Hi everyone, My project includes building a webpage with a daily view of the most relevant breaking news from established media outlet (CNN, New York Times, Fox News, etc etc..). I’m trying to retrieve somehow the top 10–20 News articles of the day (title, image, body, etc), ideally ranked by popularity, views, or some similar relevance metric. My question is: what’s the best way to do this?? Thanks! submitted by /u/Far-Actuary5154 [link] [comments]",
+        "posted_at": "2026-06-29T17:07:30+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uiwjwx",
+        "title": "AI Agent Automation",
+        "url": "https://www.reddit.com/r/n8n/comments/1uiwjwx/ai_agent_automation/",
+        "description": "Im 26 currently and I am learning n8n + shopify. I created a couple of simple projects from automated product lister, an applicant interview scheduler, a replicated AI travel agent from a yt dude but a simplified version, and a few more simpler projects which I use for testing and demos. I have not yet found a client and while I do not have a job, I am learning automation and finishing my shopify portfolio at the same time. Planning to create a fully functional shopify portfolio combined with n8",
+        "posted_at": "2026-06-29T15:59:28+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uitws0",
+        "title": "A pattern for making n8n workflows safe against duplicate webhooks (idempotency)",
+        "url": "https://www.reddit.com/r/n8n/comments/1uitws0/a_pattern_for_making_n8n_workflows_safe_against/",
+        "description": "If an n8n workflow sends an email, charges a card, issues a refund, or writes a CRM row, the scariest bug isn't it failing — it's it running twice. This trips people up enough that I wanted to share the pattern I default to now. Why it happens - Most providers (Shopify, Stripe, etc.) retry webhooks if you don't return 200 fast enough, and they fan out duplicates during bursts (Black Friday, sales spikes). The same event can hit your webhook 2–5 times. - n8n itself can re-run: a manual re-executi",
+        "posted_at": "2026-06-29T14:22:17+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uitf6t",
+        "title": "I got tired of rebuilding the same integrations in every n8n AI workflow",
+        "url": "https://www.reddit.com/r/n8n/comments/1uitf6t/i_got_tired_of_rebuilding_the_same_integrations/",
+        "description": "I've been building more AI workflows in n8n recently, and I kept running into the same problem. The workflow itself was usually straightforward. The annoying part was wiring together GitHub, Reddit, YouTube, documentation, search, and other services over and over again. Every project ended up with its own collection of HTTP Request nodes, credentials, retries, and custom logic. After rebuilding the same layer a few times, I decided to move it out of n8n entirely. I built a self-hosted gateway ca",
+        "posted_at": "2026-06-29T14:03:30+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uis8kh",
+        "title": "How to dive in n8n",
+        "url": "https://www.reddit.com/r/n8n/comments/1uis8kh/how_to_dive_in_n8n/",
+        "description": "I want to learn n8n, however I don't have any idea where to start. I'm really confused. Can you give me tips I don't have any coding background. Also I'm having a hard time installing it, seems like it won't run. https://preview.redd.it/m9v8vck828ah1.png?width=843&format=png&auto=webp&s=b50724a2b77909818f92a377950797e74699c605 submitted by /u/Exact-Ad5391 [link] [comments]",
+        "posted_at": "2026-06-29T13:16:13+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uirhy1",
+        "title": "Open-sourced an Easy Way to Post Tweets Without Paying for X.com API",
+        "url": "https://www.reddit.com/r/n8n/comments/1uirhy1/opensourced_an_easy_way_to_post_tweets_without/",
+        "description": "Our agency was paying for the official X API just to schedule and post tweets. That's $200/month on the Basic tier, $2,400 a year, for something that basically does a POST request on your behalf. At some point we looked at each other and asked why we were still doing this. So we built xActions. It uses your session cookies instead of API keys, spoofs browser-level TLS fingerprinting, and dynamically scrapes X's JavaScript bundles on startup to stay current with their query IDs and feature flags.",
+        "posted_at": "2026-06-29T12:45:17+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uir6ik",
+        "title": "What are your favorite n8n workflows for developers or ML engineers?",
+        "url": "https://www.reddit.com/r/n8n/comments/1uir6ik/what_are_your_favorite_n8n_workflows_for/",
+        "description": "I've been using n8n for a few automation tasks and I'm looking for more ideas, especially around software development and machine learning. I'm curious what workflows people are actually using in their day-to-day work rather than just demo projects. Things I'm interested in include: GitHub automation AI/LLM workflows Model training or evaluation pipelines Dataset processing Monitoring and alerts DevOps or CI/CD integrations Documentation or code generation Would love to hear about workflows that",
+        "posted_at": "2026-06-29T12:31:11+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uiphnf",
+        "title": "I'm 17 from the Philippines and just finished my first real n8n client project. What should I do next?",
+        "url": "https://www.reddit.com/r/n8n/comments/1uiphnf/im_17_from_the_philippines_and_just_finished_my/",
+        "description": "About 2 months ago, I found a client here on Reddit who runs a ship electronics repair business in the Philippines. I've been building an operations monitoring system for them for free as a way to gain experience and build my portfolio. The system is now finished and ready for deployment and testing, but my client is quite busy, so it might still take a few weeks before we can connect it to their live database and actually go live. ‎ ‎To be honest, I'm feeling a bit confused and lost about what ",
+        "posted_at": "2026-06-29T11:11:02+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uio1nc",
+        "title": "Which is the best n8n skill.md you are using?",
+        "url": "https://www.reddit.com/r/n8n/comments/1uio1nc/which_is_the_best_n8n_skillmd_you_are_using/",
+        "description": "Which is the best n8n skill.md you are using? submitted by /u/Salty_Fee_06 [link] [comments]",
+        "posted_at": "2026-06-29T09:53:13+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uinskv",
+        "title": "Built a tool to automatically format lyrics for ProPresenter for our church",
+        "url": "https://www.reddit.com/r/n8n/comments/1uinskv/built_a_tool_to_automatically_format_lyrics_for/",
+        "description": "Hello everyone! I'd like to share a project I built for our church. Every week, we receive a PDF containing the songs for the upcoming service. Someone then has to manually copy, split, and format each song into ProPresenter. The process was repetitive, time-consuming, and often resulted in formatting inconsistencies. To solve this, I built a workflow that automates most of the process. What it does: Accepts PDF or TXT lyric files Uses AI to identify verses, choruses, bridges, and other song sec",
+        "posted_at": "2026-06-29T09:38:48+00:00",
+        "language": null,
+        "metrics": {}
+      }
+    ],
+    "reddit:singularity": [
+      {
+        "id": "t3_1uk22hk",
+        "title": "Claude Sonnet 5 is both more expensive and less intelligent than Opus 4.8, on Artificial Analysis Index",
+        "url": "https://old.reddit.com/r/singularity/comments/1uk22hk/claude_sonnet_5_is_both_more_expensive_and_less/",
+        "description": "submitted by /u/Sockdude [link] [comments]",
+        "posted_at": "2026-06-30T21:22:49+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uk0loc",
+        "title": "Agibot humanoid robots prove factory readiness during six-day demo",
+        "url": "https://old.reddit.com/r/singularity/comments/1uk0loc/agibot_humanoid_robots_prove_factory_readiness/",
+        "description": "submitted by /u/yogthos [link] [comments]",
+        "posted_at": "2026-06-30T20:27:55+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujz8eo",
+        "title": "The faces of today's UBTech event",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujz8eo/the_faces_of_todays_ubtech_event/",
+        "description": "submitted by /u/Distinct-Question-16 [link] [comments]",
+        "posted_at": "2026-06-30T19:36:56+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujygf2",
+        "title": "Google Cloud will sell specialist AI models built for science",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujygf2/google_cloud_will_sell_specialist_ai_models_built/",
+        "description": "submitted by /u/space_monster [link] [comments]",
+        "posted_at": "2026-06-30T19:09:14+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujyelk",
+        "title": "Claude Sonnet 5 Artificial Analysis Results & Comparison",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujyelk/claude_sonnet_5_artificial_analysis_results/",
+        "description": "Check out the results for yourself: Claude Sonnet 5 (max) - Intelligence, Performance & Price Analysis Seems like it's quite a token guzzler. Waiting for non-max variant results to come out to see what real world usage would look like... submitted by /u/elemental-mind [link] [comments]",
+        "posted_at": "2026-06-30T19:07:22+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujxrzl",
+        "title": "Gemini Omni Flash Video Editing Capabilities",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujxrzl/gemini_omni_flash_video_editing_capabilities/",
+        "description": "Check out their blog post here: Start building with Nano Banana 2 Lite and Gemini Omni Flash submitted by /u/elemental-mind [link] [comments]",
+        "posted_at": "2026-06-30T18:44:27+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujxgvx",
+        "title": "Benchmark of sonnet 5 (good improvement)",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujxgvx/benchmark_of_sonnet_5_good_improvement/",
+        "description": "submitted by /u/Independent-Wind4462 [link] [comments]",
+        "posted_at": "2026-06-30T18:33:22+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujxfgf",
+        "title": "OpenAI has reportedly found a way to cut inference costs in half",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujxfgf/openai_has_reportedly_found_a_way_to_cut/",
+        "description": "Source (paywalled): OpenAI Discovers New Way to Cut Inference Costs in Half — The Information submitted by /u/Outside-Iron-8242 [link] [comments]",
+        "posted_at": "2026-06-30T18:32:01+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujxdde",
+        "title": "Nano Banana 2 Lite available on OpenRouter!",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujxdde/nano_banana_2_lite_available_on_openrouter/",
+        "description": "submitted by /u/elemental-mind [link] [comments]",
+        "posted_at": "2026-06-30T18:29:57+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujwmnr",
+        "title": "Claude Sonnet 5 Benchmarks",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujwmnr/claude_sonnet_5_benchmarks/",
+        "description": "submitted by /u/WhyLifeIs4 [link] [comments]",
+        "posted_at": "2026-06-30T18:03:15+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujwh9i",
+        "title": "Introducing Claude Sonnet 5",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujwh9i/introducing_claude_sonnet_5/",
+        "description": "https://www.anthropic.com/news/claude-sonnet-5 submitted by /u/WhyLifeIs4 [link] [comments]",
+        "posted_at": "2026-06-30T17:58:17+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujw939",
+        "title": "Introducing GeneBench-Pro",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujw939/introducing_genebenchpro/",
+        "description": "submitted by /u/Isacobs_35160_LHM [link] [comments]",
+        "posted_at": "2026-06-30T17:50:04+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujw4qe",
+        "title": "Anthropic just shipped claude science, basically claude code but for research",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujw4qe/anthropic_just_shipped_claude_science_basically/",
+        "description": "Basically it runs the same claude opus 4.8 everyone already has The pitch is purely workflow: collapse pubmed, jupyter, R, the cluster terminal and dozens of databases into one environment and everything is artifact-first and auditable, and every figure carries the exact code, environment and message history that produced it, so you can validate and rerun it. It runs locally on macos/linux or over ssh, ships with 60+ skills and connectors for genomics, proteomics, structural biology and cheminfo",
+        "posted_at": "2026-06-30T17:45:33+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujvvu2",
+        "title": "So what does it mean when a foreign competitor offers a good enough model for 90% less?",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujvvu2/so_what_does_it_mean_when_a_foreign_competitor/",
+        "description": "submitted by /u/ABlackEngineer [link] [comments]",
+        "posted_at": "2026-06-30T17:36:29+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujtprs",
+        "title": "What will a typical day in 2036 be like vs 2026 ai wise?",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujtprs/what_will_a_typical_day_in_2036_be_like_vs_2026/",
+        "description": "What would change in your daily routine from now and 2036 if you had to predict? submitted by /u/CremeSubject7594 [link] [comments]",
+        "posted_at": "2026-06-30T16:17:46+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujt3ui",
+        "title": "Claude Sonnet 5 Could Be Released Later Today, But May Not Be Better Than Opus 4.8",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujt3ui/claude_sonnet_5_could_be_released_later_today_but/",
+        "description": "https://x.com/synthwavedd/status/2071952099802308756 SCOOP: Claude Sonnet 5 is releasing later today: xhigh\" effort added First Sonnet w/ high-res vision New tokenizer Marketed as Sonnet price for \"near-Opus\" performance Disappointing that it may not exceed Opus in performance. submitted by /u/Neurogence [link] [comments]",
+        "posted_at": "2026-06-30T15:55:31+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujs1vn",
+        "title": "Meituan unveils LongCat-2.0, China’s first trillion‑parameter AI model built on domestic chips",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujs1vn/meituan_unveils_longcat20_chinas_first/",
+        "description": "submitted by /u/conurbano [link] [comments]",
+        "posted_at": "2026-06-30T15:15:33+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujrxdc",
+        "title": "F.03 at BMW - Figure A.I.",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujrxdc/f03_at_bmw_figure_ai/",
+        "description": "submitted by /u/RipperX4 [link] [comments]",
+        "posted_at": "2026-06-30T15:10:53+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujom1v",
+        "title": "Worldview of AI models compared to 88 countries",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujom1v/worldview_of_ai_models_compared_to_88_countries/",
+        "description": "submitted by /u/Old-School8916 [link] [comments]",
+        "posted_at": "2026-06-30T13:01:37+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujoecp",
+        "title": "Singularity Predictions Mid-2026.",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujoecp/singularity_predictions_mid2026/",
+        "description": "Normally we do this at end of every year but I’m jumping the gun and doing a mid-year checkup since we are basically halfway through the year. For those that don’t how this works Give the year you predict AGI to occur Give the year you predict ASI to occur Give the year you predict Singularity to occur I’ll go ahead and give mine AGI by December 31, 2028 ASI by December 31, 2030 Singularity by December 31, 2032 submitted by /u/AdorableBackground83 [link] [comments]",
+        "posted_at": "2026-06-30T12:52:51+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujloyn",
+        "title": "UBTech is unveiling their emotional humanoid robots, starting at ~$15K",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujloyn/ubtech_is_unveiling_their_emotional_humanoid/",
+        "description": "submitted by /u/Distinct-Question-16 [link] [comments]",
+        "posted_at": "2026-06-30T10:44:02+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujjyul",
+        "title": "it'snano Banana 2 flash lite (acc. To leak)",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujjyul/itsnano_banana_2_flash_lite_acc_to_leak/",
+        "description": "submitted by /u/Independent-Wind4462 [link] [comments]",
+        "posted_at": "2026-06-30T09:04:16+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujj24l",
+        "title": "AI seems to improve weekly now, what's actually changed in the last month that's worth knowing about?",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujj24l/ai_seems_to_improve_weekly_now_whats_actually/",
+        "description": "AI feels like it's moving faster every single day at this point. for those of you actually working in or with AI day to day, what's the most significant thing that's changed or improved in just the last month or two that casual users like me might not be tracking? curious what's actually moving the needle versus what's just hype. submitted by /u/Soft_Playful [link] [comments]",
+        "posted_at": "2026-06-30T08:09:25+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ujd36d",
+        "title": "Nano Banana flash lite?",
+        "url": "https://old.reddit.com/r/singularity/comments/1ujd36d/nano_banana_flash_lite/",
+        "description": "submitted by /u/Independent-Wind4462 [link] [comments]",
+        "posted_at": "2026-06-30T02:52:52+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uj73kr",
+        "title": "What will UBTECH bring us tomorrow? 🤖",
+        "url": "https://old.reddit.com/r/singularity/comments/1uj73kr/what_will_ubtech_bring_us_tomorrow/",
+        "description": "submitted by /u/Distinct-Question-16 [link] [comments]",
+        "posted_at": "2026-06-29T22:29:44+00:00",
         "language": null,
         "metrics": {}
       }
@@ -3978,6 +5313,17 @@
       "outlier_ratio": 0.338784021071115,
       "language": null,
       "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "TJ_QFDQZpTA",
+      "title": "La importancia de los frameworks para JavaScript en la epoca de la inteligencia artificial y agentes",
+      "description": "🔥 Suscribete: https://youtube.com/c/VictorRoblesWEB?sub_confirmation=1\n👨‍💻 Aprende programación, desarrollo web e inteligencia artificial desde cero con estos cursos, síguelos en este orden ⬇️\n0️⃣ Curso de HTML5 en profundidad: https://victorroblesweb.es/curso-html5\n1️⃣ Master en CSS: Aprender CSS3, Responsive, SASS, Less, Grid, Flexbox y Bootstrap: https://victorroblesweb.es/master-css\n2️⃣ Master en CSS3 Avanzado: Maqueta 3 sitios web profesionales: https://victorroblesweb.es/master-css-avanzad",
+      "url": "https://youtube.com/watch?v=TJ_QFDQZpTA",
+      "published_at": "2026-06-20T22:07:29+00:00",
+      "views": 654,
+      "outlier_ratio": 0.3425877422734416,
+      "language": null,
+      "channel": "Victor Robles WEB"
     },
     {
       "video_id": "YGx_EQRM1Qs",
