@@ -66,7 +66,7 @@ The `topic-decider` skill auto-triggers on these phrases. No slash command neede
 
 | File | Purpose |
 |---|---|
-| `CLAUDE.md` | This file — stage documentation |
+| `STAGE.md` | This file — stage documentation |
 | `content-hub-manager.skill` | Reference copy of the Notion Content Hub skill (read-only; not modified by this stage) |
 
 The active skill is at: `.claude/skills/topic-decider/SKILL.md`

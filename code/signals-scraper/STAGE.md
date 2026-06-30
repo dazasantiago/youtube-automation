@@ -39,6 +39,31 @@ Seven sources are scraped daily:
 
 `workflow_dispatch` supports `all` or any single stage.
 
+> **The handoff files are only written by `discovery_afternoon`.** `run_export` (which produces
+> `signals.json`, `handoff.json`, and `handoff_yt.json`) is called only in the `discovery_afternoon`
+> and `all` stages — see [`scripts/run_pipeline.py`](scripts/run_pipeline.py). `discovery_morning`
+> and `youtube_scan` only write to `intel.db`. If the handoff files look stale, it means
+> `discovery_afternoon` has not run successfully, even if the other stages have.
+
+### Bug fix (2026-06-30): stage was derived from runner wall-clock hour
+
+**Symptom:** The workflow showed all-green runs, but the pipeline was silently skipping. From
+2026-06-20 onward, `discovery_morning` and `discovery_afternoon` never ran (so the handoff files
+froze at 06-20), and `youtube_scan` only ran on the rare days the runner happened to start within
+the 12:00 UTC hour.
+
+**Root cause:** The "Determine stage" step mapped the stage from `date -u +%H` — the hour the
+runner *actually started*. GitHub delays scheduled runs (often 10 min to 1+ hour on free tier), so
+when a run launched at 13:10 or 22:12 instead of 12:00 or 21:00, no `case` matched and it fell
+through to `skip`. The job still reported success.
+
+**Fix:** Map the stage from `github.event.schedule` (the cron expression that triggered the run)
+instead of the wall-clock hour, so a delayed run still runs the correct stage. See
+[`.github/workflows/daily.yml`](../../.github/workflows/daily.yml), `Determine stage` step.
+
+**Health check:** A real stage run takes minutes; a skipped run finishes in ~15s. If scheduled runs
+are consistently finishing in seconds, the pipeline is skipping again.
+
 ## Output
 
 - `data/intel.db` — SQLite with raw signals, yt_channels, yt_videos, quota_log, run_log
