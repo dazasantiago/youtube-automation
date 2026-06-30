@@ -1,11 +1,14 @@
 from __future__ import annotations
 
+import logging
 import os
 from typing import Any
 
 import httpx
 
 from deep_research.models import Signal
+
+log = logging.getLogger(__name__)
 
 _HN_ALGOLIA = "https://hn.algolia.com/api/v1/search"
 _YT_SEARCH = "https://www.googleapis.com/youtube/v3/search"
@@ -22,8 +25,12 @@ def discover_topic_signals(
     surfaces the most relevant Reddit threads as discovered_sources.
     """
     hn = discover_hn_signals(topic, http, per_source)
+    log.info("HN discovery: %d signals", len(hn))
     yt = discover_youtube_signals(topic, http, per_source)
-    return _interleave(hn, yt)
+    log.info("YouTube discovery: %d signals", len(yt))
+    combined = _interleave(hn, yt)
+    log.info("Total interleaved: %d signals", len(combined))
+    return combined
 
 
 def discover_hn_signals(topic: str, http: httpx.Client, n: int = 8) -> list[Signal]:
@@ -59,7 +66,8 @@ def discover_hn_signals(topic: str, http: httpx.Client, n: int = 8) -> list[Sign
                 )
             )
         return out
-    except Exception:
+    except Exception as exc:
+        log.warning("HN discovery failed: %s", exc)
         return []
 
 
@@ -67,7 +75,9 @@ def discover_youtube_signals(topic: str, http: httpx.Client, n: int = 8) -> list
     """Search YouTube via Data API v3. Requires YOUTUBE_API_KEY env var; returns [] if absent."""
     api_key = os.environ.get("YOUTUBE_API_KEY", "")
     if not api_key:
+        log.warning("YOUTUBE_API_KEY not set — skipping YouTube discovery")
         return []
+    log.info("YouTube: searching for %r (maxResults=%d)", topic, n)
     try:
         resp = http.get(
             _YT_SEARCH,
@@ -82,8 +92,12 @@ def discover_youtube_signals(topic: str, http: httpx.Client, n: int = 8) -> list
             headers=_HEADERS,
             timeout=15,
         )
+        log.info("YouTube API response: HTTP %d", resp.status_code)
+        if not resp.is_success:
+            log.warning("YouTube API error body: %s", resp.text[:500])
         resp.raise_for_status()
         items: list[dict[str, Any]] = resp.json().get("items", [])
+        log.info("YouTube API returned %d items", len(items))
         out: list[Signal] = []
         for it in items:
             vid: str = it.get("id", {}).get("videoId", "")
@@ -106,7 +120,8 @@ def discover_youtube_signals(topic: str, http: httpx.Client, n: int = 8) -> list
                 )
             )
         return out
-    except Exception:
+    except Exception as exc:
+        log.warning("YouTube discovery failed: %s", exc)
         return []
 
 

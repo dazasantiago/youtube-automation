@@ -2,34 +2,6 @@
   {
     "original": {
       "source": "hn",
-      "source_id": "48567759",
-      "title": "GLM-5.2 is the new leading open weights model on Artificial Analysis",
-      "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
-      "description": null,
-      "posted_at": "2026-06-17T09:12:00Z",
-      "language": null,
-      "metrics": {
-        "points": 883,
-        "num_comments": 438
-      },
-      "signal_type": "signal",
-      "roles": [
-        "signal"
-      ]
-    },
-    "full_text": "June 17, 2026\nGLM-5.2 is the new leading open weights model on the Artificial Analysis Intelligence Index\nZ ai’s GLM-5.2 is the new leading open weights model on the Artificial Analysis Intelligence Index scoring 51 and it sits on the Pareto frontier of Intelligence vs Cost per Task\nGLM-5.2 is the same size as GLM-5.1 (744B total / 40B active parameters) but scores 11 points higher on the Intelligence Index v4.1, placing ahead of MiniMax-M3 (44) and DeepSeek V4 Pro (max, 44). On the first-party API it is priced in line with GLM-5.1 at $1.4/$4.4/$0.26 per 1M input/output/cache hit tokens\nKey results:\n➤ GLM-5.2 is the leading open weights model on the Intelligence Index v4.1. At 51, it leads MiniMax-M3 (44), DeepSeek V4 Pro (max, 44) and Kimi K2.6 (43)\n➤ Improvements across most evaluations, particularly scientific reasoning: GLM-5.2 gains over GLM-5.1 on most evaluations, led by scientific reasoning on CritPt (+16 points to 21%) and HLE (+12 points to 40%), alongside AA-LCR (+9 points to 71%), tau3 banking (+15 points to 27%) and SciCode (+7 points to 50%). TerminalBench v2.1 also improves (+16 points to 78%) and GPQA Diamond gains 3 points to 89%\n➤ Leading open weights model on GDPval-AA v2 and competitive with proprietary models: GLM-5.2 scores 1524 on GDPval-AA v2, ahead of MiniMax-M3 (1418) and DeepSeek V4 Pro (max, 1328). This impressive result places GLM-5.2 in-line with proprietary models including GPT-5.5 (xhigh reasoning). GDPval-AA v2 builds on the original GDPval-AA by baselining Elo to human performance at 1000, introducing a rotating panel of frontier-model judges, and raising the turn limit from 100 to 250 for longer-horizon agent trajectories\n➤ GLM-5.2 uses more output tokens per task than other leading open weights models: the model uses 43k output tokens per Intelligence Index task, up from GLM-5.1 (26k) and above MiniMax-M3 (24k), Kimi K2.6 (35k) and DeepSeek V4 Pro (max, 37k)\n➤ On the Intelligence vs. Cost per Task Pareto Frontier: GLM-5.2 is on the Pareto frontier of the Intelligence vs Cost per Task chart, with the lowest cost per task among models at its intelligence level. GLM-5.2 costs ~$0.46 per task, compared to GLM-5.1 ($0.25), Kimi K2.6 ($0.31), MiniMax-M3 ($0.18) and DeepSeek V4 Pro (max, $0.05)\nAdditional Model Details:\n➤ License: MIT\n➤ Size: 744B total parameters, 40B active parameters, equivalent to GLM-5.1\n➤ Context window: 1M tokens, up from 200K on GLM-5.1\n➤ Pricing: $1.4/$0.26/$4.4 per 1M input/cache hit/output tokens\n➤ Availability: Alongside Z ai's first-party API, GLM-5.2 is available across third-party providers including DeepInfra, Novita, Nebius, Parasail, Siliconflow, GMI Cloud, Baseten, and Fireworks\nGLM-5.2 leads all open weights models on GDPval-AA v2, our primary metric for real-world agentic performance. At 1524 it places ahead of MiniMax-M3 (1418) and DeepSeek V4 Pro (max, 1328), and is effectively level with GPT-5.5 (xhigh, 1514). We visually inspected GLM-5.2's outputs across a range of GDPval-AA tasks. We have attached a selection below.\nGLM-5.2 scores 4 on the AA-Omniscience Index, up from GLM-5.1 (2). The gain comes from both higher accuracy (25.1% vs 24.2%) and a lower hallucination rate (28.1% vs 29.4%), with attempt rate flat at 47%.\nGLM-5.2 uses 43k output tokens per Intelligence Index task, of which 37k is reasoning. This is up from GLM-5.1 (26k) and higher than open weights peers MiniMax-M3 (24k) and Kimi K2.6 (35k), placing it among the less token-efficient open weights models at its intelligence level. GLM-5.2 sits off the most attractive quadrant on the Intelligence vs Output Tokens chart.\nBreakdown of the individual evaluations in the Artificial Analysis Intelligence Index v4.1.\nCompare GLM-5.2 with other leading models at: https://artificialanalysis.ai/models/glm-5-2\nRead the latest\nArtificial Analysis Intelligence Index v4.1: a shift toward agentic workloads\nAnnouncing Artificial Analysis Intelligence Index v4.1: a shift toward agentic workloads, featuring upgraded benchmarks and new per-task metrics\nJune 16, 2026\nClaude Fable 5 Launches at #1 on the Artificial Analysis Intelligence Index\nAnthropic is nearly 5 points ahead of any other lab’s best model\nJune 10, 2026\nClaude Fable 5: the first public Mythos-class model\nAnthropic has released Claude Fable 5, the first publicly available Mythos-class model that ranks #1 in our agentic real-world knowledge work benchmark GDPval-AA\nJune 9, 2026",
-    "metadata": {
-      "author": null,
-      "sitename": "Artificial Analysis",
-      "date": "2026-06-17"
-    },
-    "scraped_at": "2026-06-19T14:56:28.568315+00:00",
-    "fetch_status": "ok",
-    "fetch_error": null
-  },
-  {
-    "original": {
-      "source": "hn",
       "source_id": "48518684",
       "title": "GLM 5.2 Is Out",
       "url": "https://twitter.com/jietang/status/2065784751345287314",
@@ -37,8 +9,8 @@
       "posted_at": "2026-06-13T16:18:31Z",
       "language": null,
       "metrics": {
-        "points": 768,
-        "num_comments": 499
+        "points": 769,
+        "num_comments": 500
       },
       "signal_type": "signal",
       "roles": [
@@ -51,33 +23,37 @@
       "sitename": "X (formerly Twitter)",
       "date": "2026-06-13"
     },
-    "scraped_at": "2026-06-19T14:56:29.338620+00:00",
+    "scraped_at": "2026-06-20T21:53:19.926550+00:00",
     "fetch_status": "ok",
     "fetch_error": null
   },
   {
     "original": {
       "source": "hn",
-      "source_id": "48567004",
-      "title": "GLM 5.2 Performance Benchmarks",
-      "url": "https://artificialanalysis.ai/models/glm-5-2",
+      "source_id": "48600531",
+      "title": "MiniMax M3 vs. GLM 5.2: Codegen comparison across autonomous coding tasks",
+      "url": "https://thinkwright.ai/minimax-m3-vs-glm-5-2-coding-benchmark",
       "description": null,
-      "posted_at": "2026-06-17T07:30:51Z",
+      "posted_at": "2026-06-19T16:52:54Z",
       "language": null,
       "metrics": {
-        "points": 157,
-        "num_comments": 48
+        "points": 50,
+        "num_comments": 16
       },
       "signal_type": "signal",
       "roles": [
         "signal"
       ]
     },
-    "full_text": null,
-    "metadata": {},
-    "scraped_at": "2026-06-19T14:56:31.117146+00:00",
-    "fetch_status": "skipped",
-    "fetch_error": "trafilatura fetch returned None"
+    "full_text": "Thinkbench, our custom evaluation harness, was used to drive both models through the same autonomous coding loop: read files, write files, run shell commands, and stop when the task was complete. The scored suite covered greenfield builds, bug fixes, feature additions, and repair-to-green tasks. Hidden graders ran after each model stopped, using fixed-denominator behavior checks. We also included a separate ungraded dimension covering how the models handle ambiguously defined instructions, with briefs for systems such as audit logs, schedulers, feature flags, and notification hubs. For those tasks, we tracked implementation choices, API shape, scope control, and failure semantics.\nGLM was steadier. MiniMax was cheaper and faster.\nAcross the 60 scored tasks, GLM 5.2 finished with the stronger correctness profile: 92% full-pass and a 0.976 mean score. MiniMax M3 finished at 84% full-pass and a 0.961 mean score. Because the separation was modest, cost and latency will probably influence which model makes sense. MiniMax cost $6.67 for the scored runs against GLM's $18.47, and averaged 45 seconds per run against GLM's 80 seconds.\nBoth models could code. What seemed to matter more was where they started to need review: package shape, edge cases, API design, or judgment calls in a loose brief. On existing-code work, the models were almost indistinguishable: bug fixes, feature additions, and repair-to-green tasks all landed at 0.999 to 1.000 mean score. The hard part was building from an empty repo.\nDifferences were concentrated in greenfield builds.\nPer task, 54 of 60 scored tasks landed within 0.1 mean score of each other. Greenfield builds accounted for all six larger gaps. It means the benchmark did not show one model broadly failing and the other broadly succeeding. It showed a narrow difference in from-scratch packaging, API design, and edge-case discipline.\nWhere GLM looked stronger\nticketflow was the largest gap: GLM went 1.00 while MiniMax averaged 0.33. The issue was not that MiniMax could not reason through the assignment. Two trials used a package layout the grader could not import from the workspace root, so the hidden checks never reached the logic. GLM delivered the package shape consistently.\nWhere MiniMax pushed back\npatchwise went the other way: MiniMax scored 1.00 while GLM averaged 0.62. GLM delivered code, but its failures were real implementation bugs: a name typo in one trial and trailing-newline diff handling in two others. MiniMax handled that fixture cleanly.\nmicroapi was the second clear GLM win. MiniMax built a plausible framework, but missed a short-circuit middleware return in one variant and produced a bad route regex in another. migrato was a MiniMax win: it cleared the migration-contract checks where GLM lost points. The pattern I take from this: GLM was steadier at packaging and complete delivery; MiniMax could still beat it on individual hard builds.\nWhen tasks were vague, MiniMax filled in more system.\nThe observed tasks were different. They were deliberately vague, and I didn't score them because there was no single correct implementation. The point was to compare what each model decided to build when the prompt left room. In that phase, MiniMax M3 consistently added more production-shaped machinery. GLM 5.2 more often stayed closer to the plain reading of the brief.\nMiniMax added hash-chain verification, a query builder, an action decorator, and file permission hardening. GLM stayed flatter: hash chain, boolean verification, and direct query filters.\nMiniMax built a notifier with priority fallback and a hard failure when no channel worked. GLM collected per-channel send results and returned a report.\nMiniMax built conditional validation with a when(...)\ncombinator. GLM explicitly declined that extra scope and kept the validator simpler.\nMiniMax chose a fixed one-second background tick. GLM used a heap and slept until the next scheduled event, which was more idle-efficient.\nI'm comfortable calling MiniMax the more eager model in this set because that claim is backed by the artifacts, not by vibe. It repeatedly reached for locks, persistence, policy objects, fallback paths, decorators, and a broader, more reusable structure. That can be useful. It can also be too much. GLM's restraint is not automatically better either; sometimes it missed a useful abstraction that MiniMax supplied.\nHow the benchmark was run.\nEach model got the same task brief, and for non-greenfield tasks the same starter code. It worked through a read/write/run loop, then stopped. Only after that did the hidden grader get copied into the workspace. A scored run used a fixed denominator, so an unimportable package scored zero instead of quietly shrinking the number of checks.\nThose client settings matter for interpreting the cost numbers. Cost was cache-aware because autonomous coding loops resend conversation context; cached input was priced separately from uncached input and output. The total production spend for building the benchmark and results was $48.88 across 605 metered runs. The scored table above is narrower: it reports only the final scored rows.\nWhere I'd use each model.\nGLM 5.2 is the safer pick when the task is a hard from-scratch build and the result needs to arrive as a complete, runnable project. Its greenfield edge was the clearest difference in the scored set. It cost more and took longer, but it produced more full-pass runs where the task started from nothing.\nMiniMax M3 is the value pick for a lot of worker traffic. It was much cheaper, faster, and effectively tied on existing-code tasks. If the work is a bug fix, feature addition, or repair-to-green loop under review, MiniMax looks strong enough to be the default worker.\nI wouldn't make either one the top-level coordinator by default. The best shape is still a frontier coordinator or judge above them: GPT-5.5 or Claude Opus deciding what to delegate, checking the finished work, and rerunning narrow pieces when the answer looks wrong. These models make the worker layer much more serious, not the coordinator layer unnecessary.",
+    "metadata": {
+      "author": "Brandon Huey",
+      "sitename": "Thinkwright",
+      "date": "2026-06-19"
+    },
+    "scraped_at": "2026-06-20T21:53:28.185720+00:00",
+    "fetch_status": "ok",
+    "fetch_error": null
   },
   {
     "original": {
@@ -89,7 +65,7 @@
       "posted_at": "2026-06-19T01:58:00Z",
       "language": null,
       "metrics": {
-        "points": 41,
+        "points": 43,
         "num_comments": 26
       },
       "signal_type": "signal",
@@ -103,7 +79,7 @@
       "sitename": "Vetted Consumer",
       "date": "2026-06-18"
     },
-    "scraped_at": "2026-06-19T14:56:31.280193+00:00",
+    "scraped_at": "2026-06-20T21:53:30.818102+00:00",
     "fetch_status": "ok",
     "fetch_error": null
   },
@@ -117,7 +93,7 @@
       "posted_at": "2026-06-16T21:07:04Z",
       "language": null,
       "metrics": {
-        "points": 34,
+        "points": 35,
         "num_comments": 19
       },
       "signal_type": "signal",
@@ -131,91 +107,7 @@
       "sitename": "X (formerly Twitter)",
       "date": "2026-06-16"
     },
-    "scraped_at": "2026-06-19T14:56:32.350181+00:00",
-    "fetch_status": "ok",
-    "fetch_error": null
-  },
-  {
-    "original": {
-      "source": "hn",
-      "source_id": "48558960",
-      "title": "GLM-5.2: Built for Long-Horizon Tasks",
-      "url": "https://z.ai/blog/glm-5.2",
-      "description": null,
-      "posted_at": "2026-06-16T17:41:07Z",
-      "language": null,
-      "metrics": {
-        "points": 30,
-        "num_comments": 2
-      },
-      "signal_type": "signal",
-      "roles": [
-        "signal"
-      ]
-    },
-    "full_text": "",
-    "metadata": {
-      "author": null,
-      "sitename": null,
-      "date": null
-    },
-    "scraped_at": "2026-06-19T14:56:32.967262+00:00",
-    "fetch_status": "ok",
-    "fetch_error": null
-  },
-  {
-    "original": {
-      "source": "hn",
-      "source_id": "48515912",
-      "title": "GLM 5.2 Released",
-      "url": "https://twitter.com/Zai_org/status/2065704919299235870",
-      "description": null,
-      "posted_at": "2026-06-13T10:57:23Z",
-      "language": null,
-      "metrics": {
-        "points": 28,
-        "num_comments": 2
-      },
-      "signal_type": "signal",
-      "roles": [
-        "signal"
-      ]
-    },
-    "full_text": "Intelligence should be open, accessible, and ready to build with, empowering every developer, everywhere.\nGLM-5.2 is now available to all GLM Coding Plan users, including Lite, Pro, Max, and Team plans.\ndocs.z.ai/devpack/latest…\nAs our new flagship model, GLM-5.2 delivers powerful coding capabilities, usable 1M-context support, and continued strengths in long-horizon tasks.\nAPI and Chatbot services will launch next week. The model will also be officially open-sourced next week under the MIT License.\nThe future of AI is open, and it belongs to the people.",
-    "metadata": {
-      "author": "Z ai",
-      "sitename": "X (formerly Twitter)",
-      "date": "2026-06-13"
-    },
-    "scraped_at": "2026-06-19T14:56:35.979897+00:00",
-    "fetch_status": "ok",
-    "fetch_error": null
-  },
-  {
-    "original": {
-      "source": "hn",
-      "source_id": "48587383",
-      "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
-      "url": "https://simonwillison.net/2026/Jun/17/glm-52/",
-      "description": null,
-      "posted_at": "2026-06-18T15:58:09Z",
-      "language": null,
-      "metrics": {
-        "points": 26,
-        "num_comments": 4
-      },
-      "signal_type": "signal",
-      "roles": [
-        "signal"
-      ]
-    },
-    "full_text": "GLM-5.2 is probably the most powerful text-only open weights LLM\n17th June 2026\nChinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases, this is 753B parameter, 1.51TB monster—with 40 active parameters (Mixture of Experts). GLM-5.2 is a text input only model—Z.ai have a separate vision family most recently represented by GLM-5V-Turbo, but that one isn’t open weights. GLM-5.2 has a 1 million token context window, up from GLM-5.1’s 200,000.\nThe buzz around this model is strong.\nArtificial Analysis, who run one of the most widely respected independent benchmarks: GLM-5.2 is the new leading open weights model on the Artificial Analysis Intelligence Index.\nGLM-5.2 is the leading open weights model on the Intelligence Index v4.1. At 51, it leads MiniMax-M3 (44), DeepSeek V4 Pro (max, 44) and Kimi K2.6 (43)\nThey did however find it to be quite token-hungry:\nGLM-5.2 uses more output tokens per task than other leading open weights models: the model uses 43k output tokens per Intelligence Index task, up from GLM-5.1 (26k) and above MiniMax-M3 (24k), Kimi K2.6 (35k) and DeepSeek V4 Pro (max, 37k)\nThe model is also now ranked 2nd on the Code Arena WebDev leaderboard, behind only Claude Fable 5. That leaderboard measures “front-end web development tasks, including agentic coding workflows”. I’m impressed to see it rank so highly given the lack of image input, which I had incorrectly assumed was a key part of building a truly great frontend coding model.\nI’ve been trying it out via OpenRouter, which has it from 9 different providers, almost all of which are charging $1.40/million for input and $4.40/million for output. For comparison, GPT-5.5 is $5/$30 and Claude Opus 4.5-4.8 is $5/$25.\nExcellent pelican, disappointing opossum\nGLM-5.1 gave me one of my favorite pelicans and my all time favorite opossum (for the prompt “Generate an SVG of a NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER”.) Interestingly, in both of those cases the model chose to return SVG wrapped in an HTML document that added additional animations using CSS.\nLet’s try GLM-5.2. For “Generate an SVG of a pelican riding a bicycle” I got this:\nIt’s a self-contained fully animated SVG, and the animations aren’t broken! Often I’ll see eyes falling off or wheels rotating independently of the bicycle but here everything works great. It’s a very nice vector illustration of a pelican too. Very impressive.\nSadly, the NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER did not come out nearly as well:\nThis is such a step down from GLM-5.1! As a reminder, that possum looked like this:\n5.2 didn’t even try to animate it.\nMore recent articles\n- Datasette Apps: Host custom HTML applications inside Datasette - 18th June 2026\n- Publishing WASM wheels to PyPI for use with Pyodide - 13th June 2026",
-    "metadata": {
-      "author": "Simon Willison",
-      "sitename": "Simon Willison’s Weblog",
-      "date": "2026-06-17"
-    },
-    "scraped_at": "2026-06-19T14:56:36.430385+00:00",
+    "scraped_at": "2026-06-20T21:53:33.806569+00:00",
     "fetch_status": "ok",
     "fetch_error": null
   }

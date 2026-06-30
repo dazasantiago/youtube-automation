@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import logging
+import os
 import re
 from datetime import UTC, datetime
 from urllib.parse import parse_qs, urlparse
@@ -14,12 +16,18 @@ from youtube_transcript_api import (
 from deep_research.enrichers.base import Enricher
 from deep_research.models import EnrichedSignal, Signal
 
+log = logging.getLogger(__name__)
+
 _MAX_CHARS = 20_000
 
 
 class YouTubeEnricher(Enricher):
     def __init__(self, force: bool = False) -> None:
         self._force = force
+        cookies_path = os.environ.get("YOUTUBE_COOKIES_FILE", "")
+        self._cookies: str | None = cookies_path if cookies_path else None
+        if self._cookies:
+            log.info("YouTubeEnricher: using cookies from %s", self._cookies)
 
     def can_enrich(self, signal: Signal) -> bool:
         if signal.signal_type == "yt_video":
@@ -46,6 +54,7 @@ class YouTubeEnricher(Enricher):
         raw_ratio = signal.metrics.get("outlier_ratio")
         outlier_ratio = float(raw_ratio) if isinstance(raw_ratio, (int, float)) else 1.0
         if not self._force and outlier_ratio >= 0.34 and outlier_ratio < 3.0:
+            log.info("YouTube skip gate: %s outlier_ratio=%.2f", video_id, outlier_ratio)
             return EnrichedSignal(
                 original=signal,
                 full_text=None,
@@ -55,8 +64,14 @@ class YouTubeEnricher(Enricher):
                 fetch_error=f"outlier_ratio {outlier_ratio:.2f} outside enrichment range (>=3.0 or <=0.33)",
             )
 
+        log.info("YouTube transcript fetch: %s (force=%s, cookies=%s)", video_id, self._force, bool(self._cookies))
         try:
-            segments = YouTubeTranscriptApi.get_transcript(video_id, languages=["en", "es"])
+            segments = YouTubeTranscriptApi.get_transcript(
+                video_id,
+                languages=["en", "es"],
+                cookies=self._cookies,
+            )
+            log.info("YouTube transcript ok: %s (%d segments)", video_id, len(segments))
             text = " ".join(s["text"] for s in segments)[:_MAX_CHARS]
             return EnrichedSignal(
                 original=signal,
@@ -67,6 +82,7 @@ class YouTubeEnricher(Enricher):
                 fetch_error=None,
             )
         except (TranscriptsDisabled, NoTranscriptFound) as exc:
+            log.warning("YouTube transcript skipped: %s — %s", video_id, exc)
             return EnrichedSignal(
                 original=signal,
                 full_text=None,
@@ -76,6 +92,7 @@ class YouTubeEnricher(Enricher):
                 fetch_error=str(exc),
             )
         except Exception as exc:
+            log.warning("YouTube transcript error: %s — %s", video_id, exc)
             return EnrichedSignal(
                 original=signal,
                 full_text=None,

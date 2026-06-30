@@ -189,6 +189,7 @@ combines them in one documented object under `signals_enriched` / `discovered_so
 |---|---|---|
 | `TAVILY_API_KEY` | Optional | Web discovery (`discover_sources`). Without it → empty `discovered_sources.json`, enrichment continues |
 | `YOUTUBE_API_KEY` | Optional (topic mode only) | YouTube signal discovery. Without it → YouTube signals skipped, HN/Reddit still run |
+| `YOUTUBE_COOKIES_FILE` | Optional | Path to a Netscape-format cookies.txt exported from a logged-in browser. Required when YouTube returns 429 rate-limit errors on transcript fetch. Export via the "Get cookies.txt LOCALLY" browser extension. |
 
 ---
 
