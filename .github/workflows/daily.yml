@@ -41,12 +41,11 @@ jobs:
         id: stage
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            HOUR=$(date -u +%H)
-            case $HOUR in
-              11) echo "value=discovery_morning" >> $GITHUB_OUTPUT ;;
-              12) echo "value=youtube_scan" >> $GITHUB_OUTPUT ;;
-              21) echo "value=discovery_afternoon" >> $GITHUB_OUTPUT ;;
-              *) echo "No stage mapped for hour ${HOUR} — Actions ran late, skipping." ; echo "value=skip" >> $GITHUB_OUTPUT ;;
+            case "${{ github.event.schedule }}" in
+              "0 11 * * *") echo "value=discovery_morning" >> $GITHUB_OUTPUT ;;
+              "0 12 * * *") echo "value=youtube_scan" >> $GITHUB_OUTPUT ;;
+              "0 21 * * *") echo "value=discovery_afternoon" >> $GITHUB_OUTPUT ;;
+              *) echo "No stage mapped for cron '${{ github.event.schedule }}', skipping." ; echo "value=skip" >> $GITHUB_OUTPUT ;;
             esac
           else
             echo "value=${{ inputs.stage }}" >> $GITHUB_OUTPUT
