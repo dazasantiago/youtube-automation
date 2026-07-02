@@ -1,9 +1,189 @@
 {
-  "generated_at": "2026-07-01T22:22:41.763442+00:00",
+  "generated_at": "2026-07-02T22:12:45.303870+00:00",
   "window_days": 7,
-  "total_signals": 327,
+  "total_signals": 411,
   "signals_by_source": {
     "hn": [
+      {
+        "id": "48766076",
+        "title": "Job seekers giving up: Labor force participation falls to lowest in 50 years",
+        "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html",
+        "description": null,
+        "posted_at": "2026-07-02T19:16:20+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 119,
+          "num_comments": 102
+        }
+      },
+      {
+        "id": "48765630",
+        "title": "Claude's AskUserQuestion: \"No response after 60s – continued without an answer\"",
+        "url": "https://github.com/anthropics/claude-code/issues/73125",
+        "description": null,
+        "posted_at": "2026-07-02T18:37:57+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 51,
+          "num_comments": 55
+        }
+      },
+      {
+        "id": "48762862",
+        "title": "Launch HN: Manufact (YC S25) – MCP Cloud",
+        "url": "https://manufact.com",
+        "description": "Hi HN, we are Pietro and Luigi, cofounders of Manufact (<a href=\"https:&#x2F;&#x2F;manufact.com\">https:&#x2F;&#x2F;manufact.com</a>), a cloud for MCP apps and servers. We used to be called mcp-use, and still build open source SDKs for MCP under that name: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;mcp-use&#x2F;mcp-use\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;mcp-use&#x2F;mcp-use</a>. We did a Show HN about that last year: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44747229\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44747229</a>.<p>Today we want to tell you about our cloud product, Manufact, which is to mcp-use as Vercel is to Next.js. Manufact is an MCP vertical cloud designed for dev teams putting MCP Apps and servers in production.You can ship, iterate on, test and monitor your MCPs, and get them ready for the store submissions. All with the best developer and agent experience in mind.<p>Here is a demo video of the product: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=R2rbr5OT9LI\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=R2rbr5OT9LI</a>.<p>We have been working on MCP since April 2025. Our first focus was making it easy to build agents that could use any MCP server, and a lot of people started using our SDKs. Then the harness revolution kicked off: Claude Code, Claude Cowork, ChatGPT, Codex, OpenCode started shipping agent harnesses that made most standalone agent frameworks redundant. That pushed us to the other side of the connection, the servers. If agents were going to consolidate into a few harnesses, then first-class integration with the rest of a company&#x27;s systems (i.e. MCP) would become the thing that mattered, so we started building up our server SDKs.<p>Then in succession:<p>1. Oct 2025. ChatGPT Apps SDK. OpenAI brings app UIs to ChatGPT, built on top of MCP and the work of mcp-ui.\n2. Late 2025. The stores open. ChatGPT starts accepting app submissions, Claude grows its connector directory with selected partners.\n3. Jan 2026. MCP Apps becomes official. SEP-1865 merges as the first MCP extension (io.modelcontextprotocol&#x2F;ui): one UI standard any host can render.<p>Today, all the major clients fully support MCP and are opening marketplaces of reviewed MCPs that can be one click installed. All major tech companies have an MCP server, and many of those are reporting that already 15+% of their usage comes from their MCP, and we start to have a good way to distribute them just now.<p>MCP can return fully interactive UIs. So companies can (1) display data in more meaningful ways to their users (e.g. analytics, ecommerce) and (2) display their branding in some of the most used products on the planet (ChatGPT, Claude etc). Numbers: an engineer at Amplitude reported that their MCP saw a 2x increase in retention after adding UI to their MCP.<p>Clients (Claude, ChatGPT, Cursor) are starting to dynamically present MCP servers&#x2F;apps to users, based on their intent. Products will be organically discovered on the chats!<p>We feel that MCP is reaching its maturity moment. Now that MCPs are starting to be easy to install and discover, there is going to be a huge incentive for users to use them and for companies to create them:<p>1 - Most work is already done from AI chats, this is not going to stop, MCP gives you a way to interact with products without manually using their dashboards.<p>2 - MCP allows you to bring the context together in one place: you can read an email, create a ticket while plugged into the source code of your product, or your knowledge base. Aggregation of products that was not possible before, will happen in the chat, orchestrated by increasingly intelligent models.<p>If AI apps (Codex, Claude Desktop) are the new browsers, as PG said in a recent tweet <a href=\"https:&#x2F;&#x2F;x.com&#x2F;paulg&#x2F;status&#x2F;2069080429236191504\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;paulg&#x2F;status&#x2F;2069080429236191504</a>, then MCPs are the new websites.<p>But there is a catch:<p>- Submission process on the stores is still quite tricky, manual and takes up valuable time.\n- Hardly anybody knows how to design a good MCP: most of them are 1:1 proxies of the API and are abandoned, since being one shotted a few months ago.\n- The MCP Spec advances quickly and it is not easy to keep track of the changes, and what they mean for your server.\n- Auth is still a mystery for most teams (API key in the URL ???).\n- Most companies are not even aware that MCPs can return interactive UIs.\n- Clients still have to consolidate behavior, some do dynamic tool discovery, some don&#x27;t, some persist authentication properly some don&#x27;t.<p>We built Manufact and mcp-use to solve these problems.\nOur SDKs help them build good MCPs, our inspector helps them test locally, and our cloud helps them ship&#x2F;publish and monitor them in production.<p>To deploy on Manufact you just need to connect a Github app, pick the repo, we&#x27;ll detect the framework you are working with and get you a live MCP url as soon as possible.<p>In our platform, that live URL will be used to give you a chat where you can try&#x2F;debug your MCP immediately and share it with your team. If you push an update on a new experimental branch, you&#x27;ll be able to test that as well thanks to preview deployments.<p>Once your server is ready to go live, we help you make sure that it does not break. You can configure automated tests that will take your MCP server, install it in ChatGPT and Claude and test it. We do not test the model, we test the client (model + harness). This way you reliably know if your server breaks where people use it.<p>Since publishing on the store is a major distribution unlock for companies (your MCP can be dynamically discovered and one click installed across Claude\nproducts, and ChatGPT), we collected a set of requirements that will keep your submission from being rejected. You check this locally before going through the actual review process.<p>Once your server is live, you&#x27;ll want to understand how it is used. Our analytics are designed for MCP, so you&#x27;ll know how many users are hitting\nyour MCP, how many tool calls you receive, from which client.<p>You can try out <a href=\"https:&#x2F;&#x2F;manufact.com\">https:&#x2F;&#x2F;manufact.com</a> for free today. We have usage-based pricing and on our free account we give free credits for you to try it out. If you have an\nMCP already, just connect your Github repo and deploy, if not you can build one using our skill and SDKs pretty simply (we will guide you in the onboarding).<p>We would love to hear feedback about the product in the comments, and hear thoughts from everyone about MCP. Thanks! :)",
+        "posted_at": "2026-07-02T15:11:20+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 95,
+          "num_comments": 60
+        }
+      },
+      {
+        "id": "48762038",
+        "title": "Show HN: CLI tool for detecting non-exact code duplication with embedding models",
+        "url": "https://github.com/rafal-qa/slopo",
+        "description": null,
+        "posted_at": "2026-07-02T14:19:24+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 72,
+          "num_comments": 32
+        }
+      },
+      {
+        "id": "48762008",
+        "title": "No LLM Code in Dependencies",
+        "url": "https://joeyh.name/blog/entry/no_LLM_code_in_dependencies/",
+        "description": null,
+        "posted_at": "2026-07-02T14:17:23+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 103,
+          "num_comments": 85
+        }
+      },
+      {
+        "id": "48762000",
+        "title": "Show HN: Mail Memories – A desktop app to rescue photos from Gmail",
+        "url": "https://mailmemories.com",
+        "description": "Hey HN, I’m the creator of Mail Memories. Like many of you, I&#x27;ve had my Gmail address for more than 20 years. A few years ago, I got curious and wanted to see what photos were buried deep in my account. I ended up finding lots of &quot;lost&quot; pictures of old friends, family members, and a ridiculous number of vintage memes.<p>I originally built and launched this as a SaaS, but even with code and policies in place that kept users&#x27; photos private, I figured everyone would feel more comfortable with a desktop app.<p>So, I threw out the server architecture and completely rewrote it as a 100% local desktop app for Mac and Windows.<p>How it works now: The app connects directly to Google&#x27;s server from your computer, processes everything entirely on your system, and saves photos straight to your hard drive.<p>You can download your 50 oldest photos for free (no credit card required) just to see what&#x27;s in there. If you want to download all the pictures in your account, it&#x27;s a one-time payment of $29. No subscriptions.<p>If you have an old, pre-2010 Gmail account, definitely give it a spin. You&#x27;ll be surprised at what you find deep in your archive.<p>I&#x27;d love to hear your feedback on the layout, scanning performance, or anything else.<p>TL;DR: I turned my SaaS into a local desktop app (Mac&#x2F;Windows) that recovers decades of forgotten photos from your Gmail. 100% local, no cloud, no subscriptions, no AI.",
+        "posted_at": "2026-07-02T14:16:57+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 96,
+          "num_comments": 46
+        }
+      },
+      {
+        "id": "48761294",
+        "title": "Show HN: A graph paper generator that renders vector PDFs in the browser",
+        "url": "https://freegraphpaper.net/",
+        "description": null,
+        "posted_at": "2026-07-02T13:29:09+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 88,
+          "num_comments": 20
+        }
+      },
+      {
+        "id": "48760201",
+        "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train",
+        "url": "https://arxiv.org/abs/2607.01232",
+        "description": null,
+        "posted_at": "2026-07-02T12:10:24+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 134,
+          "num_comments": 30
+        }
+      },
+      {
+        "id": "48760048",
+        "title": "Ask HN: Who is quitting? (July 2026)",
+        "url": "https://news.ycombinator.com/item?id=48760048",
+        "description": "There&#x27;s a lot of absurdity in this industry right now. I&#x27;m curious if anyone else who has the ability to do so is quitting this month.<p>If so I&#x27;m curious:<p><pre><code>  1. What pushed you to do it?\n\n  2. What will you be doing? (Even if nothing!)</code></pre>",
+        "posted_at": "2026-07-02T11:58:28+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 117,
+          "num_comments": 61
+        }
+      },
+      {
+        "id": "48759623",
+        "title": "OpenAI ‘in early talks to give 5% stake to US government’",
+        "url": "https://www.theguardian.com/technology/2026/jul/02/openai-stake-us-government-ai-sam-altman",
+        "description": null,
+        "posted_at": "2026-07-02T11:16:31+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 122,
+          "num_comments": 130
+        }
+      },
+      {
+        "id": "48756848",
+        "title": "He sent a harsh email to ICE's top official. Federal agents tracked him down",
+        "url": "https://www.npr.org/2026/07/01/nx-s1-5874124/dhs-tracks-ice-critic",
+        "description": null,
+        "posted_at": "2026-07-02T05:20:23+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 61,
+          "num_comments": 19
+        }
+      },
+      {
+        "id": "48755928",
+        "title": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers",
+        "url": "https://senior-swe-bench.snorkel.ai/",
+        "description": null,
+        "posted_at": "2026-07-02T02:55:16+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 110,
+          "num_comments": 83
+        }
+      },
+      {
+        "id": "48755075",
+        "title": "LibreCAD in the Browser",
+        "url": "https://magik.net/librecad/",
+        "description": null,
+        "posted_at": "2026-07-02T01:00:31+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 61,
+          "num_comments": 5
+        }
+      },
+      {
+        "id": "48753979",
+        "title": "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance",
+        "url": "https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/",
+        "description": null,
+        "posted_at": "2026-07-01T22:27:47+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 190,
+          "num_comments": 196
+        }
+      },
+      {
+        "id": "48753715",
+        "title": "ZCode – Harness for GLM-5.2",
+        "url": "https://zcode.z.ai/en",
+        "description": null,
+        "posted_at": "2026-07-01T22:03:36+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 441,
+          "num_comments": 304
+        }
+      },
       {
         "id": "48752030",
         "title": "Fable 5 Is Back",
@@ -41,6 +221,30 @@
         }
       },
       {
+        "id": "48751542",
+        "title": "Democrats Pick Up the Global Digital ID Agenda in Project 2029",
+        "url": "https://reclaimthenet.org/democrats-global-digital-id-agenda-project-2029",
+        "description": null,
+        "posted_at": "2026-07-01T18:53:39+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 67,
+          "num_comments": 4
+        }
+      },
+      {
+        "id": "48750373",
+        "title": "Mortality associated with non-optimal ambient temperatures from 2000 to 2019",
+        "url": "https://www.researchgate.net/publication/353058947_Global_regional_and_national_burden_of_mortality_associated_with_non-optimal_ambient_temperatures_from_2000_to_2019_a_three-stage_modelling_study",
+        "description": null,
+        "posted_at": "2026-07-01T17:29:11+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 66,
+          "num_comments": 21
+        }
+      },
+      {
         "id": "48747975",
         "title": "Ask HN: Who wants to be hired? (July 2026)",
         "url": "https://news.ycombinator.com/item?id=48747975",
@@ -50,6 +254,30 @@
         "metrics": {
           "points": 93,
           "num_comments": 211
+        }
+      },
+      {
+        "id": "48747407",
+        "title": "Ray Tracer in SQL",
+        "url": "https://github.com/ClickHouse/RayTracer",
+        "description": null,
+        "posted_at": "2026-07-01T14:27:48+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 54,
+          "num_comments": 16
+        }
+      },
+      {
+        "id": "48746752",
+        "title": "Launch HN: Parsewise (YC P25) – Reason Across Documents with an API",
+        "url": "https://news.ycombinator.com/item?id=48746752",
+        "description": "Hi all, it’s Greg and Max, founders of Parsewise here (<a href=\"https:&#x2F;&#x2F;www.parsewise.ai&#x2F;api\">https:&#x2F;&#x2F;www.parsewise.ai&#x2F;api</a>). Parsewise transforms a bucket of unstructured data into schema compliant data, retaining lineage for values resolved across documents.<p>Imagine giving Claude a bunch of files and asking for a CSV or JSON output. If you have tried this, you know both the system limitations (number of files, type of inputs, cost, latency) but also the human-facing challenge of having no way to validate the results quickly. We solve both.\nWe help tech teams simplify their unstructured data ETL, and loop in business experts for the definitions and for instant validation.<p>Here is a video with a few use cases: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dbRllnnh47w\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dbRllnnh47w</a><p>Parsewise in the words of someone coming to us:\n”I need to extract information from insurance policy PDFs, phone calls that have been transcribed, emails, etc. I am NOT looking for something that would just extract data point by data point, page by page into a structured well-defined schema but more something more agentic that can understand that information might be across documents and that it should reason over what to extract.”<p>We started the company based on a decade of experience (and pain) in complex data transformation and data analysis &#x2F; synthesis. Greg was building both classical ETL and implemented AI workflows at Palantir. At Bain, Max did highly complex data analysis in the financial sector, similar to many of our customers.<p>Parsewise works by taking in a bucket of data (think hundreds or thousands of pdfs, excels etc.), and outputting schema compliant data where every single value is traceable down to word level citations across multiple documents in the bucket. We provide API customers with ways to show the lineage in their own applications, or they can use our platform for internal operations.\nAt the core of the data processing we have self-improving agent definitions. They define the acceptable sources, the logic for resolving or combining values, and the rule for highlighting uncertainty to the end user.<p>The underlying tech is model and cloud agnostic and can be deployed in private networks. We have seen the best results with Gemini models for visual reasoning, achieving SOTA (beating Claude Fable) on the strongest grounded reasoning benchmark we have found (Databricks OfficeQA).\nNotably, we focused more on the “human harness” rather than the model harness, leaning into the actual friction we saw in uptake, which is around verifiability. That means optimizing the time and clicks required to trust the outcomes.\nWe use vLLMs for parsing, and then we use small models for efficient large scale exhaustive search. Unlike RAG, we do not sample; instead, we exhaustively find all relevant values for a given query. We use larger models for decision making around resolutions and flagging inconsistencies to users.<p>This exhaustiveness and explicit value sourcing is unique to our platform, and it goes beyond the first step of data parsing that many existing providers cover.<p>We would love to welcome builders and tinkerers to try Parsewise on your complex document challenges. We have a ton of ideas on how we can expand the product and make it better, but would appreciate feedback and ideas from the community!",
+        "posted_at": "2026-07-01T13:48:44+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 53,
+          "num_comments": 52
         }
       },
       {
@@ -302,6 +530,18 @@
         "metrics": {
           "points": 54,
           "num_comments": 11
+        }
+      },
+      {
+        "id": "48734754",
+        "title": "Claude Desktop is now available on Linux (in beta)",
+        "url": "https://code.claude.com/docs/en/desktop-linux",
+        "description": null,
+        "posted_at": "2026-06-30T16:09:10+00:00",
+        "language": "en",
+        "metrics": {
+          "points": 52,
+          "num_comments": 6
         }
       },
       {
@@ -895,6 +1135,105 @@
     ],
     "rss": [
       {
+        "id": "https://techcrunch.com/?p=3137764",
+        "title": "Yep, we’re using OpenClaw to date now",
+        "url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
+        "description": "Ben Guez has \"a bunch of potential international wives in [his] DMs,\" thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.",
+        "posted_at": "2026-07-02T12:00:00+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3138430",
+        "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+        "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+        "description": "Neo is Bhavin Turakhia’s fifth venture and his latest involving enterprise software. This time he's taking on Microsoft Office, Google Apps with AI.",
+        "posted_at": "2026-07-02T05:30:00+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3138299",
+        "title": "SpaceX has an AI device prototype, and it sure sounds phone-ish",
+        "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+        "description": "SpaceX reportedly showed investors a \"handset-like\" AI device before going public. It could be another signal SpaceX wants to expand into wireless.",
+        "posted_at": "2026-07-01T18:54:18+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3138300",
+        "title": "Ashton Kutcher leaving Sound Ventures to launch new VC firm with Morgan Beller",
+        "url": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/",
+        "description": "Sound built its reputation on concentrated, high-conviction bets in category-leading AI labs, while Kutcher's new fund appears to be chasing the layer underneath those companies — the infrastructure and energy that power them.",
+        "posted_at": "2026-07-01T18:47:22+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+        "title": "The latest AI news we announced in June 2026",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+        "description": "June Pixel Drop hero",
+        "posted_at": "2026-07-01T18:15:00+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3138183",
+        "title": "Cloudflare’s new policy pushes AI companies to pay for publishers’ content",
+        "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+        "description": "Cloudflare is giving AI companies until September 15 to separate web crawlers used for search from those used for AI training and agents, or risk being blocked by default on many publisher sites.",
+        "posted_at": "2026-07-01T17:48:37+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+        "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+        "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+        "description": "Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
+        "posted_at": "2026-07-01T16:00:00+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3138022",
+        "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
+        "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+        "description": "Venice AI is already profitable, with annualized run-rate revenues of over $70 million, CEO Erik Voorhees said.",
+        "posted_at": "2026-07-01T14:25:23+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3138055",
+        "title": "Gemini Spark, Google’s agentic assistant, is now available on Mac",
+        "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+        "description": "Google's 24/7 agentic assistant, Gemini Spark, comes to Mac alongside other improvements, like real-time tracking and support for more apps.",
+        "posted_at": "2026-07-01T14:20:19+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3137969",
+        "title": "Builders Stage agenda revealed: Practical strategies for scaling startups at TechCrunch Disrupt 2026",
+        "url": "https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026/",
+        "description": "The Builders Stage is returning to TechCrunch Disrupt 2026, bringing together 10,000+ founders, startup operators, and investors for practical conversations. and Q&#038;A on what it takes to build and scale successful companies. Register now to save up to $330.",
+        "posted_at": "2026-07-01T14:00:00+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://techcrunch.com/?p=3138038",
+        "title": "Meta, like SpaceX, looks to turn excess AI compute into cash",
+        "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+        "description": "Meta is developing plans for a cloud infrastructure business, selling access to AI compute power and models. The move would pit it against the big cloud providers like Amazon Web Services, Google Cloud, and Microsoft Azure.",
+        "posted_at": "2026-07-01T13:43:07+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
         "id": "https://techcrunch.com/?p=3137972",
         "title": "The ‘Father of the Internet’ is finally retiring",
         "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
@@ -918,6 +1257,15 @@
         "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
         "description": "Wayve’s offering is part of a growing trend of AI startups using employee tenders as a strategic tool to attract and retain talent.",
         "posted_at": "2026-07-01T02:04:40+00:00",
+        "language": "en",
+        "metrics": {}
+      },
+      {
+        "id": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+        "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+        "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+        "description": null,
+        "posted_at": "2026-07-01T00:00:00+00:00",
         "language": "en",
         "metrics": {}
       },
@@ -1220,6 +1568,234 @@
       }
     ],
     "github_trending": [
+      {
+        "id": "NateBJones-Projects/OB1",
+        "title": "NateBJones-Projects/OB1",
+        "url": "https://github.com/NateBJones-Projects/OB1",
+        "description": "Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS.",
+        "posted_at": "2026-07-02T13:03:07.647905+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 38,
+          "stars_total": 4035
+        }
+      },
+      {
+        "id": "modelcontextprotocol/ext-apps",
+        "title": "modelcontextprotocol/ext-apps",
+        "url": "https://github.com/modelcontextprotocol/ext-apps",
+        "description": "Official repo for spec & SDK of MCP Apps protocol - standard for UIs embedded AI chatbots, served by MCP servers",
+        "posted_at": "2026-07-02T13:03:07.647641+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 6,
+          "stars_total": 2519
+        }
+      },
+      {
+        "id": "EveryInc/compound-engineering-plugin",
+        "title": "EveryInc/compound-engineering-plugin",
+        "url": "https://github.com/EveryInc/compound-engineering-plugin",
+        "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+        "posted_at": "2026-07-02T13:03:07.647515+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 73,
+          "stars_total": 22460
+        }
+      },
+      {
+        "id": "microsoft/skills",
+        "title": "microsoft/skills",
+        "url": "https://github.com/microsoft/skills",
+        "description": "Skills, MCP servers, Custom Agents, Agents.md for SDKs to ground Coding Agents",
+        "posted_at": "2026-07-02T13:03:07.647387+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 6,
+          "stars_total": 2655
+        }
+      },
+      {
+        "id": "ruvnet/ruflo",
+        "title": "ruvnet/ruflo",
+        "url": "https://github.com/ruvnet/ruflo",
+        "description": "🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+        "posted_at": "2026-07-02T13:03:07.647211+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 233,
+          "stars_total": 62558
+        }
+      },
+      {
+        "id": "openclaw/openclaw",
+        "title": "openclaw/openclaw",
+        "url": "https://github.com/openclaw/openclaw",
+        "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+        "posted_at": "2026-07-02T13:03:07.646629+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 240,
+          "stars_total": 381423
+        }
+      },
+      {
+        "id": "alirezarezvani/claude-skills",
+        "title": "alirezarezvani/claude-skills",
+        "url": "https://github.com/alirezarezvani/claude-skills",
+        "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+        "posted_at": "2026-07-02T13:03:03.015381+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 114,
+          "stars_total": 19665
+        }
+      },
+      {
+        "id": "browser-use/browser-use",
+        "title": "browser-use/browser-use",
+        "url": "https://github.com/browser-use/browser-use",
+        "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+        "posted_at": "2026-07-02T13:03:03.015210+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 215,
+          "stars_total": 102143
+        }
+      },
+      {
+        "id": "ashishpatel26/500-AI-Agents-Projects",
+        "title": "ashishpatel26/500-AI-Agents-Projects",
+        "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+        "description": "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.",
+        "posted_at": "2026-07-02T13:03:03.015081+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 105,
+          "stars_total": 33472
+        }
+      },
+      {
+        "id": "anthropics/claude-code",
+        "title": "anthropics/claude-code",
+        "url": "https://github.com/anthropics/claude-code",
+        "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "posted_at": "2026-07-02T13:03:03.014954+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 185,
+          "stars_total": 135444
+        }
+      },
+      {
+        "id": "NousResearch/hermes-agent",
+        "title": "NousResearch/hermes-agent",
+        "url": "https://github.com/NousResearch/hermes-agent",
+        "description": "The agent that grows with you",
+        "posted_at": "2026-07-02T13:03:03.014700+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 849,
+          "stars_total": 207738
+        }
+      },
+      {
+        "id": "NVIDIA/skills",
+        "title": "NVIDIA/skills",
+        "url": "https://github.com/NVIDIA/skills",
+        "description": "AI agent skills published by NVIDIA",
+        "posted_at": "2026-07-02T13:03:03.014512+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 30,
+          "stars_total": 2157
+        }
+      },
+      {
+        "id": "pytorch/pytorch",
+        "title": "pytorch/pytorch",
+        "url": "https://github.com/pytorch/pytorch",
+        "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+        "posted_at": "2026-07-02T13:02:58.352033+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 45,
+          "stars_total": 101080
+        }
+      },
+      {
+        "id": "langflow-ai/langflow",
+        "title": "langflow-ai/langflow",
+        "url": "https://github.com/langflow-ai/langflow",
+        "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+        "posted_at": "2026-07-02T13:02:58.351908+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 74,
+          "stars_total": 150428
+        }
+      },
+      {
+        "id": "openai/codex-plugin-cc",
+        "title": "openai/codex-plugin-cc",
+        "url": "https://github.com/openai/codex-plugin-cc",
+        "description": "Use Codex from Claude Code to review code or delegate tasks.",
+        "posted_at": "2026-07-02T13:02:58.351783+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 72,
+          "stars_total": 22323
+        }
+      },
+      {
+        "id": "agentskills/agentskills",
+        "title": "agentskills/agentskills",
+        "url": "https://github.com/agentskills/agentskills",
+        "description": "Specification and documentation for Agent Skills",
+        "posted_at": "2026-07-02T13:02:58.351647+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 47,
+          "stars_total": 21426
+        }
+      },
+      {
+        "id": "affaan-m/ECC",
+        "title": "affaan-m/ECC",
+        "url": "https://github.com/affaan-m/ECC",
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "posted_at": "2026-07-02T13:02:58.351396+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 721,
+          "stars_total": 224901
+        }
+      },
+      {
+        "id": "santifer/career-ops",
+        "title": "santifer/career-ops",
+        "url": "https://github.com/santifer/career-ops",
+        "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+        "posted_at": "2026-07-02T13:02:58.350800+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 322,
+          "stars_total": 57365
+        }
+      },
+      {
+        "id": "JuliusBrussee/caveman",
+        "title": "JuliusBrussee/caveman",
+        "url": "https://github.com/JuliusBrussee/caveman",
+        "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+        "posted_at": "2026-07-02T13:02:58.350427+00:00",
+        "language": "en",
+        "metrics": {
+          "stars_today": 866,
+          "stars_total": 79671
+        }
+      },
       {
         "id": "getmaxun/maxun",
         "title": "getmaxun/maxun",
@@ -2087,6 +2663,31 @@
     ],
     "hf": [
       {
+        "id": "space:smolagents/hf-realtime-voice",
+        "title": "[HF Space] smolagents/hf-realtime-voice",
+        "url": "https://huggingface.co/spaces/smolagents/hf-realtime-voice",
+        "description": "docker | docker, region:us",
+        "posted_at": "2026-07-01T13:34:11+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 58,
+          "likes": 58
+        }
+      },
+      {
+        "id": "model:Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF",
+        "title": "[HF Model] Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF",
+        "url": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF",
+        "description": "image-text-to-text | transformers | transformers, gguf, llama.cpp, image-text-to-text, vision",
+        "posted_at": "2026-06-29T16:18:56+00:00",
+        "language": "en",
+        "metrics": {
+          "trending_score": 107,
+          "likes": 108,
+          "downloads": 29589
+        }
+      },
+      {
         "id": "model:huihui-ai/Huihui-GLM-5.2-abliterated-GGUF",
         "title": "[HF Model] huihui-ai/Huihui-GLM-5.2-abliterated-GGUF",
         "url": "https://huggingface.co/huihui-ai/Huihui-GLM-5.2-abliterated-GGUF",
@@ -2124,85 +2725,252 @@
           "likes": 111,
           "downloads": 4446
         }
-      },
-      {
-        "id": "space:deepreinforce-ai/Ornith-1.0-9B",
-        "title": "[HF Space] deepreinforce-ai/Ornith-1.0-9B",
-        "url": "https://huggingface.co/spaces/deepreinforce-ai/Ornith-1.0-9B",
-        "description": "gradio | gradio, region:us",
-        "posted_at": "2026-06-25T20:13:39+00:00",
-        "language": "en",
-        "metrics": {
-          "trending_score": 36,
-          "likes": 36
-        }
-      },
-      {
-        "id": "space:webml-community/lfm2-webgpu-kernels",
-        "title": "[HF Space] webml-community/lfm2-webgpu-kernels",
-        "url": "https://huggingface.co/spaces/webml-community/lfm2-webgpu-kernels",
-        "description": "static | static, region:us",
-        "posted_at": "2026-06-25T17:57:18+00:00",
-        "language": "en",
-        "metrics": {
-          "trending_score": 41,
-          "likes": 44
-        }
-      },
-      {
-        "id": "model:deepreinforce-ai/Ornith-1.0-35B-GGUF",
-        "title": "[HF Model] deepreinforce-ai/Ornith-1.0-35B-GGUF",
-        "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
-        "description": "text-generation | transformers | transformers, gguf, text-generation, license:mit, endpoints_compatible",
-        "posted_at": "2026-06-25T04:56:44+00:00",
-        "language": "en",
-        "metrics": {
-          "trending_score": 511,
-          "likes": 531,
-          "downloads": 157418
-        }
-      },
-      {
-        "id": "model:deepreinforce-ai/Ornith-1.0-9B-GGUF",
-        "title": "[HF Model] deepreinforce-ai/Ornith-1.0-9B-GGUF",
-        "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF",
-        "description": "text-generation | transformers | transformers, gguf, text-generation, license:mit, endpoints_compatible",
-        "posted_at": "2026-06-25T04:56:13+00:00",
-        "language": "en",
-        "metrics": {
-          "trending_score": 320,
-          "likes": 339,
-          "downloads": 98750
-        }
-      },
-      {
-        "id": "model:unsloth/Qwen-AgentWorld-35B-A3B-GGUF",
-        "title": "[HF Model] unsloth/Qwen-AgentWorld-35B-A3B-GGUF",
-        "url": "https://huggingface.co/unsloth/Qwen-AgentWorld-35B-A3B-GGUF",
-        "description": "text-generation | transformers | transformers, gguf, qwen, unsloth, world-model",
-        "posted_at": "2026-06-24T23:45:03+00:00",
-        "language": "en",
-        "metrics": {
-          "trending_score": 116,
-          "likes": 121,
-          "downloads": 155333
-        }
-      },
-      {
-        "id": "model:LiquidAI/LFM2.5-230M",
-        "title": "[HF Model] LiquidAI/LFM2.5-230M",
-        "url": "https://huggingface.co/LiquidAI/LFM2.5-230M",
-        "description": "text-generation | transformers | transformers, safetensors, lfm2, text-generation, liquid",
-        "posted_at": "2026-06-24T23:14:11+00:00",
-        "language": "en",
-        "metrics": {
-          "trending_score": 159,
-          "likes": 165,
-          "downloads": 17839
-        }
       }
     ],
     "reddit:LocalLLaMA": [
+      {
+        "id": "t3_1ulthkp",
+        "title": "Local benchmarks with a RTX 3090 - Qwen3.6 27b vs Ornith",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulthkp/local_benchmarks_with_a_rtx_3090_qwen36_27b_vs/",
+        "description": "Hey folks. I've been frustrated by how difficult it is to get an idea of how good each new model (or fine-tune) is, and I've not been satisfied with the one-off \"draw a pelican riding a bike\" style tests that we often fall back on. New models or model variants that can run locally on my RTX 3090 almost never get proper benchmark coverage from anyone but the folks who make them. Lately, I wanted to see how Ornith 35b compared to Qwen3.6 27b. So I've been playing around with inspect-ai and a bunch",
+        "posted_at": "2026-07-02T20:24:29+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ultf9m",
+        "title": "July 4th is coming up, is there any vision model that's good for picking up fire?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ultf9m/july_4th_is_coming_up_is_there_any_vision_model/",
+        "description": "With July 4th coming up, there will be idiots shooting off fireworks. That combined with everything being bone dry where I live, I generally stay up until the wee hours to make sure nothing is smouldering. Is there a vision model that's good at picking up fire or better yet smoke? submitted by /u/fallingdowndizzyvr [link] [comments]",
+        "posted_at": "2026-07-02T20:22:03+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ult0f4",
+        "title": "It's officially over. One of the fathers of AI at Nvidia doesn't believe in AGI and compares OpenAI and Anthropic's closed models to AOL and Prodigy's closed internets. Says the future is every business having a customized open source model.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ult0f4/its_officially_over_one_of_the_fathers_of_ai_at/",
+        "description": "submitted by /u/9gxa05s8fa8sh [link] [comments]",
+        "posted_at": "2026-07-02T20:06:22+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulqyxj",
+        "title": "6x P40 running Minimax M2.7_Q3_XL",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulqyxj/6x_p40_running_minimax_m27_q3_xl/",
+        "description": "I've been a lurker for a while and have been building my own home lab with P40's and MI50's. I've learned so much from the community and I just felt like it's time to give back. Even though I'm still learning I'm sure this information will be valuable to someone out there. I'll be posting MI50's details once I'm done fine tuning my P40 box. Hardware: Asus X99-E-WS ( Modded BIOS to support a large number GPU's ) Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz 128GB DDR4 RAM (mixed batch of Non-ECC stic",
+        "posted_at": "2026-07-02T18:49:50+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulqg4i",
+        "title": "Fine-tuned Gemma-4-31B specifically for Copywriting & Creative Writing Tasks (Scored +290 Elo over base using EqBench3)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulqg4i/finetuned_gemma431b_specifically_for_copywriting/",
+        "description": "Hey r/LocalLLaMA , Wanted to share a narrow fine-tune I've been working on and get some technical feedback from people who've done similar domain-specific work if possible. The problem: general chat models can write marketing copy, but they default to the same tells hedging, \"In today's fast-paced world…\" openers, vague benefit-speak instead of specifics. Claude is good no dobt about it but I wanted to do something of my own too. I fine-tuned Gemma-4-31B-it specifically to cut that out and write",
+        "posted_at": "2026-07-02T18:30:54+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulpq3o",
+        "title": "Gemma 4 WebGPU Kernels 255 tok/s by x/@xenovacom",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulpq3o/gemma_4_webgpu_kernels_255_toks_by_xxenovacom/",
+        "description": "We need more of this, 100+ T/s on dense models is the difference between defaulting to Claude/Codex for everything vs having a local private model doing most of the heavy lifting and only reaching for frontier for heavy intelligence work. https://x.com/xenovacom/status/2065656427117437213 submitted by /u/yonz- [link] [comments]",
+        "posted_at": "2026-07-02T18:04:57+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulol44",
+        "title": "openlumara, my manually coded super-token-efficient harness, now works across any UI that can connect to an openAI endpoint! koboldlite, openwebui, you name it. basically, openAI bridge. yay!",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulol44/openlumara_my_manually_coded_supertokenefficient/",
+        "description": "this was a long time coming, but it's finally here! you can now basically supercharge whichever UI you're already using with the power of openlumara . click that link for more information about openlumara itself. TL;DR: super token efficient framework built from the ground up for local models, reinventing a lot of conventions about harnesses and agents that were made for cloud API's and which tend to make local models work badly. see the link for more info on how it works with the quirks of loca",
+        "posted_at": "2026-07-02T17:23:58+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulnwop",
+        "title": "Agents are collaboratively writing a massive wiki on RL for LLMs (200+ papers so far) and anyone can join",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulnwop/agents_are_collaboratively_writing_a_massive_wiki/",
+        "description": "submitted by /u/paf1138 [link] [comments]",
+        "posted_at": "2026-07-02T16:59:52+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1uln2ol",
+        "title": "Software developers appreciation post",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uln2ol/software_developers_appreciation_post/",
+        "description": "Im on the bus to work and just felt like i dont see enough grattitude for the men, women, children, and people who contribute thier time and effort on open projects. Just last night i saw ive been sleeping while vllm developers are releasing 3 new major releases, and not only that, the issues with OOM caused by preallocations and tuning seem to be gone!!!amazing!! Just fixing that bug has allowed me to double my context window size 120k to 240k with qwen27b on 5090. So this is just a reminder to",
+        "posted_at": "2026-07-02T16:28:58+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulmez2",
+        "title": "Rebuilding Gemma 4 31b... better... As 26b...",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulmez2/rebuilding_gemma_4_31b_better_as_26b/",
+        "description": "Sooo... I decided screw it. I'm going to rebuild Gemma 4 31b. I really like the model. So the current plan is to rebuild the SWA layers. Currently running all the proper ablation tests to figure out what SWA layer gets removed. Gemma runs 5 SWA at 1024 tokens each. Then a global layer for the \"Block\" Layer 3 is consistently the weakest and will likely get removed. From there I am going to rescale the attention of SWA across the board. The new SWA will be 1024/2048/4096/8.1k then the global layer",
+        "posted_at": "2026-07-02T16:05:09+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulm1gt",
+        "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulm1gt/kimi_k27_code_is_generally_available_in_github/",
+        "description": "submitted by /u/zxyzyxz [link] [comments]",
+        "posted_at": "2026-07-02T15:51:29+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ullxg7",
+        "title": "poolside/Laguna-XS-2.1",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ullxg7/poolsidelagunaxs21/",
+        "description": "submitted by /u/a_slay_nub [link] [comments]",
+        "posted_at": "2026-07-02T15:47:10+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ull771",
+        "title": "I’m switching to Linux, is Ubuntu the most compatible with local AI?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ull771/im_switching_to_linux_is_ubuntu_the_most/",
+        "description": "I will definitely use vLLM now (unless there is something faster now) but i want to make sure ggufs + llamacpp works along with comfyui and things of that nature too. submitted by /u/XiRw [link] [comments]",
+        "posted_at": "2026-07-02T15:20:16+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulgwld",
+        "title": "Talking with Gemma 4 31B!",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulgwld/talking_with_gemma_4_31b/",
+        "description": "Hi! I'm Andi from Hugging Face. This is a fully open-source and free to test/pull/modify demo I'm bringing today. It's a voice demo creating a pipeline of: - Nvidia's parakeet - Gemma 4 31B (served by cerebras!) - My custom inference for Qwen3TTS It sees and searches the web faster than you blink. The whole stack is fully open-source , and is a drop-in replacement for OpenAI's realtime API. You can run it locally, I get similar latencies with a macbook pro M3 36GB and Gemma 4 E4B. Here to the we",
+        "posted_at": "2026-07-02T12:29:23+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulg0tv",
+        "title": "I built a local LLM NPC backend focused on NPC-to-NPC conversations",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulg0tv/i_built_a_local_llm_npc_backend_focused_on/",
+        "description": "I just released a research project I did last year as open source. It is a fully local speech-to-speech backend for LLM NPCs. So speech-to-text, local LLM, text-to-speech, no cloud needed. The main focus was NPCs talking to each other, not just answering the player, and my study looked at how players experience witnessing those NPC-to-NPC conversations and what it does for immersion. The NPCs can talk to each other, remember what they said, and later use that context when the player talks to the",
+        "posted_at": "2026-07-02T11:49:39+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulfpfo",
+        "title": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulfpfo/zai_launches_zcode_to_challenge_cursor_claude/",
+        "description": "submitted by /u/pscoutou [link] [comments]",
+        "posted_at": "2026-07-02T11:34:14+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulclpr",
+        "title": "What's in your RAG?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulclpr/whats_in_your_rag/",
+        "description": "I want to up my game, with RAG. I tested it ages ago, but haven't found a usecase. I play with coding, projects, and light sysadmin work. # Thoughts RFC library - seems verbose unnecessary industry standards - typically in the model better than my cherry picked documents Codebase - I don't have the largest code base (fits in context) and it changes too often to index? Entire API references - this might work for small scripting languages, but for a bigger language (c#, nodejs, etc etc) this seems",
+        "posted_at": "2026-07-02T08:42:24+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulb4nx",
+        "title": "Palantir CEO rages against closed models",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulb4nx/palantir_ceo_rages_against_closed_models/",
+        "description": "For context, this week they struck a deal to buy Nvidia chips and run local models for their enterprise clients. So in this video he is railing against Anthropic and OpenAI saying they are ripping everyone off while stealing their data too. Always a special moment when the enemy comes around and embraces your world view. submitted by /u/burner20170218 [link] [comments]",
+        "posted_at": "2026-07-02T07:15:05+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulatl7",
+        "title": "A cheap trick for reliable structured output: feed the validation error back into the retry",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulatl7/a_cheap_trick_for_reliable_structured_output_feed/",
+        "description": "If you generate structured output from an LLM and validate against a schema, you know the failure mode: usually fine, occasionally a missing field or an unparseable response. The common fix is a retry, but a plain retry is the same prompt at the same temperature, so you are just re-rolling. What worked much better for me was making the retry self-correcting: when validation fails, put the validation error and the model's own previous output back into the next prompt and ask it to fix that specif",
+        "posted_at": "2026-07-02T06:57:32+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ul7za1",
+        "title": "SenseNova-U1-8b-MoT-Infographic-V2 (released yesterday) - An open source SOTA beast for infographic design and image editing.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul7za1/sensenovau18bmotinfographicv2_released_yesterday/",
+        "description": "I’m pretty jaded like most of y’all. I don’t really get excited by new models much anymore. Last few weeks have been kinda meh to be honest. Monday, I stumbled upon SenseNova’s Mixture of Transformers models and they seem kinda like a different animal than other typical image gen models. I managed to get a couple of them running and I have to say that this series of models is impressing me when it comes to generating and editing dense infographics. I haven’t seen anything except for Ideogram 4 g",
+        "posted_at": "2026-07-02T04:22:38+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ul7qb6",
+        "title": "[Benchmark] Kimi K2.7 Code Q3 on Mac Studio M3 Ultra + RTX PRO 6000 over llama.cpp RPC: prefill improves, no changes in token generation/decode",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul7qb6/benchmark_kimi_k27_code_q3_on_mac_studio_m3_ultra/",
+        "description": "I came across this interesting article https://blog.exolabs.net/nvidia-dgx-spark/ while I don't have the DGX spark but it made me curious will this kind of arch speed up my setup for LLMs? Mac can host large models but the prefill speed sucks, so I tested in it on my setup for Kimi 2.7. Short answer: it helps prefill, but it does not meaningfully help decode on this setup. RPC is still mostly a capacity tool unless the network/interconnect and split mode are much better. Setup Host: Mac Studio M",
+        "posted_at": "2026-07-02T04:09:57+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ul7ki2",
+        "title": "They fit! Mostly.... 2x 3090, Thermaltake Core p3",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul7ki2/they_fit_mostly_2x_3090_thermaltake_core_p3/",
+        "description": "Got another 3090 had to print a bracket to angle the radiator and make room for the GPUs 💀 ended up liking the look more than I thought ..qwen 27b go brrrrr submitted by /u/anthonyg45157 [link] [comments]",
+        "posted_at": "2026-07-02T04:02:01+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ul6enz",
+        "title": "Making LLMs Better at Creative Writing using Entropy",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul6enz/making_llms_better_at_creative_writing_using/",
+        "description": "submitted by /u/CountBayesie [link] [comments]",
+        "posted_at": "2026-07-02T03:06:06+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ul3rr2",
+        "title": "I added MTP to local SoTA Agentic Coding Model Ornith 35B FP8 E4M3",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul3rr2/i_added_mtp_to_local_sota_agentic_coding_model/",
+        "description": "Just wanted to share that I was looking for an optimal way to run Ornith 35B in FP8 with E4M3 and MTP with vLLM but there was no out-of-the-box model with MTP drafter support. So I grafted this new model! It's 18% faster than without MTP and the drafter acceptance rate is not bad (70% on avg). It should run on any RTX based setup > 80GB VRAM with full context window 256k. Might also do well on Unified Memory Systems like GB10 (for this - use my script and graft the MTP model into a target NVFP4 ",
+        "posted_at": "2026-07-02T01:03:05+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ul0cx9",
+        "title": "I extended Gemma4-31B to 44B (88 layers) — since Google won't give us anything bigger than 31B",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul0cx9/i_extended_gemma431b_to_44b_88_layers_since/",
+        "description": "I've been just sit on this thread for a while now, both as a reader and occasional poster, so I figured it was finally time to share something I've been working on last weekends. Google hasn't shipped a dense Gemma4 bigger than 31B, so I decided to just build one myself. Heads up though — I'm not a CS or math person, this is all hands-on trial and error on my own hardware. If anything below is theoretically shaky, please tell me, I genuinely want to learn where I'm wrong. What I did: took Gemma4",
+        "posted_at": "2026-07-01T22:35:11+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ukzavr",
+        "title": "Senior SWE Bench: a new benchmark focussed on realistically underspecified feature tasks",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukzavr/senior_swe_bench_a_new_benchmark_focussed_on/",
+        "description": "submitted by /u/jordo45 [link] [comments]",
+        "posted_at": "2026-07-01T21:52:55+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ukz0t9",
+        "title": "My reasons to run local models",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukz0t9/my_reasons_to_run_local_models/",
+        "description": "I can finetune any model on any dataset I want. I can use techniques like speculative decoding and other sota approaches to get the max tps The llm provides like anthropic and openai are not getting access to my data The hardware is reusable for vision text speech, and I can run any blend of models for free as much as I want I can curate any dataset/content that I want without worrying about the costs I like watching Dario go up in flames submitted by /u/AppropriatePush6262 [link] [comments]",
+        "posted_at": "2026-07-01T21:41:51+00:00",
+        "language": null,
+        "metrics": {}
+      },
       {
         "id": "t3_1ukx9p1",
         "title": "End of an Agony. Real production service that uses LLM to earn money my team had made and now we are so happy that it will die. Here are some of my final \"experiences\".",
@@ -2781,6 +3549,96 @@
       }
     ],
     "reddit:MachineLearning": [
+      {
+        "id": "t3_1ulrdw9",
+        "title": "Improving machine-translated novels via style transfer — looking for advice on the faithfulness/fluency tradeoff [P]",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1ulrdw9/improving_machinetranslated_novels_via_style/",
+        "description": "Hey all. I recently started working on a project to improve machine-translated webnovels via style transfer. The basic idea is to take the clunky translated prose and rewrite it to something that reads like it was written by a professional author, while remaining as faithful as possible to the original text. The source material is mostly amateur/MTL output full of direct sentence structure translations carried over from Chinese, awkward honorifics, over-translated idioms, that kind of thing. The",
+        "posted_at": "2026-07-02T19:04:50+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulnstb",
+        "title": "How papers are selected for Best Paper, Oral, or Highlight presentation at major ML/CV conferences such as CVPR, ICCV, ECCV, NeurIPS, and ICLR? [D]",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1ulnstb/how_papers_are_selected_for_best_paper_oral_or/",
+        "description": "From what I understand, reviewers usually do not directly vote for these categories or nominate papers themselves. So how does the selection process typically work? Here are specific questions I wonder - Who actually selects the candidates: ACs, SACs, program chairs, award committees, or a separate committee? - Do ACs or committees read the camera-ready version, or is the decision based on the originally submitted/reviewed version? - Is the selection mostly based on reviewer scores, or do factor",
+        "posted_at": "2026-07-02T16:55:53+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulnp4d",
+        "title": "BMVC 2026 Review Discussion Thread [D]",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1ulnp4d/bmvc_2026_review_discussion_thread_d/",
+        "description": "BMVC reviews will be out tomorrow. Making this parent thread for discussion. All the best everyone! submitted by /u/Hot_Version_6403 [link] [comments]",
+        "posted_at": "2026-07-02T16:52:04+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulngy8",
+        "title": "Has anyone tried this approach with Fast Byte Latent Transformers ? [R]",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1ulngy8/has_anyone_tried_this_approach_with_fast_byte/",
+        "description": "Paper Referred:- https://arxiv.org/pdf/2412.09871v1 Has anyone switched the transformer in the entropy model here to a Mamba model ? What could be the possible changes ? Just a ML fresher asking a genuine, since Mamba is more popular and saves computer (O(n)). Thanking you in advance ! submitted by /u/SoloLeveller07 [link] [comments]",
+        "posted_at": "2026-07-02T16:43:33+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulmy9g",
+        "title": "Books/Resources to improve mathematical foundations for ML research [D]",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1ulmy9g/booksresources_to_improve_mathematical/",
+        "description": "I am a mid to late stage PhD student in ML. I've known this before, but only recently I started feeling this urgently: my mathematical foundations are shaky, because I kept \"learning-things-as-I-go\" when working on various problems. I likely have only a year or two left until I graduate, and before I do so, I want to really dedicate some time and focus to brush up on the fundamentals. Primarily, I want to improve my knowledge in Linear Algebra, Probability Theory, and Functional Analysis. For Li",
+        "posted_at": "2026-07-02T16:24:23+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ulgunh",
+        "title": "What do you think about paper fishing? [D]",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1ulgunh/what_do_you_think_about_paper_fishing_d/",
+        "description": "I am working in a research group in Germany, not that well known but in general good output. I have one colleague who does nothing in his PhD. He does not want to work, or he is not able to do any good research, his level is super bad. Plus He doesn’t even care about that. To wrap it up, he is just here for the money. Since he doesn’t want to work or he can’t really do anything good, instead what he does is “paper fishing”, he searches for people in the group doing some good research, and asks t",
+        "posted_at": "2026-07-02T12:26:55+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ul7ap2",
+        "title": "SentryCode: Real-time Auditor + Honeytokens for AI Coding Agents [P]",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ul7ap2/sentrycode_realtime_auditor_honeytokens_for_ai/",
+        "description": "In light of recent privacy concerns arising from local AI coding agents performing telemetry, environmental scanning, and hidden cue fingerprinting, I've open-sourced SentryCode—a kernel-level behavior auditing tool. It logs file/network/cue activity, uses honeypot tokens for zero-false-positive data breach detection, detects steganographically encrypted covert channels, provides tamper-proof audit logs, and supports policy enforcement. All functions run locally without any outbound connections.",
+        "posted_at": "2026-07-02T03:48:58+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ul5bgf",
+        "title": "[D] Self-Promotion Thread",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ul5bgf/d_selfpromotion_thread/",
+        "description": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to bans. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. -- Meta: This is an experiment. If th",
+        "posted_at": "2026-07-02T02:15:27+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ul3ohk",
+        "title": "Making Optimization Work When Labels Are Scarce [R]",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ul3ohk/making_optimization_work_when_labels_are_scarce_r/",
+        "description": "https://www.gnosyslabs.com/case-studies/safety-classifier-sparse-labels Gnosys is an autonomous model engineer: it improves prompts and classifiers when ground truth is too sparse for conventional optimization. On ToxicChat, a public safety benchmark, under realistic label scarcity, it improved a classifier past both the team's starting point and GEPA (a standard prompt optimizer), across two runs of our current method. This note describes what we did, what we found, and where the method underpe",
+        "posted_at": "2026-07-02T00:59:15+00:00",
+        "language": null,
+        "metrics": {}
+      },
+      {
+        "id": "t3_1ukzdnj",
+        "title": "Hamiltonian Neural Networks from a Differential Geometry Perspective [D]",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ukzdnj/hamiltonian_neural_networks_from_a_differential/",
+        "description": "This is a write-up on our company blog that I wrote, sharing our perspective into Hamiltonian Neural Networks (Greydanus et al., 2019) from a differential-geometry angle rather than the usual \"here's the loss function\" treatment. I've been working on HNN and LNN adjacent topics for years now and I found this particular lens made the *why* click in a way the standard framing never did for me, and I've been meaning to put everything in writing for a while now. I just feel like the Noether's Theore",
+        "posted_at": "2026-07-01T21:55:58+00:00",
+        "language": null,
+        "metrics": {}
+      },
       {
         "id": "t3_1ukyciw",
         "title": "New PyMuPDF release, supports Markdown [N]",
@@ -3574,17 +4432,6 @@
       "channel": "Platzi"
     },
     {
-      "video_id": "yy9Qqts8pX0",
-      "title": "Tus mensajes en Instagram y redes sociales ya no son privados",
-      "description": "Por si te lo perdiste: desde el 8 de mayo, Instagram quitó el cifrado de extremo a extremo en TODOS los DMs 👀\n\nEsa era la barrera que evitaba que alguien leyera tus conversaciones por encima del hombro… y ya no está.\n\n¿Tú te quedas en Instagram o ya te estás mudando a una app más privada?",
-      "url": "https://youtube.com/watch?v=yy9Qqts8pX0",
-      "published_at": "2026-06-02T00:17:44+00:00",
-      "views": 234503,
-      "outlier_ratio": 12.541608728206226,
-      "language": null,
-      "channel": "Platzi"
-    },
-    {
       "video_id": "h1MxhfZSTjo",
       "title": "Google Lost $2.7 Billion In Talent This Week. The Real Reason Isn't Money.",
       "description": "OpenAI vs Anthropic: OpenAI looks like it won the week — the Shazeer hire, the 5.6 rumors, the Fable headlines. But talent movement and pre-training cadence suggest Anthropic may actually be ahead, and the biggest AI story may be happening at neither lab.\n\nMy Links 🔗\n👉🏻 Newsletter: https://natesnewsletter.substack.com/\n👉🏻 X: https://x.com/natebjones\n👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones\n👉🏻 Instagram: https://www.instagram.com/nate.b.jones\n\nWhat's really happening inside the OpenAI vers",
@@ -4234,6 +5081,17 @@
       "channel": "Sabrina Ramonov 🍄"
     },
     {
+      "video_id": "xxpc_6GAgGo",
+      "title": "Hermes Agent + MiniMax M3 is WILD",
+      "description": "💎 Minimax: https://bit.ly/4vuy220\n🔥 Firecrawl: https://bit.ly/4aHCD8A\n📈 ALL Systems: https://bit.ly/4kol0y5\n\nMost people run their agent on Claude or ChatGPT and never think about it again. The trick is matching the right model to each task so you get more performance per dollar. In this one I wire Minimax M3 into Hermes agent, test it with multimodal images, a Firecrawl scrape of a real website, and live web lookups. It's genuinely quick, it's a fraction of the cost, and it sees images and brow",
+      "url": "https://youtube.com/watch?v=xxpc_6GAgGo",
+      "published_at": "2026-06-23T19:17:16+00:00",
+      "views": 50470,
+      "outlier_ratio": 3.3492600703430884,
+      "language": null,
+      "channel": "Jack Roberts"
+    },
+    {
       "video_id": "QdRmjx0ZdOU",
       "title": "40 mil estrellas en GitHub en menos de 24 horas.\n\nSe llama Odysseus y es una especie de ChatGPT/Clau",
       "description": "40 mil estrellas en GitHub en menos de 24 horas.\n\nSe llama Odysseus y es una especie de ChatGPT/Claude, pero pensado para usarse en IA local.\n\nLa sorpresa. El proyecto es del famoso creador de contenido PewDiePie y lo está explotando.\n\nTiene agentes con tools, MCP, archivos y memoria.\n\nFunciona en Windows, macOS y Linux.\n\nTotalmente de código abierto. ¿Qué te parece?\n\n#software #github #programacion #pewdiepie #informatica\n #short",
@@ -4254,6 +5112,17 @@
       "outlier_ratio": 3.256992920441606,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "nIVu3zfYprI",
+      "title": "Introducing OpenWiki, an open source agent for repo documentation",
+      "description": "Brace Sproul from LangChain introduces OpenWiki, a new open source agent and CLI that generates and maintains documentation for your codebase so coding agents have the context they need to make better changes. Built on DeepAgents with optional LangSmith tracing, OpenWiki creates a repo wiki, links it into your AGENTS.md file, and keeps everything current with a scheduled GitHub Action. In this walkthrough, Brace installs OpenWiki, runs through setup, tours the generated docs, and shows how your ",
+      "url": "https://youtube.com/watch?v=nIVu3zfYprI",
+      "published_at": "2026-07-01T17:41:32+00:00",
+      "views": 5530,
+      "outlier_ratio": 3.2567726737338045,
+      "language": null,
+      "channel": "LangChain"
     },
     {
       "video_id": "40ikbH0Ba-g",
@@ -4432,17 +5301,6 @@
       "channel": "Matthew Berman"
     },
     {
-      "video_id": "bjrmYsFae_g",
-      "title": "The Problem Solvers | Max Junestrand at Legora",
-      "description": "Legora is the AI-native operating system, where legal teams can autonomously plan, execute, review, and complete complex legal work end-to-end. Max Junestrand says one of the oldest jobs in the world is interpreting law. Today he’s approaching that role with responsibility. In an industry where prior technology changes introduced only incremental ways of working, Max is taking a strategic bet that every new model release \"raises the tide\" significantly. Legora's motivation is to build boats for ",
-      "url": "https://youtube.com/watch?v=bjrmYsFae_g",
-      "published_at": "2026-06-02T14:03:39+00:00",
-      "views": 120990,
-      "outlier_ratio": 2.883254295450754,
-      "language": null,
-      "channel": "Claude"
-    },
-    {
       "video_id": "--p0JUf4rNk",
       "title": "This Repo ROASTED My Vibe Coded App",
       "description": "⚡Build an app, ship it, & get your first customer with hands-on help\nhttps://www.skool.com/tech-snack-pro\n\n🔥Join my FREE community with full guides & tons of prompts from past videos\nhttps://www.skool.com/tech-snack\n\n💪 Who Am I?\n\nMy name is Sean... I went from tech bootcamp grad to startup Sales Engineer, scaled a marketing agency to 8-figure ARR, and exited a small CRM along the way (sustained $250K ARR).\n\nThis channel is for fusing tech skills with business building experiences and sharing wha",
@@ -4518,17 +5376,6 @@
       "outlier_ratio": 2.8168349429323967,
       "language": null,
       "channel": "Sabrina Ramonov 🍄"
-    },
-    {
-      "video_id": "OB2azvOLOc8",
-      "title": "Por esto debes aprender programación en 2026",
-      "description": "",
-      "url": "https://youtube.com/watch?v=OB2azvOLOc8",
-      "published_at": "2026-06-02T18:15:57+00:00",
-      "views": 52484,
-      "outlier_ratio": 2.8077869290833246,
-      "language": null,
-      "channel": "Platzi"
     },
     {
       "video_id": "skTEnDgxo8c",
@@ -4872,6 +5719,17 @@
       "channel": "Sabrina Ramonov 🍄"
     },
     {
+      "video_id": "ijvoD4h2BPI",
+      "title": "¿Van a prohibir la IA open source?",
+      "description": "Coinbase reduce un 50% su gasto en IA usando modelos chinos. Analizo qué significa esto para OpenAI, Anthropic y el futuro de los modelos open source.\n\nArtículos analizados:\n• Coinbase reduce 50% su gasto en IA con modelos chinos open source autoalojados: https://www.techtimes.com/articles/319248/20260628/coinbase-cuts-ai-spend-50-chinese-models-legal-risk-its-ceo-didnt-lead.html\n• Brian Armstrong explica cómo Coinbase bajó su gasto en IA: https://x.com/brian_armstrong/status/2070670644577280109",
+      "url": "https://youtube.com/watch?v=ijvoD4h2BPI",
+      "published_at": "2026-07-01T14:27:59+00:00",
+      "views": 92361,
+      "outlier_ratio": 2.3808676823138195,
+      "language": null,
+      "channel": "midudev"
+    },
+    {
       "video_id": "afWGum7zMDI",
       "title": "The AI Millionaire Formula: 4 Steps in Exact Order (2026)",
       "description": "Follow me on IG, DM me \"BLUEPRINT\" and I'll send you the step-by-step playbook 👇\n\n4 steps to becoming an AI millionaire in 2026, in this exact order. Most people start at the wrong step, and they make no money because of it.\n\n1. Learn by earning. Tie tutorials to a paid project. Announce what you're learning to your warm network, and apply for AI consulting gigs on Upwork.\n2. Build a personal brand while you learn. Share what you learn, what you struggle with, the cool things you try.\n3. Expand ",
@@ -5048,6 +5906,17 @@
       "channel": "Sabrina Ramonov 🍄"
     },
     {
+      "video_id": "Oy2uWILP8sg",
+      "title": "Reading a Book Branches You Into a Better Timeline",
+      "description": "Every time you pick up an actual book, you branch into a better timeline.\n\nOne page. One choice. A different version of you. The future you wants is built one book at a time.\n\nFollow me on IG @sabrina_ramonov for daily mindset 👇\n\n#mindset #reading #books #selfimprovement #growth",
+      "url": "https://youtube.com/watch?v=Oy2uWILP8sg",
+      "published_at": "2026-06-30T16:00:33+00:00",
+      "views": 20093,
+      "outlier_ratio": 2.2051141352063213,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
       "video_id": "BvjkywaIC1A",
       "title": "Claude Fable 5 is Banned... Do THIS Right Now",
       "description": "📈 ALL Systems: https://bit.ly/4kol0y5\n🩵 Free Resources: https://bit.ly/3RNNDLa\n🔥 Type with your voice: https://glaido.com\n\nClaude Fable 5 just got pulled with no warning, and the best model on the planet can vanish from your account at any second. Now, there are two things you need to do right now, and barely anybody is talking about the second one. I'll show you exactly how to run world class models locally on your own computer using Ollama, so they can never be taken away from you, even as a c",
@@ -5180,6 +6049,17 @@
       "channel": "Platzi"
     },
     {
+      "video_id": "YKiqDmw0xlc",
+      "title": "¡Ahorra tokens y acelera tu agente de IA!\n\n¿Cómo? Este MCP indexa todo tu proyecto como un grafo de",
+      "description": "¡Ahorra tokens y acelera tu agente de IA!\n\n¿Cómo? Este MCP indexa todo tu proyecto como un grafo de conocimiento:\n\nFunciones, clases, rutas, llamadas entre servicios, código muerto, impacto de cambios...\n\nTodo local y sin suscripción. Y así extrae esa información más rápido cuando la necesitas.\n\n¿Qué te parece? Se llama Codebase Memory.\n\n#software #programacion #informatica #claudecode #github",
+      "url": "https://youtube.com/watch?v=YKiqDmw0xlc",
+      "published_at": "2026-06-29T13:45:26+00:00",
+      "views": 82049,
+      "outlier_ratio": 2.1150465290129663,
+      "language": null,
+      "channel": "midudev"
+    },
+    {
       "video_id": "jzjhRgya2gM",
       "title": "GLM 5.2 FULLY FREE & FAST CODER: This AI Coder is CRAZY & WORKS!",
       "description": "In this video, I'll be telling you about Big Pickle inside OpenCode, a free stealth model that is currently running GLM-5.2, one of the strongest open-weight coding models available right now.\n\n--\nKey Takeaways:\n\n🥒 Big Pickle is a free stealth model available inside OpenCode right now.\n🤖 The model currently running behind Big Pickle is GLM-5.2.\n💸 OpenCode gives around 200 free requests per five-hour window for Big Pickle and other free models.\n⚡ Big Pickle can feel extremely fast, with reports o",
@@ -5200,17 +6080,6 @@
       "outlier_ratio": 2.101753684070147,
       "language": null,
       "channel": "BettaTech"
-    },
-    {
-      "video_id": "XOCVdPIhAHg",
-      "title": "Cursor just crushed Claude Code",
-      "description": "Deploy your site using here.now completely for free, copy the prompt for your agent here! https://here.now/r/twt\n\nI accidentally discovered Cursor's new Composer 2.5 model mid-project — and it was completing tasks 3–4x faster than Opus 4.7 with results that were just as good, if not better. I had no idea it had even switched. So I ran a proper head-to-head test: Composer 2.5 vs Opus 4.7 vs GPT 5.5 — all given the exact same prompt inside Cursor. The results surprised me.\n\nWant to make real money",
-      "url": "https://youtube.com/watch?v=XOCVdPIhAHg",
-      "published_at": "2026-06-02T11:58:44+00:00",
-      "views": 36005,
-      "outlier_ratio": 2.094288040949279,
-      "language": null,
-      "channel": "Tech With Tim"
     },
     {
       "video_id": "rM5rEoYDaSk",
@@ -5299,6 +6168,17 @@
       "outlier_ratio": 2.029707344008835,
       "language": null,
       "channel": "Matt Wolfe"
+    },
+    {
+      "video_id": "VK4REvxU0JQ",
+      "title": "NEW Claude Sonnet 5 vs Opus 4.8! (Full Review)",
+      "description": "💎 FULL Claude Course & Community Access: https://www.skool.com/ai-foundations/about\n\nAnthropic just released Claude Sonnet 5. This is their newest Claude model on the market. In this video I compared Claude Sonnet 5 vs Opus 4.8! I put them side by side using the same prompt, compared quality, cost and more!\n\n🔗 Claude Sonnet 5: https://www.anthropic.com/news/claude-sonnet-5\n\n--------------------\n⌚Chapters:",
+      "url": "https://youtube.com/watch?v=VK4REvxU0JQ",
+      "published_at": "2026-06-30T21:34:15+00:00",
+      "views": 27531,
+      "outlier_ratio": 2.028215706497716,
+      "language": null,
+      "channel": "AI Foundations"
     },
     {
       "video_id": "mn4XBSBIuag",
@@ -5429,8 +6309,8 @@
       "description": "My site: https://natebjones.com\nFull Story w/ Prompts + Guide: https://natesnewsletter.substack.com/p/the-most-expensive-ai-mistake-isnt?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n___________________\nWhat's really happening when frontier models beat professionals with 14 years of experience 70% of the time but the output still doesn't survive contact with anyone who actually understands the domain? The common story is about prompting and workflow design—but the reality is ",
       "url": "https://youtube.com/watch?v=zOndwcirGVY",
       "published_at": "2026-06-06T15:00:16+00:00",
-      "views": 1115,
-      "outlier_ratio": 0.05520075251250062,
+      "views": 1116,
+      "outlier_ratio": 0.055250259913857125,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
@@ -5440,8 +6320,8 @@
       "description": "My site: https://natebjones.com\nFull Story w/ Prompts + Guide: https://natesnewsletter.substack.com/p/the-most-expensive-ai-mistake-isnt?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n___________________\nWhat's really happening when frontier models beat professionals with 14 years of experience 70% of the time but the output still doesn't survive contact with anyone who actually understands the domain? The common story is about prompting and workflow design—but the reality is ",
       "url": "https://youtube.com/watch?v=wKWt8Cq4oDs",
       "published_at": "2026-06-04T16:00:16+00:00",
-      "views": 1168,
-      "outlier_ratio": 0.057824644784395265,
+      "views": 1174,
+      "outlier_ratio": 0.058121689192534284,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
@@ -5451,8 +6331,8 @@
       "description": "Full video & write up: https://natesnewsletter.substack.com/p/ai-token-cost-management?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n____________________\nWhat's really happening inside enterprise AI spending when a company like Uber can't connect its token bill to better customer features?\n\nThe common story is that AI is too expensive and token maxing is backfiring — but the real reason is an operating model that was never redesigned around agents.\n\nFor leaders, the token bil",
       "url": "https://youtube.com/watch?v=AEnQEupGS_Q",
       "published_at": "2026-06-07T20:00:04+00:00",
-      "views": 1227,
-      "outlier_ratio": 0.06074558146442893,
+      "views": 1228,
+      "outlier_ratio": 0.060795088865785434,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
@@ -5462,8 +6342,8 @@
       "description": "My site: https://natebjones.com\nFull Story w/ Prompts + Guide: https://natesnewsletter.substack.com/p/the-most-expensive-ai-mistake-isnt?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n___________________\nWhat's really happening when frontier models beat professionals with 14 years of experience 70% of the time but the output still doesn't survive contact with anyone who actually understands the domain? The common story is about prompting and workflow design—but the reality is ",
       "url": "https://youtube.com/watch?v=pO4qoLEMMog",
       "published_at": "2026-06-05T01:00:00+00:00",
-      "views": 1305,
-      "outlier_ratio": 0.06460715877023615,
+      "views": 1309,
+      "outlier_ratio": 0.06480518837566217,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
@@ -5495,8 +6375,8 @@
       "description": "My site: https://natebjones.com\nFull Story w/ Prompts + Guide: https://natesnewsletter.substack.com/p/the-most-expensive-ai-mistake-isnt?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n___________________\nWhat's really happening when frontier models beat professionals with 14 years of experience 70% of the time but the output still doesn't survive contact with anyone who actually understands the domain? The common story is about prompting and workflow design—but the reality is ",
       "url": "https://youtube.com/watch?v=4KU1CiiAsMI",
       "published_at": "2026-06-04T21:00:37+00:00",
-      "views": 1510,
-      "outlier_ratio": 0.07475617604831922,
+      "views": 1512,
+      "outlier_ratio": 0.07485519085103223,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
@@ -5506,8 +6386,8 @@
       "description": "My site: https://natebjones.com\nFull Story w/ Prompts: https://natesnewsletter.substack.com/p/executive-briefing-ai-raised-output?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n___________________\nWhat's really happening with AI and team size in your organization? The common story is that AI makes teams more productive so you can cut headcount — but the reality is more complicated.\n\nIn this video, I share the inside scoop on why the five-person strike team is the structural un",
       "url": "https://youtube.com/watch?v=IZjbq7cGqqs",
       "published_at": "2026-06-03T03:00:11+00:00",
-      "views": 1587,
-      "outlier_ratio": 0.07856824595276994,
+      "views": 1589,
+      "outlier_ratio": 0.07866726075548294,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
@@ -5517,8 +6397,8 @@
       "description": "For 50% off a yearly subscription ($250 → $125) to my Substack head to: https://www.natebjones.com/the-path-forward\n\nWhat you get access to:\n✅ One guide, build, or tool every week that helps you build fluency and learn how to use AI tools today.\n✅ Access to TalentBoard, where you can show your fluency and get found by people hiring for real roles.\n✅ One deep dive a week on something in AI that actually matters, so you know what's moving and how to move your career with it.\n✅ Access to my communi",
       "url": "https://youtube.com/watch?v=qEVgNyBkg78",
       "published_at": "2026-06-13T03:00:31+00:00",
-      "views": 1604,
-      "outlier_ratio": 0.07940987177583049,
+      "views": 1609,
+      "outlier_ratio": 0.079657408782613,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
@@ -5528,8 +6408,8 @@
       "description": "My site: https://natebjones.com\nFull Story w/ Prompts: https://natesnewsletter.substack.com/p/executive-briefing-ai-raised-output?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n___________________\nWhat's really happening with AI and team size in your organization? The common story is that AI makes teams more productive so you can cut headcount — but the reality is more complicated.\n\nIn this video, I share the inside scoop on why the five-person strike team is the structural un",
       "url": "https://youtube.com/watch?v=rdYgKhgnWrg",
       "published_at": "2026-06-03T00:00:28+00:00",
-      "views": 1931,
-      "outlier_ratio": 0.0955987920194069,
+      "views": 1933,
+      "outlier_ratio": 0.09569780682211991,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
@@ -5539,8 +6419,8 @@
       "description": "My site: https://natebjones.com\nFull Story w/ Prompts + Guide: https://natesnewsletter.substack.com/p/the-most-expensive-ai-mistake-isnt?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n___________________\nWhat's really happening when frontier models beat professionals with 14 years of experience 70% of the time but the output still doesn't survive contact with anyone who actually understands the domain? The common story is about prompting and workflow design—but the reality is ",
       "url": "https://youtube.com/watch?v=yOGLr2IwAWk",
       "published_at": "2026-06-07T01:00:29+00:00",
-      "views": 1933,
-      "outlier_ratio": 0.09569780682211991,
+      "views": 1935,
+      "outlier_ratio": 0.09579682162483291,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
@@ -5550,21 +6430,10 @@
       "description": "On this episode I sit down with Professor Ras Mic to break down agentic loops. We define what a loop is, explain why well-known builders like Boris and Peter swear by them, and stay honest about who they truly serve. Mic argues that human-in-the-loop remains the strongest setup today, and he walks through the one loop he runs every day for code review using Cursor, GitHub, and Greptile. By the end you will know when a loop earns its place and when your own hand belongs on the wheel.\n\nKey Points\n",
       "url": "https://youtube.com/watch?v=ytO3bJWofmw",
       "published_at": "2026-06-18T15:46:02+00:00",
-      "views": 5914,
-      "outlier_ratio": 0.1010128614617316,
+      "views": 5961,
+      "outlier_ratio": 0.1018156353015526,
       "language": null,
       "channel": "Greg Isenberg"
-    },
-    {
-      "video_id": "LVmijkrVti0",
-      "title": "Why you only have 150 friends #psychology #science",
-      "description": "My site: https://natebjones.com\nFull Story w/ Prompts: https://natesnewsletter.substack.com/p/executive-briefing-ai-raised-output?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n___________________\nWhat's really happening with AI and team size in your organization? The common story is that AI makes teams more productive so you can cut headcount — but the reality is more complicated.\n\nIn this video, I share the inside scoop on why the five-person strike team is the structural un",
-      "url": "https://youtube.com/watch?v=LVmijkrVti0",
-      "published_at": "2026-06-02T18:00:09+00:00",
-      "views": 2073,
-      "outlier_ratio": 0.1026288430120303,
-      "language": null,
-      "channel": "AI News & Strategy Daily | Nate B Jones"
     },
     {
       "video_id": "RGh9kL8hVgQ",
@@ -5572,8 +6441,8 @@
       "description": "Follow me ► x.com/matthewberman\nInstagram ► https://www.instagram.com/matthewberman_ai\n\nMedia/Sponsorship Inquiries ► https://bit.ly/44TC45V",
       "url": "https://youtube.com/watch?v=RGh9kL8hVgQ",
       "published_at": "2026-06-04T21:06:16+00:00",
-      "views": 5792,
-      "outlier_ratio": 0.12861393613714084,
+      "views": 5807,
+      "outlier_ratio": 0.12894701780876672,
       "language": null,
       "channel": "Matthew Berman"
     },
@@ -5583,8 +6452,8 @@
       "description": "My Links 🔗 👉🏻 Newsletter: https://natesnewsletter.substack.com/\n👉🏻 X: https://x.com/natebjones\n👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones\n👉🏻 Instagram: https://www.instagram.com/nate.b.jones\n\nApple AI strategy isn't about a chatbot; it is about your device.\n\nMost people miss how Apple Intelligence weaves into the apps you already use daily. This breakdown explains why Apple is betting on integration over standalone features.\n\nWatch to see why Siri is changing without becoming a separate AI ",
       "url": "https://youtube.com/watch?v=4-luYDWO9f4",
       "published_at": "2026-06-17T03:00:02+00:00",
-      "views": 2604,
-      "outlier_ratio": 0.12891727313233328,
+      "views": 2615,
+      "outlier_ratio": 0.1294618545472548,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
@@ -5594,21 +6463,10 @@
       "description": "",
       "url": "https://youtube.com/watch?v=iz7elwbqZVI",
       "published_at": "2026-06-03T17:00:19+00:00",
-      "views": 10544,
-      "outlier_ratio": 0.13233762158770004,
+      "views": 10556,
+      "outlier_ratio": 0.13248823344838406,
       "language": null,
       "channel": "Two Minute Papers"
-    },
-    {
-      "video_id": "dcmhLuKwLPQ",
-      "title": "¿Cuál te salió?",
-      "description": "",
-      "url": "https://youtube.com/watch?v=dcmhLuKwLPQ",
-      "published_at": "2026-06-17T21:57:05+00:00",
-      "views": 2571,
-      "outlier_ratio": 0.1375013370413948,
-      "language": null,
-      "channel": "Platzi"
     },
     {
       "video_id": "76ovBK3lJ2U",
@@ -5616,21 +6474,21 @@
       "description": "Full video & write up: https://natesnewsletter.substack.com/p/ai-token-cost-management?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n____________________\nWhat's really happening inside enterprise AI spending when a company like Uber can't connect its token bill to better customer features?\n\nThe common story is that AI is too expensive and token maxing is backfiring — but the real reason is an operating model that was never redesigned around agents.\n\nFor leaders, the token bil",
       "url": "https://youtube.com/watch?v=76ovBK3lJ2U",
       "published_at": "2026-06-08T03:30:37+00:00",
-      "views": 2781,
-      "outlier_ratio": 0.13768008317243427,
+      "views": 2784,
+      "outlier_ratio": 0.1378286053765038,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
     {
-      "video_id": "8Y9IkxyZpHo",
-      "title": "Is your AI team actually efficient? #ai #tech #programming",
-      "description": "My site: https://natebjones.com\nFull Story w/ Prompts: https://natesnewsletter.substack.com/p/executive-briefing-ai-raised-output?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n___________________\nWhat's really happening with AI and team size in your organization? The common story is that AI makes teams more productive so you can cut headcount — but the reality is more complicated.\n\nIn this video, I share the inside scoop on why the five-person strike team is the structural un",
-      "url": "https://youtube.com/watch?v=8Y9IkxyZpHo",
-      "published_at": "2026-06-02T00:00:13+00:00",
-      "views": 2855,
-      "outlier_ratio": 0.14134363087281548,
+      "video_id": "dcmhLuKwLPQ",
+      "title": "¿Cuál te salió?",
+      "description": "",
+      "url": "https://youtube.com/watch?v=dcmhLuKwLPQ",
+      "published_at": "2026-06-17T21:57:05+00:00",
+      "views": 2583,
+      "outlier_ratio": 0.13814311691089956,
       "language": null,
-      "channel": "AI News & Strategy Daily | Nate B Jones"
+      "channel": "Platzi"
     },
     {
       "video_id": "Vhz4-JuRcM8",
@@ -5649,8 +6507,8 @@
       "description": "Full video & write up: https://natesnewsletter.substack.com/p/ai-token-cost-management?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n____________________\nWhat's really happening inside enterprise AI spending when a company like Uber can't connect its token bill to better customer features?\n\nThe common story is that AI is too expensive and token maxing is backfiring — but the real reason is an operating model that was never redesigned around agents.\n\nFor leaders, the token bil",
       "url": "https://youtube.com/watch?v=vXBB1YX7BDA",
       "published_at": "2026-06-08T00:00:27+00:00",
-      "views": 2926,
-      "outlier_ratio": 0.14485865636912718,
+      "views": 2930,
+      "outlier_ratio": 0.1450566859745532,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
@@ -5660,8 +6518,8 @@
       "description": "AI can build the prototype. Retool helps teams run it as real, secure business software. Try it today and get free app imports through July 1, plus bonus AI credits on every paid plan. Sponsored by Retool https://fandf.co/43eMgrf",
       "url": "https://youtube.com/watch?v=cHdaCCpJ1CY",
       "published_at": "2026-06-17T21:21:11+00:00",
-      "views": 8013,
-      "outlier_ratio": 0.14513412182354965,
+      "views": 8026,
+      "outlier_ratio": 0.14536958214848492,
       "language": null,
       "channel": "Riley Brown"
     },
@@ -5671,8 +6529,8 @@
       "description": "Full video & write up: https://natesnewsletter.substack.com/p/ai-token-cost-management?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n____________________\nWhat's really happening inside enterprise AI spending when a company like Uber can't connect its token bill to better customer features?\n\nThe common story is that AI is too expensive and token maxing is backfiring — but the real reason is an operating model that was never redesigned around agents.\n\nFor leaders, the token bil",
       "url": "https://youtube.com/watch?v=dfjA49EykLs",
       "published_at": "2026-06-09T03:00:35+00:00",
-      "views": 3114,
-      "outlier_ratio": 0.15416604782414972,
+      "views": 3123,
+      "outlier_ratio": 0.15461161443635824,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
@@ -5682,32 +6540,10 @@
       "description": "🔗 Higgsfield (créditos extra al registrarte): https://higgsfield.ai/s/higgsfield-mcp-2-0-yt-bencord-ClvaCf\n\nHiggsfield acaba de lanzar videoanálisis, la función que te deja clonar cualquier anuncio que ya funcionó y ponerte a ti, con tu cara, tu marca y tu producto.\n\nSin abrir CapCut ni Premiere. Sin generar imagen, video, voz y música por separado. Todo desde un solo chat conectando Higgsfield MCP a Claude Code.\n\nSi vendes servicios de IA, automatizaciones o quieres producir anuncios que funcio",
       "url": "https://youtube.com/watch?v=dk8olroocJI",
       "published_at": "2026-06-14T16:46:48+00:00",
-      "views": 8172,
-      "outlier_ratio": 0.15474635005396808,
+      "views": 8246,
+      "outlier_ratio": 0.15614762635156887,
       "language": null,
       "channel": "Benjamín Cordero"
-    },
-    {
-      "video_id": "NHFbAg2b54U",
-      "title": "100 Years of Artificial Intelligence Explained",
-      "description": "My FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=100-years-of-AI&hcategory=youtube-videos&utm_campaign=free-group\nFull courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=100-years-of-AI&hcategory=youtube-videos&utm_campaign=ais-plus\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): ",
-      "url": "https://youtube.com/watch?v=NHFbAg2b54U",
-      "published_at": "2026-06-02T12:57:25+00:00",
-      "views": 13275,
-      "outlier_ratio": 0.15627575165399193,
-      "language": null,
-      "channel": "Nate Herk | AI Automation"
-    },
-    {
-      "video_id": "zugGJjnF6vM",
-      "title": "If you're building with AI, don’t miss this",
-      "description": "Join us live in Montenegro 👉 https://workless.ai/\n\n📚 Join the #1 community for AI entrepreneurs and connect with 300k+ members: https://bit.ly/3Sx9ZRg\n📈 Start your own AI Agency with support in my Accelerator: https://bit.ly/4oy6B4N\n🤝 Ready to transform your business with AI? Let's talk: https://bit.ly/4esA6QH\n\nI’m announcing the Montenegro AI Summit: an elite, hands-on AI conference at the end of July. This event is built for founders, operators, and AI agency builders who want real results. Ge",
-      "url": "https://youtube.com/watch?v=zugGJjnF6vM",
-      "published_at": "2026-06-18T05:43:21+00:00",
-      "views": 7362,
-      "outlier_ratio": 0.15808120933628222,
-      "language": null,
-      "channel": "Liam Ottley"
     },
     {
       "video_id": "Esmdd-FMFoM",
@@ -5715,21 +6551,21 @@
       "description": "Recurso TOP para aprender Algoritmos de Programación.\nExplicaciones visuales paso a paso y con código.\n\nEn Español y con gráficos de complejidad.\n40 algoritmos, conceptos y estructuras de datos:\n\nSe llama Alg0 y la he desarrollado yo.\nSi te sirve, apóyame con un ❤️ para seguir creando recursos así.\n\n#software #programacion #programadores #algoritmos #informatica",
       "url": "https://youtube.com/watch?v=Esmdd-FMFoM",
       "published_at": "2026-06-17T16:22:06+00:00",
-      "views": 6148,
-      "outlier_ratio": 0.15848220039697883,
+      "views": 6232,
+      "outlier_ratio": 0.1606475395045498,
       "language": null,
       "channel": "midudev"
     },
     {
-      "video_id": "fdkwkmZrpEU",
-      "title": "Everyone's holding their laptops open",
-      "description": "Visit https://do.co/matthewberman and start building on DigitalOcean's AI-Native Cloud today.\n\nFollow me ► x.com/matthewberman\nInstagram ► https://www.instagram.com/matthewberman_ai\n\nMedia/Sponsorship Inquiries ► https://bit.ly/44TC45V",
-      "url": "https://youtube.com/watch?v=fdkwkmZrpEU",
-      "published_at": "2026-06-02T21:42:27+00:00",
-      "views": 7373,
-      "outlier_ratio": 0.16372074432650885,
+      "video_id": "zugGJjnF6vM",
+      "title": "If you're building with AI, don’t miss this",
+      "description": "Join us live in Montenegro 👉 https://workless.ai/\n\n📚 Join the #1 community for AI entrepreneurs and connect with 300k+ members: https://bit.ly/3Sx9ZRg\n📈 Start your own AI Agency with support in my Accelerator: https://bit.ly/4oy6B4N\n🤝 Ready to transform your business with AI? Let's talk: https://bit.ly/4esA6QH\n\nI’m announcing the Montenegro AI Summit: an elite, hands-on AI conference at the end of July. This event is built for founders, operators, and AI agency builders who want real results. Ge",
+      "url": "https://youtube.com/watch?v=zugGJjnF6vM",
+      "published_at": "2026-06-18T05:43:21+00:00",
+      "views": 7496,
+      "outlier_ratio": 0.16095853642824934,
       "language": null,
-      "channel": "Matthew Berman"
+      "channel": "Liam Ottley"
     },
     {
       "video_id": "sV1B2_sFzU8",
@@ -5737,8 +6573,8 @@
       "description": "Join My Newsletter for Regular AI Updates 👇🏼\nhttps://forwardfuture.ai\n\nMy Links 🔗\n👉🏻 X: https://x.com/matthewberman\n👉🏻 Forward Future X: https://x.com/forwardfuture\n👉🏻 Instagram: https://www.instagram.com/matthewberman_ai\n👉🏻 Discord: https://discord.gg/evGThyRv\n👉🏻 Spotify: https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8\n\nMedia/Sponsorship Inquiries ✅ \nhttps://bit.ly/44TC45V",
       "url": "https://youtube.com/watch?v=sV1B2_sFzU8",
       "published_at": "2026-06-12T18:14:58+00:00",
-      "views": 7559,
-      "outlier_ratio": 0.1678509570546698,
+      "views": 7567,
+      "outlier_ratio": 0.16802860061287028,
       "language": null,
       "channel": "Matthew Berman"
     },
@@ -5754,6 +6590,17 @@
       "channel": "Cole Medin"
     },
     {
+      "video_id": "xyJtjk-WZcA",
+      "title": "Use LOOPS for everything",
+      "description": "Join My Newsletter for Regular AI Updates 👇🏼\nhttps://forwardfuture.ai\n\nMy Links 🔗\n👉🏻 X: https://x.com/matthewberman\n👉🏻 Forward Future X: https://x.com/forwardfuture\n👉🏻 Instagram: https://www.instagram.com/matthewberman_ai\n👉🏻 Discord: https://discord.gg/evGThyRv\n👉🏻 Spotify: https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8\n\nMedia/Sponsorship Inquiries ✅ \nhttps://bit.ly/44TC45V",
+      "url": "https://youtube.com/watch?v=xyJtjk-WZcA",
+      "published_at": "2026-06-22T20:58:12+00:00",
+      "views": 7854,
+      "outlier_ratio": 0.17440156326331216,
+      "language": null,
+      "channel": "Matthew Berman"
+    },
+    {
       "video_id": "-F6YBQUu2PE",
       "title": "3 Hacks You Need to Save on Tokens",
       "description": "Using Loops in Claude Code but worried about token waste? Try these controls to save your wallet from destruction.\n\n⚡Build an app, ship it, & get your first customer with hands-on help\nhttps://www.skool.com/tech-snack-pro\n\n🔥Join my FREE community with full guides & tons of prompts from past videos\nhttps://www.skool.com/tech-snack\n\n💪 Who Am I?\n\nMy name is Sean... I went from tech bootcamp grad to startup Sales Engineer, scaled a marketing agency to 8-figure ARR, and exited a small CRM along the w",
@@ -5765,26 +6612,26 @@
       "channel": "Sean Kochel"
     },
     {
-      "video_id": "_Ga3HXeZQ0g",
-      "title": "¿Te cuesta elegir la fuente para tu web? ¡Este recurso es perfecto para diseñadores y programadores!",
-      "description": "¿Te cuesta elegir la fuente para tu web? ¡Este recurso es perfecto para diseñadores y programadores!\n\nTe da las mejores combinaciones de fuentes gratuitas.\n\nY también un montón de posibles colores con buen contraste.\n\nPerfecto para ir sobre seguro y no fallar en algo tan importante.\n\nSe llama FontPair. ¿Cuál es tu fuente favorita?\n\n#uxui #css3 #html5 #programacion #frontend",
-      "url": "https://youtube.com/watch?v=_Ga3HXeZQ0g",
-      "published_at": "2026-06-14T15:02:08+00:00",
-      "views": 6996,
-      "outlier_ratio": 0.18034181424483797,
-      "language": null,
-      "channel": "midudev"
-    },
-    {
       "video_id": "nUoJS6AXoAw",
       "title": "Don't let your app get left behind #appleintelligence #tech #ai",
       "description": "My Links 🔗 👉🏻 Newsletter: https://natesnewsletter.substack.com/\n👉🏻 X: https://x.com/natebjones\n👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones\n👉🏻 Instagram: https://www.instagram.com/nate.b.jones\n\nMaster App Intents to connect your mobile application directly with AI assistants. Learn how to expose your app actions so the operating system can trigger them automatically for users.\n\nThis guide breaks down the technical implementation required to make your app capabilities visible to system-level A",
       "url": "https://youtube.com/watch?v=nUoJS6AXoAw",
       "published_at": "2026-06-18T03:00:36+00:00",
-      "views": 3646,
-      "outlier_ratio": 0.1805039853458092,
+      "views": 3650,
+      "outlier_ratio": 0.1807020149512352,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
+    },
+    {
+      "video_id": "_Ga3HXeZQ0g",
+      "title": "¿Te cuesta elegir la fuente para tu web? ¡Este recurso es perfecto para diseñadores y programadores!",
+      "description": "¿Te cuesta elegir la fuente para tu web? ¡Este recurso es perfecto para diseñadores y programadores!\n\nTe da las mejores combinaciones de fuentes gratuitas.\n\nY también un montón de posibles colores con buen contraste.\n\nPerfecto para ir sobre seguro y no fallar en algo tan importante.\n\nSe llama FontPair. ¿Cuál es tu fuente favorita?\n\n#uxui #css3 #html5 #programacion #frontend",
+      "url": "https://youtube.com/watch?v=_Ga3HXeZQ0g",
+      "published_at": "2026-06-14T15:02:08+00:00",
+      "views": 7049,
+      "outlier_ratio": 0.18170804011032918,
+      "language": null,
+      "channel": "midudev"
     },
     {
       "video_id": "n_01yq6icHs",
@@ -5792,8 +6639,8 @@
       "description": "",
       "url": "https://youtube.com/watch?v=n_01yq6icHs",
       "published_at": "2026-06-04T09:00:02+00:00",
-      "views": 1724,
-      "outlier_ratio": 0.18403074295473953,
+      "views": 1723,
+      "outlier_ratio": 0.18392399658411615,
       "language": null,
       "channel": "David Ondrej"
     },
@@ -5803,8 +6650,8 @@
       "description": "🔥 Suscribete: https://youtube.com/c/VictorRoblesWEB?sub_confirmation=1\n👨‍💻 Aprende programación, desarrollo web e inteligencia artificial desde cero con estos cursos, síguelos en este orden ⬇️\n0️⃣ Curso de HTML5 en profundidad: https://victorroblesweb.es/curso-html5\n1️⃣ Master en CSS: Aprender CSS3, Responsive, SASS, Less, Grid, Flexbox y Bootstrap: https://victorroblesweb.es/master-css\n2️⃣ Master en CSS3 Avanzado: Maqueta 3 sitios web profesionales: https://victorroblesweb.es/master-css-avanzad",
       "url": "https://youtube.com/watch?v=nHelR24WUak",
       "published_at": "2026-06-08T22:07:20+00:00",
-      "views": 353,
-      "outlier_ratio": 0.18491356731272918,
+      "views": 354,
+      "outlier_ratio": 0.18543740178103718,
       "language": null,
       "channel": "Victor Robles WEB"
     },
@@ -5814,8 +6661,8 @@
       "description": "Analizamos el WWDC Apple 2026 para entender qué mejoras llegan durante el año: las novedades más relevantes de software, las nuevas funciones que afectarán el uso diario de iPhone, iPad y Mac, y las herramientas que Apple está impulsando para que las apps evolucionen. ¿Qué realmente cambia en 2026 y qué señales deja Apple sobre su rumbo?",
       "url": "https://youtube.com/watch?v=j08GzapSxYk",
       "published_at": "2026-06-09T01:19:15+00:00",
-      "views": 3560,
-      "outlier_ratio": 0.1910588740406805,
+      "views": 3565,
+      "outlier_ratio": 0.1913272151559062,
       "language": null,
       "channel": "EDteam"
     },
@@ -5825,21 +6672,10 @@
       "description": "Follow me on IG, DM me \"HARVARD\" and I'll send you the Harvard resume template 👇\n\nHarvard resume template + ChatGPT prompt for job applications. If you keep getting rejected, redo your resume from scratch with the Harvard resume template. Drop it into ChatGPT and say: interview me one question at a time until you have enough information to fill out my resume. Then paste in a sample job description so ChatGPT optimizes your resume keywords and it's ATS-friendly. Still getting nowhere? Build 1 or ",
       "url": "https://youtube.com/watch?v=xhA5QXB50Ks",
       "published_at": "2026-06-12T15:45:22+00:00",
-      "views": 1762,
-      "outlier_ratio": 0.1933713784021071,
+      "views": 1766,
+      "outlier_ratio": 0.19381035996488147,
       "language": null,
       "channel": "Sabrina Ramonov 🍄"
-    },
-    {
-      "video_id": "MOviZKtFeHM",
-      "title": "A Second Nobel Prize for AlphaFold? 🧬🏆 #alphafold #deepmind #nobelprize #science #ai",
-      "description": "Check the pinned comment for the link to the full interview. We're discussing whether a \"second order Nobel\" prize is on the horizon for AI-driven science. With over 3 million researchers already using AlphaFold, the real-world impact is already historic. Hear what the experts think about what comes next for scientific discovery! 🔬",
-      "url": "https://youtube.com/watch?v=MOviZKtFeHM",
-      "published_at": "2026-06-02T07:13:59+00:00",
-      "views": 15430,
-      "outlier_ratio": 0.19366175086288046,
-      "language": null,
-      "channel": "Two Minute Papers"
     },
     {
       "video_id": "NNR4EY_-az4",
@@ -5858,8 +6694,8 @@
       "description": "Can a 3B really beat something up to 300x Bigger?  Check out the full video for more.\nThanks to Dell for sponsoring the compute:\n#dellpromax #dellproprecision",
       "url": "https://youtube.com/watch?v=facGkjXFOBM",
       "published_at": "2026-06-19T14:00:35+00:00",
-      "views": 3064,
-      "outlier_ratio": 0.19605835679549527,
+      "views": 3070,
+      "outlier_ratio": 0.19644228308164832,
       "language": null,
       "channel": "Sam Witteveen"
     },
@@ -5869,8 +6705,8 @@
       "description": "The 8 AI tools I open every single day.\n\nResume fixes: ChatGPT\nAutomate hours of work: Claude\nMillions of marketing views: Blotato\nDeep research: Perplexity\nPro slide decks: Gamma\nScrape leads and social posts: Apify\nBuild web apps with no code: Lovable\nBuild mobile apps with no code: Rork\n\nEach one does a different job. Stack them and you replace a whole team.\n\nFollow me on IG, DM me \"TRAILBLAZER\" and I'll send you my full AI tool list 👇\n\n#ai #aitools #productivity #automation #technology",
       "url": "https://youtube.com/watch?v=EO9dLjmT0Ko",
       "published_at": "2026-06-03T18:43:18+00:00",
-      "views": 1880,
-      "outlier_ratio": 0.20632133450395082,
+      "views": 1887,
+      "outlier_ratio": 0.20708955223880596,
       "language": null,
       "channel": "Sabrina Ramonov 🍄"
     },
@@ -5880,21 +6716,10 @@
       "description": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your gaming storylines? We explore the concept of AI assisting players or creating dynamic, non-scripted narratives. Discover how AI is currently being tested inside immersive game environments to change how we play. 🧠 \nHashtags: #aiingames #gaming #ai #gamedev #futuretech",
       "url": "https://youtube.com/watch?v=82m7YqosdgU",
       "published_at": "2026-06-06T06:20:46+00:00",
-      "views": 16576,
-      "outlier_ratio": 0.2080451835582052,
+      "views": 16610,
+      "outlier_ratio": 0.20847191716347663,
       "language": null,
       "channel": "Two Minute Papers"
-    },
-    {
-      "video_id": "ikH1--DSzMs",
-      "title": "How to build proactive agents & self-improving company (Fully explained)",
-      "description": "Free AEO Grader for your company: https://clickhubspot.com/6537aa\n\n🔗 Links\n- Join AI Builder Club: https://www.aibuilderclub.com/\n- Loopany: https://github.com/superdesigndev/loopany\n- Follow me on twitter: https://twitter.com/jasonzhou1993\n\n⏱️ Timestamps\n0:00 What is it\n2:33 How to build proactive AI loops\n5:25 Use case: Autonomous ads optimisation & SEO\n6:59 Loopany, Memory and tools enabling this",
-      "url": "https://youtube.com/watch?v=ikH1--DSzMs",
-      "published_at": "2026-06-02T12:17:34+00:00",
-      "views": 8194,
-      "outlier_ratio": 0.20943666291790206,
-      "language": null,
-      "channel": "AI Jason"
     },
     {
       "video_id": "3Vc9VtEWZwk",
@@ -5902,8 +6727,8 @@
       "description": "► Mi Academia de Ciencias de la Computación: https://link.bettatech.net/academia\nSígueme en https://www.instagram.com/betta_tech/\n\n✉️  CONTACTO PROFESIONAL:\n► Respuesta no garantizada: \nbettatechyt@gmail.com\n\n📚 LIBROS 📚 \nDesign Patterns \n► https://amzn.to/39XuQlq\nHead First Design Patterns \n► https://amzn.to/2uq6XUq\nRefactoring \n► https://amzn.to/2SQnf2c\nClean Architecture \n►  https://amzn.to/3bZVonJ\nClean Code \n► https://amzn.to/32WVKq3\nIntroduction to Algorithms \n► https://amzn.to/34SyVFP\nCrac",
       "url": "https://youtube.com/watch?v=3Vc9VtEWZwk",
       "published_at": "2026-06-17T17:00:38+00:00",
-      "views": 2966,
-      "outlier_ratio": 0.21047402781720126,
+      "views": 2967,
+      "outlier_ratio": 0.21054499006528526,
       "language": null,
       "channel": "BettaTech"
     },
@@ -5913,8 +6738,8 @@
       "description": "My Links 🔗 Newsletter: https://natesnewsletter.substack.com/\n👉🏻 X: https://x.com/natebjones\n👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones\n👉🏻 Instagram: https://www.instagram.com/nate.b.jones\n\nWho will win the AI integration race? It isn't just about the best model, but who owns the interface.\n\nWe break down why Apple is positioned to control daily user interactions and how that impacts the broader tech landscape. You will also learn why massive data center demand keeps companies like Nvidia at",
       "url": "https://youtube.com/watch?v=R9qzlpFWPxw",
       "published_at": "2026-06-20T03:00:38+00:00",
-      "views": 4314,
-      "outlier_ratio": 0.21357492945195306,
+      "views": 4324,
+      "outlier_ratio": 0.2140700034655181,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
@@ -5924,8 +6749,8 @@
       "description": "Follow me for daily ChatGPT prompts 👇\n\nChatGPT prompt to learn anything faster. This turns ChatGPT into your personal tutor. It explains a concept, quizzes you, grades your answer, then adjusts. Confused? You get extra context. Nailed it? You move on to a deeper topic.\n\nHere's the prompt:\n\n\"You're a master in [subject]. Guide me through a deep learning process. Explain concepts, then quiz me, and evaluate my answers to decide whether I need more help understanding the topic.\"\n\nSwap in any subjec",
       "url": "https://youtube.com/watch?v=Td0i6-GXXYw",
       "published_at": "2026-06-15T15:45:38+00:00",
-      "views": 1958,
-      "outlier_ratio": 0.21488147497805093,
+      "views": 1963,
+      "outlier_ratio": 0.21543020193151888,
       "language": null,
       "channel": "Sabrina Ramonov 🍄"
     },
@@ -5935,8 +6760,8 @@
       "description": "Is @Microsoft quietly trying to step out of OpenAI’s shadow? \n\nDuring my chat with Microsoft AI CEO Mustafa Suleyman at #MicrosoftBuild2026, he made their goal crystal clear: Microsoft wants the capacity to build the \"absolute frontier\" of AI models in house and entirely from scratch.\n\nWhich is a departure from what they've been doing for the past few years of integrating OpenAI's models into their products. \n\nHe also gave a really interesting answer about AI scraping for training data and I'm c",
       "url": "https://youtube.com/watch?v=wg9jm_d7Emk",
       "published_at": "2026-06-09T12:49:35+00:00",
-      "views": 5092,
-      "outlier_ratio": 0.22304962985676113,
+      "views": 5094,
+      "outlier_ratio": 0.2231372377239476,
       "language": null,
       "channel": "Matt Wolfe"
     },
@@ -5946,8 +6771,8 @@
       "description": "Join My Newsletter for Regular AI Updates 👇🏼\nhttps://forwardfuture.ai\n\nMy Links 🔗\n👉🏻 X: https://x.com/matthewberman\n👉🏻 Forward Future X: https://x.com/forwardfuture\n👉🏻 Instagram: https://www.instagram.com/matthewberman_ai\n👉🏻 Discord: https://discord.gg/evGThyRv\n👉🏻 Spotify: https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8\n\nMedia/Sponsorship Inquiries ✅ \nhttps://bit.ly/44TC45V",
       "url": "https://youtube.com/watch?v=ibnHNoxQOSQ",
       "published_at": "2026-06-11T13:00:30+00:00",
-      "views": 10210,
-      "outlier_ratio": 0.2267175911533508,
+      "views": 10222,
+      "outlier_ratio": 0.2269840564906515,
       "language": null,
       "channel": "Matthew Berman"
     },
@@ -5957,21 +6782,10 @@
       "description": "AI tools are everywhere.\n\nYet most organizations are still struggling to turn AI investments into real business results.\n\nAt the AI Strategic Roundtable hosted by AI Anytime, senior leaders, founders, engineers, and operators came together behind closed doors to discuss a hard truth:\n\nThe AI challenge in 2026 is no longer about technology.\nIt's about leadership.\n\nThis unfiltered discussion explores:\n\n✅ Why most AI initiatives stall after the pilot stage\n✅ The 30-Second Rule for AI strategy\n✅ Why",
       "url": "https://youtube.com/watch?v=b11OCNzI4HM",
       "published_at": "2026-06-11T05:32:48+00:00",
-      "views": 189,
-      "outlier_ratio": 0.23161764705882354,
+      "views": 191,
+      "outlier_ratio": 0.2340686274509804,
       "language": null,
       "channel": "AI Anytime"
-    },
-    {
-      "video_id": "H3XQeGNia8o",
-      "title": "The Briefing: Financial Services",
-      "description": "Some of the world's largest banks are now running Claude across their organizations. Last month, the leaders behind that work joined us for The Briefing: Financial Services to share what they've built.\n\nIf you missed it, watch the session here: https://www.anthropic.com/events/the-briefing-financial-services-virtual-event",
-      "url": "https://youtube.com/watch?v=H3XQeGNia8o",
-      "published_at": "2026-06-16T20:42:02+00:00",
-      "views": 9998,
-      "outlier_ratio": 0.2382575125705979,
-      "language": null,
-      "channel": "Claude"
     },
     {
       "video_id": "Nn7EbMJRRGo",
@@ -5979,10 +6793,21 @@
       "description": "",
       "url": "https://youtube.com/watch?v=Nn7EbMJRRGo",
       "published_at": "2026-06-08T13:00:20+00:00",
-      "views": 2245,
-      "outlier_ratio": 0.2396456020495303,
+      "views": 2252,
+      "outlier_ratio": 0.2403928266438941,
       "language": null,
       "channel": "David Ondrej"
+    },
+    {
+      "video_id": "H3XQeGNia8o",
+      "title": "The Briefing: Financial Services",
+      "description": "Some of the world's largest banks are now running Claude across their organizations. Last month, the leaders behind that work joined us for The Briefing: Financial Services to share what they've built.\n\nIf you missed it, watch the session here: https://www.anthropic.com/events/the-briefing-financial-services-virtual-event",
+      "url": "https://youtube.com/watch?v=H3XQeGNia8o",
+      "published_at": "2026-06-16T20:42:02+00:00",
+      "views": 10119,
+      "outlier_ratio": 0.24114100517122228,
+      "language": null,
+      "channel": "Claude"
     },
     {
       "video_id": "6op1xHRB9g4",
@@ -5990,8 +6815,8 @@
       "description": "",
       "url": "https://youtube.com/watch?v=6op1xHRB9g4",
       "published_at": "2026-06-18T20:16:01+00:00",
-      "views": 4495,
-      "outlier_ratio": 0.24040004278532465,
+      "views": 4511,
+      "outlier_ratio": 0.24125574927799764,
       "language": null,
       "channel": "Platzi"
     },
@@ -6001,8 +6826,8 @@
       "description": "Follow me on IG, DM me \"CODES\" and I'll send you hundreds more 👇\n\n10 cheat codes for ChatGPT:\n\n1. First principles: breaks your problem into fundamentals instead of copying common advice\n2. Y Combinator: turns ChatGPT into your $10 billion startup coach\n3. Gary V: your $100 million attention coach\n4. ELI10: explains anything in super simple terms\n5. Red team: plays devil's advocate to make you sharper\n6. Lindy mode: answers from longtime proven methods, not trends\n7. 80/20: the easiest path to t",
       "url": "https://youtube.com/watch?v=CCAXgmRgDYI",
       "published_at": "2026-06-21T20:45:19+00:00",
-      "views": 2200,
-      "outlier_ratio": 0.2414398595258999,
+      "views": 2206,
+      "outlier_ratio": 0.24209833187006147,
       "language": null,
       "channel": "Sabrina Ramonov 🍄"
     },
@@ -6012,8 +6837,8 @@
       "description": "https://joinaiaclub.com/",
       "url": "https://youtube.com/watch?v=hKt6NO2zeKM",
       "published_at": "2026-06-17T15:53:39+00:00",
-      "views": 2495,
-      "outlier_ratio": 0.24181042837759256,
+      "views": 2505,
+      "outlier_ratio": 0.24277960845125024,
       "language": null,
       "channel": "The AI Advantage"
     },
@@ -6023,8 +6848,8 @@
       "description": "Pueba AppLLM aqui: https://appllm.abacus.ai/ngi\n\n¿Cansado de pagar decenas de suscripciones de IA diferentes?.\n\n Hoy te enseño AppLLM, la plataforma que integra TODO lo que necesitas para tu flujo de trabajo en una sola IA.\n\nEn este vídeo, no solo vamos a ver cómo AppLLM unifica servicios, sino que pondremos a prueba su capacidad para crear aplicaciones  prácticamente full stack en minutos, con frontend, lógica, estructura de proyecto, despliegue online y opciones de configuración como base de d",
       "url": "https://youtube.com/watch?v=-Giny8kHd98",
       "published_at": "2026-06-18T16:00:20+00:00",
-      "views": 2746,
-      "outlier_ratio": 0.24601325927253181,
+      "views": 2762,
+      "outlier_ratio": 0.24744669414083498,
       "language": null,
       "channel": "NextGen IA Hub"
     },
@@ -6034,8 +6859,8 @@
       "description": "$1000 Free Hyperagent Credits (limited): https://www.hyperagent.com/nate\nMy FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=ailin-podcast&hcategory=youtube-videos&utm_campaign=free-group\nFull courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=ailin-podcast&hcategory=youtube-videos&utm_campaign=ais-plus\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nAI Automation Society Clips: @aiautomati",
       "url": "https://youtube.com/watch?v=diY71x7GUjI",
       "published_at": "2026-06-12T13:59:30+00:00",
-      "views": 21101,
-      "outlier_ratio": 0.24840486897558448,
+      "views": 21258,
+      "outlier_ratio": 0.2502531019706637,
       "language": null,
       "channel": "Nate Herk | AI Automation"
     },
@@ -6045,8 +6870,8 @@
       "description": "Stop choosing between hand-waving instructions and doing all the work yourself. A third way to work with AI is here.\n\nMost people get stuck managing AI prompts or grinding through tasks manually. This framework bridges that gap, helping you delegate effectively without losing control of the output.\n\nSubscribe for more practical workflows on getting better results from your AI tools.",
       "url": "https://youtube.com/watch?v=sgF5Fo2vhTE",
       "published_at": "2026-06-12T03:00:18+00:00",
-      "views": 5156,
-      "outlier_ratio": 0.25526016139412844,
+      "views": 5166,
+      "outlier_ratio": 0.25575523540769346,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
     },
@@ -6056,21 +6881,10 @@
       "description": "My Links 🔗 Newsletter: https://natesnewsletter.substack.com/\n👉🏻 X: https://x.com/natebjones\n👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones\n👉🏻 Instagram: https://www.instagram.com/nate.b.jones\n\nWhat's really happening inside Apple's WWDC AI strategy?\n\n\n\nApple WWDC announcements are changing how Siri AI handles your data.\n\nWe break down the new Google Gemini partnership and what Apple's private cloud compute strategy means for your privacy. If you want to understand where your AI tasks are actual",
       "url": "https://youtube.com/watch?v=TJ-KNC-i3SY",
       "published_at": "2026-06-16T03:00:27+00:00",
-      "views": 5209,
-      "outlier_ratio": 0.25788405366602307,
+      "views": 5214,
+      "outlier_ratio": 0.2581315906728056,
       "language": null,
       "channel": "AI News & Strategy Daily | Nate B Jones"
-    },
-    {
-      "video_id": "LB95zKzxeJc",
-      "title": "¡Brutal herramienta para revisar el rendimiento web!\nEscanea toda tu página y puntúa cada una de ell",
-      "description": "¡Brutal herramienta para revisar el rendimiento web!\nEscanea toda tu página y puntúa cada una de ellas\n\nEs un Lighthouse pero con una visión global de tu sitio\n\nEjecuta esto:\nnpx unlighthouse --site tu-web\n\n¡No tiene coste, es de código abierto y funciona muy bien!\n\n#webperformance #software #javascript #html #css",
-      "url": "https://youtube.com/watch?v=LB95zKzxeJc",
-      "published_at": "2026-06-13T15:12:15+00:00",
-      "views": 10099,
-      "outlier_ratio": 0.26033047199236975,
-      "language": null,
-      "channel": "midudev"
     },
     {
       "video_id": "Y9QX_S4_jVE",
@@ -6078,10 +6892,21 @@
       "description": "► Mi Academia de Ciencias de la Computación: https://link.bettatech.net/academia\nSígueme en https://www.instagram.com/betta_tech/\n\n✉️  CONTACTO PROFESIONAL:\n► Respuesta no garantizada: \nbettatechyt@gmail.com\n\n📚 LIBROS 📚 \nDesign Patterns \n► https://amzn.to/39XuQlq\nHead First Design Patterns \n► https://amzn.to/2uq6XUq\nRefactoring \n► https://amzn.to/2SQnf2c\nClean Architecture \n►  https://amzn.to/3bZVonJ\nClean Code \n► https://amzn.to/32WVKq3\nIntroduction to Algorithms \n► https://amzn.to/34SyVFP\nCrac",
       "url": "https://youtube.com/watch?v=Y9QX_S4_jVE",
       "published_at": "2026-06-16T17:45:35+00:00",
-      "views": 3677,
-      "outlier_ratio": 0.26092818620493896,
+      "views": 3685,
+      "outlier_ratio": 0.2614958841896111,
       "language": null,
       "channel": "BettaTech"
+    },
+    {
+      "video_id": "LB95zKzxeJc",
+      "title": "¡Brutal herramienta para revisar el rendimiento web!\nEscanea toda tu página y puntúa cada una de ell",
+      "description": "¡Brutal herramienta para revisar el rendimiento web!\nEscanea toda tu página y puntúa cada una de ellas\n\nEs un Lighthouse pero con una visión global de tu sitio\n\nEjecuta esto:\nnpx unlighthouse --site tu-web\n\n¡No tiene coste, es de código abierto y funciona muy bien!\n\n#webperformance #software #javascript #html #css",
+      "url": "https://youtube.com/watch?v=LB95zKzxeJc",
+      "published_at": "2026-06-13T15:12:15+00:00",
+      "views": 10153,
+      "outlier_ratio": 0.2617224757043797,
+      "language": null,
+      "channel": "midudev"
     },
     {
       "video_id": "Vvks-ridADM",
@@ -6095,24 +6920,13 @@
       "channel": "AssemblyAI"
     },
     {
-      "video_id": "hlGWME2hsl4",
-      "title": "Why your meetings are actually destroying your output #productivity #work",
-      "description": "My site: https://natebjones.com\nFull Story w/ Prompts: https://natesnewsletter.substack.com/p/executive-briefing-ai-raised-output?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n___________________\nWhat's really happening with AI and team size in your organization? The common story is that AI makes teams more productive so you can cut headcount — but the reality is more complicated.\n\nIn this video, I share the inside scoop on why the five-person strike team is the structural un",
-      "url": "https://youtube.com/watch?v=hlGWME2hsl4",
-      "published_at": "2026-06-02T03:00:10+00:00",
-      "views": 5466,
-      "outlier_ratio": 0.2706074558146443,
-      "language": null,
-      "channel": "AI News & Strategy Daily | Nate B Jones"
-    },
-    {
       "video_id": "pFpBq4wOfQ4",
       "title": "The Best AI Tool For Every Job (My Full List)",
       "description": "Follow me on IG, DM me \"TRAILBLAZER\" and I'll send you my full AI tool list 👇\n\nI use a different AI tool for every job. Make money. Write emails. Make content people watch. Learn 10x faster. Run your business finances. Scrape leads. Build a WordPress site. Handle deep technical work.\n\nMatch the tool to the task and your output triples.\n\n#ai #aitools #productivity #automation #technology",
       "url": "https://youtube.com/watch?v=pFpBq4wOfQ4",
       "published_at": "2026-06-06T12:43:31+00:00",
-      "views": 2476,
-      "outlier_ratio": 0.271729587357331,
+      "views": 2478,
+      "outlier_ratio": 0.27194907813871816,
       "language": null,
       "channel": "Sabrina Ramonov 🍄"
     },
@@ -6122,8 +6936,8 @@
       "description": "Follow me for honest startup takes 👇\n\nQuitting startups after 3 months isn't self-awareness. It's hitting the tutorial boss and rage quitting.\n\nYou're young, healthy, broke by choice, no kids. You tried for 90 days, found no instant wins, no validation, no dopamine, no main character arc. So you rebranded quitting as enlightenment.\n\nQuitting is fine. Preaching it as wisdom isn't. If you never stuck around long enough to get humbled, you don't get to lecture founders still in the arena.\n\nHow long",
       "url": "https://youtube.com/watch?v=U_kxh519_aw",
       "published_at": "2026-06-13T15:45:46+00:00",
-      "views": 2565,
-      "outlier_ratio": 0.2814969271290606,
+      "views": 2575,
+      "outlier_ratio": 0.2825943810359965,
       "language": null,
       "channel": "Sabrina Ramonov 🍄"
     },
@@ -6133,8 +6947,8 @@
       "description": "Join My Newsletter for Regular AI Updates 👇🏼\nhttps://forwardfuture.ai\n\nMy Links 🔗\n👉🏻 X: https://x.com/matthewberman\n👉🏻 Forward Future X: https://x.com/forwardfuture\n👉🏻 Instagram: https://www.instagram.com/matthewberman_ai\n👉🏻 Discord: https://discord.gg/evGThyRv\n👉🏻 Spotify: https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8\n\nMedia/Sponsorship Inquiries ✅ \nhttps://bit.ly/44TC45V",
       "url": "https://youtube.com/watch?v=byr-_swPgsE",
       "published_at": "2026-06-16T19:48:21+00:00",
-      "views": 12736,
-      "outlier_ratio": 0.28280854465514943,
+      "views": 12763,
+      "outlier_ratio": 0.28340809166407605,
       "language": null,
       "channel": "Matthew Berman"
     },
@@ -6144,8 +6958,8 @@
       "description": "Anthropic se convirtió en la empresa de inteligencia artificial más valiosa del mundo, superando la valoración de OpenAI tras una gran ronda de financiación. Analizamos qué hay detrás de ese salto: el crecimiento acelerado de la compañía, el apetito del mercado por sus modelos y las señales que abren el debate sobre sostenibilidad. También ponemos sobre la mesa las dudas: el costo real de operar a esta escala, el gasto extremo en tokens por parte de empresas y si estamos ante una nueva “fiebre d",
       "url": "https://youtube.com/watch?v=hArHak_tzN4",
       "published_at": "2026-06-03T00:55:25+00:00",
-      "views": 5294,
-      "outlier_ratio": 0.2841195728009446,
+      "views": 5295,
+      "outlier_ratio": 0.2841732410239897,
       "language": null,
       "channel": "EDteam"
     },
@@ -6155,8 +6969,8 @@
       "description": "Elon Musk pasó de sobrevivir a convertirse en el hombre más rico de la historia. Con un patrimonio que supera el trillón de dólares, el salto definitivo llegó cuando SpaceX salió a bolsa y se posicionó como la 7.ª empresa más valiosa del mundo. Te contamos cómo logró su éxito.\n\nTimeline:\n\n0:00 Intro\n43:42 Open Code no fue humo: así ve el futuro de los agentes\n46:48 EDteam busca a alguien que investigue tech con criterio\n51:22 Usar IA no es copiar y pegar: hay que cruzar fuentes\n1:05:13 Fable 5 q",
       "url": "https://youtube.com/watch?v=3JWEFBVXO2A",
       "published_at": "2026-06-16T02:22:51+00:00",
-      "views": 5336,
-      "outlier_ratio": 0.2863736381688402,
+      "views": 5341,
+      "outlier_ratio": 0.28664197928406593,
       "language": null,
       "channel": "EDteam"
     },
@@ -6166,21 +6980,21 @@
       "description": "Follow me on IG, DM me \"CANVA\" and I'll send you my step-by-step Claude + Canva tutorial 👇\n\nClaude + Canva is a design cheat code.\n\nGo to Claude settings, click Connectors, browse connectors, and add Canva. Now Claude makes graphics, posters, and carousels for you inside the chat.\n\nIt works with your favorite Canva templates, your brand kit, and your colors. Then you post everything to social media in 1 line in Claude.\n\nNo design skills needed. Describe the graphic and Claude builds it in Canva.",
       "url": "https://youtube.com/watch?v=9muz-omvmoY",
       "published_at": "2026-06-13T20:45:22+00:00",
-      "views": 2642,
-      "outlier_ratio": 0.28994732221246705,
+      "views": 2661,
+      "outlier_ratio": 0.2920324846356453,
       "language": null,
       "channel": "Sabrina Ramonov 🍄"
     },
     {
-      "video_id": "_obduBedO9w",
-      "title": "¡BRUTAL! Probé Manus AI y el resultado es una completa LOCURA",
-      "description": "🎁 Consigue tus 1000 créditos gratis aquí:  https://manus.im/redeem?c=NGIA4306\n👉 Prueba la app creada aqui: https://lisboatrip-2aysb7sn.manus.space\n\nDescubre cómo Manus AI se convierte en tu agente personal para ejecutar tareas complejas. En este video, pongo a prueba a Manus AI con un reto real: crear un planificador de viajes interactivo para 3 días en Lisboa. \nNo solo verás cómo genera texto, sino cómo organiza información, estructura datos y crea resultados tangibles. Desde el prompt inicial ",
-      "url": "https://youtube.com/watch?v=_obduBedO9w",
-      "published_at": "2026-06-02T18:00:06+00:00",
-      "views": 3279,
-      "outlier_ratio": 0.29376455832288123,
+      "video_id": "TQwhrXeRBkY",
+      "title": "Stop Copy Pasting Code",
+      "description": "We're in the age of Agents Loops and Workflows, but if you're behind, let me explain why they're important and why it took me a moment to get behind them too\n\nWant to sponsor a video? Learn more here: https://soydev.link/sponsor-me\n\nCheck out my Twitch, Twitter, Discord more at https://t3.gg\n\nS/O @Ph4seon3 for the awesome edit 🙏\n\n#ai #coding #programming",
+      "url": "https://youtube.com/watch?v=TQwhrXeRBkY",
+      "published_at": "2026-06-22T19:00:25+00:00",
+      "views": 21403,
+      "outlier_ratio": 0.29695868135527376,
       "language": null,
-      "channel": "NextGen IA Hub"
+      "channel": "Theo - t3․gg"
     },
     {
       "video_id": "LrZHnKS_L6k",
@@ -6188,8 +7002,8 @@
       "description": "Mark Pike, Legal Counsel at Anthropic, talks with Anna Gressel, Partner and Global Co-Head of AI at Freshfields, about how lawyers use Claude.\n\nThey get into how legal work is changing with AI, and why the judgement call stays with the lawyer.",
       "url": "https://youtube.com/watch?v=LrZHnKS_L6k",
       "published_at": "2026-06-08T20:55:45+00:00",
-      "views": 12470,
-      "outlier_ratio": 0.29716655148583276,
+      "views": 12585,
+      "outlier_ratio": 0.2999070609822939,
       "language": null,
       "channel": "Claude"
     },
@@ -6199,8 +7013,8 @@
       "description": "El tamaño sí importa. \nArctic ha presentado el Xtender Mini.\n¿Os montaríais una build micro ATX? 👇\n\n#microatx #computex2026 #arctic",
       "url": "https://youtube.com/watch?v=gE-hdfGC-0Q",
       "published_at": "2026-06-13T16:05:18+00:00",
-      "views": 91260,
-      "outlier_ratio": 0.29889657837765254,
+      "views": 91586,
+      "outlier_ratio": 0.2999643001018593,
       "language": null,
       "channel": "Nate Gentile"
     },
@@ -6210,8 +7024,8 @@
       "description": "This new feature just changed the game for GitHub Copilot. \n\nThe new GitHub Copilot app lets you choose literally ANY model provider out there, unlike using a coding app like Codex where you're locked in to only OpenAI models. \n\nThis was such an exciting update for me I went to download the app the moment I got home. And, well... it wouldn't let me download it 😭\n\nI haven't checked since I made this video, but hopefully it's available now!\n\n#AI #ainews #github #coding #copilot",
       "url": "https://youtube.com/watch?v=X9cvCQ3qrVk",
       "published_at": "2026-06-10T14:11:43+00:00",
-      "views": 6891,
-      "outlier_ratio": 0.30185290639099394,
+      "views": 6903,
+      "outlier_ratio": 0.30237855359411275,
       "language": null,
       "channel": "Matt Wolfe"
     },
@@ -6221,8 +7035,8 @@
       "description": "► Mi Academia de Ciencias de la Computación: https://link.bettatech.net/academia\nSígueme en https://www.instagram.com/betta_tech/\n\n✉️  CONTACTO PROFESIONAL:\n► Respuesta no garantizada: \nbettatechyt@gmail.com\n\n📚 LIBROS 📚 \nDesign Patterns \n► https://amzn.to/39XuQlq\nHead First Design Patterns \n► https://amzn.to/2uq6XUq\nRefactoring \n► https://amzn.to/2SQnf2c\nClean Architecture \n►  https://amzn.to/3bZVonJ\nClean Code \n► https://amzn.to/32WVKq3\nIntroduction to Algorithms \n► https://amzn.to/34SyVFP\nCrac",
       "url": "https://youtube.com/watch?v=bp9Q89qN6JY",
       "published_at": "2026-06-19T18:00:15+00:00",
-      "views": 4306,
-      "outlier_ratio": 0.3055634402497871,
+      "views": 4324,
+      "outlier_ratio": 0.3068407607152995,
       "language": null,
       "channel": "BettaTech"
     },
@@ -6232,8 +7046,8 @@
       "description": "🚀 Prueba Go High Level GRATIS por 30 días: https://www.gohighlevel.com/benjamincordero\n\nUna clínica dental, un estudio de yoga, una tienda de escalada, un consultor B2B → todos funcionan igual. Por debajo, todos tienen exactamente las mismas seis capas. Y las seis se pueden automatizar.\n\nLo que cambia no es el embudo. Es la ejecución. Y donde está tu cuello de botella define por dónde empezar.\n\nSi quieres automatizar tu negocio de punta a punta, dentro de Imperio Agéntico está el curso GoHighLev",
       "url": "https://youtube.com/watch?v=D-gcNGdHYz0",
       "published_at": "2026-06-06T23:00:23+00:00",
-      "views": 16194,
-      "outlier_ratio": 0.306652275180367,
+      "views": 16318,
+      "outlier_ratio": 0.3090003597871575,
       "language": null,
       "channel": "Benjamín Cordero"
     },
@@ -6243,8 +7057,8 @@
       "description": "Subscribe to the channel for more weekly AI news you can actually use!\n\nJoin The Private Community Mastering AI Together & Unlock The Best Resources, Tools & Tactics from the world's top aI experts for just $1! 👉 https://joinaiaclub.com/",
       "url": "https://youtube.com/watch?v=09FXcinkQ_o",
       "published_at": "2026-06-09T15:08:21+00:00",
-      "views": 3191,
-      "outlier_ratio": 0.3092653615041675,
+      "views": 3196,
+      "outlier_ratio": 0.3097499515409963,
       "language": null,
       "channel": "The AI Advantage"
     },
@@ -6254,8 +7068,8 @@
       "description": "El posicionamiento orgánico en LinkedIn supera a la búsqueda de empleo. \n\nRoberto \"Pico\" López pasó de analista bancario a jugar un mundial porque su perfil técnico estaba optimizado. \n\nAhora optimizar tu perfil con IA toma minutos: reescribe tu experiencia, calibra tus habilidades y automatiza tu relevancia para que los reclutadores e industrias globales te encuentren de forma directa.\n\nLidera tu estrategia profesional en Platzi",
       "url": "https://youtube.com/watch?v=1N7KMwlo6cc",
       "published_at": "2026-06-18T16:40:55+00:00",
-      "views": 5796,
-      "outlier_ratio": 0.30997967697079903,
+      "views": 5809,
+      "outlier_ratio": 0.31067493849609584,
       "language": null,
       "channel": "Platzi"
     },
@@ -6265,21 +7079,10 @@
       "description": "Did @Microsoft actually take the lead in the AI race?\n\nI just got back from Microsoft Build last week, and they dropped A TON of news, but here's what's actually important. \n\nThey released 7 NEW in-house Microsoft AI models that focus on reasoning, coding, images, and voice. \n\nPlus they're making a big bet on AI Agents with the new Microsoft Scout. It's Microsoft’s new \"Autopilot\" agent powered by OpenClaw that has direct access to literally manage Windows for you. It can operate across Teams, O",
       "url": "https://youtube.com/watch?v=jKgrNh_q_b0",
       "published_at": "2026-06-08T14:43:43+00:00",
-      "views": 7144,
-      "outlier_ratio": 0.3129353015900828,
+      "views": 7148,
+      "outlier_ratio": 0.3131105173244557,
       "language": null,
       "channel": "Matt Wolfe"
-    },
-    {
-      "video_id": "hpxP_55RU_k",
-      "title": "¡Acaba de salir la mejor biblioteca de React de 2026!\nEs un componente de notificaciones para tu web",
-      "description": "¡Acaba de salir la mejor biblioteca de React de 2026!\nEs un componente de notificaciones para tu web o app.\n\n✓ Bonito por defecto, cero configuración\n✓ Múltiples estados y posiciones\n✓ Animaciones con SVG\n\nSe llama Sileo y es fácil de instalar y usar:\n→ npm install sileo\n\n#programacion #frontend #uxui #software #programadores",
-      "url": "https://youtube.com/watch?v=hpxP_55RU_k",
-      "published_at": "2026-06-19T19:53:42+00:00",
-      "views": 12339,
-      "outlier_ratio": 0.31807284819426185,
-      "language": null,
-      "channel": "midudev"
     },
     {
       "video_id": "9VZR1Pw_B0s",
@@ -6287,10 +7090,21 @@
       "description": "The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. \n\n\n❤️ If you want to support the channel ❤️\nSupport here:\nPatreon - https://www.patreon.com/1littlecoder/\nKo-Fi - https://ko-fi.com/1littlecoder\n\n🧭 Follow me on 🧭\nTwitter - https://twitter.com/1littlecoder",
       "url": "https://youtube.com/watch?v=9VZR1Pw_B0s",
       "published_at": "2026-06-15T20:02:01+00:00",
-      "views": 880,
-      "outlier_ratio": 0.3184943901556279,
+      "views": 886,
+      "outlier_ratio": 0.3206659428157799,
       "language": null,
       "channel": "1littlecoder"
+    },
+    {
+      "video_id": "hpxP_55RU_k",
+      "title": "¡Acaba de salir la mejor biblioteca de React de 2026!\nEs un componente de notificaciones para tu web",
+      "description": "¡Acaba de salir la mejor biblioteca de React de 2026!\nEs un componente de notificaciones para tu web o app.\n\n✓ Bonito por defecto, cero configuración\n✓ Múltiples estados y posiciones\n✓ Animaciones con SVG\n\nSe llama Sileo y es fácil de instalar y usar:\n→ npm install sileo\n\n#programacion #frontend #uxui #software #programadores",
+      "url": "https://youtube.com/watch?v=hpxP_55RU_k",
+      "published_at": "2026-06-19T19:53:42+00:00",
+      "views": 12512,
+      "outlier_ratio": 0.32253241564199725,
+      "language": null,
+      "channel": "midudev"
     },
     {
       "video_id": "rAWB8-qiVQo",
@@ -6298,21 +7112,10 @@
       "description": "Try HeyGen here: https://www.heygen.com/?sid=rewardful&utm_content=creator&utm_medium=influencera&via=wes-roth\n\nHeyGen AI Video Generator lets creators build a Digital Twin Avatar from a short clip, turn scripts into videos, translate content into 175+ languages, and scale video production without filming every take from scratch.\n\nThis video is a paid partnership with HeyGen.\n\nCheck out the FULL HeyGen video here:\nhttps://youtu.be/NiY38aQQkqM\n\n______________________________________________\nMy Li",
       "url": "https://youtube.com/watch?v=rAWB8-qiVQo",
       "published_at": "2026-06-12T02:17:39+00:00",
-      "views": 16765,
-      "outlier_ratio": 0.3244001547987616,
+      "views": 16942,
+      "outlier_ratio": 0.3278250773993808,
       "language": null,
       "channel": "Wes Roth"
-    },
-    {
-      "video_id": "v2J4LaqB5PY",
-      "title": "CREA herramientas ÚTILES en Chrome (...con GEMINI en un prompt)",
-      "description": "Prueba la IA de Odoo: https://www.odoo.com/r/V7xb\n\nToda la INFO del curso de Google \n👉 https://iaenaccion.com/curso-ia-gemini-notebook-google/\n\n---\n\nMARCAS DE TIEMPO\n\n00:00 Intro\n00:57 Ejemplo 1\n05:05 Tutorial\n07:35 Ejemplo 2\n14:52 Ejemplo 3\n\n---\n\n✅ SUCRÍBETE A MI CANAL: http://bit.ly/suscribirse_XM​​​​\n\n---\n\nInstagram: https://www.instagram.com/xavier_mitjana/\nTwitter: https://twitter.com/xavier_mitjana\n\nContacto comercial: xavmit.yt@gmail.com\n\n*Al realizar una compra a través de cualquiera de ",
-      "url": "https://youtube.com/watch?v=v2J4LaqB5PY",
-      "published_at": "2026-06-18T16:25:31+00:00",
-      "views": 28925,
-      "outlier_ratio": 0.3417536065786831,
-      "language": null,
-      "channel": "Xavier Mitjana"
     },
     {
       "video_id": "yjXDCYcOvXE",
@@ -6320,10 +7123,21 @@
       "description": "Follow me for free AI tips daily 👇\n\nChatGPT brutal psychology truths, all from 1 prompt. Copy it word for word:\n\n\"You've read every psychology study and every psychological thinker and philosopher. What are the 5 things everyone must understand about their own psychology or they risk failing at life?\"\n\nThe answers cut deep. Truth #1: your brain lies to you constantly. You're a narrator, not an observer. The rest get harder from there.\n\nRun the prompt, then ask ChatGPT to apply each truth to your",
       "url": "https://youtube.com/watch?v=yjXDCYcOvXE",
       "published_at": "2026-06-12T20:45:26+00:00",
-      "views": 3115,
-      "outlier_ratio": 0.34185689201053554,
+      "views": 3126,
+      "outlier_ratio": 0.34306409130816506,
       "language": null,
       "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "v2J4LaqB5PY",
+      "title": "CREA herramientas ÚTILES en Chrome (...con GEMINI en un prompt)",
+      "description": "Prueba la IA de Odoo: https://www.odoo.com/r/V7xb\n\nToda la INFO del curso de Google \n👉 https://iaenaccion.com/curso-ia-gemini-notebook-google/\n\n---\n\nMARCAS DE TIEMPO\n\n00:00 Intro\n00:57 Ejemplo 1\n05:05 Tutorial\n07:35 Ejemplo 2\n14:52 Ejemplo 3\n\n---\n\n✅ SUCRÍBETE A MI CANAL: http://bit.ly/suscribirse_XM​​​​\n\n---\n\nInstagram: https://www.instagram.com/xavier_mitjana/\nTwitter: https://twitter.com/xavier_mitjana\n\nContacto comercial: xavmit.yt@gmail.com\n\n*Al realizar una compra a través de cualquiera de ",
+      "url": "https://youtube.com/watch?v=v2J4LaqB5PY",
+      "published_at": "2026-06-18T16:25:31+00:00",
+      "views": 29150,
+      "outlier_ratio": 0.34441201838439456,
+      "language": null,
+      "channel": "Xavier Mitjana"
     },
     {
       "video_id": "TJ_QFDQZpTA",
@@ -6331,8 +7145,8 @@
       "description": "🔥 Suscribete: https://youtube.com/c/VictorRoblesWEB?sub_confirmation=1\n👨‍💻 Aprende programación, desarrollo web e inteligencia artificial desde cero con estos cursos, síguelos en este orden ⬇️\n0️⃣ Curso de HTML5 en profundidad: https://victorroblesweb.es/curso-html5\n1️⃣ Master en CSS: Aprender CSS3, Responsive, SASS, Less, Grid, Flexbox y Bootstrap: https://victorroblesweb.es/master-css\n2️⃣ Master en CSS3 Avanzado: Maqueta 3 sitios web profesionales: https://victorroblesweb.es/master-css-avanzad",
       "url": "https://youtube.com/watch?v=TJ_QFDQZpTA",
       "published_at": "2026-06-20T22:07:29+00:00",
-      "views": 661,
-      "outlier_ratio": 0.3462545835515977,
+      "views": 664,
+      "outlier_ratio": 0.34782608695652173,
       "language": null,
       "channel": "Victor Robles WEB"
     },
@@ -6342,8 +7156,8 @@
       "description": "",
       "url": "https://youtube.com/watch?v=YGx_EQRM1Qs",
       "published_at": "2026-06-09T09:00:21+00:00",
-      "views": 3277,
-      "outlier_ratio": 0.3498078565328779,
+      "views": 3298,
+      "outlier_ratio": 0.35204953031596925,
       "language": null,
       "channel": "David Ondrej"
     },
@@ -6353,21 +7167,10 @@
       "description": "🔥 Suscribete: https://youtube.com/c/VictorRoblesWEB?sub_confirmation=1\n👨‍💻 Aprende programación, desarrollo web e inteligencia artificial desde cero con estos cursos, síguelos en este orden ⬇️\n0️⃣ Curso de HTML5 en profundidad: https://victorroblesweb.es/curso-html5\n1️⃣ Master en CSS: Aprender CSS3, Responsive, SASS, Less, Grid, Flexbox y Bootstrap: https://victorroblesweb.es/master-css\n2️⃣ Master en CSS3 Avanzado: Maqueta 3 sitios web profesionales: https://victorroblesweb.es/master-css-avanzad",
       "url": "https://youtube.com/watch?v=wioMhBU88Uw",
       "published_at": "2026-06-17T22:07:29+00:00",
-      "views": 672,
-      "outlier_ratio": 0.3520167627029859,
+      "views": 674,
+      "outlier_ratio": 0.3530644316396019,
       "language": null,
       "channel": "Victor Robles WEB"
-    },
-    {
-      "video_id": "HVpnKGfcVVY",
-      "title": "ChatGPT, Claude y Gemini están celosos de ti",
-      "description": "Nos descubrieron 🫣\n\nMientras el mundo pelea por cuál IA es mejor, los que entienden los fundamentos saben cómo aplicarla y cómo seguirle el ritmo sin importar qué herramienta llegue después.\n\nEmpieza a aprender hoy en Platzi AI Academy",
-      "url": "https://youtube.com/watch?v=HVpnKGfcVVY",
-      "published_at": "2026-06-10T21:36:37+00:00",
-      "views": 6596,
-      "outlier_ratio": 0.3527650016044497,
-      "language": null,
-      "channel": "Platzi"
     },
     {
       "video_id": "nAqtdPuKj0Y",
@@ -6375,21 +7178,21 @@
       "description": "Ollie Elmgren, engineer at Listen Labs, walks through how LangSmith Engine changed the way his team evaluates their AI agents. \n\nListen Labs runs AI-moderated customer research, fleets of AI interviewers that synthesize findings into reports. Before LangSmith Engine, Ollie was manually piecing through traces or dumping them into Claude Code to spot problems. \n\nNow, an agent runs in the background and surfaces patterns automatically,  catching systemic issues instead of making him wonder whether ",
       "url": "https://youtube.com/watch?v=nAqtdPuKj0Y",
       "published_at": "2026-06-03T17:31:35+00:00",
-      "views": 599,
-      "outlier_ratio": 0.35276796230859836,
+      "views": 600,
+      "outlier_ratio": 0.35335689045936397,
       "language": null,
       "channel": "LangChain"
     },
     {
-      "video_id": "lLrKuF0YDyw",
-      "title": "I Gave His Business AI Superpowers",
-      "description": "Want an AI Makeover for YOUR Business? \n👉🏻 https://bit.ly/ai-makeover-apply \n\nFollow me on Instagram to see behind the scenes:\n🤳🏼 https://instagram.com/liamottley\n\nTom & Tommy’s Links 💪🏼\nFollow Tom: https://www.instagram.com/tomstrickland\nFollow RAW: https://www.instagram.com/raw.global\nFollow EDGE: https://www.instagram.com/edgeglobal\nTheir YouTube: https://www.youtube.com/@raw.global\n\n📚 Join the #1 community for AI entrepreneurs: https://bit.ly/4uVYu3L\n📈 Start Your AI Agency with expert guidan",
-      "url": "https://youtube.com/watch?v=lLrKuF0YDyw",
-      "published_at": "2026-06-21T18:00:06+00:00",
-      "views": 16751,
-      "outlier_ratio": 0.35968735908612653,
+      "video_id": "HVpnKGfcVVY",
+      "title": "ChatGPT, Claude y Gemini están celosos de ti",
+      "description": "Nos descubrieron 🫣\n\nMientras el mundo pelea por cuál IA es mejor, los que entienden los fundamentos saben cómo aplicarla y cómo seguirle el ritmo sin importar qué herramienta llegue después.\n\nEmpieza a aprender hoy en Platzi AI Academy",
+      "url": "https://youtube.com/watch?v=HVpnKGfcVVY",
+      "published_at": "2026-06-10T21:36:37+00:00",
+      "views": 6608,
+      "outlier_ratio": 0.35340678147395443,
       "language": null,
-      "channel": "Liam Ottley"
+      "channel": "Platzi"
     },
     {
       "video_id": "0utUbgfbIDE",
@@ -6397,21 +7200,10 @@
       "description": "► Mi Academia de Ciencias de la Computación: https://link.bettatech.net/academia\nSígueme en https://www.instagram.com/betta_tech/\n\n✉️  CONTACTO PROFESIONAL:\n► Respuesta no garantizada: \nbettatechyt@gmail.com\n\n📚 LIBROS 📚 \nDesign Patterns \n► https://amzn.to/39XuQlq\nHead First Design Patterns \n► https://amzn.to/2uq6XUq\nRefactoring \n► https://amzn.to/2SQnf2c\nClean Architecture \n►  https://amzn.to/3bZVonJ\nClean Code \n► https://amzn.to/32WVKq3\nIntroduction to Algorithms \n► https://amzn.to/34SyVFP\nCrac",
       "url": "https://youtube.com/watch?v=0utUbgfbIDE",
       "published_at": "2026-06-11T17:15:31+00:00",
-      "views": 5103,
-      "outlier_ratio": 0.3621203519727505,
+      "views": 5104,
+      "outlier_ratio": 0.3621913142208345,
       "language": null,
       "channel": "BettaTech"
-    },
-    {
-      "video_id": "6lY_kK7qaQE",
-      "title": "Claude + Remotion Tutorial - Make Unlimited Videos For Free",
-      "description": "Claude + Remotion Tutorial - Make Unlimited Videos For Free",
-      "url": "https://youtube.com/watch?v=6lY_kK7qaQE",
-      "published_at": "2026-06-19T23:13:20+00:00",
-      "views": 3315,
-      "outlier_ratio": 0.36380597014925375,
-      "language": null,
-      "channel": "Sabrina Ramonov 🍄"
     },
     {
       "video_id": "5tY4oZ2CsYo",
@@ -6425,15 +7217,59 @@
       "channel": "Victor Robles WEB"
     },
     {
+      "video_id": "szfN7xC696Q",
+      "title": "DNS Explained in 5 Minutes (for beginners)",
+      "description": "DNS is just your domain's phone number, it translates a name like example.com into the IP address computers actually use to find your site. Here's what DNS is and why it matters when vibe coding.\n\nTurn your AI coding agent into a senior engineer (boost os):\nhttps://boostmyagent.com\n\njoin our AI community ► https://www.skool.com/ai-for-your-business\n\nsubscribe for more ► https://bit.ly/3zlUmiS\nfollow me on twitter (x) ► https://twitter.com/corbin_braun\nfollow me on ig ► https://www.instagram.com/",
+      "url": "https://youtube.com/watch?v=szfN7xC696Q",
+      "published_at": "2026-06-22T14:00:26+00:00",
+      "views": 759,
+      "outlier_ratio": 0.3668438859352344,
+      "language": null,
+      "channel": "corbin"
+    },
+    {
+      "video_id": "6lY_kK7qaQE",
+      "title": "Claude + Remotion Tutorial - Make Unlimited Videos For Free",
+      "description": "Claude + Remotion Tutorial - Make Unlimited Videos For Free",
+      "url": "https://youtube.com/watch?v=6lY_kK7qaQE",
+      "published_at": "2026-06-19T23:13:20+00:00",
+      "views": 3343,
+      "outlier_ratio": 0.3668788410886743,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "5yCJqZ94OWE",
+      "title": "Make ChatGPT Expose Your 5 Brutal Truths (Dark Psychologist Prompt)",
+      "description": "Follow me on IG, DM me \"GUIDE\" and I'll send you hundreds more prompts 👇\n\nStop asking ChatGPT for answers. Your problem isn't more advice, it's avoiding the truths you won't face.\n\nMake ChatGPT your dark psychologist. Paste this:\n\n\"Ask me questions to uncover 5 brutal truths I refuse to see. Keep going until you're certain you've exposed me.\"\n\nHow do you use ChatGPT for self reflection?\nWhat brutal truth are you avoiding right now?\nWhich ChatGPT prompt changed how you think?\n\n#chatgpt #chatgptpr",
+      "url": "https://youtube.com/watch?v=5yCJqZ94OWE",
+      "published_at": "2026-06-22T15:45:19+00:00",
+      "views": 3402,
+      "outlier_ratio": 0.37335381913959614,
+      "language": null,
+      "channel": "Sabrina Ramonov 🍄"
+    },
+    {
       "video_id": "FsufCydbfJ4",
       "title": "Claude Code puede hacer una demo que parezca un clon de Airbnb.\n\nPero una demo no es un producto.\n\nE",
       "description": "Claude Code puede hacer una demo que parezca un clon de Airbnb.\n\nPero una demo no es un producto.\n\nEntre una interfaz vistosa y software real hay negocio, lógica, errores, seguridad, pagos, rendimiento y cientos de decisiones difíciles.\n\nLa IA acelera. Lo complejo sigue siendo complejo.\n\n¿Tú qué opinas?\n\n#software #programacion #programadores #informatica #programador",
       "url": "https://youtube.com/watch?v=FsufCydbfJ4",
       "published_at": "2026-06-20T17:37:59+00:00",
-      "views": 14426,
-      "outlier_ratio": 0.3718712138787926,
+      "views": 14527,
+      "outlier_ratio": 0.37447477637718146,
       "language": null,
       "channel": "midudev"
+    },
+    {
+      "video_id": "lLrKuF0YDyw",
+      "title": "I Gave His Business AI Superpowers",
+      "description": "Want an AI Makeover for YOUR Business? \n👉🏻 https://bit.ly/ai-makeover-apply \n\nFollow me on Instagram to see behind the scenes:\n🤳🏼 https://instagram.com/liamottley\n\nTom & Tommy’s Links 💪🏼\nFollow Tom: https://www.instagram.com/tomstrickland\nFollow RAW: https://www.instagram.com/raw.global\nFollow EDGE: https://www.instagram.com/edgeglobal\nTheir YouTube: https://www.youtube.com/@raw.global\n\n📚 Join the #1 community for AI entrepreneurs: https://bit.ly/4uVYu3L\n📈 Start Your AI Agency with expert guidan",
+      "url": "https://youtube.com/watch?v=lLrKuF0YDyw",
+      "published_at": "2026-06-21T18:00:06+00:00",
+      "views": 17496,
+      "outlier_ratio": 0.3756844388138541,
+      "language": null,
+      "channel": "Liam Ottley"
     },
     {
       "video_id": "G_29XRpKO-Y",
@@ -6441,8 +7277,8 @@
       "description": "MiniMax Token Plan 12% OFF:https://platform.minimax.io/subscribe/coding-plan?code=Kr6NJE2XEu&source=link\nMiniMax Platform:https://platform.minimax.io\nAPI Documentation:https://platform.minimax.io/docs/guides/text-generation",
       "url": "https://youtube.com/watch?v=G_29XRpKO-Y",
       "published_at": "2026-06-16T09:09:48+00:00",
-      "views": 3563,
-      "outlier_ratio": 0.3803373185311699,
+      "views": 3574,
+      "outlier_ratio": 0.38151152860802734,
       "language": null,
       "channel": "David Ondrej"
     },
@@ -6452,8 +7288,8 @@
       "description": "",
       "url": "https://youtube.com/watch?v=S9-Htw3URuo",
       "published_at": "2026-06-07T14:30:46+00:00",
-      "views": 7135,
-      "outlier_ratio": 0.3815916140763718,
+      "views": 7138,
+      "outlier_ratio": 0.381752059043748,
       "language": null,
       "channel": "Platzi"
     },
@@ -6463,21 +7299,10 @@
       "description": "Cursos y clases de la academia: https://midu.dev",
       "url": "https://youtube.com/watch?v=nH1YwODAzB0",
       "published_at": "2026-06-15T18:11:11+00:00",
-      "views": 14844,
-      "outlier_ratio": 0.38264635372360994,
+      "views": 14853,
+      "outlier_ratio": 0.38287835434227824,
       "language": null,
       "channel": "midudev"
-    },
-    {
-      "video_id": "IhnyBh8uoJY",
-      "title": "Google is Making HUGE Changes to Search...",
-      "description": "Subscribe for more AI news you can use!\n\nLinks:\nLearn More:\n🎓 How-To Save Time With AI: https://www.joinaiaclub.com/igor\n📸 Instagram: https://www.instagram.com/igorpogany/",
-      "url": "https://youtube.com/watch?v=IhnyBh8uoJY",
-      "published_at": "2026-06-02T17:13:22+00:00",
-      "views": 3967,
-      "outlier_ratio": 0.3844737352200039,
-      "language": null,
-      "channel": "The AI Advantage"
     },
     {
       "video_id": "YsSEYjjSPUA",
@@ -6485,8 +7310,8 @@
       "description": "Apple prometió ponerse al día con la IA… y dos años después vuelve con el mismo discurso. ¿Qué anunció realmente en la WWDC 2026? mejoras que pudieron ser un tuit, una Siri que por fin suena inteligente, y un par de ideas que sí podrían ser brutales si funcionan. Ver para creer: ¿Apple llega tarde o se prepara para dominar la mejor implementación?\n\nY si no lo sabías #LoAprendisteEnEDteam\n\n🎉 ¡CURSOS NUEVOS DE LA SEMANA!\n1. Claude para todos (De cero a experto) https://ed.team/cursos/claude\n2. Ope",
       "url": "https://youtube.com/watch?v=YsSEYjjSPUA",
       "published_at": "2026-06-10T19:15:42+00:00",
-      "views": 7224,
-      "outlier_ratio": 0.38769924327805505,
+      "views": 7236,
+      "outlier_ratio": 0.3883432619545967,
       "language": null,
       "channel": "EDteam"
     },
@@ -6496,8 +7321,8 @@
       "description": "Claude just got a lot more ambitious. Here's what most people missed with Opus 4.8.\n\nDynamic Workflows launches hundreds of subagents at once. All inside one session.\n\nBefore this, Claude worked task by task. Fine for small jobs. Painfully slow for big ones.\n\nNow it writes its own plan. Splits the work. Sends a crew.\n\nHalf build. The other half checks their work. What you get back is finished and verified.\n\nLike a contractor who brings the whole team. And a QA crew on top.\n\nBest for:\n\nLarge code",
       "url": "https://youtube.com/watch?v=fEZ0GZ-vKhg",
       "published_at": "2026-06-12T12:30:23+00:00",
-      "views": 6002,
-      "outlier_ratio": 0.3983011480522928,
+      "views": 6004,
+      "outlier_ratio": 0.3984338708607074,
       "language": null,
       "channel": "Jack Roberts"
     },
@@ -6507,21 +7332,10 @@
       "description": "Follow me on IG, DM me \"SPAR\" and I'll send you the full sparring partner prompt 👇\n\nChatGPT sparring partner prompt to stop sycophantic, fluffy answers. ChatGPT agrees with everything you say by default. This anti-prompt turns it into a sparring partner who questions your ideas instead of glazing them. Copy the exact prompt:\n\n\"Based on everything you know about me, become my AI sparring partner. When I present an idea, your first response should include 3 to 5 questions I haven't thought about, ",
       "url": "https://youtube.com/watch?v=8-ajiZeo8R4",
       "published_at": "2026-06-14T15:45:20+00:00",
-      "views": 3675,
-      "outlier_ratio": 0.4033143107989464,
+      "views": 3677,
+      "outlier_ratio": 0.40353380158033364,
       "language": null,
       "channel": "Sabrina Ramonov 🍄"
-    },
-    {
-      "video_id": "5kTDt9ewTwE",
-      "title": "Enterprise-managed auth for MCP connectors",
-      "description": "Admins can now authorize and authenticate MCP connectors for their whole organization through their identity provider — no individual set-up required. See it in action, from admin setup to an employee's first login.\n\nRead more: https://claude.com/blog/enterprise-managed-auth",
-      "url": "https://youtube.com/watch?v=5kTDt9ewTwE",
-      "published_at": "2026-06-18T16:54:52+00:00",
-      "views": 17107,
-      "outlier_ratio": 0.40766866048661915,
-      "language": null,
-      "channel": "Claude"
     },
     {
       "video_id": "HpnL1u6sy54",
@@ -6529,8 +7343,8 @@
       "description": "Every AI tool waits for your prompt. Microsoft Scout doesn't.\n\nScout lives inside your Microsoft ecosystem. Teams, email, calendar — it reads all of it.\n\nBefore you open your laptop, it's already acted.\n\nDescribe your work once in plain language. Scout figures out the rest.\n\nMeeting materials ready before you walk in.\n\nLike a chief of staff. One step ahead. Always.\n\nYou set the direction. Scout handles the setup.\n\n#microsoftscout #microsoft #microsoftteams #aiagents #productivity",
       "url": "https://youtube.com/watch?v=HpnL1u6sy54",
       "published_at": "2026-06-17T18:01:42+00:00",
-      "views": 6169,
-      "outlier_ratio": 0.40938350255491407,
+      "views": 6173,
+      "outlier_ratio": 0.4096489481717433,
       "language": null,
       "channel": "Jack Roberts"
     },
@@ -6540,21 +7354,21 @@
       "description": "🔥 Suscribete: https://youtube.com/c/VictorRoblesWEB?sub_confirmation=1\n👨‍💻 Aprende programación, desarrollo web e inteligencia artificial desde cero con estos cursos, síguelos en este orden ⬇️\n0️⃣ Curso de HTML5 en profundidad: https://victorroblesweb.es/curso-html5\n1️⃣ Master en CSS: Aprender CSS3, Responsive, SASS, Less, Grid, Flexbox y Bootstrap: https://victorroblesweb.es/master-css\n2️⃣ Master en CSS3 Avanzado: Maqueta 3 sitios web profesionales: https://victorroblesweb.es/master-css-avanzad",
       "url": "https://youtube.com/watch?v=ivkCaQcwZYQ",
       "published_at": "2026-06-13T22:07:25+00:00",
-      "views": 785,
-      "outlier_ratio": 0.4112100576217915,
+      "views": 786,
+      "outlier_ratio": 0.41173389209009953,
       "language": null,
       "channel": "Victor Robles WEB"
     },
     {
-      "video_id": "qmHv_Rd8GYE",
-      "title": "¿Estamos entrando al monopolio de la IA?",
-      "description": "¿Estamos entrando al monopolio de la IA?\n\nLa reciente petición de Dario Amodei nos deja una pregunta interesante: ¿se trata de una preocupación genuina por el futuro de la inteligencia artificial o de una estrategia dentro de la competencia por dominar la industria? 👀",
-      "url": "https://youtube.com/watch?v=qmHv_Rd8GYE",
-      "published_at": "2026-06-16T02:50:42+00:00",
-      "views": 7693,
-      "outlier_ratio": 0.41143437800834315,
+      "video_id": "5kTDt9ewTwE",
+      "title": "Enterprise-managed auth for MCP connectors",
+      "description": "Admins can now authorize and authenticate MCP connectors for their whole organization through their identity provider — no individual set-up required. See it in action, from admin setup to an employee's first login.\n\nRead more: https://claude.com/blog/enterprise-managed-auth",
+      "url": "https://youtube.com/watch?v=5kTDt9ewTwE",
+      "published_at": "2026-06-18T16:54:52+00:00",
+      "views": 17280,
+      "outlier_ratio": 0.4117913399899912,
       "language": null,
-      "channel": "Platzi"
+      "channel": "Claude"
     },
     {
       "video_id": "XrO40UDUEIA",
@@ -6562,10 +7376,21 @@
       "description": "Follow me for free AI tips daily 👇\n\n5 secrets AI influencers won't tell you:\n\n1. You don't need us. Ask ChatGPT or DeepSeek anything, knowledge is free.\n2. Skip the paid courses. Curiosity and an internet connection get you everything online.\n3. Pick 3 AI tools max. Make 1 of them ChatGPT or DeepSeek and get good at it.\n4. AI avatars look scary good now. They're coming for AI influencers next.\n5. The best AI news isn't on TikTok or Instagram. It's on Twitter, Reddit, Hacker News, and newsletters",
       "url": "https://youtube.com/watch?v=XrO40UDUEIA",
       "published_at": "2026-06-15T20:45:48+00:00",
-      "views": 3751,
-      "outlier_ratio": 0.41165496049165934,
+      "views": 3753,
+      "outlier_ratio": 0.4118744512730465,
       "language": null,
       "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "qmHv_Rd8GYE",
+      "title": "¿Estamos entrando al monopolio de la IA?",
+      "description": "¿Estamos entrando al monopolio de la IA?\n\nLa reciente petición de Dario Amodei nos deja una pregunta interesante: ¿se trata de una preocupación genuina por el futuro de la inteligencia artificial o de una estrategia dentro de la competencia por dominar la industria? 👀",
+      "url": "https://youtube.com/watch?v=qmHv_Rd8GYE",
+      "published_at": "2026-06-16T02:50:42+00:00",
+      "views": 7718,
+      "outlier_ratio": 0.4127714194031447,
+      "language": null,
+      "channel": "Platzi"
     },
     {
       "video_id": "hBsgJ61kY1k",
@@ -6573,8 +7398,8 @@
       "description": "Mythos is FINALLY here but not really? We've gotten Fable 5, a Mythos class model with TONS of features so lets break them all down. \n\nWant to sponsor a video? Learn more here: https://soydev.link/sponsor-me\n\nCheck out my Twitch, Twitter, Discord more at https://t3.gg\n\nS/O @Ph4seon3 for the awesome edit 🙏\n\n#ai #coding #programming",
       "url": "https://youtube.com/watch?v=hBsgJ61kY1k",
       "published_at": "2026-06-12T01:33:19+00:00",
-      "views": 29756,
-      "outlier_ratio": 0.41285345617004743,
+      "views": 29914,
+      "outlier_ratio": 0.4150456475289286,
       "language": null,
       "channel": "Theo - t3․gg"
     },
@@ -6584,8 +7409,8 @@
       "description": "Kimi K2.7 Code is an open-source, coding-focused agentic model developed by Moonshot AI. It's insanely impressive for the price and size!",
       "url": "https://youtube.com/watch?v=fYrPKhHouxs",
       "published_at": "2026-06-18T11:26:51+00:00",
-      "views": 4148,
-      "outlier_ratio": 0.41688442211055277,
+      "views": 4153,
+      "outlier_ratio": 0.41738693467336685,
       "language": null,
       "channel": "Cole Medin"
     },
@@ -6595,21 +7420,10 @@
       "description": "El gobierno de EE.UU. baneó Claude Fable 5 (el modelo más potente del mundo) de un día para otro. En vez de llorar el modelo que perdimos, en este video te muestro las DOS soluciones que puedes usar HOY para no volver a depender de que un gobierno (o una empresa) te apague tu IA.\n\nPorque la lección es brutal: el modelo es ARRENDADO. Lo que construyes alrededor (tu sistema) es lo único que nadie te puede quitar.\n\n━━━━━━━━━━━━━━━━━━━━━━\n🔥 MOTOR AGÉNTICO (LOCAL) 100% local y privado. Te muestra lo ",
       "url": "https://youtube.com/watch?v=lQif4SIABzM",
       "published_at": "2026-06-14T20:17:13+00:00",
-      "views": 22450,
-      "outlier_ratio": 0.42511693082618496,
+      "views": 22484,
+      "outlier_ratio": 0.42576076047643396,
       "language": null,
       "channel": "Benjamín Cordero"
-    },
-    {
-      "video_id": "IfR4aeXW37U",
-      "title": "AI Transformed My Website In A Few Hours",
-      "description": "Head to this link https://app.mindstudio.ai/signup?plan=mattwolfe for 90-days of free access to Remy and $25 in credits!\n\nI wanted to see if AI could rebuild my website… and honestly the result kind of shocked me.\n\nI used Remy from @MindStudio_ai to see if it could completely redesign my FutureTools.io site and it felt VERY different from the other AI coding tools I’ve tried lately.\n\nInstead of just dumping code onto the screen, it actually guided me through the product thinking. And then it bui",
-      "url": "https://youtube.com/watch?v=IfR4aeXW37U",
-      "published_at": "2026-06-02T13:00:06+00:00",
-      "views": 10026,
-      "outlier_ratio": 0.4391782382057909,
-      "language": null,
-      "channel": "Matt Wolfe"
     },
     {
       "video_id": "lkR6mvqQQlk",
@@ -6617,10 +7431,21 @@
       "description": "My FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=mythos-leak-june&hcategory=youtube-videos&utm_campaign=free-group\nFull courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=mythos-leak-june&hcategory=youtube-videos&utm_campaign=ais-plus\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan)",
       "url": "https://youtube.com/watch?v=lkR6mvqQQlk",
       "published_at": "2026-06-06T21:26:20+00:00",
-      "views": 37464,
-      "outlier_ratio": 0.44103312692769525,
+      "views": 37477,
+      "outlier_ratio": 0.4411861653285617,
       "language": null,
       "channel": "Nate Herk | AI Automation"
+    },
+    {
+      "video_id": "UtFfyhfllws",
+      "title": "Este Agente IA lo Hace Todo Solo: Clona Webs, Navega y Te Manda Emails",
+      "description": "¿Te imaginas tener un agente de  65 inteligencia artificial  que haga el trabajo técnico por ti? En este tutorial, te enseño a dominar  68 antigravity , una herramienta brutal capaz de clonar sitios web, navegar de forma autónoma, realizar tareas de administración y enviarte resúmenes por email, ¡todo sin que tengas que escribir una sola línea de código!\nSi buscas  58 automatización con ia  para mejorar tu productividad, este video es para ti.\nEn este video aprenderás:\n\nCómo instalar y configura",
+      "url": "https://youtube.com/watch?v=UtFfyhfllws",
+      "published_at": "2026-06-22T16:30:31+00:00",
+      "views": 4935,
+      "outlier_ratio": 0.44212506719225947,
+      "language": null,
+      "channel": "NextGen IA Hub"
     },
     {
       "video_id": "iOZf50YffCE",
@@ -6628,8 +7453,8 @@
       "description": "Long-context AI just got 15x cheaper. Nobody covered this one.\n\nSo MiniMax M3 just dropped on OpenRouter. Here's why it matters for your workflow.\n\nMost models struggle with long documents. They slow down. Costs spike. Context fills up fast.\n\nM3 fixes this with Sparse Attention. Scans your input. Locks onto what matters. Ignores the rest.\n\nHere's how to test it:\n\nHead to OpenRouter\nSearch MiniMax M3\nDrop in a long doc or full codebase\nWatch it process at 15.6x normal speed\nLike a researcher who ",
       "url": "https://youtube.com/watch?v=iOZf50YffCE",
       "published_at": "2026-06-13T15:00:11+00:00",
-      "views": 6727,
-      "outlier_ratio": 0.44641316610259474,
+      "views": 6736,
+      "outlier_ratio": 0.44701041874046055,
       "language": null,
       "channel": "Jack Roberts"
     },
@@ -6639,10 +7464,21 @@
       "description": "Lets break down the basics of what are ACTUALLY the differences between Mythos 5 and Fable 5\n\nWant to sponsor a video? Learn more here: https://soydev.link/sponsor-me\n\nCheck out my Twitch, Twitter, Discord more at https://t3.gg\n\nS/O @Ph4seon3 for the awesome edit 🙏\n\n#ai #coding #programming #fable #anthropic",
       "url": "https://youtube.com/watch?v=9ut0E62jJ1o",
       "published_at": "2026-06-15T21:28:41+00:00",
-      "views": 32207,
-      "outlier_ratio": 0.4468601714904126,
+      "views": 32522,
+      "outlier_ratio": 0.4512306795793212,
       "language": null,
       "channel": "Theo - t3․gg"
+    },
+    {
+      "video_id": "tjI5wzF6WBo",
+      "title": "New ChatGPT Scheduled Tasks Explained",
+      "description": "Want to save time, get more leverage, and stop figuring this AI stuff out from scratch? I put the clearest map and support inside the AI Advantage Club: https://joinaiaclub.com/\n\nLet's Connect:\n📸 Instagram: https://www.instagram.com/igorpogany/",
+      "url": "https://youtube.com/watch?v=tjI5wzF6WBo",
+      "published_at": "2026-06-22T17:53:59+00:00",
+      "views": 4665,
+      "outlier_ratio": 0.45212250436131035,
+      "language": null,
+      "channel": "The AI Advantage"
     },
     {
       "video_id": "hsJ9t2scY5g",
@@ -6650,21 +7486,10 @@
       "description": "Francis Davidson, founder of Odessia, shares how his team uses LangSmith Engine to build and maintain a visually rich, low-latency AI travel agent, one that can book flights, hotels, and full itineraries in a single conversation. \n\nHe breaks down the core challenge: dozens of tool calls that have to resolve in seconds, or users drop off. With LangSmith Engine, his team can aggregate thousands of traces, combine them with source code and eval results, and extract actionable insight, right down to",
       "url": "https://youtube.com/watch?v=hsJ9t2scY5g",
       "published_at": "2026-06-05T16:54:28+00:00",
-      "views": 760,
-      "outlier_ratio": 0.44758539458186103,
+      "views": 768,
+      "outlier_ratio": 0.45229681978798586,
       "language": null,
       "channel": "LangChain"
-    },
-    {
-      "video_id": "_aD00IQTgdY",
-      "title": "Deja de usar Claude Code sin un Motor Agéntico",
-      "description": "🚨 El gobierno de Estados Unidos obligó a Anthropic a apagar Fable 5 (el modelo más potente del mundo) de un día para otro. Grabé este video entero sobre cómo medir lo que gastas en IA… y justo antes de subirlo, lo bajaron. Pensé en borrarlo. No lo hice: esto lo hace más importante que nunca.\nPorque la lección es brutal: tú no controlas qué modelo vive o muere. Lo único que controlas es VER tu propia operación. \n\nEn este video te muestro el Motor Agéntico: un dashboard 100% local, privado y de so",
-      "url": "https://youtube.com/watch?v=_aD00IQTgdY",
-      "published_at": "2026-06-16T23:49:50+00:00",
-      "views": 24203,
-      "outlier_ratio": 0.45831203014637656,
-      "language": null,
-      "channel": "Benjamín Cordero"
     },
     {
       "video_id": "CvA8-aScqio",
@@ -6672,10 +7497,21 @@
       "description": "My FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=pause-ai-june-26&hcategory=youtube-videos&utm_campaign=free-group\nFull courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=pause-ai-june-26&hcategory=youtube-videos&utm_campaign=ais-plus\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan)",
       "url": "https://youtube.com/watch?v=CvA8-aScqio",
       "published_at": "2026-06-16T13:15:42+00:00",
-      "views": 39071,
-      "outlier_ratio": 0.45995102771172275,
+      "views": 39129,
+      "outlier_ratio": 0.46063381442328066,
       "language": null,
       "channel": "Nate Herk | AI Automation"
+    },
+    {
+      "video_id": "_aD00IQTgdY",
+      "title": "Deja de usar Claude Code sin un Motor Agéntico",
+      "description": "🚨 El gobierno de Estados Unidos obligó a Anthropic a apagar Fable 5 (el modelo más potente del mundo) de un día para otro. Grabé este video entero sobre cómo medir lo que gastas en IA… y justo antes de subirlo, lo bajaron. Pensé en borrarlo. No lo hice: esto lo hace más importante que nunca.\nPorque la lección es brutal: tú no controlas qué modelo vive o muere. Lo único que controlas es VER tu propia operación. \n\nEn este video te muestro el Motor Agéntico: un dashboard 100% local, privado y de so",
+      "url": "https://youtube.com/watch?v=_aD00IQTgdY",
+      "published_at": "2026-06-16T23:49:50+00:00",
+      "views": 24596,
+      "outlier_ratio": 0.46575394345660776,
+      "language": null,
+      "channel": "Benjamín Cordero"
     },
     {
       "video_id": "O81NNHQZW0Y",
@@ -6683,8 +7519,8 @@
       "description": "NVIDIA Reflex elimina los cuellos de botella del sistema.\n\n#nvidia",
       "url": "https://youtube.com/watch?v=O81NNHQZW0Y",
       "published_at": "2026-06-03T16:08:41+00:00",
-      "views": 142238,
-      "outlier_ratio": 0.46586074419549134,
+      "views": 142460,
+      "outlier_ratio": 0.4665878430383561,
       "language": null,
       "channel": "Nate Gentile"
     },
@@ -6694,21 +7530,10 @@
       "description": "🔥 Suscribete: https://youtube.com/c/VictorRoblesWEB?sub_confirmation=1\n👨‍💻 Aprende programación, desarrollo web e inteligencia artificial desde cero con estos cursos, síguelos en este orden ⬇️\n0️⃣ Curso de HTML5 en profundidad: https://victorroblesweb.es/curso-html5\n1️⃣ Master en CSS: Aprender CSS3, Responsive, SASS, Less, Grid, Flexbox y Bootstrap: https://victorroblesweb.es/master-css\n2️⃣ Master en CSS3 Avanzado: Maqueta 3 sitios web profesionales: https://victorroblesweb.es/master-css-avanzad",
       "url": "https://youtube.com/watch?v=fUmtS2jsqng",
       "published_at": "2026-06-06T13:00:25+00:00",
-      "views": 902,
-      "outlier_ratio": 0.47249869041382925,
+      "views": 904,
+      "outlier_ratio": 0.47354635935044526,
       "language": null,
       "channel": "Victor Robles WEB"
-    },
-    {
-      "video_id": "xJns-MOY1KA",
-      "title": "I Let Claude Do My Taxes (It Was Better)",
-      "description": "",
-      "url": "https://youtube.com/watch?v=xJns-MOY1KA",
-      "published_at": "2026-06-02T12:00:02+00:00",
-      "views": 4493,
-      "outlier_ratio": 0.47961144321093085,
-      "language": null,
-      "channel": "David Ondrej"
     },
     {
       "video_id": "1greFablcZY",
@@ -6716,8 +7541,8 @@
       "description": "This might be an unpopular opinion, but most people don't need to use cloud AI models for everything.\n\nMost people are using the most state-of-the-art AI models from ChatGPT or Claude to summarize documents or write emails for them, and frankly these models have gotten too smart for that. You don't need all the compute for everyday tasks. \n\nRunning local models directly on your computer means you don't need the internet, your data is completely private, and you're not at the whims of the big AI ",
       "url": "https://youtube.com/watch?v=1greFablcZY",
       "published_at": "2026-06-11T12:55:30+00:00",
-      "views": 10984,
-      "outlier_ratio": 0.48114240658811164,
+      "views": 10999,
+      "outlier_ratio": 0.48179946559201015,
       "language": null,
       "channel": "Matt Wolfe"
     },
@@ -6727,8 +7552,8 @@
       "description": "https://joinaiaclub.com/",
       "url": "https://youtube.com/watch?v=peh12aqHuxQ",
       "published_at": "2026-06-10T14:38:40+00:00",
-      "views": 5030,
-      "outlier_ratio": 0.48749757704981583,
+      "views": 5043,
+      "outlier_ratio": 0.48875751114557087,
       "language": null,
       "channel": "The AI Advantage"
     },
@@ -6738,8 +7563,8 @@
       "description": "",
       "url": "https://youtube.com/watch?v=OQ8tCt1NwGc",
       "published_at": "2026-06-08T23:06:36+00:00",
-      "views": 9169,
-      "outlier_ratio": 0.4903733019574286,
+      "views": 9179,
+      "outlier_ratio": 0.4909081185153492,
       "language": null,
       "channel": "Platzi"
     },
@@ -6749,8 +7574,8 @@
       "description": "¿Fabel 5 es tan poderoso como caro? Los benchmarks impresionan, pero el costo por token puede cambiar la decisión antes de usarlo para cualquier tarea, porque en español, #NadieExplicaMejor que EDteam. #IA #Claude #Fabel5 #Programacion #Benchmarks #GPT #DesarrolloWeb #Tech",
       "url": "https://youtube.com/watch?v=DIjT8qUaQ9E",
       "published_at": "2026-06-12T22:52:28+00:00",
-      "views": 9154,
-      "outlier_ratio": 0.4912789137551656,
+      "views": 9160,
+      "outlier_ratio": 0.4916009230934364,
       "language": null,
       "channel": "EDteam"
     },
@@ -6760,8 +7585,8 @@
       "description": "Be found everywhere search happens.Try Semrush MCP free for 14 days👇\nhttps://semrush.sjv.io/c/6814815/3904639/13053\n\nHere's how to use Semrush together with your AI chat to grow your brand visibility everywhere search happens. I'll show you how to connect Semrush directly to tools like Claude, ChatGPT, and Cursor so your AI can pull real search data instead of guessing. From climbing Google rankings to getting cited by ChatGPT and other LLMs, you'll see exactly where your brand shows up. Thanks ",
       "url": "https://youtube.com/watch?v=EKiBLbQq5p8",
       "published_at": "2026-06-16T15:01:37+00:00",
-      "views": 1027,
-      "outlier_ratio": 0.49637506041565976,
+      "views": 1029,
+      "outlier_ratio": 0.49734171097148383,
       "language": null,
       "channel": "corbin"
     },
@@ -6771,10 +7596,21 @@
       "description": "Steal my best AI secret codes & automations free 👉 https://sabrina.dev\n33M+ views last month with Blotato 👉 https://blotato.com\n\nPost Everywhere on Autopilot (n8n + Make.com) 🤯\nDrop a photo or video into Google Drive, and AI analyzes it, writes a platform optimized caption, and posts it to Instagram plus 8 other social platforms, completely on autopilot.\n\nThis is Part 2 of the social media automation for small business owners. In Part 1 we automated photos. This time Kevin and I level it up to h",
       "url": "https://youtube.com/watch?v=kJibIOIc2aA",
       "published_at": "2026-06-05T13:00:20+00:00",
-      "views": 4529,
-      "outlier_ratio": 0.49703687445127304,
+      "views": 4546,
+      "outlier_ratio": 0.4989025460930641,
       "language": null,
       "channel": "Sabrina Ramonov 🍄"
+    },
+    {
+      "video_id": "-zL_trhnQaI",
+      "title": "So You Learned Claude, Now What?",
+      "description": "My FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=you-learned-claude-now-what&hcategory=youtube-videos&utm_campaign=free-group\nFull courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=you-learned-claude-now-what&hcategory=youtube-videos&utm_campaign=ais-plus\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10%",
+      "url": "https://youtube.com/watch?v=-zL_trhnQaI",
+      "published_at": "2026-06-22T12:44:24+00:00",
+      "views": 42455,
+      "outlier_ratio": 0.4997881006757234,
+      "language": null,
+      "channel": "Nate Herk | AI Automation"
     }
   ]
 }
