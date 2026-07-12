@@ -9,6 +9,11 @@ full Reddit threads + comments, and Tavily web discovery for additional sources.
 **No LLM API calls. No scoring. No evaluation.** Veracity and recency analysis happen in a
 downstream stage.
 
+**Downstream consumer:** the `longform-schema-builder` stage reads `results/<YYYY-WNN>/<slug>/` (both
+`signals_enriched.json` and `discovered_sources.json`) to build the video's general schema (a
+Markdown recording guide, not a machine-readable artifact). See
+[code/longform-schema-builder/STAGE.md](../longform-schema-builder/STAGE.md).
+
 ---
 
 ## Architecture invariants

@@ -8,17 +8,18 @@ files hold the detailed invariants, schemas, and run instructions for each stage
 
 An end-to-end pipeline that decides what to produce for an AI / automation / tech YouTube channel.
 It scrapes signals from across the web, groups them into emerging weekly topics, lets Santiago pick
-which ones are worth producing, and deep-researches the chosen ones into raw material for video
-scripts. **No stage makes LLM API calls or scores content** — classification and editorial judgment
-happen via Claude reading prompts/skills, not via automated ML.
+which ones are worth producing, deep-researches the chosen ones into raw material, and builds a
+general schema (angle, sections, sources) for the video. **No stage makes LLM API calls or scores
+content** — classification and editorial judgment happen via Claude reading prompts/skills, not via
+automated ML.
 
 ## Pipeline stages
 
 ```
-signals-scraper  →  topic-classifier  →  topic-decider  →  topic-deep-research
-   (automated)         (Claude prompt)      (Claude skill)      (automated)
-   intel.db            topics-YYYY-WNN.json  Notion Hub          results/<week>/<slug>/
-   handoff*.json       topic_inputs/         data/<slug>.json
+signals-scraper  →  topic-classifier  →  topic-decider  →  topic-deep-research  →  longform-schema-builder
+   (automated)         (Claude prompt)      (Claude skill)      (automated)          (Claude skill)
+   intel.db            topics-YYYY-WNN.json  Notion Hub          results/<week>/<slug>/  data/<week>/<slug>/
+   handoff*.json       topic_inputs/         data/<slug>.json                             schema.md
 ```
 
 | Stage | What it does | How it runs | Details |
@@ -27,6 +28,7 @@ signals-scraper  →  topic-classifier  →  topic-decider  →  topic-deep-rese
 | **topic-classifier** | Groups a week of signals into emerging topics (`topics-YYYY-WNN.json`) | Claude reads `prompt.md` (weekly, manual) | [code/topic-classifier/STAGE.md](code/topic-classifier/STAGE.md) |
 | **topic-decider** | Editorial layer: ranks topics, cross-checks Notion Content Hub, approves & creates entries | Claude invokes the `topic-decider` skill | [code/topic-decider/STAGE.md](code/topic-decider/STAGE.md) |
 | **topic-deep-research** | Deep content enrichment (transcripts, articles, Reddit, Tavily) per approved topic | Automated CLI (`uv run deep-research`) | [code/topic-deep-research/STAGE.md](code/topic-deep-research/STAGE.md) |
+| **longform-schema-builder** | Digests the deep research and dialogues with Santiago to build the long-form video's general schema (angle, sections, sources, hook, closing) as a Markdown recording guide | Claude invokes the `longform-schema-builder` skill | [code/longform-schema-builder/STAGE.md](code/longform-schema-builder/STAGE.md) |
 
 ## How stages communicate (handoff contracts)
 
@@ -69,20 +71,45 @@ the full schemas.
 - **Output (terminal):** `results/<YYYY-WNN>/<slug>/signals_enriched.json` + `discovered_sources.json`.
 - **Type:** manual skill → automated CLI.
 
+### 4. topic-deep-research → longform-schema-builder
+
+- **Artifacts consumed:** `code/topic-deep-research/results/<YYYY-WNN>/<slug>/signals_enriched.json`
+  + `discovered_sources.json` for one already-researched topic.
+- **Artifact produced:** `code/longform-schema-builder/data/<YYYY-WNN>/<slug>/schema.md` —
+  angle/thesis, hook, ordered sections (each with key points + sources), counterpoints, closing,
+  optional clip candidates. `<YYYY-WNN>` and `<slug>` are reused as-is from the `results/` folder
+  being read — this stage never invents a new week label or slug. **This is a Markdown document for
+  Santiago to read while recording, not a JSON handoff contract** — there is deliberately no
+  machine-readable artifact here.
+- **Producer:** the `longform-schema-builder` skill (dialogue-driven — this is the creative core of
+  the stage, not automatable).
+- **Consumer:** none — Santiago, directly, while recording. This is the terminal stage. A future
+  line-by-line script / production stage does not exist yet and, if built, would need its own
+  contract (this stage's output is intentionally human-only, not designed to be parsed).
+- **Optional side-effect:** may move the Topic in the Notion Content Hub from `Approved` to
+  `In Production` (confirmed with Santiago first).
+- **Type:** automated artifact in → manual skill → human-readable document out.
+
 ## Connection status
 
-- **All four stages are wired** end-to-end through the artifact contracts above — there is no broken
+- **All five stages are wired** end-to-end through the artifact contracts above — there is no broken
   link between them. ✅
 - **Only one boundary is fully automated:** the daily cron inside `signals-scraper`. Everything from
   `topic-classifier` onward is **human-in-the-loop** — a Claude prompt or skill that Santiago starts.
   There is **no scheduler** that triggers weekly classification; that step is initiated manually.
-- **Downstream gap:** `topic-deep-research` is currently the **terminal** stage. Its `results/` are
-  the raw material for scripting/production, but **no automated stage consumes them yet** — veracity
-  analysis, script-writing, and video production happen outside this repo (or manually). A future
-  stage would read `results/<week>/<slug>/` as its input contract.
-- **Contract watch-point:** `build_topic_inputs.py` must emit the exact fields `topic-deep-research`
-  requires (esp. `signal_type` and `metrics.outlier_ratio` for YouTube). A mismatch here silently
-  degrades enrichment, so changes to either side must stay in sync.
+- **Downstream gap:** `longform-schema-builder` is now the **terminal** stage. Its `schema.md` is the
+  plan Santiago records from, but **no automated stage consumes it** — by design, since it's Markdown
+  meant for a human, not JSON meant for a parser. Writing a line-by-line script and producing the
+  video happen outside this repo (or manually). A future stage would need its own contract if it
+  wants to consume this stage's content programmatically.
+- **Contract watch-points:**
+  - `build_topic_inputs.py` must emit the exact fields `topic-deep-research` requires (esp.
+    `signal_type` and `metrics.outlier_ratio` for YouTube). A mismatch here silently degrades
+    enrichment, so changes to either side must stay in sync.
+  - `longform-schema-builder`'s `Fuentes` lines reuse the `source:source_id` format from
+    `topic-classifier`/`topic-deep-research` (plus a `discovered:<url>` prefix for
+    `discovered_sources.json` entries) — keep this convention if a future stage ever needs to parse
+    the Markdown back out.
 
 ## Automation (GitHub Actions)
 

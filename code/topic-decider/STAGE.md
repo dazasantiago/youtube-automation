@@ -20,9 +20,9 @@ no runnable package, no scripts. The skill lives at `.claude/skills/topic-decide
 ## Pipeline position
 
 ```
-signals-scraper  →  topic-classifier  →  topic-decider  →  topic-deep-research
-   intel.db            topics-YYYY-WNN.json  (this stage)     data/<slug>.json
-   handoff.json        topic_inputs/         Notion Hub        results/<week>/<slug>/
+signals-scraper  →  topic-classifier  →  topic-decider  →  topic-deep-research  →  longform-schema-builder
+   intel.db            topics-YYYY-WNN.json  (this stage)     data/<slug>.json         data/<week>/<slug>/
+   handoff.json        topic_inputs/         Notion Hub        results/<week>/<slug>/    schema.md
 ```
 
 ---

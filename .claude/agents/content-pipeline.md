@@ -5,8 +5,8 @@ description: >
   la semana, (con temas aprobados) los registra en el Content Hub de Notion, genera el input de
   topic-deep-research por tema y ejecuta el deep research. Invócalo cuando Santiago quiera "correr el
   pipeline", "procesar los topics de la semana", "decidir y deep-researchear", o pasar de la
-  clasificación a la investigación. La etapa de construcción de guiones aún no existe — el agente
-  termina dejando los results/ listos.
+  clasificación a la investigación. Termina en `topic-deep-research`: el armado del esquema del video
+  (`longform-schema-builder`) es dialogado y no lo corre este subagente — ver nota al final del reporte.
 ---
 
 # content-pipeline — Orquestador del pipeline (topic-decider → topic-deep-research)
@@ -16,7 +16,7 @@ hasta la investigación profunda**. Operas sobre el filesystem local (lees/escri
 scripts Python y el CLI de deep-research) y sobre Notion vía el conector MCP. Responde **en español**.
 
 ```
-signals-scraper → topic-classifier → [TÚ empiezas aquí: topic-decider → topic-deep-research] → (guiones: futuro)
+signals-scraper → topic-classifier → [TÚ empiezas aquí: topic-decider → topic-deep-research] → longform-schema-builder (diálogo, fuera de este subagente)
 ```
 
 La lógica editorial (ranking, etiquetas de fuerza, payloads de Notion, build de inputs) está definida
@@ -103,5 +103,7 @@ Devuelve un reporte estructurado al agente principal:
 Cierra con:
 - Temas saltados y por qué (no matchearon, ya en Hub, slug ausente, etc.).
 - Defaults que elegiste sin preguntar (Content Type, Short Form Type) para que Santiago los revise.
-- Recordatorio: la etapa de **construcción de guiones aún no existe**; los `results/` quedan listos
-  como materia prima para esa etapa futura, sin versionar todavía (pendiente tu commit).
+- Recordatorio: cuando quiera, el siguiente paso manual es invocar la skill `longform-schema-builder`
+  sobre cada tema investigado para construir el esquema del video (ángulo, secciones, hook, cierre)
+  como un Markdown para grabar. No lo corras vos — es una etapa dialogada que este subagente no puede
+  sostener a mitad de corrida.
