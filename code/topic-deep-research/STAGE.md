@@ -2,9 +2,11 @@
 
 ## Purpose
 
-**Scraping-only.** Takes either a pre-classified topic JSON or a bare topic string and performs
-deep content enrichment: full YouTube transcripts, full article text via trafilatura (HN/RSS/web),
-full Reddit threads + comments, and Tavily web discovery for additional sources.
+**Scraping-only.** Santiago picks a topic himself and tells Claude to research it — this stage takes
+that bare topic string and performs deep content enrichment: full YouTube transcripts, full article
+text via trafilatura (HN/RSS/web), full Reddit threads + comments, and Tavily web discovery for
+additional sources. It also accepts a pre-built signal list (legacy `--input` mode, e.g. for a
+curated set of seed sources) — see Mode 1 below.
 
 **No LLM API calls. No scoring. No evaluation.** Veracity and recency analysis happen in a
 downstream stage.
@@ -30,10 +32,20 @@ Markdown recording guide, not a machine-readable artifact). See
 
 ## Two modes of operation
 
-### Mode 1: `--input` — pre-classified signals (classic)
+### Mode 2 (default): `--topic` — discover from scratch
 
-Consumes a JSON file produced by an upstream middleware that has already classified signals under
-a topic.
+The normal way this stage runs. Santiago names a topic; no upstream artifact is required.
+```bash
+uv run deep-research --topic "GLM 5.2"
+```
+See below for details, sources used, and the outlier gate. Mode 1 (`--input`) is documented after it
+for the rare case Santiago wants to hand it a specific curated set of sources instead.
+
+### Mode 1: `--input` — pre-classified signals (legacy)
+
+Consumes a JSON file with an already-assembled list of signals under a topic — useful when Santiago
+wants to seed the research with specific sources he already found instead of letting it discover on
+its own.
 
 ```bash
 uv run deep-research --input data/<topic-slug>.json
@@ -77,14 +89,10 @@ See [`data/example_input.json`](data/example_input.json) for a full example.
 
 ---
 
-### Mode 2: `--topic` — discover from scratch (topic-only)
+### Mode 2 details — discovery sources and flags
 
 Discovers signals from scratch across HN, Reddit, YouTube, and Tavily web, then enriches them
 with the same pipeline as Mode 1.
-
-```bash
-uv run deep-research --topic "GLM 5.2"
-```
 
 Additional flag:
 - `--per-source <n>` — signals to fetch per source (default: 8)

@@ -115,10 +115,10 @@ del digest, pero siempre como propuesta a confirmar o ajustar, nunca como defini
 
 **D. Cierre / CTA** — Conclusión, pregunta abierta para el público, o gancho hacia un video futuro.
 
-**E. Candidatos a clips (opcional)** — El tema ya tiene 6 Pieces creadas en Notion por
-   `topic-decider` (YouTube Shorts, TikTok, Reels, X, LinkedIn). Si alguna sección del esquema se
-   presta a un clip independiente, anotalo como candidato — no crea ni modifica las Pieces, solo lo
-   deja escrito en el esquema para referencia futura.
+**E. Candidatos a clips (opcional)** — Si el tema tiene Pieces creadas en Notion (YouTube Shorts,
+   TikTok, Reels, X, LinkedIn), y alguna sección del esquema se presta a un clip independiente,
+   anotalo como candidato — no crea ni modifica las Pieces, solo lo deja escrito en el esquema para
+   referencia futura.
 
 No cierres la fase hasta que Santiago confirme el esquema completo (o diga explícitamente que lo
 dejás así por ahora).
@@ -161,7 +161,7 @@ la guía para grabar directamente, no materia prima para otra etapa automatizada
   inventes uno nuevo, reutilizá el de la carpeta de `results/` que estás leyendo.
 - Fuentes dentro del esquema se referencian como `source:source_id` (ej. `hn:47797513`,
   `yt:RuhhLUfTXrY`) para señales de `signals_enriched.json`, o `discovered:<url>` para entradas de
-  `discovered_sources.json`. Mismo formato `source:id` que usa `topic-classifier`.
+  `discovered_sources.json`.
 - No inventes contenido fuera de `signals_enriched.json`, `discovered_sources.json`, y lo que
   Santiago aporte explícitamente en el diálogo.
 - Creaciones/cambios en Notion: **confirmar antes** de ejecutar. Lectura/cruce: directo.

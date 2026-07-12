@@ -1,4 +1,4 @@
-# CLAUDE.md — YouTube content-intelligence pipeline
+# CLAUDE.md — YouTube content pipeline
 
 This file is loaded on every Claude Code session in this project. It gives the high-level map.
 **For stage-specific rules, read the `STAGE.md` inside the relevant `code/<stage>/` folder** — those
@@ -6,75 +6,50 @@ files hold the detailed invariants, schemas, and run instructions for each stage
 
 ## Purpose
 
-An end-to-end pipeline that decides what to produce for an AI / automation / tech YouTube channel.
-It scrapes signals from across the web, groups them into emerging weekly topics, lets Santiago pick
-which ones are worth producing, deep-researches the chosen ones into raw material, and builds a
-general schema (angle, sections, sources) for the video. **No stage makes LLM API calls or scores
-content** — classification and editorial judgment happen via Claude reading prompts/skills, not via
-automated ML.
+A two-stage pipeline that turns a topic Santiago has already decided to make into raw research
+material and then a video schema. There is **no scraping, classification, or automated topic
+discovery** — Santiago picks the topic himself (from whatever he's reading, watching, or wants to
+learn) and tells Claude to research it. **No stage makes LLM API calls or scores content** —
+editorial judgment happens via Claude reading skills, not via automated ML.
+
+> The pipeline used to start with an automated signals-scraper → topic-classifier → topic-decider
+> chain that scraped the web daily and proposed topics. It was removed (2026-07-12): the noise-to-signal
+> ratio was poor (mostly clickbait/generic YouTube trends already visible without scraping), it
+> required constant manual triage, and it pulled Santiago toward being a generic "trend reporter"
+> instead of building a more authentic, self-directed channel. If you find references to those stages
+> in old commits or docs, they're gone — don't try to resurrect or depend on them.
 
 ## Pipeline stages
 
 ```
-signals-scraper  →  topic-classifier  →  topic-decider  →  topic-deep-research  →  longform-schema-builder
-   (automated)         (Claude prompt)      (Claude skill)      (automated)          (Claude skill)
-   intel.db            topics-YYYY-WNN.json  Notion Hub          results/<week>/<slug>/  data/<week>/<slug>/
-   handoff*.json       topic_inputs/         data/<slug>.json                             schema.md
+topic-deep-research  →  longform-schema-builder
+   (automated CLI)          (Claude skill)
+   results/<week>/<slug>/   data/<week>/<slug>/schema.md
 ```
 
 | Stage | What it does | How it runs | Details |
 |---|---|---|---|
-| **signals-scraper** | Scrapes 7 sources + YouTube competitor scan into `intel.db`; exports `handoff*.json` | Automated — GitHub Actions, daily cron | [code/signals-scraper/STAGE.md](code/signals-scraper/STAGE.md) |
-| **topic-classifier** | Groups a week of signals into emerging topics (`topics-YYYY-WNN.json`) | Claude reads `prompt.md` (weekly, manual) | [code/topic-classifier/STAGE.md](code/topic-classifier/STAGE.md) |
-| **topic-decider** | Editorial layer: ranks topics, cross-checks Notion Content Hub, approves & creates entries | Claude invokes the `topic-decider` skill | [code/topic-decider/STAGE.md](code/topic-decider/STAGE.md) |
-| **topic-deep-research** | Deep content enrichment (transcripts, articles, Reddit, Tavily) per approved topic | Automated CLI (`uv run deep-research`) | [code/topic-deep-research/STAGE.md](code/topic-deep-research/STAGE.md) |
+| **topic-deep-research** | Given a bare topic string, discovers and deep-enriches content on it (HN, YouTube transcripts, Tavily web search) — full text, not just links | Claude invokes it directly: `uv run deep-research --topic "<topic>"` | [code/topic-deep-research/STAGE.md](code/topic-deep-research/STAGE.md) |
 | **longform-schema-builder** | Digests the deep research and dialogues with Santiago to build the long-form video's general schema (angle, sections, sources, hook, closing) as a Markdown recording guide | Claude invokes the `longform-schema-builder` skill | [code/longform-schema-builder/STAGE.md](code/longform-schema-builder/STAGE.md) |
 
-## How stages communicate (handoff contracts)
+## How this starts
 
-Stages do **not** call each other directly — each one hands off to the next through a versioned
-**artifact** with a fixed shape. This is the contract surface; the per-stage `STAGE.md` files own
-the full schemas.
+Santiago tells Claude the topic directly ("corre deep research sobre X", "investiga Y para el
+próximo video") — no upstream artifact required. Optionally he can paste 1-3 seed links/sources into
+the conversation; the skill/CLI folds those in, but most of the time `--topic` alone is enough since
+`topic-deep-research` does its own discovery (HN Algolia, YouTube Data API, Tavily).
 
-### 1. signals-scraper → topic-classifier
+`topic-deep-research` still supports a legacy `--input <file>.json` mode (pre-built signal list) for
+one-off cases where Santiago wants to hand it a specific curated set of sources instead of letting it
+discover on its own — see the stage's `STAGE.md` for the shape. This is not the common path anymore.
 
-- **Artifacts:** `code/signals-scraper/data/handoff.json` (all non-YT signals as `{id, title}`),
-  `handoff_yt.json` (`yt:` viral + `yt_under:` flop videos as `{id, title, description?}`), and
-  `intel.db` (used later to resolve signal IDs).
-- **Producer:** `run_export`, called **only in the `discovery_afternoon` stage** (21:00 UTC) — the
-  files are committed back to the repo. If they look stale, that stage did not run.
-- **Consumer:** Claude, during the classifier session, reads `prompt.md` + both handoff files.
-- **Type:** automated artifact, **manual consumption**.
+## How stages communicate
 
-### 2. topic-classifier → topic-decider
-
-- **Artifacts:** `code/topic-classifier/data/topics-YYYY-WNN.json` (topics with `signal_ids`,
-  `has_viral_yt`, `has_yt_flop`, `sources`, `signal_count`). `build_topic_inputs.py` resolves those
-  IDs against `intel.db` into per-topic files under `data/topic_inputs/` (gitignored, regenerated weekly).
-- **Producer:** the Claude classifier session.
-- **Consumer:** the `topic-decider` skill (reads the most recent topics file; cross-checks Notion to dedupe).
-- **Type:** manual → manual.
-
-### 3. topic-decider → topic-deep-research
-
-- **Artifact:** one standalone `code/topic-deep-research/data/<slug>.json` per approved topic, plus a
-  Topic + 6 Pieces created in the Notion Content Hub. Input shape:
-  ```json
-  { "topic": "MCP Servers", "generated_at": "2026-06-18T12:00:00Z", "signals": [ Signal, ... ] }
-  ```
-  Required per signal: `source`, `source_id`, `title`, `url` (null → skipped), `signal_type`
-  (`"signal"` | `"yt_video"`), `roles`, `metrics` (YouTube must include `outlier_ratio`).
-- **Roles** (assigned upstream, preserved as-is, never change scraping behavior):
-  `"signal"` (primary source) · `"validator"` (corroborates) · `"saturator"` (topic saturation).
-- **Producer:** the `topic-decider` skill (copies the per-topic input out of `topic_inputs/`).
-- **Consumer:** `uv run deep-research --input data/<slug>.json` — the skill can invoke it directly.
-- **Output (terminal):** `results/<YYYY-WNN>/<slug>/signals_enriched.json` + `discovered_sources.json`.
-- **Type:** manual skill → automated CLI.
-
-### 4. topic-deep-research → longform-schema-builder
+### topic-deep-research → longform-schema-builder
 
 - **Artifacts consumed:** `code/topic-deep-research/results/<YYYY-WNN>/<slug>/signals_enriched.json`
-  + `discovered_sources.json` for one already-researched topic.
+  + `discovered_sources.json` for one already-researched topic. `<YYYY-WNN>` is the ISO week the
+  research ran, auto-calculated by the CLI; `<slug>` is the topic string slugified.
 - **Artifact produced:** `code/longform-schema-builder/data/<YYYY-WNN>/<slug>/schema.md` —
   angle/thesis, hook, ordered sections (each with key points + sources), counterpoints, closing,
   optional clip candidates. `<YYYY-WNN>` and `<slug>` are reused as-is from the `results/` folder
@@ -87,39 +62,12 @@ the full schemas.
   line-by-line script / production stage does not exist yet and, if built, would need its own
   contract (this stage's output is intentionally human-only, not designed to be parsed).
 - **Optional side-effect:** may move the Topic in the Notion Content Hub from `Approved` to
-  `In Production` (confirmed with Santiago first).
-- **Type:** automated artifact in → manual skill → human-readable document out.
-
-## Connection status
-
-- **All five stages are wired** end-to-end through the artifact contracts above — there is no broken
-  link between them. ✅
-- **Only one boundary is fully automated:** the daily cron inside `signals-scraper`. Everything from
-  `topic-classifier` onward is **human-in-the-loop** — a Claude prompt or skill that Santiago starts.
-  There is **no scheduler** that triggers weekly classification; that step is initiated manually.
-- **Downstream gap:** `longform-schema-builder` is now the **terminal** stage. Its `schema.md` is the
-  plan Santiago records from, but **no automated stage consumes it** — by design, since it's Markdown
-  meant for a human, not JSON meant for a parser. Writing a line-by-line script and producing the
-  video happen outside this repo (or manually). A future stage would need its own contract if it
-  wants to consume this stage's content programmatically.
-- **Contract watch-points:**
-  - `build_topic_inputs.py` must emit the exact fields `topic-deep-research` requires (esp.
-    `signal_type` and `metrics.outlier_ratio` for YouTube). A mismatch here silently degrades
-    enrichment, so changes to either side must stay in sync.
-  - `longform-schema-builder`'s `Fuentes` lines reuse the `source:source_id` format from
-    `topic-classifier`/`topic-deep-research` (plus a `discovered:<url>` prefix for
-    `discovered_sources.json` entries) — keep this convention if a future stage ever needs to parse
-    the Markdown back out.
+  `In Production` (confirmed with Santiago first), if Santiago is still tracking topics there.
 
 ## Automation (GitHub Actions)
 
-Only `signals-scraper` runs on a schedule — see [.github/workflows/daily.yml](.github/workflows/daily.yml).
-Three daily cron stages (11:00 `discovery_morning`, 12:00 `youtube_scan`, 21:00 `discovery_afternoon` UTC).
-The stage is derived from the **cron expression** that triggered the run (`github.event.schedule`),
-not the runner's wall-clock hour — this matters because GitHub frequently delays scheduled runs (see
-the bug-fix note in [code/signals-scraper/STAGE.md](code/signals-scraper/STAGE.md)).
-
-**Health check:** a real stage run takes minutes; a skipped/no-op run finishes in ~15s.
+None. There is no scheduled workflow in this repo anymore — everything is started manually by
+Santiago telling Claude what to research.
 
 ## Conventions
 

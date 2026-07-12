@@ -23,8 +23,8 @@ script.
 ## Pipeline position
 
 ```
-topic-decider  →  topic-deep-research  →  longform-schema-builder  →  (future: line-by-line script / production)
-Notion Hub          results/<week>/<slug>/  (this stage)               data/<week>/<slug>/schema.md
+topic-deep-research  →  longform-schema-builder  →  (future: line-by-line script / production)
+results/<week>/<slug>/   (this stage)               data/<week>/<slug>/schema.md
 ```
 
 ---
@@ -137,8 +137,8 @@ from `discovered_sources.json` (no `source_id` there).
 
 Only touches the **Topics** database — `data_source_id: 206658fc-5314-417f-ad4b-f114d26deacd` —
 and only its `Status` property, moving it from `Approved` to `In Production`. This stage never
-creates or edits Pieces (those are `topic-decider`'s responsibility); it may only *reference* the
-existing 6 Pieces when proposing clip candidates in the schema.
+creates or edits Pieces; it may only *reference* existing Pieces (if Santiago is tracking the topic
+in the Content Hub at all) when proposing clip candidates in the schema.
 
 ---
 
