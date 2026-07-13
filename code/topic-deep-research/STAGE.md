@@ -11,10 +11,12 @@ curated set of seed sources) — see Mode 1 below.
 **No LLM API calls. No scoring. No evaluation.** Veracity and recency analysis happen in a
 downstream stage.
 
-**Downstream consumer:** the `longform-schema-builder` stage reads `results/<YYYY-WNN>/<slug>/` (both
-`signals_enriched.json` and `discovered_sources.json`) to build the video's general schema (a
-Markdown recording guide, not a machine-readable artifact). See
-[code/longform-schema-builder/STAGE.md](../longform-schema-builder/STAGE.md).
+**Downstream consumer:** as soon as this CLI finishes for a topic, Claude always invokes the
+`research-digest` subagent (`.claude/agents/research-digest.md`) before doing anything else with
+that topic — it reads `signals_enriched.json` + `discovered_sources.json` and writes a curated
+`digest.md` into the same `results/<YYYY-WNN>/<slug>/` folder. The `schema-builder` stage then reads
+only `digest.md`, never the raw JSON directly, to build the video/pieces schema. See
+[code/schema-builder/STAGE.md](../schema-builder/STAGE.md).
 
 ---
 
@@ -158,6 +160,7 @@ Written to:
 results/<YYYY-WNN>/<topic-slug>/
   signals_enriched.json
   discovered_sources.json
+  digest.md            ← written by the research-digest subagent, not this CLI
 ```
 
 The ISO week label is auto-calculated. The slug lowercases the topic and replaces non-alphanumeric
